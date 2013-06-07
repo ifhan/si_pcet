@@ -1,0 +1,242 @@
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
+/*
+	Copyright (c) 2011 Lonnie Ezell
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	THE SOFTWARE.
+*/
+
+//--------------------------------------------------------------------
+// ! GENERAL SETTINGS
+//--------------------------------------------------------------------
+
+$lang['bf_site_name']			= 'Nom du site';
+$lang['bf_site_email']			= 'Email du site';
+$lang['bf_site_email_help']		= 'Email utilisé par le système lors de l\'envoi de message';
+$lang['bf_site_status']			= 'Statut du site';
+$lang['bf_online']				= 'En ligne';
+$lang['bf_offline']				= 'Hors ligne';
+$lang['bf_top_number']			= 'El&eacute;ments <em>par</em> page:';
+$lang['bf_top_number_help']		= 'Lors de l\'affichage des rapports, combien d\'&eacute;l&eacute;ments doivent &ecirc;tre affich&eacute;s à la fois ?';
+$lang['bf_home']				= 'Accueil';
+$lang['bf_site_information']	= 'Information du site';
+$lang['bf_timezone']			= 'Zone horaire';
+$lang['bf_language']			= 'Langue';
+$lang['bf_language_help']		= 'Choisissez les langues disponibles pour les utilisateur';
+
+//--------------------------------------------------------------------
+// ! AUTH SETTINGS
+//--------------------------------------------------------------------
+
+$lang['bf_security']			= 'S&eacute;curit&eacute;';
+$lang['bf_login_type']			= 'Type de login';
+$lang['bf_login_type_email']	= 'Email seulement';
+$lang['bf_login_type_username']	= 'Nom d\'utilisateur seulement';
+$lang['bf_allow_register']		= 'Permettre l\'inscription d\'utilisateurs ?';
+$lang['bf_login_type_both']		= 'Email ou nom d\'utilisateur';
+$lang['bf_use_usernames']		= 'Affichage des utilisateur sur Bonfire';
+$lang['bf_use_own_name']		= 'Utiliser le nom';
+$lang['bf_allow_remember']		= 'Autoriser l\'option \'Se souvenir de moi\' ?';
+$lang['bf_remember_time']		= 'Se souvenir de moi';
+$lang['bf_week']				= 'Semaine';
+$lang['bf_weeks']				= 'Semaines';
+$lang['bf_days']				= 'Jours';
+$lang['bf_username']			= 'Nom d\'utilisateur';
+$lang['bf_password']			= 'Mot de passe';
+$lang['bf_password_confirm']	= 'Mot de passe (confirmer)';
+$lang['bf_display_name']		= 'Afficher le nom';
+
+//--------------------------------------------------------------------
+// ! CRUD SETTINGS
+//--------------------------------------------------------------------
+
+$lang['bf_home_page']			= 'Page d\'accueil';
+$lang['bf_pages']				= 'Pages';
+$lang['bf_enable_rte']			= 'Autoriser le RTE pour les pages ?';
+$lang['bf_rte_type']			= 'Type de RTE';
+$lang['bf_searchable_default']	= 'Recherchable par défaut?';
+$lang['bf_cacheable_default']	= 'Mise en cache par défaut ?';
+$lang['bf_track_hits']			= 'Suivre les hits ?';
+
+$lang['bf_action_save']			= 'Enregistrer';
+$lang['bf_action_delete']		= 'Supprimer';
+$lang['bf_action_cancel']		= 'Annuler';
+$lang['bf_action_download']		= 'Télécharger';
+$lang['bf_action_preview']		= 'Prévisualiser';
+$lang['bf_action_search']		= 'Rechercher';
+$lang['bf_action_purge']		= 'Purger';
+$lang['bf_action_restore']		= 'Restaurer';
+$lang['bf_action_show']			= 'Voir';
+$lang['bf_action_login']		= 'Se connecter';
+$lang['bf_action_logout']		= 'Se déconnecter';
+$lang['bf_actions']				= 'Actions';
+$lang['bf_clear']				= 'Effacer';
+$lang['bf_action_list']			= 'Liste';
+$lang['bf_action_create']		= 'Créer';
+$lang['bf_action_ban']			= 'Bannir';
+
+//--------------------------------------------------------------------
+// ! SETTINGS LIB
+//--------------------------------------------------------------------
+
+$lang['bf_do_check']			= 'Rechercher des mises à jour ?';
+$lang['bf_do_check_edge']		= 'Doit être activé pour voir les dernières mises à jour';
+
+$lang['bf_update_show_edge']	= 'Voir les dernières mises à jours ?';
+$lang['bf_update_info_edge']	= 'Laisser décocher afin de voir seuleument les mises à jours annoncées. Cocher pour voir toutes les mises à jours du répertoire officiel. ';
+
+$lang['bf_ext_profile_show']	= 'Les utilisateur ont-il accès aux profils avancés ?';
+$lang['bf_ext_profile_info']	= 'Cocher les profils avancés afin d\'avoir des options de méta-data avancées.';
+
+$lang['bf_yes']					= 'Oui';
+$lang['bf_no']					= 'Non';
+$lang['bf_none']				= 'Vide';
+$lang['bf_id']					= 'ID';
+
+$lang['bf_or']					= 'ou';
+$lang['bf_size']				= 'Poids';
+$lang['bf_files']				= 'Fichiers';
+$lang['bf_file']				= 'Fichier';
+
+$lang['bf_with_selected']		= 'les enregistrements sélectionnés';
+
+$lang['bf_env_dev']				= 'Développement';
+$lang['bf_env_test']			= 'Test';
+$lang['bf_env_prod']			= 'Production';
+
+$lang['bf_show_profiler']		= 'Voir le profil de l\'Administrateur?';
+$lang['bf_show_front_profiler']	= 'Voir les profil sur le FrontEnd?';
+
+$lang['bf_cache_not_writable']  = 'Le répertoire de cache est protégé en écriture';
+
+$lang['bf_password_strength']			= 'Réglages des mots de passe';
+$lang['bf_password_length_help']		= 'Taille du mot de passe minimum (ex : 8)';
+$lang['bf_password_force_numbers']		= 'Le mot de passe doit-il forcer les numéros ?';
+$lang['bf_password_force_symbols']		= 'Le mot de passe doit-il forcer les symboles ?';
+$lang['bf_password_force_mixed_case']	= 'Le mot de passe doit-il forcer la casse mixte ?';
+$lang['bf_password_show_labels']	    = 'Afficher les labels de validation du mot de passe';
+
+//--------------------------------------------------------------------
+// ! USER/PROFILE
+//--------------------------------------------------------------------
+
+$lang['bf_user']				= 'Utilisateur';
+$lang['bf_users']				= 'Utilisateurs';
+$lang['bf_description']			= 'Description';
+$lang['bf_email']				= 'Email';
+$lang['bf_user_settings']		= 'Mon profil';
+
+//--------------------------------------------------------------------
+// !
+//--------------------------------------------------------------------
+
+$lang['bf_both']				= 'tous les deux';
+$lang['bf_go_back']				= 'Revenir en arrière';
+$lang['bf_new']					= 'Nouvel';
+$lang['bf_required_note']		= 'Les champs obligatoires sont en <b>gras</b>.';
+$lang['bf_form_label_required'] = '<span class="required">*</span>';
+
+//--------------------------------------------------------------------
+// MY_Model
+//--------------------------------------------------------------------
+$lang['bf_model_db_error']		= 'Erreur DB : %s';
+$lang['bf_model_fetch_error']	= 'Pas assez d\'informations pour rechercher le champs.';
+$lang['bf_model_count_error']	= 'Pas assez d\'informations pour compter les résultats.';
+$lang['bf_model_unique_error']	= 'Pas assez d\'informations pour vérifier l\'unicité.';
+$lang['bf_model_find_error']	= 'Pas assez d\'informations pour trouver.';
+
+//--------------------------------------------------------------------
+// Contexts
+//--------------------------------------------------------------------
+$lang['bf_no_contexts']			= 'Le tableau "Contexte" n\'est pas correctement créer. Vérifier le fichier de configuration de votre application.';
+$lang['bf_context_loireatlantique']		= 'Loire-Atlantique';
+$lang['bf_context_maineetloire']		= 'Maine-et-Loire';
+$lang['bf_context_mayenne']		= 'Mayenne';
+$lang['bf_context_sarthe']		= 'Sarthe';
+$lang['bf_context_vendee']		= 'Vendée';
+$lang['bf_context_content']		= 'Options';
+$lang['bf_context_reports']		= 'Rapports';
+$lang['bf_context_settings']	= 'Admin';
+$lang['bf_context_developer']	= 'Dev';
+
+//--------------------------------------------------------------------
+// Activities
+//--------------------------------------------------------------------
+$lang['bf_act_settings_saved']	= 'Options d\'application sauvegardées de ';
+$lang['bf_unauthorized_attempt']= 'Impossible d\'accéder à la page requérant les permissions suivantes "%s" de ';
+
+$lang['bf_keyboard_shortcuts']		= 'Racourcis claviers disponibles :';
+$lang['bf_keyboard_shortcuts_none']	= 'Il n\'y a pas de racourcis claviers disponibles.';
+$lang['bf_keyboard_shortcuts_edit']	= 'Mettre à jour les racourcis clavier.';
+
+//--------------------------------------------------------------------
+// Common
+//--------------------------------------------------------------------
+$lang['bf_question_mark']	      = '?';
+$lang['bf_language_direction']	= 'ltr';
+$lang['log_intro']              = 'Ce sont les messages du journal.';
+
+//--------------------------------------------------------------------
+// Login
+//--------------------------------------------------------------------
+$lang['bf_action_register']		= 'S\'inscrire';
+$lang['bf_forgot_password']		= 'Mot de passe oubli&eacute; ?';
+$lang['bf_remember_me']			= 'Se souvenir de moi';
+
+//--------------------------------------------------------------------
+// Password Help Fields to be used as a warning on register
+//--------------------------------------------------------------------
+$lang['bf_password_number_required_help']  = 'Le mot de passe doit contenir au moins 1 chiffre.';
+$lang['bf_password_caps_required_help']    = 'Le mot de passe doit contenir au moins 1 lettre majuscule.';
+$lang['bf_password_symbols_required_help'] = 'Le mot de passe doit contenir au moins 1 symbole.';
+
+$lang['bf_password_min_length_help']       = 'Le mot de passe doit comporter au moins %s caractères.';
+$lang['bf_password_length']                = 'Longueur du mot de passe';
+
+//--------------------------------------------------------------------
+// User Meta examples
+//--------------------------------------------------------------------
+
+$lang['user_meta_street_name']	= 'Nom de la rue';
+$lang['user_meta_type']			= 'Type';
+$lang['user_meta_country']		= 'Pays';
+$lang['user_meta_state']		= 'État';
+
+// Activation
+//--------------------------------------------------------------------
+$lang['bf_activate_method']			= 'Méthode d\'activation';
+$lang['bf_activate_none']			= 'Aucune';
+$lang['bf_activate_email']			= 'Email';
+$lang['bf_activate_admin']			= 'Admin';
+$lang['bf_activate']				= 'Activer';
+$lang['bf_activate_resend']			= 'Renvoyer l\'activation';
+
+$lang['bf_reg_complete_error']		= 'Une erreur s\'est produite lors de votre enregistrement. Merci de réessayer ou contacter l\'administateur du site afin d\'obtenir de l\'aide';
+$lang['bf_reg_activate_email'] 		= 'Un email contenant votre code d\'activation a été envoyé à [EMAIL].';
+$lang['bf_reg_activate_admin'] 		= 'Vous serez averti lorsque l\'administrateur aura accepté votre enregistrement.';
+$lang['bf_reg_activate_none'] 		= 'Merci de vous connecter afin de pouvoir utiliser ce site.';
+$lang['bf_user_not_active'] 		= 'Le compte de cet utilisateur n\'est pas activé.';
+$lang['bf_login_activate_title']	= 'Besoin d\'activer votre compte ?';
+$lang['bf_login_activate_email'] 	= '<b>Avez-vous un code d\'activation pour votre enregistrement ?</b> Inscrivez-le sur cette page : [ACCOUNT_ACTIVATE_URL].<br /><br />    <b>Besoin de recevoir votre code d\'activation à nouveau ?</b> Cliquez ici pour le renvoyer [ACTIVATE_RESEND_URL].';
+
+//--------------------------------------------------------------------
+// CRUD
+//--------------------------------------------------------------------
+
+$lang['bf_no_record_found']	= 'Aucun enregistrement ne correspond à votre s&eacute;lection.';
+

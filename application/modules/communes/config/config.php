@@ -1,0 +1,14 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+$config['module_config'] = array(
+	'menus'	=> array(
+		'content'	=> 'communes/content/menu'
+	),
+	'description'	=> 'Communes de la r&eacute;gion Pays de la Loire',
+	'name'		=> 'Communes',
+	'version'		=> '0.0.1',
+	'author'		=> 'ronan.vignard',
+	'menu_topic'	=> array(
+		'content'		=>'R&eacute;f&eacute;rentiels'
+	)
+);
