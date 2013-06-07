@@ -1,4 +1,4 @@
-# SI-PCET
+SI-PCET
 ======
 **Système d'Informations pour le suivi des PCET**
 
@@ -8,5 +8,5 @@ des Pays de la Loire. Elle propose :
 *un espace administrateur accessible par authentification.
 
 Cette application est développée en utilisant le framework CodeIgniter 
-[http://ellislab.com/codeigniter][] et plus particulièrement son 
-"extension" Bonfire [http://cibonfire.com/][].
+http://ellislab.com/codeigniter et plus particulièrement son 
+"extension" Bonfire http://cibonfire.com/.
