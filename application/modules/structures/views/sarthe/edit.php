@@ -58,9 +58,9 @@ $id = isset($structures['id']) ? $structures['id'] : '';
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('structures_action_edit'); ?>"  />
-				ou <?php echo anchor(SITE_AREA .'/loireatlantique/structures', lang('structures_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/sarthe/structures', lang('structures_cancel'), 'class="btn btn-warning"'); ?>
 				
-			<?php if ($this->auth->has_permission('Structures.Loireatlantique.Delete')) : ?>
+			<?php if ($this->auth->has_permission('Structures.Sarthe.Delete')) : ?>
 				ou
 				<button type="submit" name="delete" class="btn btn-danger" id="delete-me" onclick="return confirm('<?php e(js_escape(lang('structures_delete_confirm'))); ?>'); ">
 					<span class="icon-trash icon-white"></span>&nbsp;<?php echo lang('structures_delete_record'); ?>
