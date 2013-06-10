@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');$config['module_config'] = array(
-	'description'	=> 'Adaptation',
-	'name'		=> '3. Adaptation',
-	'version'		=> '0.0.1',
-	'author'		=> 'Tolone'
+	'description'	=> 'Suivi des études de vulnérabilité liées au PCET',
+	'name'		=> 'Études de vulnérabilité',
+	'version'		=> '0.0.2',
+	'author'		=> 'ronan.vignard'
 );
