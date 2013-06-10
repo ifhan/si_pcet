@@ -19,7 +19,7 @@ $id = isset($pcet['id']) ? $pcet['id'] : '';
 
 ?>
 <div class="admin-box">
-	<h3>PCET</h3>
+	<h3><?php echo lang('pcet_add'); ?></h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 			
