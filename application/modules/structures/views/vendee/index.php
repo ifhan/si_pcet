@@ -1,5 +1,5 @@
 <div class="admin-box">
-	<h3>Liste des collectivit&eacute;s porteuses de PCET en Vend&eacute;e</h3>
+	<h3><?php echo lang('structures_porteuses'); ?>Vend&eacute;e</h3>
 	<?php echo form_open($this->uri->uri_string()); ?>
 		<table class="table table-striped">
 			<thead>
