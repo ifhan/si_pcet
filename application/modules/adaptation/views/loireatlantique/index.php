@@ -1,5 +1,5 @@
 <div class="admin-box">
-	<h3>Étude de vulnerabilité pour les PCET de Loire-Atlantique</h3>
+	<h3><?php echo lang('adaptation_add'); ?>Loire-Atlantique</h3>
 	<?php echo form_open($this->uri->uri_string()); ?>
 		<table class="table table-striped">
 			<thead>
@@ -8,7 +8,7 @@
 					<th class="column-check"><input class="check-all" type="checkbox" /></th>
 					<?php endif;?>
 					
-					<th>Porteur du PCET</th>
+					<th>PCET</th>
 					<th>Étude de vulnerabilité</th>
 				</tr>
 			</thead>
@@ -37,8 +37,14 @@
 				<?php else: ?>
 				<td><?php e($record->ID_PCET) ?></td>
 				<?php endif; ?>
-			
-				<td><?php e($record->VULNERABLE_ADAPT) ?></td>
+                                
+				<td>
+                                    <?php if($record->VULNERABLE_ADAPT == '1'): ?>
+                                    <?php echo "Oui"; ?>
+                                    <?php else: ?>
+                                    <?php echo "Non"; ?>
+                                    <?php endif; ?>
+                                </td>
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>
