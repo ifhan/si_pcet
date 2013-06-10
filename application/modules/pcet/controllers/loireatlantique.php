@@ -63,7 +63,7 @@ class loireatlantique extends Admin_Controller {
 		$records = $this->pcet_model->get_pcet_by_departement('44');
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'G&eacute;rer les PCET');
+		Template::set('toolbar_title', lang('pcet_manage'));
 		Template::render();
 	}
 
@@ -105,7 +105,7 @@ class loireatlantique extends Admin_Controller {
 
 		Template::set('phases', $phases);
 		Template::set('structures', $structures);
-		Template::set('toolbar_title', lang('pcet_create') . ' un PCET');
+		Template::set('toolbar_title', lang('pcet'));
 		Template::render();
 	}
 
@@ -168,7 +168,7 @@ class loireatlantique extends Admin_Controller {
 		Assets::add_module_js('pcet', 'pcet.js');
 		Template::set('structures', $structures);
 		Template::set('phases', $phases);
-		Template::set('toolbar_title', lang('pcet_edit') . ' PCET');
+		Template::set('toolbar_title', lang('pcet'));
 		Template::render();
 	}
 
