@@ -1,5 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 $lang['structures']			= 'Collectivit&eacute;s';
+$lang['structures_porteuses'] = 'Collectivit&eacute;s porteuses de PCET en ';
 $lang['structures_manage']			= 'G&eacute;rer les collectivit&eacute;s';
 $lang['structures_edit']				= '&Eacute;diter';
 $lang['structures_true']				= 'Vrai';
