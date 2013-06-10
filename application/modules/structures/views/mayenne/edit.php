@@ -20,7 +20,7 @@ $id = isset($structures['id']) ? $structures['id'] : '';
 
 ?>
 <div class="admin-box">
-	<h3>Modifier une collectivit&eacute;</h3>
+	<h3><?php echo lang('structures_edit'); ?></h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
