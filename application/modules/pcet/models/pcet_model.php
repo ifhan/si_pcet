@@ -2,40 +2,39 @@
 
 class Pcet_model extends BF_Model {
 
-	protected $table		= "pcet";
-	protected $key			= "id";
+	protected $table	= "pcet";
+	protected $key		= "id";
 	protected $soft_deletes	= false;
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
 	protected $set_modified = false;
 	
 	function get_pcet_by_departement($departement) {
-		$records = $this->pcet_model
-			->select('pcet.id as id, pcet.ID_PCET as ID_PCET, 
-				pcet.STATUT_PCET as STATUT_PCET, 
-				pcet.ETAT_PCET as ETAT_PCET, 
-				pcet.INTERNET_PCET as INTERNET_PCET, pcet.CONTRAT_ADEME_PCET as CONTRAT_ADEME_PCET, 
-				pcet.TYPE_CONTRAT_ADEME_PCET as TYPE_CONTRAT_ADEME_PCET')
-			->join('pcet_structure','pcet_structure.ID_STR = pcet.ID_STR','left')
-			->select('pcet_structure.DEPARTEMENT_id as DEPARTEMENT_id')
-			->join('pcet_type_str','pcet_type_str.id = pcet_structure.TYPE_STRUCTURE_id','left')
-			->select('pcet_type_str.NOM_TYPE as NOM_TYPE')
-			->join('pcet_phase','pcet_phase.id = pcet.ID_PHASE','left')
-			->select('pcet_phase.NOM_PHASE as NOM_PHASE')
-			->join('bdc_commune_52','bdc_commune_52.INSEE_Commune = pcet.ID_STR','left')
-			->select('bdc_commune_52.Nom_Commune as Nom_Commune')
-			->join('bdc_departement_52','bdc_departement_52.INSEE_Departement = pcet.ID_STR','left')
-			->select('bdc_departement_52.Nom_Departement as Nom_Departement')
-			->join('n_epci_zsup_r52','n_epci_zsup_r52.SIREN_EPCI = pcet_structure.ID_STR','left')
-			->select('n_epci_zsup_r52.NOM_EPCI as NOM_EPCI')
-			->join('r_pays_contour_r52','r_pays_contour_r52.id_pays = pcet.ID_STR','left')
-			->select('r_pays_contour_r52.nom as nom_pays')
-			->join('r_pnr_r52','r_pnr_r52.id_regional = pcet.ID_STR','left')
-			->select('r_pnr_r52.nom as nom_pnr')
-			->order_by('ID_PCET','asc')
-			->find_all_by('DEPARTEMENT_id',$departement);
+            $records = $this->pcet_model
+                ->select('pcet.id as id, pcet.ID_PCET as ID_PCET, 
+                    pcet.STATUT_PCET as STATUT_PCET, pcet.ETAT_PCET as ETAT_PCET, 
+                    pcet.INTERNET_PCET as INTERNET_PCET, pcet.CONTRAT_ADEME_PCET as CONTRAT_ADEME_PCET, 
+                    pcet.TYPE_CONTRAT_ADEME_PCET as TYPE_CONTRAT_ADEME_PCET')
+                ->join('pcet_structure','pcet_structure.ID_STR = pcet.ID_STR','left')
+		->select('pcet_structure.DEPARTEMENT_id as DEPARTEMENT_id')
+		->join('pcet_type_str','pcet_type_str.id = pcet_structure.TYPE_STRUCTURE_id','left')
+		->select('pcet_type_str.NOM_TYPE as NOM_TYPE')
+		->join('pcet_phase','pcet_phase.id = pcet.ID_PHASE','left')
+		->select('pcet_phase.NOM_PHASE as NOM_PHASE')
+		->join('bdc_commune_52','bdc_commune_52.INSEE_Commune = pcet.ID_STR','left')
+		->select('bdc_commune_52.Nom_Commune as Nom_Commune')
+		->join('bdc_departement_52','bdc_departement_52.INSEE_Departement = pcet.ID_STR','left')
+		->select('bdc_departement_52.Nom_Departement as Nom_Departement')
+		->join('n_epci_zsup_r52','n_epci_zsup_r52.SIREN_EPCI = pcet_structure.ID_STR','left')
+		->select('n_epci_zsup_r52.NOM_EPCI as NOM_EPCI')
+		->join('r_pays_contour_r52','r_pays_contour_r52.id_pays = pcet.ID_STR','left')
+		->select('r_pays_contour_r52.nom as nom_pays')
+		->join('r_pnr_r52','r_pnr_r52.id_regional = pcet.ID_STR','left')
+		->select('r_pnr_r52.nom as nom_pnr')
+		->order_by('ID_PCET','asc')
+		->find_all_by('DEPARTEMENT_id',$departement);
 			
-		return $records;
+            return $records;
 	}
         
         function list_pcet_by_departement($departement) {
