@@ -52,10 +52,10 @@ class vendee extends Admin_Controller {
 			}
 		}
 
-		$records = $this->pcet_model->find_all();
+		$records = $this->pcet_model->get_pcet_by_departement('85');
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'Manage PCET');
+		Template::set('toolbar_title', lang('pcet_manage'));
 		Template::render();
 	}
 
