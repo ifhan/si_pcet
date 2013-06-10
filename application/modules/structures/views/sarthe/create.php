@@ -19,7 +19,7 @@ $id = isset($structures['id']) ? $structures['id'] : '';
 
 ?>
 <div class="admin-box">
-	<h3>S&eacute;lectionner une collectivit&eacute;</h3>
+	<h3><?php echo lang('structures_add'); ?></h3>
 	<table class="table">
 		<?php if(!empty($communautes_agglomeration)): ?>
 		<?php echo form_open($this->uri->uri_string()); ?>
