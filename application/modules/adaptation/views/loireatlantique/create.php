@@ -20,7 +20,7 @@ $id = isset($adaptation['id']) ? $adaptation['id'] : '';
 
 ?>
 <div class="admin-box">
-	<h3>Adaptation</h3>
+	<h3><?php echo lang('adaptation_add'); ?></h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
