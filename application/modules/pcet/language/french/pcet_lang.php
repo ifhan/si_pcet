@@ -1,6 +1,8 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+$lang['pcet']			= 'PCET';
 $lang['pcet_manage']			= 'G&eacute;rer les PCET';
-$lang['pcet_edit']				= '&Eacute;diter';
+$lang['pcet_add']				= 'Ajouter un PCET';
+$lang['pcet_edit']				= '&Eacute;diter un PCET';
 $lang['pcet_true']				= 'Vrai';
 $lang['pcet_false']				= 'Faux';
 $lang['pcet_create']			= 'Cr&eacute;er';
@@ -14,7 +16,7 @@ $lang['pcet_create_failure']			= 'Il y a eu un probl&egrave;me emp&ecirc;chant l
 $lang['pcet_create_new_button']			= 'Create New PCET';
 $lang['pcet_invalid_id']			= 'Invalid PCET ID.';
 $lang['pcet_edit_success']			= 'PCET sauvegard&eacute; avec succ&egrave;s.';
-$lang['pcet_edit_failure']			= 'Il y a eu un problème emp&ecirc;chant la sauvegarde de ce PCET : ';
+$lang['pcet_edit_failure']			= 'Il y a eu un problï¿½me emp&ecirc;chant la sauvegarde de ce PCET : ';
 $lang['pcet_delete_success']			= 'enregistrement(s) supprim&eacute;(s) avec succ&egrave;s.';
 $lang['pcet_delete_failure']			= 'We could not delete the record: ';
 $lang['pcet_delete_error']			= 'You have not selected any records to delete.';
