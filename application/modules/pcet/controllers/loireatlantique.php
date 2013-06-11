@@ -102,7 +102,6 @@ class loireatlantique extends Admin_Controller {
 		$records = $this->pcet_model->get_pcet_by_departement('44');
 
 		Template::set('records', $records);
-
 		Template::set('phases', $phases);
 		Template::set('structures', $structures);
 		Template::set('toolbar_title', lang('pcet'));
