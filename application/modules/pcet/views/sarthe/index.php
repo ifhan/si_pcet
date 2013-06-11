@@ -23,10 +23,10 @@
 			<tfoot>
 				<?php if ($this->auth->has_permission('PCET.Sarthe.Delete')) : ?>
 				<tr>
-					<td colspan="15">
-						<?php echo lang('bf_with_selected') ?>
+					<td colspan="10">
 						<input type="submit" name="delete" id="delete-me" class="btn btn-danger" value="<?php echo lang('bf_action_delete') ?>" onclick="return confirm('<?php e(js_escape(lang('pcet_delete_confirm'))); ?>')">
-					</td>
+                                                <?php echo lang('bf_with_selected') ?>
+                                        </td>
 				</tr>
 				<?php endif;?>
 			</tfoot>
@@ -68,7 +68,7 @@
 			<?php endforeach; ?>
 			<?php else: ?>
 				<tr>
-					<td colspan="9"><?php echo lang('bf_no_record_found'); ?></td>
+					<td colspan="10"><?php echo lang('bf_no_record_found'); ?></td>
 				</tr>
 			<?php endif; ?>
 			</tbody>
