@@ -11,6 +11,14 @@ class sarthe extends Admin_Controller {
 
 		$this->auth->restrict('PCET.Sarthe.View');
 		$this->load->model('pcet_model', null, true);
+		$this->load->model('structures/structures_model', null, true);
+		$this->load->model('phases/phases_model', null, true);
+		$this->load->model('types/types_model', null, true);
+		$this->load->model('communes/communes_model', null, true);
+		$this->load->model('departements/departements_model', null, true);
+		$this->load->model('epci/epci_model', null, true);
+		$this->load->model('pays/pays_model', null, true);
+		$this->load->model('pnr/pnr_model', null, true);		
 		$this->lang->load('pcet');
 		
 		Template::set_block('sub_nav', 'sarthe/_sub_nav');
@@ -71,6 +79,8 @@ class sarthe extends Admin_Controller {
 	public function create()
 	{
 		$this->auth->restrict('PCET.Sarthe.Create');
+		$structures = $this->structures_model->list_structures_by_departement('72');
+		$phases = $this->phases_model->get_phases();                
 
 		if (isset($_POST['save']))
 		{
@@ -89,7 +99,12 @@ class sarthe extends Admin_Controller {
 		}
 		Assets::add_module_js('pcet', 'pcet.js');
 
-		Template::set('toolbar_title', lang('pcet_create') . ' PCET');
+		$records = $this->pcet_model->get_pcet_by_departement('72');
+
+		Template::set('records', $records);
+		Template::set('phases', $phases);
+		Template::set('structures', $structures);
+		Template::set('toolbar_title', lang('pcet'));
 		Template::render();
 	}
 
