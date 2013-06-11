@@ -11,6 +11,14 @@ class maineetloire extends Admin_Controller {
 
 		$this->auth->restrict('PCET.Maineetloire.View');
 		$this->load->model('pcet_model', null, true);
+		$this->load->model('structures/structures_model', null, true);
+		$this->load->model('phases/phases_model', null, true);
+		$this->load->model('types/types_model', null, true);
+		$this->load->model('communes/communes_model', null, true);
+		$this->load->model('departements/departements_model', null, true);
+		$this->load->model('epci/epci_model', null, true);
+		$this->load->model('pays/pays_model', null, true);
+		$this->load->model('pnr/pnr_model', null, true);		
 		$this->lang->load('pcet');
 		
 		Template::set_block('sub_nav', 'maineetloire/_sub_nav');
@@ -71,6 +79,8 @@ class maineetloire extends Admin_Controller {
 	public function create()
 	{
 		$this->auth->restrict('PCET.Maineetloire.Create');
+		$structures = $this->structures_model->list_structures_by_departement('49');
+		$phases = $this->phases_model->get_phases();                
 
 		if (isset($_POST['save']))
 		{
@@ -89,7 +99,12 @@ class maineetloire extends Admin_Controller {
 		}
 		Assets::add_module_js('pcet', 'pcet.js');
 
-		Template::set('toolbar_title', lang('pcet_create') . ' PCET');
+		$records = $this->pcet_model->get_pcet_by_departement('49');
+
+		Template::set('records', $records);
+		Template::set('phases', $phases);
+		Template::set('structures', $structures);
+		Template::set('toolbar_title', lang('pcet'));
 		Template::render();
 	}
 
@@ -186,13 +201,7 @@ class maineetloire extends Admin_Controller {
 		$this->form_validation->set_rules('pcet_CONTRAT_ADEME_PCET','CONTRAT ADEME PCET','max_length[1]');
 		$this->form_validation->set_rules('pcet_TYPE_CONTRAT_ADEME_PCET','TYPE CONTRAT ADEME PCET','max_length[50]');
 		$this->form_validation->set_rules('pcet_ID_STR','Type de structure','max_length[10]');
-		$this->form_validation->set_rules('pcet_ID_AVIS','ID AVIS','max_length[10]');
-		$this->form_validation->set_rules('pcet_ID_ENGAGE','ID ENGAGE','max_length[10]');
-		$this->form_validation->set_rules('pcet_ID_INDIC','ID INDIC','max_length[10]');
-		$this->form_validation->set_rules('pcet_ID_DIAG','ID DIAG','max_length[10]');
 		$this->form_validation->set_rules('pcet_ID_PHASE','Phase','max_length[10]');
-		$this->form_validation->set_rules('pcet_ID_ADAPT','ID ADAPT','max_length[10]');
-		$this->form_validation->set_rules('pcet_ID_GOUV','ID GOUV','max_length[10]');
 
 		if ($this->form_validation->run() === FALSE)
 		{
@@ -209,13 +218,7 @@ class maineetloire extends Admin_Controller {
 		$data['CONTRAT_ADEME_PCET']        = $this->input->post('pcet_CONTRAT_ADEME_PCET');
 		$data['TYPE_CONTRAT_ADEME_PCET']        = $this->input->post('pcet_TYPE_CONTRAT_ADEME_PCET');
 		$data['ID_STR']        = $this->input->post('pcet_ID_STR');
-		$data['ID_AVIS']        = $this->input->post('pcet_ID_AVIS');
-		$data['ID_ENGAGE']        = $this->input->post('pcet_ID_ENGAGE');
-		$data['ID_INDIC']        = $this->input->post('pcet_ID_INDIC');
-		$data['ID_DIAG']        = $this->input->post('pcet_ID_DIAG');
 		$data['ID_PHASE']        = $this->input->post('pcet_ID_PHASE');
-		$data['ID_ADAPT']        = $this->input->post('pcet_ID_ADAPT');
-		$data['ID_GOUV']        = $this->input->post('pcet_ID_GOUV');
 
 		if ($type == 'insert')
 		{
