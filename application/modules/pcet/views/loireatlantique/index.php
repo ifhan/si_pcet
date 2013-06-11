@@ -23,9 +23,9 @@
 			<tfoot>
 				<?php if ($this->auth->has_permission('PCET.Loireatlantique.Delete')) : ?>
 				<tr>
-					<td colspan="15">
-						<input type="submit" name="delete" id="delete-me" class="btn btn-danger" value="<?php echo lang('bf_action_delete') ?>" onclick="return confirm('<?php e(js_escape(lang('pcet_delete_confirm'))); ?>')">
-						<?php echo lang('bf_with_selected') ?>
+					<td colspan="9">
+                                            <?php echo lang('bf_with_selected') ?>
+                                            <input type="submit" name="delete" id="delete-me" class="btn btn-danger" value="<?php echo lang('bf_action_delete') ?>" onclick="return confirm('<?php e(js_escape(lang('pcet_delete_confirm'))); ?>')">		
 					</td>
 				</tr>
 				<?php endif;?>
@@ -68,7 +68,7 @@
 			<?php endforeach; ?>
 			<?php else: ?>
 				<tr>
-					<td colspan="15">No records found that match your selection.</td>
+					<td colspan="9"><?php echo lang('bf_no_record_found'); ?></td>
 				</tr>
 			<?php endif; ?>
 			</tbody>
