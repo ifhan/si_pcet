@@ -35,9 +35,9 @@
 					<?php endif;?>
 					
 				<?php if ($this->auth->has_permission('Adaptation.Maineetloire.Edit')) : ?>
-				<td><?php echo anchor(SITE_AREA .'/maineetloire/adaptation/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_ADAPT) ?></td>
+				<td><?php echo anchor(SITE_AREA .'/maineetloire/adaptation/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_PCET) ?></td>
 				<?php else: ?>
-				<td><?php e($record->ID_ADAPT) ?></td>
+				<td><?php e($record->ID_PCET) ?></td>
 				<?php endif; ?>
 			
 				<td><?php e($record->VULNERABLE_ADAPT) ?></td>
