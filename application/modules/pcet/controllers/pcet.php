@@ -47,11 +47,13 @@ class pcet extends Front_Controller {
 	public function show($id)
 	{
 
-            $structures = $this->structures_model->list_structures_by_departement('44');
-            $phases = $this->phases_model->get_phases();
+            $structure = $this->structures_model->get_structure_by_id($id);
+            $phase = $this->phases_model->get_phase_by_id($id);
             $pcet = $this->pcet_model->find_by('id',$id);
 		
             Template::set('pcet', $pcet);
+            Template::set('structure', $structure);
+            Template::set('phase', $phase);
             Template::render();
 	}
 
