@@ -51,9 +51,9 @@
                             <td>
                                 <?php if($pcet->CONTRAT_ADEME_PCET == '1'): ?>
                                     <?php echo "Oui"; ?>
-                                    <?php else: ?>
-                                <?php echo "Non"; ?>
-                                    <?php endif; ?>
+                                <?php else: ?>
+                                    <?php echo "Non"; ?>
+                                <?php endif; ?>
                             </td>
                         </tr>
                         <?php if($pcet->CONTRAT_ADEME_PCET == '1'): ?>
@@ -224,15 +224,23 @@
                 <table class="table table-striped table-bordered">  
                     <tr>   
                         <th>Étude de vulnérabilité</th>   
-                        <td></td>    
-                    </tr> 
+                        <td>
+                            <?php if($adaptation->VULNERABLE_ADAPT == '1'): ?>
+                                    <?php echo "Oui"; ?>
+                                <?php else: ?>
+                                    <?php echo "Non"; ?>
+                                <?php endif; ?>    
+                        </td>    
+                    </tr>
+                    <?php if($adaptation->VULNERABLE_ADAPT == '1'): ?>
                     <tr> 
                         <th>Méthode employée</th>    
-                        <td></td>
-                    </tr>  
+                        <td><?php e($adaptation->METHODE_ADAPT) ?></td>
+                    </tr>
+                    <?php endif; ?>
                     <tr>  
                         <th>Aléas identifiés</th>   
-                        <td></td> 
+                        <td><?php e($adaptation->ALEA_ADAPT) ?></td> 
                     </tr>
                 </table> 
             </div>
