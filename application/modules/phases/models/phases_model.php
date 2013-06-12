@@ -23,4 +23,14 @@ class Phases_model extends BF_Model {
 			return FALSE;
 		}
 	}
+        
+        function get_phase_by_id($id) {
+            
+            $phase = $this->phases_model
+                    ->join('pcet','pcet_phase.id = pcet.ID_PHASE','left')
+                    ->select('pcet_phase.NOM_PHASE as NOM_PHASE')
+                    ->find_by('pcet.id',$id);
+            return $phase;
+            
+        }
 }
