@@ -61,7 +61,7 @@
 			<span class="caret"></span>
 		</button>
 		<ul class="dropdown-menu">
-			<li <?php echo $this->uri->segment(4) == 'create' ? 'class="active"' : '' ?>
+			<li <?php echo $this->uri->segment(4) == 'create' ? 'class="active"' : '' ?> >
 				<a href="<?php echo site_url(SITE_AREA .'/loireatlantique/pcet') ?>" id="create_new">en Loire-Atlantique</a>
 			</li>
 			<li <?php echo $this->uri->segment(4) == 'create' ? 'class="active"' : '' ?> >
@@ -84,7 +84,7 @@
 			<span class="caret"></span>
 		</button>
 		<ul class="dropdown-menu">
-			<li <?php echo $this->uri->segment(4) == 'create' ? 'class="active"' : '' ?>
+			<li <?php echo $this->uri->segment(4) == 'create' ? 'class="active"' : '' ?> >
 				<a href="<?php echo site_url(SITE_AREA .'/loireatlantique/pcet') ?>" id="create_new">en Loire-Atlantique</a>
 			</li>
 			<li <?php echo $this->uri->segment(4) == 'create' ? 'class="active"' : '' ?> >
