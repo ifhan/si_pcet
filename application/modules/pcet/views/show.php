@@ -211,79 +211,42 @@
                     </tr>                    
                 </table>
             </div>
-    
         </div>
-  
-    </div>
-    
-    <div class="accordion-group">
-    
-        <div class="accordion-heading">
-     
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
-        
-                <h3>Étude de vulnérabilité</h3>
-      
-            </a>
-   
-        </div>
-   
-        <div id="collapseFour" class="accordion-body collapse">
-    
-            <div class="accordion-inner">
-    
-                <table class="table table-striped table-bordered">
-  
-                    <tr>
-    
-                        <th>Étude de vulnérabilité</th>
-    
+    </div>   
+    <div class="accordion-group">    
+        <div class="accordion-heading"> 
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">        
+                <h3>Étude de vulnérabilité</h3>     
+            </a>   
+        </div>   
+        <div id="collapseFour" class="accordion-body collapse">    
+            <div class="accordion-inner">    
+                <table class="table table-striped table-bordered">  
+                    <tr>   
+                        <th>Étude de vulnérabilité</th>   
+                        <td></td>    
+                    </tr> 
+                    <tr> 
+                        <th>Méthode employée</th>    
                         <td></td>
-    
+                    </tr>  
+                    <tr>  
+                        <th>Aléas identifiés</th>   
+                        <td></td> 
                     </tr>
-  
-                    <tr>
-    
-                        <th>Méthode employée</th>
-    
-                        <td></td>
- 
-                    </tr>
-  
-                    <tr>
-   
-                        <th>Aléas identifiés</th>
-   
-                        <td></td>
- 
-                    </tr>
-
-                </table>
-  
+                </table> 
             </div>
- 
         </div>
-
     </div>
- 
     <div class="accordion-group">
- 
         <div class="accordion-heading">
- 
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
- 
                 <h3>Actions et Indicateurs</h3>
- 
             </a>
- 
         </div>
- 
         <div id="collapseFive" class="accordion-body collapse">
-
             <div class="accordion-inner">
-
                 <table class="table table-striped table-bordered">
-  
                     <tr>
                         <th>Tableau des actions et des indicateurs</th>
                         <td></td>
