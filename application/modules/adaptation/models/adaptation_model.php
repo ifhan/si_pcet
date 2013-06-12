@@ -34,5 +34,16 @@ class Adaptation_model extends BF_Model {
             return $records;
                         
         }
+        
+        function get_etude_vulnerabilite_by_id($id) {
+            
+            $adaptation = $this->adaptation_model
+                ->join('pcet','pcet.ID_PCET = pcet_adaptation.ID_PCET','left')
+                ->select('pcet_adaptation.VULNERABLE_ADAPT as VULNERABLE_ADAPT, pcet_adaptation.METHODE_ADAPT as METHODE_ADAPT, pcet_adaptation.ALEA_ADAPT as ALEA_ADAPT')
+                ->find_by('pcet.id',$id);
+            
+            return $adaptation;
+            
+        }
 	
 }
