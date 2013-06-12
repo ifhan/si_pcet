@@ -212,7 +212,8 @@
                 </table>
             </div>
         </div>
-    </div>   
+    </div>
+    <?php if(isset($adaptation->VULNERABLE_ADAPT)): ?>
     <div class="accordion-group">    
         <div class="accordion-heading"> 
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">        
@@ -227,17 +228,17 @@
                         <td>
                             <?php if($adaptation->VULNERABLE_ADAPT == '1'): ?>
                                     <?php echo "Oui"; ?>
-                                <?php else: ?>
+                            <?php else: ?>
                                     <?php echo "Non"; ?>
-                                <?php endif; ?>    
+                            <?php endif; ?>    
                         </td>    
                     </tr>
-                    <?php if($adaptation->VULNERABLE_ADAPT == '1'): ?>
+                    
                     <tr> 
                         <th>Méthode employée</th>    
                         <td><?php e($adaptation->METHODE_ADAPT) ?></td>
-                    </tr>
-                    <?php endif; ?>
+                    </tr>                    
+                    
                     <tr>  
                         <th>Aléas identifiés</th>   
                         <td><?php e($adaptation->ALEA_ADAPT) ?></td> 
@@ -246,6 +247,7 @@
             </div>
         </div>
     </div>
+    <?php endif; ?>
     <div class="accordion-group">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
