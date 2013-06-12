@@ -22,7 +22,7 @@
 		<?php foreach ($records as $record) : ?>
 			
 			<tr>
-                            <td><?php echo anchor('/pcet/show/'. $record->id, '<i class="icon-search">&nbsp;</i>' .  $record->ID_PCET) ?>
+                            <td><?php echo anchor('/pcet/show/'. $record->ID_PCET, '<i class="icon-search">&nbsp;</i>' .  $record->ID_PCET) ?>
                             <td><?php e($record->NOM_TYPE) ?></td>
                             <td><?php e($record->Nom_Commune) ?><?php e($record->Nom_Departement) ?><?php e($record->NOM_EPCI) ?><?php e($record->nom_pays) ?><?php e($record->nom_pnr) ?></td>
                             <td><?php e($record->STATUT_PCET) ?></td>
