@@ -2,8 +2,8 @@
 
 class Phases_model extends BF_Model {
 
-	protected $table		= "pcet_phase";
-	protected $key			= "id";
+	protected $table	= "pcet_phase";
+	protected $key		= "id";
 	protected $soft_deletes	= false;
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
@@ -24,12 +24,12 @@ class Phases_model extends BF_Model {
 		}
 	}
         
-        function get_phase_by_id($id) {
+        function get_phase_by_id($ID_PCET) {
             
             $phase = $this->phases_model
                     ->join('pcet','pcet_phase.id = pcet.ID_PHASE','left')
-                    ->select('pcet_phase.NOM_PHASE as NOM_PHASE')
-                    ->find_by('pcet.id',$id);
+                    ->select('pcet.ID_PCET as ID_PCET, pcet_phase.NOM_PHASE as NOM_PHASE')
+                    ->find_by('ID_PCET',$ID_PCET);
             return $phase;
             
         }
