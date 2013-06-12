@@ -120,6 +120,8 @@ class vendee extends Admin_Controller {
 	public function edit()
 	{
 		$id = $this->uri->segment(5);
+		$structures = $this->structures_model->list_structures_by_departement('85');
+		$phases = $this->phases_model->get_phases();                
 
 		if (empty($id))
 		{
@@ -162,8 +164,9 @@ class vendee extends Admin_Controller {
 		}
 		Template::set('pcet', $this->pcet_model->find($id));
 		Assets::add_module_js('pcet', 'pcet.js');
-
-		Template::set('toolbar_title', lang('pcet_edit') . ' PCET');
+		Template::set('structures', $structures);
+		Template::set('phases', $phases);
+		Template::set('toolbar_title', lang('pcet'));
 		Template::render();
 	}
 
