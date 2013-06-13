@@ -109,6 +109,7 @@ class loireatlantique extends Admin_Controller {
 	public function edit()
 	{
 		$id = $this->uri->segment(5);
+                $pcets = $this->pcet_model->list_pcet_by_departement('44');
 
 		if (empty($id))
 		{
@@ -126,6 +127,7 @@ class loireatlantique extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('engagement_act_edit_record').': ' . $id . ' : ' . $this->input->ip_address(), 'engagement');
 
 				Template::set_message(lang('engagement_edit_success'), 'success');
+                                redirect(SITE_AREA .'/loireatlantique/engagement');
 			}
 			else
 			{
@@ -151,7 +153,7 @@ class loireatlantique extends Admin_Controller {
 		}
 		Template::set('engagement', $this->engagement_model->find($id));
 		Assets::add_module_js('engagement', 'engagement.js');
-
+                Template::set('pcets', $pcets);
 		Template::set('toolbar_title', lang('engagement_edit') . ' Engagement');
 		Template::render();
 	}
