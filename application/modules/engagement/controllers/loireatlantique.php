@@ -11,6 +11,7 @@ class loireatlantique extends Admin_Controller {
 
 		$this->auth->restrict('Engagement.Loireatlantique.View');
 		$this->load->model('engagement_model', null, true);
+                $this->load->model('pcet/pcet_model', null, true);
 		$this->lang->load('engagement');
 		
 			Assets::add_css('flick/jquery-ui-1.8.13.custom.css');
@@ -73,6 +74,7 @@ class loireatlantique extends Admin_Controller {
 	public function create()
 	{
 		$this->auth->restrict('Engagement.Loireatlantique.Create');
+                $pcets = $this->pcet_model->list_pcet_by_departement('44');
 
 		if (isset($_POST['save']))
 		{
@@ -90,7 +92,7 @@ class loireatlantique extends Admin_Controller {
 			}
 		}
 		Assets::add_module_js('engagement', 'engagement.js');
-
+                Template::set('pcets', $pcets);
 		Template::set('toolbar_title', lang('engagement_create') . ' Engagement');
 		Template::render();
 	}
