@@ -1,5 +1,5 @@
 <div class="admin-box">
-	<h3>Engagement</h3>
+	<h3>Suivi de l'engagement des démarches en Loire-Atlantique</h3>
 	<?php echo form_open($this->uri->uri_string()); ?>
 		<table class="table table-striped">
 			<thead>
@@ -9,24 +9,23 @@
 					<?php endif;?>
 					
 					<th>Identifiant du PCET</th>
-					<th>Commentaire sur l implication de la ddt sur le projet</th>
-					<th>Date de deliberation</th>
-					<th>Date du courrier de la structure notifiant sa deliberation a l Etat</th>
-					<th>Date du courrier de la structure notifiant sa deliberation au Conseil regional</th>
-					<th>Date courrier de notification d engagement de la collectivite a l USH</th>
-					<th>Consultation aval USH souhaitee</th>
-					<th>Date du courrier de reponse de l USH</th>
-					<th>Date du Porter-a-connaissance de l Etat</th>
+					<th>Date de déliberation</th>
+					<th>Date du courrier de la collectivité notifiant sa déliberation a l'État</th>
+					<th>Date du courrier de la collectivité notifiant sa déliberation au Conseil regional</th>
+					<th>Date courrier de notification d'engagement de la collectivité à l'USH</th>
+					<th>Consultation aval de l'USH souhaitée ?</th>
+					<th>Date du courrier de réponse de l'USH</th>
+					<th>Date du Porter-à-connaissance de l'État</th>
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
 			<tfoot>
 				<?php if ($this->auth->has_permission('Engagement.Loireatlantique.Delete')) : ?>
 				<tr>
-					<td colspan="10">
-						<?php echo lang('bf_with_selected') ?>
+					<td colspan="9">
 						<input type="submit" name="delete" id="delete-me" class="btn btn-danger" value="<?php echo lang('bf_action_delete') ?>" onclick="return confirm('<?php e(js_escape(lang('engagement_delete_confirm'))); ?>')">
-					</td>
+                                                <?php echo lang('bf_with_selected') ?>
+                                        </td>
 				</tr>
 				<?php endif;?>
 			</tfoot>
@@ -44,8 +43,7 @@
 				<?php else: ?>
 				<td><?php e($record->ID_PCET) ?></td>
 				<?php endif; ?>
-			
-				<td><?php e($record->COMMENT_DDT) ?></td>
+                                
 				<td><?php e($record->DATE_DELIB) ?></td>
 				<td><?php e($record->NOTIF_DELIB_ETAT) ?></td>
 				<td><?php e($record->NOTIF_DELIB_CR) ?></td>
@@ -57,7 +55,7 @@
 			<?php endforeach; ?>
 			<?php else: ?>
 				<tr>
-					<td colspan="10">No records found that match your selection.</td>
+					<td colspan="9"><?php echo lang('bf_no_record_found'); ?></td>
 				</tr>
 			<?php endif; ?>
 			</tbody>
