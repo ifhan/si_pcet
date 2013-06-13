@@ -24,13 +24,7 @@ $id = isset($engagement['id']) ? $engagement['id'] : '';
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
-			<div class="control-group <?php echo form_error('ID_PCET') ? 'error' : ''; ?>">
-				<?php echo form_label('Identifiant du PCET', 'engagement_ID_PCET', array('class' => 'control-label') ); ?>
-				<div class='controls'>
-					<input id='engagement_ID_PCET' type='text' name='engagement_ID_PCET' maxlength="10" value="<?php echo set_value('engagement_ID_PCET', isset($engagement['ID_PCET']) ? $engagement['ID_PCET'] : ''); ?>" />
-					<span class='help-inline'><?php echo form_error('ID_PCET'); ?></span>
-				</div>
-			</div>
+			<?php echo form_dropdown('engagement_ID_PCET',$pcets,set_value('adaptation_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
 
 			<div class="control-group <?php echo form_error('COMMENT_DDT') ? 'error' : ''; ?>">
 				<?php echo form_label('Commentaire sur l implication de la ddt sur le projet', 'engagement_COMMENT_DDT', array('class' => 'control-label') ); ?>
