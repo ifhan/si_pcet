@@ -74,112 +74,58 @@
             </a>
         </div>
         <div id="collapseTwo" class="accordion-body collapse">
-      
             <div class="accordion-inner">
-        
                 <table class="table table-striped table-bordered">
-    
                     <tbody>
-        
                         <tr>
-            
                             <th>Date de la sollicitation de l'avis de l'État</th>
-            
                             <td></td>
-        
                         </tr>
-        
-                        <tr>
-            
-                            <th>Date du rendu de l'avis de l'État</th>
-            
+                        <tr>        
+                            <th>Date du rendu de l'avis de l'État</th>   
                             <td></td>
-        
                         </tr>
-        
                         <tr>
-            
                             <th>Date de la sollicitation de l'avis du Conseil régional</th>
-            
                             <td></td>
-        
                         </tr>
-        
                         <tr>
-            
                             <th>Date du rendu de l'avis du Conseil régional</th>
-            
                             <td></td>
-        
                         </tr>
-        
                         <tr>
-            
                             <th>Date de la sollicitation de l'avis de l'ADEME</th>
-            
                             <td></td>
-        
                         </tr>
-        
                         <tr>
-            
                             <th>Date du rendu de l'avis de l'ADEME</th>
-            
                             <td></td>
-        
                         </tr>
-        
                         <tr>
-            
                             <th>Points positifs</th>
-            
                             <td></td>
-        
                         </tr>
-        
                         <tr>
-            
                             <th>Points négatifs</th>
-            
                             <td></td>
-        
                         </tr>    
-        
                         <tr>
-            
                             <th>Date d'adoption du PCET</th>
-            
                             <td></td>
-        
-                        </tr>            
-    
-                    
+                        </tr>
                     </tbody>
-
                 </table>
-      
             </div>
-    
         </div>
-  
     </div>
-    
     <div class="accordion-group">
-    
         <div class="accordion-heading">
-      
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-        
                 <h3>Diagnostic</h3>
-     
             </a>
-    
         </div>
-    
         <div id="collapseThree" class="accordion-body collapse">
-      
             <div class="accordion-inner">
-        
                 <table class="table table-striped table-bordered">
                     <tr>
                         <th>Diagnostic "Gaz à effet de serre"</th>
@@ -233,12 +179,10 @@
                             <?php endif; ?>    
                         </td>    
                     </tr>
-                    
                     <tr> 
                         <th>Méthode employée</th>    
                         <td><?php e($adaptation->METHODE_ADAPT) ?></td>
                     </tr>                    
-                    
                     <tr>  
                         <th>Aléas identifiés</th>   
                         <td><?php e($adaptation->ALEA_ADAPT) ?></td> 
