@@ -79,6 +79,29 @@
 		</ul>
 	</div>
 	<div class="btn-group">
+		<button class="btn">Suivre l'engagement des démarches</button>
+		<button class="btn dropdown-toggle" data-toggle="dropdown">
+			<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+			<li <?php echo $this->uri->segment(4) == 'create' ? 'class="active"' : '' ?> >
+				<a href="<?php echo site_url(SITE_AREA .'/loireatlantique/engagement') ?>" id="create_new">en Loire-Atlantique</a>
+			</li>
+			<li <?php echo $this->uri->segment(4) == 'create' ? 'class="active"' : '' ?> >
+				<a href="<?php echo site_url(SITE_AREA .'/maineetloire/engagement') ?>" id="create_new">en Maine-et-Loire</a>
+			</li>
+			<li <?php echo $this->uri->segment(4) == 'create' ? 'class="active"' : '' ?> >
+				<a href="<?php echo site_url(SITE_AREA .'/mayenne/engagement') ?>" id="create_new">en Mayenne</a>
+			</li>
+			<li <?php echo $this->uri->segment(4) == 'create' ? 'class="active"' : '' ?> >
+				<a href="<?php echo site_url(SITE_AREA .'/sarthe/engagement') ?>" id="create_new">en Sarthe</a>
+			</li>
+			<li <?php echo $this->uri->segment(4) == 'create' ? 'class="active"' : '' ?> >
+				<a href="<?php echo site_url(SITE_AREA .'/vendee/engagement') ?>" id="create_new">en Vend&eacute;e</a>
+			</li>
+		</ul>
+	</div>    
+	<div class="btn-group">
 		<button class="btn">Voir les PCET archiv&eacute;s</button>
 		<button class="btn dropdown-toggle" data-toggle="dropdown">
 			<span class="caret"></span>
