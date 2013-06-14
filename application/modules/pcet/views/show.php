@@ -70,10 +70,53 @@
     <div class="accordion-group">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                <h3>Avis sur le PCET</h3>
+                <h3>Engagement de la démarche</h3>
             </a>
         </div>
         <div id="collapseTwo" class="accordion-body collapse">
+            <div class="accordion-inner">
+                <table class="table table-striped table-bordered">
+                    <tbody>
+                        <tr>
+                            <th>Date de délibération</th>
+                            <td></td>
+                        </tr>
+                        <tr>        
+                            <th>Date du courrier de la collectivité notifiant sa déliberation a l'État</th>   
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Date du courrier de la collectivité notifiant sa déliberation au Conseil régional</th>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Date courrier de notification d'engagement de la collectivité à l'USH</th>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Consultation aval de l'USH souhaitée ?</th>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Date du courrier de réponse de l'USH</th>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Date du Porter-à-connaissance de l'État</th>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>    
+    <div class="accordion-group">
+        <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                <h3>Avis sur le PCET</h3>
+            </a>
+        </div>
+        <div id="collapseThree" class="accordion-body collapse">
             <div class="accordion-inner">
                 <table class="table table-striped table-bordered">
                     <tbody>
@@ -120,11 +163,11 @@
     </div>
     <div class="accordion-group">
         <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
                 <h3>Diagnostic</h3>
             </a>
         </div>
-        <div id="collapseThree" class="accordion-body collapse">
+        <div id="collapseFour" class="accordion-body collapse">
             <div class="accordion-inner">
                 <table class="table table-striped table-bordered">
                     <tr>
@@ -162,11 +205,11 @@
     <?php if(isset($adaptation->VULNERABLE_ADAPT)): ?>
     <div class="accordion-group">    
         <div class="accordion-heading"> 
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">        
-                <h3>Étude de vulnérabilité</h3>     
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">        
+                <h3>Volet Adaptation</h3>     
             </a>   
         </div>   
-        <div id="collapseFour" class="accordion-body collapse">    
+        <div id="collapseFive" class="accordion-body collapse">    
             <div class="accordion-inner">    
                 <table class="table table-striped table-bordered">  
                     <tr>   
@@ -194,11 +237,11 @@
     <?php endif; ?>
     <div class="accordion-group">
         <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix">
                 <h3>Actions et Indicateurs</h3>
             </a>
         </div>
-        <div id="collapseFive" class="accordion-body collapse">
+        <div id="collapseSix" class="accordion-body collapse">
             <div class="accordion-inner">
                 <table class="table table-striped table-bordered">
                     <tr>
