@@ -39,9 +39,9 @@
 					<?php endif;?>
 					
 				<?php if ($this->auth->has_permission('Engagement.Loireatlantique.Edit')) : ?>
-				<td><?php echo anchor(SITE_AREA .'/loireatlantique/engagement/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_PCET) ?></td>
+				<td><?php echo anchor(SITE_AREA .'/loireatlantique/engagement/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
 				<?php else: ?>
-				<td><?php e($record->ID_PCET) ?></td>
+				<td><?php e($record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
 				<?php endif; ?>
                                 
 				<td>
