@@ -9,7 +9,7 @@ class Adaptation_model extends BF_Model {
 	protected $set_created	= false;
 	protected $set_modified = false;
         
-        function get_etude_vulnerabilite_by_departement($departement) {
+        function get_adaptation_by_departement($departement) {
             
             $records = $this->adaptation_model
                 ->join('pcet','pcet.ID_PCET = pcet_adaptation.ID_PCET','left')
@@ -35,7 +35,7 @@ class Adaptation_model extends BF_Model {
                         
         }
         
-        function get_etude_vulnerabilite_by_id($ID_PCET) {
+        function get_adaptation_by_id($ID_PCET) {
             
             $adaptation = $this->adaptation_model
                 ->join('pcet','pcet.ID_PCET = pcet_adaptation.ID_PCET','left')
