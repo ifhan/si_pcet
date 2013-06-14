@@ -24,7 +24,7 @@ $id = isset($engagement['id']) ? $engagement['id'] : '';
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
-			<?php echo form_dropdown('engagement_ID_PCET',$pcets,set_value('adaptation_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
+			<?php echo form_dropdown('engagement_ID_PCET',$pcets,set_value('engagement_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
 
 			<div class="control-group <?php echo form_error('DATE_DELIB') ? 'error' : ''; ?>">
 				<?php echo form_label('Date de délibération', 'engagement_DATE_DELIB', array('class' => 'control-label') ); ?>
