@@ -55,7 +55,7 @@ class loireatlantique extends Admin_Controller {
 			}
 		}
 
-		$records = $this->engagement_model->find_all();
+		$records = $this->engagement_model->get_engagement_by_departement('44');
 
 		Template::set('records', $records);
 		Template::set('toolbar_title', lang('engagement_manage'));
