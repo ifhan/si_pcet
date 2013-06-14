@@ -20,19 +20,11 @@ $id = isset($engagement['id']) ? $engagement['id'] : '';
 
 ?>
 <div class="admin-box">
-	<h3>Renseigner l'engagement de la démarche</h3>
+	<h3>Suivre l'engagement de la démarche</h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
 			<?php echo form_dropdown('engagement_ID_PCET',$pcets,set_value('adaptation_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
-
-			<div class="control-group <?php echo form_error('COMMENT_DDT') ? 'error' : ''; ?>">
-				<?php echo form_label('Commentaire sur l\'implication de la DDT(M) sur le projet', 'engagement_COMMENT_DDT', array('class' => 'control-label') ); ?>
-				<div class='controls'>
-					<?php echo form_textarea( array( 'name' => 'engagement_COMMENT_DDT', 'id' => 'engagement_COMMENT_DDT', 'rows' => '5', 'cols' => '80', 'value' => set_value('engagement_COMMENT_DDT', isset($engagement['COMMENT_DDT']) ? $engagement['COMMENT_DDT'] : '') ) ); ?>
-					<span class='help-inline'><?php echo form_error('COMMENT_DDT'); ?></span>
-				</div>
-			</div>
 
 			<div class="control-group <?php echo form_error('DATE_DELIB') ? 'error' : ''; ?>">
 				<?php echo form_label('Date de délibération', 'engagement_DATE_DELIB', array('class' => 'control-label') ); ?>
@@ -79,7 +71,7 @@ $id = isset($engagement['id']) ? $engagement['id'] : '';
 			<div class="control-group <?php echo form_error('DATE_REP_USH') ? 'error' : ''; ?>">
 				<?php echo form_label('Date du courrier de réponse de l\'USH', 'engagement_DATE_REP_USH', array('class' => 'control-label') ); ?>
 				<div class='controls'>
-					<input id='engagement_DATE_REP_USH' type='text' name='engagement_DATE_REP_USH' maxlength="1" value="<?php echo set_value('engagement_DATE_REP_USH', isset($engagement['DATE_REP_USH']) ? $engagement['DATE_REP_USH'] : ''); ?>" />
+					<input id='engagement_DATE_REP_USH' type='text' name='engagement_DATE_REP_USH' maxlength="10" value="<?php echo set_value('engagement_DATE_REP_USH', isset($engagement['DATE_REP_USH']) ? $engagement['DATE_REP_USH'] : ''); ?>" />
 					<span class='help-inline'><?php echo form_error('DATE_REP_USH'); ?></span>
 				</div>
 			</div>
@@ -87,14 +79,14 @@ $id = isset($engagement['id']) ? $engagement['id'] : '';
 			<div class="control-group <?php echo form_error('DATE_PAC') ? 'error' : ''; ?>">
 				<?php echo form_label('Date du Porter-à-connaissance de l\'État', 'engagement_DATE_PAC', array('class' => 'control-label') ); ?>
 				<div class='controls'>
-					<input id='engagement_DATE_PAC' type='text' name='engagement_DATE_PAC' maxlength="1" value="<?php echo set_value('engagement_DATE_PAC', isset($engagement['DATE_PAC']) ? $engagement['DATE_PAC'] : ''); ?>" />
+					<input id='engagement_DATE_PAC' type='text' name='engagement_DATE_PAC' maxlength="10" value="<?php echo set_value('engagement_DATE_PAC', isset($engagement['DATE_PAC']) ? $engagement['DATE_PAC'] : ''); ?>" />
 					<span class='help-inline'><?php echo form_error('DATE_PAC'); ?></span>
 				</div>
 			</div>
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('engagement_action_create'); ?>"  />
-				or <?php echo anchor(SITE_AREA .'/loireatlantique/engagement', lang('engagement_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/loireatlantique/engagement', lang('engagement_cancel'), 'class="btn btn-warning"'); ?>
 				
 			</div>
 		</fieldset>
