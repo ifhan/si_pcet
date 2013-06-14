@@ -58,7 +58,7 @@ class loireatlantique extends Admin_Controller {
 		$records = $this->engagement_model->find_all();
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'Manage Engagement');
+		Template::set('toolbar_title', lang('engagement_manage'));
 		Template::render();
 	}
 
@@ -93,7 +93,7 @@ class loireatlantique extends Admin_Controller {
 		}
 		Assets::add_module_js('engagement', 'engagement.js');
                 Template::set('pcets', $pcets);
-		Template::set('toolbar_title', lang('engagement_create') . ' Engagement');
+		Template::set('toolbar_title', lang('engagement'));
 		Template::render();
 	}
 
@@ -154,7 +154,7 @@ class loireatlantique extends Admin_Controller {
 		Template::set('engagement', $this->engagement_model->find($id));
 		Assets::add_module_js('engagement', 'engagement.js');
                 Template::set('pcets', $pcets);
-		Template::set('toolbar_title', lang('engagement_edit') . ' Engagement');
+		Template::set('toolbar_title', lang('engagement'));
 		Template::render();
 	}
 
