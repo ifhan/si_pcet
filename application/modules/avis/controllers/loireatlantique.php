@@ -54,7 +54,7 @@ class loireatlantique extends Admin_Controller {
 			}
 		}
 
-		$records = $this->avis_model->find_all();
+		$records = $this->avis_model->get_avis_by_departement('44');
 
 		Template::set('records', $records);
 		Template::set('toolbar_title', 'Manage Avis');
