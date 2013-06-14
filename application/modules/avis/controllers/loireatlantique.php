@@ -11,6 +11,7 @@ class loireatlantique extends Admin_Controller {
 
 		$this->auth->restrict('Avis.Loireatlantique.View');
 		$this->load->model('avis_model', null, true);
+                $this->load->model('pcet/pcet_model', null, true);
 		$this->lang->load('avis');
 		
 			Assets::add_css('flick/jquery-ui-1.8.13.custom.css');
@@ -57,7 +58,7 @@ class loireatlantique extends Admin_Controller {
 		$records = $this->avis_model->get_avis_by_departement('44');
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'Manage Avis');
+		Template::set('toolbar_title', lang('avis_manage'));
 		Template::render();
 	}
 
@@ -73,6 +74,7 @@ class loireatlantique extends Admin_Controller {
 	public function create()
 	{
 		$this->auth->restrict('Avis.Loireatlantique.Create');
+                $pcets = $this->pcet_model->list_pcet_by_departement('44');
 
 		if (isset($_POST['save']))
 		{
@@ -90,8 +92,8 @@ class loireatlantique extends Admin_Controller {
 			}
 		}
 		Assets::add_module_js('avis', 'avis.js');
-
-		Template::set('toolbar_title', lang('avis_create') . ' Avis');
+                Template::set('pcets', $pcets);
+		Template::set('toolbar_title', lang('avis'));
 		Template::render();
 	}
 
@@ -107,6 +109,7 @@ class loireatlantique extends Admin_Controller {
 	public function edit()
 	{
 		$id = $this->uri->segment(5);
+                $pcets = $this->pcet_model->list_pcet_by_departement('44');
 
 		if (empty($id))
 		{
@@ -124,6 +127,7 @@ class loireatlantique extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('avis_act_edit_record').': ' . $id . ' : ' . $this->input->ip_address(), 'avis');
 
 				Template::set_message(lang('avis_edit_success'), 'success');
+                                redirect(SITE_AREA .'/loireatlantique/avis');
 			}
 			else
 			{
@@ -149,8 +153,8 @@ class loireatlantique extends Admin_Controller {
 		}
 		Template::set('avis', $this->avis_model->find($id));
 		Assets::add_module_js('avis', 'avis.js');
-
-		Template::set('toolbar_title', lang('avis_edit') . ' Avis');
+                Template::set('pcets', $pcets);
+		Template::set('toolbar_title', lang('avis'));
 		Template::render();
 	}
 
