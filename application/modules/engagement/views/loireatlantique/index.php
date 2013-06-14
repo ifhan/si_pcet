@@ -1,5 +1,5 @@
 <div class="admin-box">
-	<h3>Suivi de l'engagement des démarches en Loire-Atlantique</h3>
+	<h3><?php echo lang('engagement_title'); ?>Loire-Atlantique</h3>
 	<?php echo form_open($this->uri->uri_string()); ?>
 		<table class="table table-striped">
 			<thead>
@@ -8,7 +8,7 @@
 					<th class="column-check"><input class="check-all" type="checkbox" /></th>
 					<?php endif;?>
 					
-					<th>Identifiant du PCET</th>
+					<th>PCET</th>
 					<th>Date de déliberation</th>
 					<th>Date du courrier de la collectivité notifiant sa déliberation a l'État</th>
 					<th>Date du courrier de la collectivité notifiant sa déliberation au Conseil regional</th>
@@ -44,13 +44,41 @@
 				<td><?php e($record->ID_PCET) ?></td>
 				<?php endif; ?>
                                 
-				<td><?php e($record->DATE_DELIB) ?></td>
-				<td><?php e($record->NOTIF_DELIB_ETAT) ?></td>
-				<td><?php e($record->NOTIF_DELIB_CR) ?></td>
-				<td><?php e($record->NOTIF_USH) ?></td>
-				<td><?php e($record->REP_USH) ?></td>
-				<td><?php e($record->DATE_REP_USH) ?></td>
-				<td><?php e($record->DATE_PAC) ?></td>
+				<td>
+                                    <?php if($record->DATE_DELIB !== '0000-00-00'): ?>
+                                        <?php e(date("d/m/Y", strtotime(($record->DATE_DELIB)))) ?>
+                                    <?php endif; ?>
+				<td>
+                                    <?php if($record->NOTIF_DELIB_ETAT !== '0000-00-00'): ?>
+                                        <?php e(date("d/m/Y", strtotime(($record->NOTIF_DELIB_ETAT)))) ?>
+                                    <?php endif; ?>
+                                </td>
+				<td>
+                                    <?php if($record->NOTIF_DELIB_CR !== '0000-00-00'): ?>
+                                        <?php e(date("d/m/Y", strtotime(($record->NOTIF_DELIB_CR)))) ?>
+                                    <?php endif; ?>
+                                </td>
+				<td>
+                                    <?php if($record->NOTIF_USH !== '0000-00-00'): ?>
+                                        <?php e(date("d/m/Y", strtotime(($record->NOTIF_USH)))) ?>
+                                    <?php endif; ?>
+                                </td>
+				<td>
+                                    <?php if($record->REP_USH == '1'): ?>
+                                        <?php echo "Oui"; ?>
+                                    <?php else: ?>
+                                        <?php echo "Non"; ?>
+                                    <?php endif; ?>
+				<td>
+                                    <?php if($record->DATE_REP_USH !== '0000-00-00'): ?>
+                                        <?php e(date("d/m/Y", strtotime(($record->DATE_REP_USH)))) ?>
+                                    <?php endif; ?>
+                                </td>
+				<td>
+                                    <?php if($record->DATE_PAC !== '0000-00-00'): ?>
+                                        <?php e(date("d/m/Y", strtotime(($record->DATE_PAC)))) ?>
+                                    <?php endif; ?>
+                                </td>
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>
