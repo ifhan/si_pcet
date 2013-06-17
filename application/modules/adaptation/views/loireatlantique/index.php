@@ -35,7 +35,7 @@
 				<?php if ($this->auth->has_permission('Adaptation.Loireatlantique.Edit')) : ?>
 				<td><?php echo anchor(SITE_AREA .'/loireatlantique/adaptation/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
 				<?php else: ?>
-				<td><?php e($record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
+				<td><?php e($record->ID_PCET) ?></td>
 				<?php endif; ?>
                                 
 				<td>
