@@ -155,7 +155,7 @@ class maineetloire extends Admin_Controller {
 
                 Template::set('adaptation', $this->adaptation_model->find($id));
                 Template::set('pcets', $pcets);
-		Template::set('toolbar_title', lang('adaptation_edit') . ' Adaptation');
+		Template::set('toolbar_title', lang('adaptation'));
 		Template::render();
 	}
 

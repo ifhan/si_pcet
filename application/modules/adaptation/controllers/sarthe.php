@@ -154,7 +154,7 @@ class sarthe extends Admin_Controller {
 		Assets::add_module_js('adaptation', 'adaptation.js');
 
                 Template::set('pcets', $pcets);
-		Template::set('toolbar_title', lang('adaptation_edit') . ' Adaptation');
+		Template::set('toolbar_title', lang('adaptation'));
 		Template::render();
 	}
 
