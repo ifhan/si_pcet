@@ -11,6 +11,7 @@ class maineetloire extends Admin_Controller {
 
 		$this->auth->restrict('Avis.Maineetloire.View');
 		$this->load->model('avis_model', null, true);
+                $this->load->model('pcet/pcet_model', null, true);
 		$this->lang->load('avis');
 		
 			Assets::add_css('flick/jquery-ui-1.8.13.custom.css');
@@ -54,10 +55,10 @@ class maineetloire extends Admin_Controller {
 			}
 		}
 
-		$records = $this->avis_model->find_all();
+		$records = $this->avis_model->get_avis_by_departement('49');
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'Manage Avis');
+		Template::set('toolbar_title', lang('avis_manage'));
 		Template::render();
 	}
 
@@ -73,6 +74,7 @@ class maineetloire extends Admin_Controller {
 	public function create()
 	{
 		$this->auth->restrict('Avis.Maineetloire.Create');
+                $pcets = $this->pcet_model->list_pcet_by_departement('49');
 
 		if (isset($_POST['save']))
 		{
@@ -90,7 +92,7 @@ class maineetloire extends Admin_Controller {
 			}
 		}
 		Assets::add_module_js('avis', 'avis.js');
-
+                Template::set('pcets', $pcets);
 		Template::set('toolbar_title', lang('avis_create') . ' Avis');
 		Template::render();
 	}
@@ -107,6 +109,7 @@ class maineetloire extends Admin_Controller {
 	public function edit()
 	{
 		$id = $this->uri->segment(5);
+                $pcets = $this->pcet_model->list_pcet_by_departement('49');
 
 		if (empty($id))
 		{
@@ -149,7 +152,7 @@ class maineetloire extends Admin_Controller {
 		}
 		Template::set('avis', $this->avis_model->find($id));
 		Assets::add_module_js('avis', 'avis.js');
-
+                Template::set('pcets', $pcets);
 		Template::set('toolbar_title', lang('avis_edit') . ' Avis');
 		Template::render();
 	}
