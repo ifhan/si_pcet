@@ -1,5 +1,5 @@
 <div class="admin-box">
-	<h3>Adaptation</h3>
+	<h3><?php echo lang('adaptation_index'); ?>Mayenne</h3>
 	<?php echo form_open($this->uri->uri_string()); ?>
 		<table class="table table-striped">
 			<thead>
@@ -8,10 +8,8 @@
 					<th class="column-check"><input class="check-all" type="checkbox" /></th>
 					<?php endif;?>
 					
-					<th>Identifiant</th>
-					<th>Etude de vulnerabilite</th>
-					<th>Methodes employees</th>
-					<th>Aleas identifies</th>
+					<th>PCET</th>
+					<th>Étude de vulnérabilité</th>
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
@@ -35,14 +33,18 @@
 					<?php endif;?>
 					
 				<?php if ($this->auth->has_permission('Adaptation.Mayenne.Edit')) : ?>
-				<td><?php echo anchor(SITE_AREA .'/mayenne/adaptation/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_ADAPT) ?></td>
+				<td><?php echo anchor(SITE_AREA .'/mayenne/adaptation/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
 				<?php else: ?>
-				<td><?php e($record->ID_ADAPT) ?></td>
+				<td><?php e($record->ID_PCET) ?></td>
 				<?php endif; ?>
 			
-				<td><?php e($record->VULNERABLE_ADAPT) ?></td>
-				<td><?php e($record->METHODE_ADAPT) ?></td>
-				<td><?php e($record->ALEA_ADAPT) ?></td>
+				<<td>
+                                    <?php if($record->VULNERABLE_ADAPT == '1'): ?>
+                                    <?php echo "Oui"; ?>
+                                    <?php else: ?>
+                                    <?php echo "Non"; ?>
+                                    <?php endif; ?>
+                                </td>
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>

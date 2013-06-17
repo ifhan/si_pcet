@@ -20,17 +20,11 @@ $id = isset($adaptation['id']) ? $adaptation['id'] : '';
 
 ?>
 <div class="admin-box">
-	<h3>Adaptation</h3>
+	<h3><?php echo lang('adaptation_add'); ?></h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
-			<div class="control-group <?php echo form_error('ID_ADAPT') ? 'error' : ''; ?>">
-				<?php echo form_label('Identifiant', 'adaptation_ID_ADAPT', array('class' => 'control-label') ); ?>
-				<div class='controls'>
-					<input id='adaptation_ID_ADAPT' type='text' name='adaptation_ID_ADAPT' maxlength="10" value="<?php echo set_value('adaptation_ID_ADAPT', isset($adaptation['ID_ADAPT']) ? $adaptation['ID_ADAPT'] : ''); ?>" />
-					<span class='help-inline'><?php echo form_error('ID_ADAPT'); ?></span>
-				</div>
-			</div>
+			<?php echo form_dropdown('adaptation_ID_PCET',$pcets,set_value('adaptation_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'PCET');?>
 
 			<div class="control-group <?php echo form_error('VULNERABLE_ADAPT') ? 'error' : ''; ?>">
 				<?php echo form_label('Etude de vulnerabilite', 'adaptation_VULNERABLE_ADAPT', array('class' => 'control-label') ); ?>

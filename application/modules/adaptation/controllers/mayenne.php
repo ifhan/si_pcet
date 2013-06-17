@@ -11,6 +11,8 @@ class mayenne extends Admin_Controller {
 
 		$this->auth->restrict('Adaptation.Mayenne.View');
 		$this->load->model('adaptation_model', null, true);
+                $this->load->model('pcet/pcet_model', null, true);
+		$this->load->model('structures/structures_model', null, true);
 		$this->lang->load('adaptation');
 		
 		Template::set_block('sub_nav', 'mayenne/_sub_nav');
@@ -52,7 +54,7 @@ class mayenne extends Admin_Controller {
 			}
 		}
 
-		$records = $this->adaptation_model->find_all();
+		$records = $this->adaptation_model->get_etude_vulnerabilite_by_departement('53');
 
 		Template::set('records', $records);
 		Template::set('toolbar_title', 'Manage Adaptation');
@@ -71,6 +73,7 @@ class mayenne extends Admin_Controller {
 	public function create()
 	{
 		$this->auth->restrict('Adaptation.Mayenne.Create');
+                 $pcets = $this->pcet_model->list_pcet_by_departement('53');
 
 		if (isset($_POST['save']))
 		{
@@ -88,6 +91,7 @@ class mayenne extends Admin_Controller {
 			}
 		}
 		Assets::add_module_js('adaptation', 'adaptation.js');
+                Template::set('pcets', $pcets);
 
 		Template::set('toolbar_title', lang('adaptation_create') . ' Adaptation');
 		Template::render();
@@ -105,6 +109,7 @@ class mayenne extends Admin_Controller {
 	public function edit()
 	{
 		$id = $this->uri->segment(5);
+                $pcets = $this->pcet_model->list_pcet_by_departement('53');
 
 		if (empty($id))
 		{
@@ -148,6 +153,7 @@ class mayenne extends Admin_Controller {
 		Template::set('adaptation', $this->adaptation_model->find($id));
 		Assets::add_module_js('adaptation', 'adaptation.js');
 
+                Template::set('pcets', $pcets);
 		Template::set('toolbar_title', lang('adaptation_edit') . ' Adaptation');
 		Template::render();
 	}
@@ -179,7 +185,7 @@ class mayenne extends Admin_Controller {
 		}
 
 		
-		$this->form_validation->set_rules('adaptation_ID_ADAPT','Identifiant','max_length[10]');
+		$this->form_validation->set_rules('adaptation_ID_PCET','Identifiant','max_length[10]');
 		$this->form_validation->set_rules('adaptation_VULNERABLE_ADAPT','Etude de vulnerabilite','max_length[1]');
 		$this->form_validation->set_rules('adaptation_METHODE_ADAPT','Methodes employees','');
 		$this->form_validation->set_rules('adaptation_ALEA_ADAPT','Aleas identifies','');
@@ -192,7 +198,7 @@ class mayenne extends Admin_Controller {
 		// make sure we only pass in the fields we want
 		
 		$data = array();
-		$data['ID_ADAPT']        = $this->input->post('adaptation_ID_ADAPT');
+		$data['ID_PCET']        = $this->input->post('adaptation_ID_PCET');
 		$data['VULNERABLE_ADAPT']        = $this->input->post('adaptation_VULNERABLE_ADAPT');
 		$data['METHODE_ADAPT']        = $this->input->post('adaptation_METHODE_ADAPT');
 		$data['ALEA_ADAPT']        = $this->input->post('adaptation_ALEA_ADAPT');
