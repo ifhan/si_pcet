@@ -5,6 +5,7 @@ $lang['avis_edit']				= 'Éditer';
 $lang['avis_true']				= 'Vrai';
 $lang['avis_false']				= 'Faux';
 $lang['avis_create']			= 'Create';
+$lang['avis_titre']				= 'Avis sur les PCET de ';
 $lang['avis_list']				= 'Liste';
 $lang['avis_new']				= 'Nouveau';
 $lang['avis_edit_text']			= 'Edit this to suit your needs';
