@@ -24,7 +24,6 @@ $id = isset($adaptation['id']) ? $adaptation['id'] : '';
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
-
 		<?php echo form_dropdown('adaptation_ID_PCET',$pcets,set_value('adaptation_ID_PCET', isset($adaptation['ID_PCET']) ? $adaptation['ID_PCET'] : ''),'Porteur du projet');?>
 
 

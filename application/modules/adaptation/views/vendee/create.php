@@ -28,7 +28,7 @@ $id = isset($adaptation['id']) ? $adaptation['id'] : '';
 
 
 			<div class="control-group <?php echo form_error('VULNERABLE_ADAPT') ? 'error' : ''; ?>">
-				<?php echo form_label('Etude de vulnerabilite', 'adaptation_VULNERABLE_ADAPT', array('class' => 'control-label') ); ?>
+				<?php echo form_label('Étude de vulnérabilité', 'adaptation_VULNERABLE_ADAPT', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<label class='checkbox' for='adaptation_VULNERABLE_ADAPT'>
 						<input type='checkbox' id='adaptation_VULNERABLE_ADAPT' name='adaptation_VULNERABLE_ADAPT' value='1' <?php echo (isset($adaptation['VULNERABLE_ADAPT']) && $adaptation['VULNERABLE_ADAPT'] == 1) ? 'checked="checked"' : set_checkbox('adaptation_VULNERABLE_ADAPT', 1); ?>>
@@ -38,7 +38,7 @@ $id = isset($adaptation['id']) ? $adaptation['id'] : '';
 			</div>
 
 			<div class="control-group <?php echo form_error('METHODE_ADAPT') ? 'error' : ''; ?>">
-				<?php echo form_label('Methodes employees', 'adaptation_METHODE_ADAPT', array('class' => 'control-label') ); ?>
+				<?php echo form_label('Méthodes employées', 'adaptation_METHODE_ADAPT', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<?php echo form_textarea( array( 'name' => 'adaptation_METHODE_ADAPT', 'id' => 'adaptation_METHODE_ADAPT', 'rows' => '5', 'cols' => '80', 'value' => set_value('adaptation_METHODE_ADAPT', isset($adaptation['METHODE_ADAPT']) ? $adaptation['METHODE_ADAPT'] : '') ) ); ?>
 					<span class='help-inline'><?php echo form_error('METHODE_ADAPT'); ?></span>
@@ -46,7 +46,7 @@ $id = isset($adaptation['id']) ? $adaptation['id'] : '';
 			</div>
 
 			<div class="control-group <?php echo form_error('ALEA_ADAPT') ? 'error' : ''; ?>">
-				<?php echo form_label('Aleas identifies', 'adaptation_ALEA_ADAPT', array('class' => 'control-label') ); ?>
+				<?php echo form_label('Aléas identifiés', 'adaptation_ALEA_ADAPT', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<?php echo form_textarea( array( 'name' => 'adaptation_ALEA_ADAPT', 'id' => 'adaptation_ALEA_ADAPT', 'rows' => '5', 'cols' => '80', 'value' => set_value('adaptation_ALEA_ADAPT', isset($adaptation['ALEA_ADAPT']) ? $adaptation['ALEA_ADAPT'] : '') ) ); ?>
 					<span class='help-inline'><?php echo form_error('ALEA_ADAPT'); ?></span>
@@ -55,7 +55,7 @@ $id = isset($adaptation['id']) ? $adaptation['id'] : '';
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('adaptation_action_create'); ?>"  />
-				or <?php echo anchor(SITE_AREA .'/vendee/adaptation', lang('adaptation_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/vendee/adaptation', lang('adaptation_cancel'), 'class="btn btn-warning"'); ?>
 				
 			</div>
 		</fieldset>
