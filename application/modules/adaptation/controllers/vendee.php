@@ -57,7 +57,7 @@ class vendee extends Admin_Controller {
 		$records = $this->adaptation_model->get_etude_vulnerabilite_by_departement('85');
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'Manage Adaptation');
+		Template::set('toolbar_title', lang('adaptation_manage'));
 		Template::render();
 	}
 
