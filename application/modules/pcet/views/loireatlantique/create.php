@@ -80,7 +80,7 @@ $id = isset($pcet['id']) ? $pcet['id'] : '';
 				echo form_dropdown('pcet_STATUT_PCET', $options, set_value('pcet_STATUT_PCET', isset($pcet['STATUT_PCET']) ? $pcet['STATUT_PCET'] : ''), 'Statut');
 			?>
 			
-			<?php echo form_dropdown('pcet_ID_PHASE',$phases, set_value('pcet_ID_PHASE', isset($structure['ID_PHASE']) ? $structure['ID_PHASE'] : ''), '&Eacute;tat d\'avancement'); ?>
+			<?php echo form_dropdown('pcet_ID_PHASE',$phases, set_value('pcet_ID_PHASE', isset($pcet['ID_PHASE']) ? $pcet['ID_PHASE'] : ''), '&Eacute;tat d\'avancement'); ?>
 
 			<div class="control-group <?php echo form_error('ETAT_PCET') ? 'error' : ''; ?>">
 				<?php echo form_label('Commentaires', 'pcet_ETAT_PCET', array('class' => 'control-label') ); ?>
