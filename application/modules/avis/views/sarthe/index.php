@@ -1,5 +1,5 @@
 <div class="admin-box">
-	<h3>Avis sur les PCET de Loire-Atlantique</h3>
+	<h3><?php echo lang('avis_titre') ?>Sarthe</h3>
 	<?php echo form_open($this->uri->uri_string()); ?>
 		<table class="table table-striped">
 			<thead>
