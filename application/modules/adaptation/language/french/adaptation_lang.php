@@ -1,12 +1,12 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-$lang['adaptation']			= 'Études de vulnérabilité';
+$lang['adaptation']			= 'Volet "Adaptation"';
 $lang['adaptation_manage']			= 'Gérer le Volet "Adaptation"';
 $lang['adaptation_index']	= 'Volet "Adaptation" pour les PCET de ';
 $lang['adaptation_add']				= 'Ajouter une étude de vulnérabilité';
 $lang['adaptation_edit']				= 'Éditer une étude de vulnérabilité';
 $lang['adaptation_true']				= 'Vrai';
 $lang['adaptation_false']				= 'Faux';
-$lang['adaptation_create']			= 'Create';
+$lang['adaptation_create']			= 'Créer';
 $lang['adaptation_list']				= 'Liste';
 $lang['adaptation_new']				= 'Nouvelle';
 $lang['adaptation_edit_text']			= 'Edit this to suit your needs';
@@ -22,14 +22,14 @@ $lang['adaptation_delete_success']			= 'record(s) successfully deleted.';
 $lang['adaptation_delete_failure']			= 'We could not delete the record: ';
 $lang['adaptation_delete_error']			= 'You have not selected any records to delete.';
 $lang['adaptation_actions']			= 'Actions';
-$lang['adaptation_cancel']			= 'Cancel';
-$lang['adaptation_delete_record']			= 'Delete this Adaptation';
+$lang['adaptation_cancel']			= 'Annuler';
+$lang['adaptation_delete_record']			= 'Supprimer';
 $lang['adaptation_delete_confirm']			= 'Are you sure you want to delete this adaptation?';
 $lang['adaptation_edit_heading']			= 'Edit Adaptation';
 
 // Create/Edit Buttons
-$lang['adaptation_action_edit']				= 'Save Adaptation';
-$lang['adaptation_action_create']				= 'Create Adaptation';
+$lang['adaptation_action_edit']				= 'Enregistrer';
+$lang['adaptation_action_create']				= 'Enregistrer';
 
 // Activities
 $lang['adaptation_act_create_record']			= 'Created record with ID';
