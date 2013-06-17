@@ -26,7 +26,6 @@ $id = isset($adaptation['id']) ? $adaptation['id'] : '';
 
 			<?php echo form_dropdown('adaptation_ID_PCET',$pcets,set_value('adaptation_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'PCET');?>
 
-
 			<div class="control-group <?php echo form_error('VULNERABLE_ADAPT') ? 'error' : ''; ?>">
 				<?php echo form_label('Étude de vulnérabilité', 'adaptation_VULNERABLE_ADAPT', array('class' => 'control-label') ); ?>
 				<div class='controls'>
