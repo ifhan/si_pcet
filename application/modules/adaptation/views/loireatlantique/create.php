@@ -24,8 +24,15 @@ $id = isset($adaptation['id']) ? $adaptation['id'] : '';
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
-			<?php echo form_dropdown('adaptation_ID_PCET',$pcets,set_value('adaptation_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'PCET');?>
+			<?php echo form_dropdown('adaptation_ID_PCET',$pcets,set_value('adaptation_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
 
+                        <div class="control-group">
+                            <div class='controls'>
+                                <span>ou</span> <a href="<?php echo site_url(SITE_AREA .'/loireatlantique/pcet/create') ?>" class="btn" type="button">Ajouter un PCET</a>
+                                <span class='help-inline'>s'il n'y a pas de PCET disponible dans la liste.</span>
+                            </div>
+                        </div>
+                    
 			<div class="control-group <?php echo form_error('VULNERABLE_ADAPT') ? 'error' : ''; ?>">
 				<?php echo form_label('Étude de vulnérabilité', 'adaptation_VULNERABLE_ADAPT', array('class' => 'control-label') ); ?>
 				<div class='controls'>
