@@ -8,19 +8,16 @@
 					<th class="column-check"><input class="check-all" type="checkbox" /></th>
 					<?php endif;?>
 					
-					<th>Identifiant du PCET</th>
-					<th>Date de la sollicitation avis de l Etat</th>
-					<th>Commentaire sur la sollicitation de l avis de l Etat</th>
-					<th>Date du rendu de l avis Etat</th>
-					<th>Date de la sollicitation de l avis du Conseil regional</th>
-					<th>Date du rendu de l avis du Conseil regional</th>
-					<th>Date de la sollicitation de l avis de l USH</th>
-					<th>Date du rendu de l avis de l USH</th>
-					<th>Date de la sollicitation de l avis de l ADEME</th>
-					<th>Date du rendu de l avis de l ADEME</th>
-					<th>Points positifs</th>
-					<th>Points negatifs</th>
-					<th>Date d adoption du PCET</th>
+					<th>PCET</th>
+					<th>Date de la sollicitation de l'avis de l'État</th>				
+					<th>Date du rendu de l'avis de l'État</th>
+					<th>Date de la sollicitation de l'avis du Conseil régional</th>
+					<th>Date du rendu de l'avis du Conseil régional</th>
+					<th>Date de la sollicitation de l'avis de l'USH</th>
+					<th>Date du rendu de l'avis de l'USH</th>
+					<th>Date de la sollicitation de l'avis de l'ADEME</th>
+					<th>Date du rendu de l'avis de l'ADEME</th>
+					<th>Date d'adoption du PCET</th>
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
@@ -44,28 +41,61 @@
 					<?php endif;?>
 					
 				<?php if ($this->auth->has_permission('Avis.Vendee.Edit')) : ?>
-				<td><?php echo anchor(SITE_AREA .'/vendee/avis/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_PCET) ?></td>
+				<td><?php echo anchor(SITE_AREA .'/vendee/avis/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
 				<?php else: ?>
-				<td><?php e($record->ID_PCET) ?></td>
+				<td><?php e($record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
 				<?php endif; ?>
 			
-				<td><?php e($record->DEM_ETAT_AVIS) ?></td>
-				<td><?php e($record->COM_ETAT_AVIS) ?></td>
-				<td><?php e($record->REP_ETAT_AVIS) ?></td>
-				<td><?php e($record->DEM_REG_AVIS) ?></td>
-				<td><?php e($record->REP_REG_AVIS) ?></td>
-				<td><?php e($record->DEM_USH_AVIS) ?></td>
-				<td><?php e($record->REP_USH_AVIS) ?></td>
-				<td><?php e($record->DEM_ADEME_AVIS) ?></td>
-				<td><?php e($record->REP_ADEME_AVIS) ?></td>
-				<td><?php e($record->PP_AVIS) ?></td>
-				<td><?php e($record->PN_AVIS) ?></td>
-				<td><?php e($record->DATE_ADOPT_AVIS) ?></td>
+				<td>
+                                    <?php if($record->DEM_ETAT_AVIS !== '0000-00-00'): ?>
+                                        <?php e(date("d/m/Y", strtotime(($record->DEM_ETAT_AVIS)))) ?>
+                                    <?php endif; ?>
+                                </td>
+				<td>
+                                    <?php if($record->REP_ETAT_AVIS !== '0000-00-00'): ?>
+                                        <?php e(date("d/m/Y", strtotime(($record->REP_ETAT_AVIS)))) ?>
+                                    <?php endif; ?>
+                                </td>
+				<td>
+                                    <?php if($record->DEM_REG_AVIS !== '0000-00-00'): ?>
+                                        <?php e(date("d/m/Y", strtotime(($record->DEM_REG_AVIS)))) ?>
+                                    <?php endif; ?>
+                                </td>
+				<td>
+                                    <?php if($record->REP_REG_AVIS !== '0000-00-00'): ?>
+                                        <?php e(date("d/m/Y", strtotime(($record->REP_REG_AVIS)))) ?>
+                                    <?php endif; ?>
+                                </td>
+				<td>
+                                    <?php if($record->DEM_USH_AVIS !== '0000-00-00'): ?>
+                                        <?php e(date("d/m/Y", strtotime(($record->DEM_USH_AVIS)))) ?>
+                                    <?php endif; ?>
+                                </td>
+				<td>
+                                    <?php if($record->REP_USH_AVIS !== '0000-00-00'): ?>
+                                        <?php e(date("d/m/Y", strtotime(($record->REP_USH_AVIS)))) ?>
+                                    <?php endif; ?>
+                                </td>
+				<td>
+                                    <?php if($record->DEM_ADEME_AVIS !== '0000-00-00'): ?>
+                                        <?php e(date("d/m/Y", strtotime(($record->DEM_ADEME_AVIS)))) ?>
+                                    <?php endif; ?>      
+                                </td>
+				<td>
+                                    <?php if($record->REP_ADEME_AVIS !== '0000-00-00'): ?>
+                                        <?php e(date("d/m/Y", strtotime(($record->REP_ADEME_AVIS)))) ?>
+                                    <?php endif; ?>
+                                </td>
+				<td>
+                                    <?php if($record->DATE_ADOPT_AVIS !== '0000-00-00'): ?>
+                                        <?php e(date("d/m/Y", strtotime(($record->DATE_ADOPT_AVIS)))) ?>
+                                    <?php endif; ?>
+                                </td>
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>
 				<tr>
-					<td colspan="14">No records found that match your selection.</td>
+					<td colspan="11"><?php echo lang('bf_no_record_found'); ?></td>
 				</tr>
 			<?php endif; ?>
 			</tbody>
