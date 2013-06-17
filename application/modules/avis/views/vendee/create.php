@@ -26,6 +26,14 @@ $id = isset($avis['id']) ? $avis['id'] : '';
 
 			<?php echo form_dropdown('avis_ID_PCET',$pcets,set_value('avis_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
 
+                        <div class="control-group">
+                            <div class='controls'>
+                                <span>ou</span> <a href="<?php echo site_url(SITE_AREA .'/vendee/pcet/create') ?>" class="btn" type="button">Ajouter un PCET</a>
+                                <span class='help-inline'>s'il n'y a pas de PCET disponible dans la liste.</span>
+                            </div>
+                        </div>
+                                        
+                    
 			<div class="control-group <?php echo form_error('DEM_ETAT_AVIS') ? 'error' : ''; ?>">
 				<?php echo form_label('Date de la sollicitation de l\'avis de l\'État', 'avis_DEM_ETAT_AVIS', array('class' => 'control-label') ); ?>
 				<div class='controls'>
