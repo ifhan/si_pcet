@@ -49,8 +49,28 @@
 				<td><?php e($record->EMIS_CO2_T) ?></td>
 				<td><?php e($record->CONSO_KTEP_PC) ?></td>
 				<td><?php e($record->EMIS_CO2_PC) ?></td>
-				<td><?php e($record->ID_GES_BILAN_T) ?></td>
-				<td><?php e($record->NOM_GES_BILAN) ?></td>
+				<td>
+                                    <?php if($record->ID_GES_BILAN_T == '1'):?>
+                                    Scope 1
+                                    <?php endif ?>
+                                    <?php if($record->ID_GES_BILAN_T == '2'):?>
+                                    Scope 1 + Scope 2
+                                    <?php endif ?>
+                                    <?php if($record->ID_GES_BILAN_T == '3'):?>
+                                    Scope 1 + Scope 2 + Scope 3
+                                    <?php endif ?>
+                                </td>
+                                <td>
+                                    <?php if($record->ID_GES_BILAN_PC == '1'):?>
+                                    Scope 1
+                                    <?php endif ?>
+                                    <?php if($record->ID_GES_BILAN_PC == '2'):?>
+                                    Scope 1 + Scope 2
+                                    <?php endif ?>
+                                    <?php if($record->ID_GES_BILAN_PC == '3'):?>
+                                    Scope 1 + Scope 2 + Scope 3
+                                    <?php endif ?>
+                                </td>
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>
