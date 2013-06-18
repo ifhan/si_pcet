@@ -52,7 +52,7 @@
 					<td><?php e($record->ETAT_PCET) ?></td>
 					<td>
 						<?php if(!empty($record->INTERNET_PCET)): ?>
-							<?php echo anchor($record->INTERNET_PCET, 'Consulter', 'target="_blank"'); ?>
+							<?php echo anchor($record->INTERNET_PCET, '<i class="icon-globe">&nbsp;</i>Consulter', 'target="_blank"'); ?>
 						<?php endif; ?>
 					</td>
 					<td>
