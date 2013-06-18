@@ -127,6 +127,7 @@ class mayenne extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('avis_act_edit_record').': ' . $id . ' : ' . $this->input->ip_address(), 'avis');
 
 				Template::set_message(lang('avis_edit_success'), 'success');
+                                redirect(SITE_AREA .'/mayenne/avis');
 			}
 			else
 			{

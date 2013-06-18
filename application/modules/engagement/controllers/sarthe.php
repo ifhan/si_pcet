@@ -127,6 +127,7 @@ class sarthe extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('engagement_act_edit_record').': ' . $id . ' : ' . $this->input->ip_address(), 'engagement');
 
 				Template::set_message(lang('engagement_edit_success'), 'success');
+                                redirect(SITE_AREA .'/mayenne/engagement');
 			}
 			else
 			{
