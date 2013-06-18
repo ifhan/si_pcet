@@ -94,7 +94,7 @@ class loireatlantique extends Admin_Controller {
 		Assets::add_module_js('diagnostic', 'diagnostic.js');
                 Template::set('pcets', $pcets);
                 Template::set('scope', $scope);
-		Template::set('toolbar_title', lang('diagnostic_create') . ' Diagnostic');
+		Template::set('toolbar_title', lang('diagnostic'));
 		Template::render();
 	}
 
@@ -156,7 +156,7 @@ class loireatlantique extends Admin_Controller {
 		Assets::add_module_js('diagnostic', 'diagnostic.js');
                 Template::set('pcets', $pcets);
                 Template::set('scope', $scope);
-		Template::set('toolbar_title', lang('diagnostic_edit') . ' Diagnostic');
+		Template::set('toolbar_title', lang('diagnostic'));
 		Template::render();
 	}
 
