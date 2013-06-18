@@ -2,8 +2,8 @@
 
 class Contacts_model extends BF_Model {
 
-	protected $table		= "pcet_contact";
-	protected $key			= "id";
+	protected $table	= "pcet_contact";
+	protected $key		= "id";
 	protected $soft_deletes	= false;
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
