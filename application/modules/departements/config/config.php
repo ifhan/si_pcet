@@ -7,7 +7,7 @@ $config['module_config'] = array(
 	'description'	=> 'Liste des d&eacute;partements en Pays de la Loire',
 	'name'		=> 'D&eacute;partements',
 	'version'		=> '0.0.1',
-	'author'		=> 'ronan.vignard',
+	'author'		=> 'Ronan Vignard',
 	'menu_topic'	=> array(
 		'content'		=>'R&eacute;f&eacute;rentiels'
 	)

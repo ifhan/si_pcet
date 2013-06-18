@@ -7,7 +7,7 @@ $config['module_config'] = array(
 	'description'	=> 'Liste des EPCI de la région Pays de la Loire',
 	'name'		=> 'EPCI',
 	'version'		=> '0.0.1',
-	'author'		=> 'ronan.vignard',
+	'author'		=> 'Ronan Vignard',
 	'menu_topic'	=> array(
 		'content'		=>'R&eacute;f&eacute;rentiels'
 	)

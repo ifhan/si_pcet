@@ -2,7 +2,7 @@
 	'description'	=> 'Plans Climat-&Eacute;nergie Territoriaux',
 	'name'		=> '2. PCET',
 	'version'		=> '0.0.1',
-	'author'		=> 'ronan.vignard',
+	'author'		=> 'Ronan Vignard',
         'weights'		=> array(
                    'context'	=> '1'
                )    

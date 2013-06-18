@@ -2,7 +2,7 @@
 	'description'	=> 'Engagement de la démarche',
 	'name'		=> '3. Engagement',
 	'version'		=> '0.0.1',
-	'author'		=> 'ronan.vignard',
+	'author'		=> 'Ronan Vignard',
         'weights'		=> array(
                    'context'	=> 2
                )    

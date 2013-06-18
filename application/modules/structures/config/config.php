@@ -2,7 +2,7 @@
 	'description'	=> 'Collectivit&eacute;s porteuses de PCET',
 	'name'		=> '1. Collectivit&eacute;s',
 	'version'		=> '0.0.1',
-	'author'		=> 'ronan.vignard',
+	'author'		=> 'Ronan Vignard',
         'weights'		=> array(
                    'context'	=> '0'
                )

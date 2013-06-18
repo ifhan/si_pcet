@@ -7,7 +7,7 @@ $config['module_config'] = array(
 	'description'	=> 'Communes de la r&eacute;gion Pays de la Loire',
 	'name'		=> 'Communes',
 	'version'		=> '0.0.1',
-	'author'		=> 'ronan.vignard',
+	'author'		=> 'Ronan Vignard',
 	'menu_topic'	=> array(
 		'content'		=>'R&eacute;f&eacute;rentiels'
 	)

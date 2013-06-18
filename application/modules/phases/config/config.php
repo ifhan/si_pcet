@@ -2,7 +2,7 @@
 	'description'	=> 'Liste des phases des PCET',
 	'name'		=> 'Phases',
 	'version'		=> '0.0.1',
-	'author'		=> 'ronan.vignard',
+	'author'		=> 'Ronan Vignard',
 	'weights'     => array(
 		'content' => '0'
 	)
