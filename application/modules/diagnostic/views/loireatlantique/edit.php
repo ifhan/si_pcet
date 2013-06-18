@@ -24,7 +24,7 @@ $id = isset($diagnostic['id']) ? $diagnostic['id'] : '';
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
-			<?php echo form_dropdown('diagnostic_ID_PCET',$pcets,set_value('diagnostic_ID_PCET', isset($diagnostic['ID_PCET']) ? $diagnostic['ID_PCET'] : ''),'Sélectionner un PCET');?>
+			<?php echo form_dropdown('diagnostic_ID_PCET',$pcets,set_value('diagnostic_ID_PCET', isset($diagnostic['ID_PCET']) ? $diagnostic['ID_PCET'] : ''),'Porteur du PCET');?>
 
 			<?php // Change the values in this array to populate your dropdown as required
 				$options = array(
@@ -34,7 +34,7 @@ $id = isset($diagnostic['id']) ? $diagnostic['id'] : '';
 					'Territorial et Patrimonial' => 'Territorial et Patrimonial',
 				);
 
-				echo form_dropdown('diagnostic_GES_DIAG', $options, set_value('diagnostic_GES_DIAG', isset($diagnostic['GES_DIAG']) ? $diagnostic['GES_DIAG'] : ''), 'Diagnostic gaz a effet de serre');
+				echo form_dropdown('diagnostic_GES_DIAG', $options, set_value('diagnostic_GES_DIAG', isset($diagnostic['GES_DIAG']) ? $diagnostic['GES_DIAG'] : ''), 'Diagnostic "Gaz à effet de serre"');
 			?>
 
 			<div class="control-group <?php echo form_error('CONSO_KTEP_T') ? 'error' : ''; ?>">
@@ -46,7 +46,7 @@ $id = isset($diagnostic['id']) ? $diagnostic['id'] : '';
 			</div>
 
 			<div class="control-group <?php echo form_error('EMIS_CO2_T') ? 'error' : ''; ?>">
-				<?php echo form_label('Emissions du territoire', 'diagnostic_EMIS_CO2_T', array('class' => 'control-label') ); ?>
+				<?php echo form_label('Émissions du territoire', 'diagnostic_EMIS_CO2_T', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<input id='diagnostic_EMIS_CO2_T' type='text' name='diagnostic_EMIS_CO2_T' maxlength="11" value="<?php echo set_value('diagnostic_EMIS_CO2_T', isset($diagnostic['EMIS_CO2_T']) ? $diagnostic['EMIS_CO2_T'] : ''); ?>" />
 					<span class='help-inline'><?php echo form_error('EMIS_CO2_T'); ?></span>
@@ -54,7 +54,7 @@ $id = isset($diagnostic['id']) ? $diagnostic['id'] : '';
 			</div>
 
 			<div class="control-group <?php echo form_error('CONSO_KTEP_PC') ? 'error' : ''; ?>">
-				<?php echo form_label('Consomation patrimoine et competence', 'diagnostic_CONSO_KTEP_PC', array('class' => 'control-label') ); ?>
+				<?php echo form_label('Consommation "Patrimoine et Compétences"', 'diagnostic_CONSO_KTEP_PC', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<input id='diagnostic_CONSO_KTEP_PC' type='text' name='diagnostic_CONSO_KTEP_PC' maxlength="11" value="<?php echo set_value('diagnostic_CONSO_KTEP_PC', isset($diagnostic['CONSO_KTEP_PC']) ? $diagnostic['CONSO_KTEP_PC'] : ''); ?>" />
 					<span class='help-inline'><?php echo form_error('CONSO_KTEP_PC'); ?></span>
@@ -62,7 +62,7 @@ $id = isset($diagnostic['id']) ? $diagnostic['id'] : '';
 			</div>
 
 			<div class="control-group <?php echo form_error('EMIS_CO2_PC') ? 'error' : ''; ?>">
-				<?php echo form_label('Emissions patrimoine et competence', 'diagnostic_EMIS_CO2_PC', array('class' => 'control-label') ); ?>
+				<?php echo form_label('Émissions "Patrimoine et Compétences"', 'diagnostic_EMIS_CO2_PC', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<input id='diagnostic_EMIS_CO2_PC' type='text' name='diagnostic_EMIS_CO2_PC' maxlength="11" value="<?php echo set_value('diagnostic_EMIS_CO2_PC', isset($diagnostic['EMIS_CO2_PC']) ? $diagnostic['EMIS_CO2_PC'] : ''); ?>" />
 					<span class='help-inline'><?php echo form_error('EMIS_CO2_PC'); ?></span>
@@ -71,14 +71,14 @@ $id = isset($diagnostic['id']) ? $diagnostic['id'] : '';
                     
                     <?php echo form_dropdown('diagnostic_ID_GES_BILAN_T',$scope, set_value('diagnostic_ID_GES_BILAN_T', isset($diagnostic['ID_GES_BILAN_T']) ? $diagnostic['ID_GES_BILAN_T'] : ''), 'Scope du bilan GES territorial'); ?>                    
                         
-                    <?php echo form_dropdown('diagnostic_ID_GES_BILAN_PC',$scope, set_value('diagnostic_ID_GES_BILAN_PC', isset($diagnostic['ID_GES_BILAN_PC']) ? $diagnostic['ID_GES_BILAN_PC'] : ''), 'Scope du bilan GES "Patrimoine et Compétence"'); ?>
+                    <?php echo form_dropdown('diagnostic_ID_GES_BILAN_PC',$scope, set_value('diagnostic_ID_GES_BILAN_PC', isset($diagnostic['ID_GES_BILAN_PC']) ? $diagnostic['ID_GES_BILAN_PC'] : ''), 'Scope du bilan GES "Patrimoine et Compétences"'); ?>
 			            
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('diagnostic_action_edit'); ?>"  />
-				or <?php echo anchor(SITE_AREA .'/loireatlantique/diagnostic', lang('diagnostic_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/loireatlantique/diagnostic', lang('diagnostic_cancel'), 'class="btn btn-warning"'); ?>
 				
 			<?php if ($this->auth->has_permission('Diagnostic.Loireatlantique.Delete')) : ?>
-				or
+				ou
 				<button type="submit" name="delete" class="btn btn-danger" id="delete-me" onclick="return confirm('<?php e(js_escape(lang('diagnostic_delete_confirm'))); ?>'); ">
 					<span class="icon-trash icon-white"></span>&nbsp;<?php echo lang('diagnostic_delete_record'); ?>
 				</button>
