@@ -11,6 +11,8 @@ class mayenne extends Admin_Controller {
 
 		$this->auth->restrict('Diagnostic.Mayenne.View');
 		$this->load->model('diagnostic_model', null, true);
+                $this->load->model('scope/scope_model', null, true);
+                $this->load->model('pcet/pcet_model', null, true);
 		$this->lang->load('diagnostic');
 		
 		Template::set_block('sub_nav', 'mayenne/_sub_nav');
@@ -52,10 +54,10 @@ class mayenne extends Admin_Controller {
 			}
 		}
 
-		$records = $this->diagnostic_model->find_all();
-
+		$records = $this->diagnostic_model->get_diagnostic_by_departement('53');
+                
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'Manage Diagnostic');
+		Template::set('toolbar_title', lang('diagnostic_manage'));
 		Template::render();
 	}
 
@@ -71,6 +73,8 @@ class mayenne extends Admin_Controller {
 	public function create()
 	{
 		$this->auth->restrict('Diagnostic.Mayenne.Create');
+                $pcets = $this->pcet_model->list_pcet_by_departement('53');
+                $scope = $this->scope_model->list_scopes();
 
 		if (isset($_POST['save']))
 		{
@@ -88,8 +92,9 @@ class mayenne extends Admin_Controller {
 			}
 		}
 		Assets::add_module_js('diagnostic', 'diagnostic.js');
-
-		Template::set('toolbar_title', lang('diagnostic_create') . ' Diagnostic');
+                Template::set('pcets', $pcets);
+                Template::set('scope', $scope);
+		Template::set('toolbar_title', lang('diagnostic'));
 		Template::render();
 	}
 
@@ -105,6 +110,8 @@ class mayenne extends Admin_Controller {
 	public function edit()
 	{
 		$id = $this->uri->segment(5);
+                $pcets = $this->pcet_model->list_pcet_by_departement('53');
+                $scope = $this->scope_model->list_scopes();
 
 		if (empty($id))
 		{
@@ -122,6 +129,7 @@ class mayenne extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('diagnostic_act_edit_record').': ' . $id . ' : ' . $this->input->ip_address(), 'diagnostic');
 
 				Template::set_message(lang('diagnostic_edit_success'), 'success');
+                                redirect(SITE_AREA .'/mayenne/diagnostic');
 			}
 			else
 			{
@@ -147,8 +155,9 @@ class mayenne extends Admin_Controller {
 		}
 		Template::set('diagnostic', $this->diagnostic_model->find($id));
 		Assets::add_module_js('diagnostic', 'diagnostic.js');
-
-		Template::set('toolbar_title', lang('diagnostic_edit') . ' Diagnostic');
+                Template::set('pcets', $pcets);
+                Template::set('scope', $scope);
+		Template::set('toolbar_title', lang('diagnostic'));
 		Template::render();
 	}
 
@@ -179,13 +188,13 @@ class mayenne extends Admin_Controller {
 		}
 
 		
-		$this->form_validation->set_rules('diagnostic_ID_DIAG','PCET','max_length[10]');
+		$this->form_validation->set_rules('diagnostic_ID_PCET','PCET','max_length[10]');
 		$this->form_validation->set_rules('diagnostic_GES_DIAG','Diagnostic gaz a effet de serre','');
 		$this->form_validation->set_rules('diagnostic_CONSO_KTEP_T','Consommation du territoire','max_length[11]');
 		$this->form_validation->set_rules('diagnostic_EMIS_CO2_T','Emissions du territoire','max_length[11]');
 		$this->form_validation->set_rules('diagnostic_CONSO_KTEP_PC','Consomation patrimoine et competence','max_length[11]');
 		$this->form_validation->set_rules('diagnostic_EMIS_CO2_PC','Emissions patrimoine et competence','max_length[11]');
-		$this->form_validation->set_rules('diagnostic_ID_GES_BILAN_T','NOM GES BILAN T','max_length[10]');
+		$this->form_validation->set_rules('diagnostic_ID_GES_BILAN_T','ID GES BILAN T','max_length[10]');
 		$this->form_validation->set_rules('diagnostic_ID_GES_BILAN_PC','ID GES BILAN PC','max_length[10]');
 
 		if ($this->form_validation->run() === FALSE)
@@ -196,12 +205,12 @@ class mayenne extends Admin_Controller {
 		// make sure we only pass in the fields we want
 		
 		$data = array();
-		$data['ID_DIAG']        = $this->input->post('diagnostic_ID_DIAG');
+		$data['ID_PCET']        = $this->input->post('diagnostic_ID_PCET');
 		$data['GES_DIAG']        = $this->input->post('diagnostic_GES_DIAG');
-		$data['CONSO_KTEP_T']        = $this->input->post('diagnostic_CONSO_KTEP_T');
-		$data['EMIS_CO2_T']        = $this->input->post('diagnostic_EMIS_CO2_T');
-		$data['CONSO_KTEP_PC']        = $this->input->post('diagnostic_CONSO_KTEP_PC');
-		$data['EMIS_CO2_PC']        = $this->input->post('diagnostic_EMIS_CO2_PC');
+		$data['CONSO_KTEP_T']        = $this->input->post('diagnostic_CONSO_KTEP_T') ? $this->input->post('diagnostic_CONSO_KTEP_T') : '0';
+		$data['EMIS_CO2_T']        = $this->input->post('diagnostic_EMIS_CO2_T') ? $this->input->post('diagnostic_EMIS_CO2_T') : '0';
+		$data['CONSO_KTEP_PC']        = $this->input->post('diagnostic_CONSO_KTEP_PC') ? $this->input->post('diagnostic_CONSO_KTEP_PC') : '0';
+		$data['EMIS_CO2_PC']        = $this->input->post('diagnostic_EMIS_CO2_PC') ? $this->input->post('diagnostic_EMIS_CO2_PC') : '0';
 		$data['ID_GES_BILAN_T']        = $this->input->post('diagnostic_ID_GES_BILAN_T');
 		$data['ID_GES_BILAN_PC']        = $this->input->post('diagnostic_ID_GES_BILAN_PC');
 

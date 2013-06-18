@@ -1,5 +1,5 @@
 <div class="admin-box">
-	<h3>Diagnostic</h3>
+	<h3><?php echo lang('diagnostic_title'); ?>Loire-Atlantique</h3>
 	<?php echo form_open($this->uri->uri_string()); ?>
 		<table class="table table-striped">
 			<thead>
@@ -9,13 +9,13 @@
 					<?php endif;?>
 					
 					<th>PCET</th>
-					<th>Diagnostic gaz a effet de serre</th>
-					<th>Consommation du territoire</th>
-					<th>Emissions du territoire</th>
-					<th>Consomation patrimoine et competence</th>
-					<th>Emissions patrimoine et competence</th>
-					<th>NOM GES BILAN T</th>
-					<th>ID GES BILAN PC</th>
+					<th>Diagnostic "Gaz à effet de serre"</th>
+					<th>Consommation du territoire (<abbr title="kilotonne équivalent pétrole">ktep</abbr>)</th>
+					<th>Émissions du territoire (<abbr title="tonne équivalent CO2">teq-CO2</abbr>)</th>
+					<th>Consommation "Patrimoine et Compétence" (<abbr title="kilotonne équivalent pétrole">ktep</abbr>)</th>
+					<th>Émissions "Patrimoine et Compétence" (<abbr title="tonne équivalent CO2">teq-CO2</abbr>)</th>
+					<th>Scope du bilan <abbr title="Gaz à effet de serre" class="initialism">GES</abbr> territorial</th>
+					<th>Scope du bilan <abbr title="Gaz à effet de serre" class="initialism">GES</abbr> "Patrimoine et Compétence"</th>
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
@@ -23,9 +23,9 @@
 				<?php if ($this->auth->has_permission('Diagnostic.Vendee.Delete')) : ?>
 				<tr>
 					<td colspan="9">
-						<?php echo lang('bf_with_selected') ?>
 						<input type="submit" name="delete" id="delete-me" class="btn btn-danger" value="<?php echo lang('bf_action_delete') ?>" onclick="return confirm('<?php e(js_escape(lang('diagnostic_delete_confirm'))); ?>')">
-					</td>
+                                                <?php echo lang('bf_with_selected') ?>					
+                                        </td>
 				</tr>
 				<?php endif;?>
 			</tfoot>
@@ -39,9 +39,9 @@
 					<?php endif;?>
 					
 				<?php if ($this->auth->has_permission('Diagnostic.Vendee.Edit')) : ?>
-				<td><?php echo anchor(SITE_AREA .'/vendee/diagnostic/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_DIAG) ?></td>
+				<td><?php echo anchor(SITE_AREA .'/vendee/diagnostic/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
 				<?php else: ?>
-				<td><?php e($record->ID_DIAG) ?></td>
+				<td><?php e($record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
 				<?php endif; ?>
 			
 				<td><?php e($record->GES_DIAG) ?></td>
@@ -49,8 +49,28 @@
 				<td><?php e($record->EMIS_CO2_T) ?></td>
 				<td><?php e($record->CONSO_KTEP_PC) ?></td>
 				<td><?php e($record->EMIS_CO2_PC) ?></td>
-				<td><?php e($record->ID_GES_BILAN_T) ?></td>
-				<td><?php e($record->ID_GES_BILAN_PC) ?></td>
+				<td>
+                                    <?php if($record->ID_GES_BILAN_T == '1'):?>
+                                    Scope 1
+                                    <?php endif ?>
+                                    <?php if($record->ID_GES_BILAN_T == '2'):?>
+                                    Scope 1 + Scope 2
+                                    <?php endif ?>
+                                    <?php if($record->ID_GES_BILAN_T == '3'):?>
+                                    Scope 1 + Scope 2 + Scope 3
+                                    <?php endif ?>
+                                </td>
+                                <td>
+                                    <?php if($record->ID_GES_BILAN_PC == '1'):?>
+                                    Scope 1
+                                    <?php endif ?>
+                                    <?php if($record->ID_GES_BILAN_PC == '2'):?>
+                                    Scope 1 + Scope 2
+                                    <?php endif ?>
+                                    <?php if($record->ID_GES_BILAN_PC == '3'):?>
+                                    Scope 1 + Scope 2 + Scope 3
+                                    <?php endif ?>
+                                </td>
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>
