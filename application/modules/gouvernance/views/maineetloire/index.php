@@ -51,7 +51,7 @@
 			<?php endforeach; ?>
 			<?php else: ?>
 				<tr>
-					<td colspan="4">No records found that match your selection.</td>
+					<td colspan="4"><?php echo lang('bf_no_record_found'); ?></td>
 				</tr>
 			<?php endif; ?>
 			</tbody>
