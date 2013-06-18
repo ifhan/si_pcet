@@ -2,10 +2,10 @@
 $lang['diagnostic']			= 'Volet "Diagnostic"';
 $lang['diagnostic_title']			= 'Volet "Diagnostic" des PCET de ';
 $lang['diagnostic_manage']			= 'Suivre les diagnostics';
-$lang['diagnostic_edit']				= 'Modifier le suivi du volet "Diagnostic"';
+$lang['diagnostic_edit']				= 'Modifier le suivi du Volet "Diagnostic"';
 $lang['diagnostic_true']				= 'Vrai';
 $lang['diagnostic_false']				= 'Faux';
-$lang['diagnostic_create']			= 'Suivre le diagnostic';
+$lang['diagnostic_create']			= 'Ajouter un suivi du Volet "Diagnostic" pour un PCET';
 $lang['diagnostic_list']				= 'Liste';
 $lang['diagnostic_new']				= 'Nouveau';
 $lang['diagnostic_edit_text']			= 'Edit this to suit your needs';
