@@ -54,7 +54,7 @@ class maineetloire extends Admin_Controller {
 			}
 		}
 
-		$records = $this->adaptation_model->get_etude_vulnerabilite_by_departement('49');
+		$records = $this->adaptation_model->get_adaptation_by_departement('49');
 
 		Template::set('records', $records);
 		Template::set('toolbar_title', lang('adaptation_manage'));
