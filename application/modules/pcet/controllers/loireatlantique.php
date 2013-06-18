@@ -99,7 +99,8 @@ class loireatlantique extends Admin_Controller {
 		}
 		Assets::add_module_js('pcet', 'pcet.js');
 
-		$records = $this->pcet_model->get_pcet_by_departement('44');
+		// Pour l'affichage des PCET existants dans une boîte modale
+                $records = $this->pcet_model->get_pcet_by_departement('44');
 
 		Template::set('records', $records);
 		Template::set('phases', $phases);
