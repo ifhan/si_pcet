@@ -55,7 +55,7 @@ class loireatlantique extends Admin_Controller {
 		$records = $this->contacts_model->find_all();
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'Manage Contacts');
+		Template::set('toolbar_title', lang('contacts_manage'));
 		Template::render();
 	}
 
@@ -89,7 +89,7 @@ class loireatlantique extends Admin_Controller {
 		}
 		Assets::add_module_js('contacts', 'contacts.js');
 
-		Template::set('toolbar_title', lang('contacts_create') . ' Contacts');
+		Template::set('toolbar_title', lang('contacts_create'));
 		Template::render();
 	}
 
@@ -148,7 +148,7 @@ class loireatlantique extends Admin_Controller {
 		Template::set('contacts', $this->contacts_model->find($id));
 		Assets::add_module_js('contacts', 'contacts.js');
 
-		Template::set('toolbar_title', lang('contacts_edit') . ' Contacts');
+		Template::set('toolbar_title', lang('contacts_edit'));
 		Template::render();
 	}
 
