@@ -11,6 +11,7 @@ class loireatlantique extends Admin_Controller {
 
 		$this->auth->restrict('Contacts.Loireatlantique.View');
 		$this->load->model('contacts_model', null, true);
+                $this->load->model('structures/structures_model', null, true);
 		$this->lang->load('contacts');
 		
 		Template::set_block('sub_nav', 'loireatlantique/_sub_nav');
@@ -71,6 +72,7 @@ class loireatlantique extends Admin_Controller {
 	public function create()
 	{
 		$this->auth->restrict('Contacts.Loireatlantique.Create');
+                $structures = $this->structures_model->list_structures_by_departement('44');
 
 		if (isset($_POST['save']))
 		{
@@ -89,7 +91,8 @@ class loireatlantique extends Admin_Controller {
 		}
 		Assets::add_module_js('contacts', 'contacts.js');
 
-		Template::set('toolbar_title', lang('contacts_create'));
+                Template::set('structures', $structures);
+		Template::set('toolbar_title', lang('contacts'));
 		Template::render();
 	}
 
@@ -148,7 +151,7 @@ class loireatlantique extends Admin_Controller {
 		Template::set('contacts', $this->contacts_model->find($id));
 		Assets::add_module_js('contacts', 'contacts.js');
 
-		Template::set('toolbar_title', lang('contacts_edit'));
+		Template::set('toolbar_title', lang('contacts'));
 		Template::render();
 	}
 
