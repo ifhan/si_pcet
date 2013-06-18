@@ -129,6 +129,7 @@ class loireatlantique extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('diagnostic_act_edit_record').': ' . $id . ' : ' . $this->input->ip_address(), 'diagnostic');
 
 				Template::set_message(lang('diagnostic_edit_success'), 'success');
+                                redirect(SITE_AREA .'/loireatlantique/diagnostic');
 			}
 			else
 			{
