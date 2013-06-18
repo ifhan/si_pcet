@@ -52,7 +52,7 @@ class loireatlantique extends Admin_Controller {
 			}
 		}
 
-		$records = $this->contacts_model->find_all();
+		$records = $this->contacts_model->get_contacts_by_departement('44');
 
 		Template::set('records', $records);
 		Template::set('toolbar_title', lang('contacts_manage'));
