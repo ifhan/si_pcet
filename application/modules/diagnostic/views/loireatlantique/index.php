@@ -9,13 +9,13 @@
 					<?php endif;?>
 					
 					<th>PCET</th>
-					<th>Diagnostic gaz à effet de serre</th>
-					<th>Consommation du territoire (ktep)</th>
-					<th>Emissions du territoire (teq-CO2)</th>
-					<th>Consomation "Patrimoine et Compétence" (ktep)</th>
-					<th>Emissions "Patrimoine et Compétence" (teq-CO2)</th>
-					<th>Scope du bilan GES territorial</th>
-					<th>Scope du bilan GES "Patrimoine et Compétence"</th>
+					<th>Diagnostic "Gaz à effet de serre"</th>
+					<th>Consommation du territoire (<abbr title="kilotonne équivalent pétrole">ktep</abbr>)</th>
+					<th>Émissions du territoire (<abbr title="tonne équivalent CO2">teq-CO2</abbr>)</th>
+					<th>Consommation "Patrimoine et Compétence" (<abbr title="kilotonne équivalent pétrole">ktep</abbr>)</th>
+					<th>Émissions "Patrimoine et Compétence" (<abbr title="tonne équivalent CO2">teq-CO2</abbr>)</th>
+					<th>Scope du bilan <abbr title="Gaz à effet de serre" class="initialism">GES</abbr> territorial</th>
+					<th>Scope du bilan <abbr title="Gaz à effet de serre" class="initialism">GES</abbr> "Patrimoine et Compétence"</th>
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
@@ -23,9 +23,9 @@
 				<?php if ($this->auth->has_permission('Diagnostic.Loireatlantique.Delete')) : ?>
 				<tr>
 					<td colspan="9">
-						<?php echo lang('bf_with_selected') ?>
 						<input type="submit" name="delete" id="delete-me" class="btn btn-danger" value="<?php echo lang('bf_action_delete') ?>" onclick="return confirm('<?php e(js_escape(lang('diagnostic_delete_confirm'))); ?>')">
-					</td>
+                                                <?php echo lang('bf_with_selected') ?>					
+                                        </td>
 				</tr>
 				<?php endif;?>
 			</tfoot>
