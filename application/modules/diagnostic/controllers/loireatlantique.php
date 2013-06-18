@@ -55,7 +55,7 @@ class loireatlantique extends Admin_Controller {
 		}
 
 		$records = $this->diagnostic_model->get_diagnostic_by_departement('44');
-
+                
 		Template::set('records', $records);
 		Template::set('toolbar_title', lang('diagnostic_manage'));
 		Template::render();
@@ -74,7 +74,7 @@ class loireatlantique extends Admin_Controller {
 	{
 		$this->auth->restrict('Diagnostic.Loireatlantique.Create');
                 $pcets = $this->pcet_model->list_pcet_by_departement('44');
-                $scope = $this->scope_model->get_scope();
+                $scope = $this->scope_model->list_scopes();
 
 		if (isset($_POST['save']))
 		{
@@ -111,7 +111,7 @@ class loireatlantique extends Admin_Controller {
 	{
 		$id = $this->uri->segment(5);
                 $pcets = $this->pcet_model->list_pcet_by_departement('44');
-                $scope = $this->scope_model->get_scope();
+                $scope = $this->scope_model->list_scopes();
 
 		if (empty($id))
 		{
