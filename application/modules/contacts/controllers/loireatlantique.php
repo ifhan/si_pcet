@@ -108,6 +108,7 @@ class loireatlantique extends Admin_Controller {
 	public function edit()
 	{
 		$id = $this->uri->segment(5);
+                $structures = $this->structures_model->list_structures_by_departement('44');
 
 		if (empty($id))
 		{
@@ -125,6 +126,7 @@ class loireatlantique extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('contacts_act_edit_record').': ' . $id . ' : ' . $this->input->ip_address(), 'contacts');
 
 				Template::set_message(lang('contacts_edit_success'), 'success');
+                                redirect(SITE_AREA .'/loireatlantique/contacts');
 			}
 			else
 			{
@@ -151,6 +153,7 @@ class loireatlantique extends Admin_Controller {
 		Template::set('contacts', $this->contacts_model->find($id));
 		Assets::add_module_js('contacts', 'contacts.js');
 
+                Template::set('structures', $structures);
 		Template::set('toolbar_title', lang('contacts'));
 		Template::render();
 	}
@@ -183,9 +186,9 @@ class loireatlantique extends Admin_Controller {
 
 		
 		$this->form_validation->set_rules('contacts_CIVILITE','Civilite','');
-		$this->form_validation->set_rules('contacts_PRENOM','Prenom','max_length[30]');
-		$this->form_validation->set_rules('contacts_NOM_CONTACT','Nom','max_length[30]');
-		$this->form_validation->set_rules('contacts_MAIL','Courriel','max_length[100]');
+		$this->form_validation->set_rules('contacts_PRENOM','Prenom','max_length[30]|ucfirst');
+		$this->form_validation->set_rules('contacts_NOM_CONTACT','Nom','max_length[30]|strtoupper');
+		$this->form_validation->set_rules('contacts_MAIL','Courriel','max_length[100]|valid_email');
 		$this->form_validation->set_rules('contacts_ID_STR','Collectivite','max_length[10]');
 
 		if ($this->form_validation->run() === FALSE)
