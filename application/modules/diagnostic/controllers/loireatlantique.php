@@ -206,10 +206,10 @@ class loireatlantique extends Admin_Controller {
 		$data = array();
 		$data['ID_PCET']        = $this->input->post('diagnostic_ID_PCET');
 		$data['GES_DIAG']        = $this->input->post('diagnostic_GES_DIAG');
-		$data['CONSO_KTEP_T']        = $this->input->post('diagnostic_CONSO_KTEP_T');
-		$data['EMIS_CO2_T']        = $this->input->post('diagnostic_EMIS_CO2_T');
-		$data['CONSO_KTEP_PC']        = $this->input->post('diagnostic_CONSO_KTEP_PC');
-		$data['EMIS_CO2_PC']        = $this->input->post('diagnostic_EMIS_CO2_PC');
+		$data['CONSO_KTEP_T']        = $this->input->post('diagnostic_CONSO_KTEP_T') ? $this->input->post('diagnostic_CONSO_KTEP_T') : '0';
+		$data['EMIS_CO2_T']        = $this->input->post('diagnostic_EMIS_CO2_T') ? $this->input->post('diagnostic_EMIS_CO2_T') : '0';
+		$data['CONSO_KTEP_PC']        = $this->input->post('diagnostic_CONSO_KTEP_PC') ? $this->input->post('diagnostic_CONSO_KTEP_PC') : '0';
+		$data['EMIS_CO2_PC']        = $this->input->post('diagnostic_EMIS_CO2_PC') ? $this->input->post('diagnostic_EMIS_CO2_PC') : '0';
 		$data['ID_GES_BILAN_T']        = $this->input->post('diagnostic_ID_GES_BILAN_T');
 		$data['ID_GES_BILAN_PC']        = $this->input->post('diagnostic_ID_GES_BILAN_PC');
 
