@@ -1,8 +1,8 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-$lang['diagnostic']			= 'Volet diagnostic';
-$lang['diagnostic_title']			= 'Volet diagnostic en ';
-$lang['diagnostic_manage']			= 'Suivre les Diagnostics';
-$lang['diagnostic_edit']				= 'Modifier le suivi du volet diagnostic';
+$lang['diagnostic']			= 'Volet "Diagnostic"';
+$lang['diagnostic_title']			= 'Volet "Diagnostic" des PCET de ';
+$lang['diagnostic_manage']			= 'Suivre les diagnostics';
+$lang['diagnostic_edit']				= 'Modifier le suivi du volet "Diagnostic"';
 $lang['diagnostic_true']				= 'Vrai';
 $lang['diagnostic_false']				= 'Faux';
 $lang['diagnostic_create']			= 'Suivre le diagnostic';
