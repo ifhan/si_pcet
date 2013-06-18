@@ -1,7 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 $lang['adaptation']			= 'Volet "Adaptation"';
 $lang['adaptation_manage']			= 'Gérer le Volet "Adaptation"';
-$lang['adaptation_index']	= 'Volet "Adaptation" pour les PCET de ';
+$lang['adaptation_index']	= 'Volet "Adaptation" des PCET de ';
 $lang['adaptation_add']				= 'Ajouter une étude de vulnérabilité';
 $lang['adaptation_edit']				= 'Éditer une étude de vulnérabilité';
 $lang['adaptation_true']				= 'Vrai';
