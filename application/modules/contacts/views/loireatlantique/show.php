@@ -20,7 +20,12 @@
                 <td><?php e($record->NOM_CONTACT) ?></td>
                 <td><?php e($record->PRENOM) ?></td>
                 <td><?php echo mailto($record->MAIL, '<i class="icon-envelope">&nbsp;</i> ' .  $record->MAIL, 'target="_blank"'); ?></td>
-                <td><?php echo anchor(SITE_AREA .'/loireatlantique/structures/', '<i class="icon-step-backward">&nbsp;</i>Retourner au module "Collectivités"'); ?></td>
+                <td>
+                    <?php if ($this->auth->has_permission('Structures.Loireatlantique.Edit')) : ?>
+                        <?php echo anchor(SITE_AREA .'/loireatlantique/structures/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
+                    <?php endif; ?>                    
+                    <?php echo anchor(SITE_AREA .'/loireatlantique/structures/', '<i class="icon-step-backward">&nbsp;</i>Retourner au module "Collectivités"'); ?>
+                </td>
             </tr>
             <?php endforeach; ?>
             <?php else: ?>
