@@ -8,8 +8,8 @@
 					<th class="column-check"><input class="check-all" type="checkbox" /></th>
 					<?php endif;?>
 					<th>Type de collectivit&eacute;</th>
-					<th>Nom de la collectivit&eacute;</th>
-					<th>Identifiant de la collectivit&eacute;</th>
+					<th>Nom</th>
+					<th>Actions</th>
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
@@ -34,9 +34,12 @@
 					<td><?php e($record->NOM_TYPE) ?></td>
 					<td><?php e($record->Nom_Commune) ?><?php e($record->Nom_Departement) ?><?php e($record->NOM_EPCI) ?><?php e($record->nom_pays) ?><?php e($record->nom_pnr) ?></td>
 					<?php if ($this->auth->has_permission('Structures.Loireatlantique.Edit')) : ?>
-						<td><?php echo anchor(SITE_AREA .'/loireatlantique/structures/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_STR) ?></td>
+						<td>
+                                                    <?php echo anchor(SITE_AREA .'/loireatlantique/structures/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
+                                                    <?php echo anchor(SITE_AREA .'/loireatlantique/contacts/show/'. $record->ID_STR, '<i class="icon-envelope">&nbsp;</i>Voir les contacts') ?>
+                                                </td>
 					<?php else: ?>
-						<td><?php e($record->ID_STR) ?></td>
+						<td></td>
 					<?php endif; ?>	
 				</tr>
 			<?php endforeach; ?>
