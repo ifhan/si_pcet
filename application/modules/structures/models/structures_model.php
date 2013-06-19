@@ -9,6 +9,12 @@ class Structures_model extends BF_Model {
 	protected $set_created	= false;
 	protected $set_modified = false;
 
+       /*
+		Method: get_structure_by_id_str()
+
+		Sélectionne l'ensemble des collectivités d'un département par 
+        *       le code du département (pour les afficher dans un index().
+	*/
 	function get_structures_by_departement($departement) {
             $records = $this->structures_model
 		->join('pcet_type_str','pcet_type_str.id = pcet_structure.TYPE_STRUCTURE_id','left')
@@ -26,7 +32,14 @@ class Structures_model extends BF_Model {
 		->find_all_by('DEPARTEMENT_id',$departement);
             return $records;
 	}
-	
+
+        /*
+		Method: get_structure_by_id_str()
+
+		Sélectionne l'ensemble des collectivités d'un département par 
+        *       le code du département (pour les afficher dans une liste 
+        *       déroulante).
+	*/
 	function list_structures_by_departement($departement) {
             $structures = $this->db
                  ->select('pcet_structure.id as id, pcet_structure.ID_STR as ID_STR,
@@ -57,6 +70,11 @@ class Structures_model extends BF_Model {
             return $structures;
         }
         
+        /*
+		Method: get_structure_by_id()
+
+		Sélectionne une collectivité par l'identifiant du PCET.
+	*/
         function get_structure_by_id($ID_PCET) {
             
             $structure = $this->structures_model
@@ -77,6 +95,11 @@ class Structures_model extends BF_Model {
             return $structure;
         }
         
+        /*
+		Method: get_structure_by_id_str()
+
+		Sélectionne une collectivité par son identifiant.
+	*/
         function get_structure_by_id_str($ID_STR) {
             
             $structure = $this->structures_model
