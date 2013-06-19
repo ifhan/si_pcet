@@ -33,14 +33,12 @@
 					<?php endif;?>
 					<td><?php e($record->NOM_TYPE) ?></td>
 					<td><?php e($record->Nom_Commune) ?><?php e($record->Nom_Departement) ?><?php e($record->NOM_EPCI) ?><?php e($record->nom_pays) ?><?php e($record->nom_pnr) ?></td>
-					<?php if ($this->auth->has_permission('Structures.Loireatlantique.Edit')) : ?>
-						<td>
-                                                    <?php echo anchor(SITE_AREA .'/loireatlantique/structures/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
-                                                    <?php echo anchor(SITE_AREA .'/loireatlantique/contacts/show/'. $record->ID_STR, '<i class="icon-envelope">&nbsp;</i>Voir les contacts') ?>
-                                                </td>
-					<?php else: ?>
-						<td></td>
-					<?php endif; ?>	
+					<td>
+                                            <?php if ($this->auth->has_permission('Structures.Loireatlantique.Edit')) : ?>
+                                                <?php echo anchor(SITE_AREA .'/loireatlantique/structures/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
+                                            <?php endif; ?>
+                                            <?php echo anchor(SITE_AREA .'/loireatlantique/contacts/show/'. $record->ID_STR, '<i class="icon-envelope">&nbsp;</i>Voir les contacts') ?>
+                                        </td>
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>
