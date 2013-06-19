@@ -9,8 +9,8 @@
 					<?php endif;?>
 					
 					<th>PCET</th>
-					<th>Presence de gouvernance</th>
-					<th>Les acteurs associes</th>
+					<th>Mise en place d'une gouvernance ?</th>
+					<th>Acteurs associés</th>
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
