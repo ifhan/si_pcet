@@ -29,6 +29,7 @@ $lang['pcet_edit_heading']		= '&Eacute;diter le PCET';
 // Create/Edit Buttons
 $lang['pcet_action_edit']		= 'Enregistrer';
 $lang['pcet_action_create']		= 'Enregistrer';
+$lang['pcet_action_save_continue']    = 'Enregistrer et continuer';
 
 // Activities
 $lang['pcet_act_create_record']		= 'Created record with ID';

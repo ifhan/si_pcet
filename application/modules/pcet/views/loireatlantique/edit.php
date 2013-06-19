@@ -81,8 +81,9 @@ $id = isset($pcet['id']) ? $pcet['id'] : '';
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('pcet_action_edit'); ?>"  />
+                                <!-- ou  <input type="submit" name="save_continue" class="btn btn-success" value="<?php /* echo lang('pcet_action_save_continue');*/ ?>"  />-->                               
 				ou <?php echo anchor(SITE_AREA .'/loireatlantique/pcet', lang('pcet_cancel'), 'class="btn btn-warning"'); ?>
-				
+                                     				
 			<?php if ($this->auth->has_permission('PCET.Loireatlantique.Delete')) : ?>
 				ou
 				<button type="submit" name="delete" class="btn btn-danger" id="delete-me" onclick="return confirm('<?php e(js_escape(lang('pcet_delete_confirm'))); ?>'); ">

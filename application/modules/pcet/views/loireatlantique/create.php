@@ -118,6 +118,7 @@ $id = isset($pcet['id']) ? $pcet['id'] : '';
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('pcet_action_create'); ?>"  />
+                                <!-- ou  <input type="submit" name="save_continue" class="btn btn-success" value="<?php /* echo lang('pcet_action_save_continue');*/ ?>"  />-->                                
 				ou <?php echo anchor(SITE_AREA .'/loireatlantique/pcet', lang('pcet_cancel'), 'class="btn btn-warning"'); ?>
 				
 			</div>
