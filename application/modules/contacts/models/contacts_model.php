@@ -33,4 +33,11 @@ class Contacts_model extends BF_Model {
 			
             return $records;
         }
+        
+        function get_contacts_by_structure($ID_STR) {
+            $records = $this->contacts_model
+                    ->find_all_by('ID_STR', $ID_STR);
+            
+            return $records;
+        }
 }

@@ -160,6 +160,15 @@ class loireatlantique extends Admin_Controller {
 
 	//--------------------------------------------------------------------
 
+        
+	/*
+		Method: show()
+
+		Shows Contacts data.
+	*/
+	public function show($ID_STR) {
+            
+        }        
 
 	//--------------------------------------------------------------------
 	// !PRIVATE METHODS

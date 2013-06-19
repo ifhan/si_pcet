@@ -10897,3 +10897,4849 @@ DEBUG - 2013-06-14 14:35:09 --> Unable to load the requested language file 'prof
 DEBUG - 2013-06-14 14:35:09 --> File loaded: ../application/views/profiler_template.php
 DEBUG - 2013-06-14 14:35:09 --> Final output sent to browser
 DEBUG - 2013-06-14 14:35:09 --> Total execution time: 0.8640
+DEBUG - 2013-06-14 15:32:35 --> Config Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> Hooks Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 15:32:36 --> URI Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> Router Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> Output Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> Security Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> Input Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> CRSF cookie Set
+DEBUG - 2013-06-14 15:32:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 15:32:36 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> Config Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> Loader Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 15:32:36 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 15:32:36 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 15:32:36 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 15:32:36 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> Template library loaded
+DEBUG - 2013-06-14 15:32:36 --> Assets library loaded.
+DEBUG - 2013-06-14 15:32:36 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 15:32:36 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 15:32:36 --> Model Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 15:32:36 --> Model Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> Controller Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> Session Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 15:32:36 --> Session routines successfully run
+DEBUG - 2013-06-14 15:32:36 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 15:32:36 --> Model Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 15:32:36 --> Model Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 15:32:36 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 15:32:36 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 15:32:36 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 15:32:36 --> XSS Filtering completed
+DEBUG - 2013-06-14 15:32:36 --> Auth class initialized.
+DEBUG - 2013-06-14 15:32:36 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 15:32:36 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 15:32:36 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 15:32:36 --> Model Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 15:32:36 --> Model Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> Forensics Console library loaded
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 15:32:36 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 15:32:36 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 15:32:36 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 15:32:36 --> Model Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 15:32:36 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 15:32:36 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 15:32:36 --> User Agent Class Initialized
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/edit.php
+DEBUG - 2013-06-14 15:32:36 --> Helper loaded: file_helper
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 15:32:36 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 15:32:36 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 15:32:36 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 15:32:36 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 15:32:36 --> Final output sent to browser
+DEBUG - 2013-06-14 15:32:36 --> Total execution time: 0.8060
+DEBUG - 2013-06-14 15:32:39 --> Config Class Initialized
+DEBUG - 2013-06-14 15:32:39 --> Hooks Class Initialized
+DEBUG - 2013-06-14 15:32:39 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 15:32:39 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 15:32:39 --> URI Class Initialized
+DEBUG - 2013-06-14 15:32:39 --> Router Class Initialized
+DEBUG - 2013-06-14 15:32:39 --> Output Class Initialized
+DEBUG - 2013-06-14 15:32:39 --> Security Class Initialized
+DEBUG - 2013-06-14 15:32:39 --> Input Class Initialized
+DEBUG - 2013-06-14 15:32:39 --> CRSF cookie Set
+DEBUG - 2013-06-14 15:32:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 15:32:39 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 15:32:40 --> Config Class Initialized
+DEBUG - 2013-06-14 15:32:40 --> Loader Class Initialized
+DEBUG - 2013-06-14 15:32:40 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 15:32:40 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 15:32:40 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 15:32:40 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 15:32:40 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 15:32:40 --> Template library loaded
+DEBUG - 2013-06-14 15:32:40 --> Assets library loaded.
+DEBUG - 2013-06-14 15:32:40 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 15:32:40 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 15:32:40 --> Model Class Initialized
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 15:32:40 --> Model Class Initialized
+DEBUG - 2013-06-14 15:32:40 --> Controller Class Initialized
+DEBUG - 2013-06-14 15:32:40 --> Session Class Initialized
+DEBUG - 2013-06-14 15:32:40 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 15:32:40 --> Session routines successfully run
+DEBUG - 2013-06-14 15:32:40 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 15:32:40 --> Model Class Initialized
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 15:32:40 --> Model Class Initialized
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 15:32:40 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 15:32:40 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 15:32:40 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 15:32:40 --> XSS Filtering completed
+DEBUG - 2013-06-14 15:32:40 --> Auth class initialized.
+DEBUG - 2013-06-14 15:32:40 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 15:32:40 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 15:32:40 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 15:32:40 --> Model Class Initialized
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 15:32:40 --> Model Class Initialized
+DEBUG - 2013-06-14 15:32:40 --> Forensics Console library loaded
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 15:32:40 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 15:32:40 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 15:32:40 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 15:32:40 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 15:32:40 --> Model Class Initialized
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 15:32:40 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 15:32:40 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 15:32:40 --> User Agent Class Initialized
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 15:32:40 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 15:32:40 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 15:32:40 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 15:32:40 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 15:32:40 --> Final output sent to browser
+DEBUG - 2013-06-14 15:32:40 --> Total execution time: 0.8000
+DEBUG - 2013-06-14 15:35:30 --> Config Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> Hooks Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 15:35:30 --> URI Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> Router Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> Output Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> Security Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> Input Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> CRSF cookie Set
+DEBUG - 2013-06-14 15:35:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 15:35:30 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> Config Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> Loader Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 15:35:30 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 15:35:30 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 15:35:30 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 15:35:30 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> Template library loaded
+DEBUG - 2013-06-14 15:35:30 --> Assets library loaded.
+DEBUG - 2013-06-14 15:35:30 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 15:35:30 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 15:35:30 --> Model Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 15:35:30 --> Model Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> Controller Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> Session Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 15:35:30 --> Session routines successfully run
+DEBUG - 2013-06-14 15:35:30 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 15:35:30 --> Model Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 15:35:30 --> Model Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 15:35:30 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 15:35:30 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 15:35:30 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 15:35:30 --> XSS Filtering completed
+DEBUG - 2013-06-14 15:35:30 --> Auth class initialized.
+DEBUG - 2013-06-14 15:35:30 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 15:35:30 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 15:35:30 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 15:35:30 --> Model Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 15:35:30 --> Model Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> Forensics Console library loaded
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 15:35:30 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 15:35:30 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 15:35:30 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 15:35:30 --> Model Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 15:35:30 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 15:35:30 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 15:35:30 --> User Agent Class Initialized
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 15:35:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 15:35:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 15:35:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 15:35:31 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 15:35:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 15:35:31 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 15:35:31 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 15:35:31 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 15:35:31 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 15:35:31 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 15:35:31 --> Final output sent to browser
+DEBUG - 2013-06-14 15:35:31 --> Total execution time: 0.7780
+DEBUG - 2013-06-14 15:42:21 --> Config Class Initialized
+DEBUG - 2013-06-14 15:42:21 --> Hooks Class Initialized
+DEBUG - 2013-06-14 15:42:21 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 15:42:21 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 15:42:21 --> URI Class Initialized
+DEBUG - 2013-06-14 15:42:21 --> Router Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> Output Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> Security Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> Input Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> CRSF cookie Set
+DEBUG - 2013-06-14 15:42:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 15:42:22 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> Config Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> Loader Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 15:42:22 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 15:42:22 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 15:42:22 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 15:42:22 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> Template library loaded
+DEBUG - 2013-06-14 15:42:22 --> Assets library loaded.
+DEBUG - 2013-06-14 15:42:22 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 15:42:22 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 15:42:22 --> Model Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 15:42:22 --> Model Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> Controller Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> Session Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 15:42:22 --> Session routines successfully run
+DEBUG - 2013-06-14 15:42:22 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 15:42:22 --> Model Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 15:42:22 --> Model Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 15:42:22 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 15:42:22 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 15:42:22 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 15:42:22 --> XSS Filtering completed
+DEBUG - 2013-06-14 15:42:22 --> Auth class initialized.
+DEBUG - 2013-06-14 15:42:22 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 15:42:22 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 15:42:22 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 15:42:22 --> Model Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 15:42:22 --> Model Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> Forensics Console library loaded
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 15:42:22 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 15:42:22 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 15:42:22 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 15:42:22 --> Model Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 15:42:22 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 15:42:22 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 15:42:22 --> User Agent Class Initialized
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+ERROR - 2013-06-14 15:42:22 --> Severity: Notice  --> Undefined property: stdClass::$NOM_TYPE C:\xampp\htdocs\si_pcet\application\modules\avis\views\loireatlantique\index.php 44
+ERROR - 2013-06-14 15:42:22 --> Severity: Notice  --> Undefined property: stdClass::$Nom_Commune C:\xampp\htdocs\si_pcet\application\modules\avis\views\loireatlantique\index.php 44
+ERROR - 2013-06-14 15:42:22 --> Severity: Notice  --> Undefined property: stdClass::$Nom_Departement C:\xampp\htdocs\si_pcet\application\modules\avis\views\loireatlantique\index.php 44
+ERROR - 2013-06-14 15:42:22 --> Severity: Notice  --> Undefined property: stdClass::$NOM_EPCI C:\xampp\htdocs\si_pcet\application\modules\avis\views\loireatlantique\index.php 44
+ERROR - 2013-06-14 15:42:22 --> Severity: Notice  --> Undefined property: stdClass::$nom_pays C:\xampp\htdocs\si_pcet\application\modules\avis\views\loireatlantique\index.php 44
+ERROR - 2013-06-14 15:42:22 --> Severity: Notice  --> Undefined property: stdClass::$nom_pnr C:\xampp\htdocs\si_pcet\application\modules\avis\views\loireatlantique\index.php 44
+ERROR - 2013-06-14 15:42:22 --> Severity: Notice  --> Undefined property: stdClass::$NOM_TYPE C:\xampp\htdocs\si_pcet\application\modules\avis\views\loireatlantique\index.php 44
+ERROR - 2013-06-14 15:42:22 --> Severity: Notice  --> Undefined property: stdClass::$Nom_Commune C:\xampp\htdocs\si_pcet\application\modules\avis\views\loireatlantique\index.php 44
+ERROR - 2013-06-14 15:42:22 --> Severity: Notice  --> Undefined property: stdClass::$Nom_Departement C:\xampp\htdocs\si_pcet\application\modules\avis\views\loireatlantique\index.php 44
+ERROR - 2013-06-14 15:42:22 --> Severity: Notice  --> Undefined property: stdClass::$NOM_EPCI C:\xampp\htdocs\si_pcet\application\modules\avis\views\loireatlantique\index.php 44
+ERROR - 2013-06-14 15:42:22 --> Severity: Notice  --> Undefined property: stdClass::$nom_pays C:\xampp\htdocs\si_pcet\application\modules\avis\views\loireatlantique\index.php 44
+ERROR - 2013-06-14 15:42:22 --> Severity: Notice  --> Undefined property: stdClass::$nom_pnr C:\xampp\htdocs\si_pcet\application\modules\avis\views\loireatlantique\index.php 44
+DEBUG - 2013-06-14 15:42:22 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 15:42:23 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 15:42:23 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 15:42:23 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 15:42:23 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 15:42:23 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 15:42:23 --> Final output sent to browser
+DEBUG - 2013-06-14 15:42:23 --> Total execution time: 1.0831
+DEBUG - 2013-06-14 15:43:25 --> Config Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> Hooks Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 15:43:25 --> URI Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> Router Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> Output Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> Security Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> Input Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> CRSF cookie Set
+DEBUG - 2013-06-14 15:43:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 15:43:25 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> Config Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> Loader Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 15:43:25 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 15:43:25 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 15:43:25 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 15:43:25 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> Template library loaded
+DEBUG - 2013-06-14 15:43:25 --> Assets library loaded.
+DEBUG - 2013-06-14 15:43:25 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 15:43:25 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 15:43:25 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 15:43:25 --> Model Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 15:43:25 --> Model Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> Controller Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> Session Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 15:43:25 --> Session routines successfully run
+DEBUG - 2013-06-14 15:43:25 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 15:43:25 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 15:43:25 --> Model Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 15:43:25 --> Model Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 15:43:25 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 15:43:25 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 15:43:25 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 15:43:25 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 15:43:25 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 15:43:25 --> XSS Filtering completed
+DEBUG - 2013-06-14 15:43:25 --> Auth class initialized.
+DEBUG - 2013-06-14 15:43:25 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 15:43:25 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 15:43:25 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 15:43:25 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 15:43:25 --> Model Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 15:43:25 --> Model Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> Forensics Console library loaded
+DEBUG - 2013-06-14 15:43:25 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 15:43:25 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 15:43:25 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 15:43:25 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 15:43:25 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 15:43:25 --> Model Class Initialized
+DEBUG - 2013-06-14 15:43:25 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 15:43:25 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 15:43:25 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 15:43:25 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 15:43:26 --> User Agent Class Initialized
+DEBUG - 2013-06-14 15:43:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 15:43:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 15:43:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 15:43:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 15:43:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 15:43:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 15:43:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 15:43:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 15:43:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 15:43:26 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 15:43:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 15:43:26 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 15:43:26 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 15:43:26 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 15:43:26 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 15:43:26 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 15:43:26 --> Final output sent to browser
+DEBUG - 2013-06-14 15:43:26 --> Total execution time: 0.8150
+DEBUG - 2013-06-14 15:44:01 --> Config Class Initialized
+DEBUG - 2013-06-14 15:44:01 --> Hooks Class Initialized
+DEBUG - 2013-06-14 15:44:01 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 15:44:01 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 15:44:01 --> URI Class Initialized
+DEBUG - 2013-06-14 15:44:01 --> Router Class Initialized
+DEBUG - 2013-06-14 15:44:01 --> Output Class Initialized
+DEBUG - 2013-06-14 15:44:01 --> Security Class Initialized
+DEBUG - 2013-06-14 15:44:01 --> Input Class Initialized
+DEBUG - 2013-06-14 15:44:01 --> CRSF cookie Set
+DEBUG - 2013-06-14 15:44:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 15:44:01 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 15:44:01 --> Config Class Initialized
+DEBUG - 2013-06-14 15:44:01 --> Loader Class Initialized
+DEBUG - 2013-06-14 15:44:01 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 15:44:01 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 15:44:01 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 15:44:01 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 15:44:02 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 15:44:02 --> Template library loaded
+DEBUG - 2013-06-14 15:44:02 --> Assets library loaded.
+DEBUG - 2013-06-14 15:44:02 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 15:44:02 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 15:44:02 --> Model Class Initialized
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 15:44:02 --> Model Class Initialized
+DEBUG - 2013-06-14 15:44:02 --> Controller Class Initialized
+DEBUG - 2013-06-14 15:44:02 --> Session Class Initialized
+DEBUG - 2013-06-14 15:44:02 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 15:44:02 --> Session routines successfully run
+DEBUG - 2013-06-14 15:44:02 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 15:44:02 --> Model Class Initialized
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 15:44:02 --> Model Class Initialized
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 15:44:02 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 15:44:02 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 15:44:02 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 15:44:02 --> XSS Filtering completed
+DEBUG - 2013-06-14 15:44:02 --> Auth class initialized.
+DEBUG - 2013-06-14 15:44:02 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 15:44:02 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 15:44:02 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 15:44:02 --> Model Class Initialized
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 15:44:02 --> Model Class Initialized
+DEBUG - 2013-06-14 15:44:02 --> Forensics Console library loaded
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 15:44:02 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 15:44:02 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 15:44:02 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 15:44:02 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 15:44:02 --> Model Class Initialized
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 15:44:02 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 15:44:02 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 15:44:02 --> User Agent Class Initialized
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 15:44:02 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 15:44:02 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 15:44:02 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 15:44:02 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 15:44:02 --> Final output sent to browser
+DEBUG - 2013-06-14 15:44:02 --> Total execution time: 0.8300
+DEBUG - 2013-06-14 15:45:11 --> Config Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> Hooks Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 15:45:11 --> URI Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> Router Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> Output Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> Security Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> Input Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> CRSF cookie Set
+DEBUG - 2013-06-14 15:45:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 15:45:11 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> Config Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> Loader Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 15:45:11 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 15:45:11 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 15:45:11 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 15:45:11 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> Template library loaded
+DEBUG - 2013-06-14 15:45:11 --> Assets library loaded.
+DEBUG - 2013-06-14 15:45:11 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 15:45:11 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 15:45:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 15:45:11 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 15:45:11 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> Controller Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> Session Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 15:45:11 --> Session routines successfully run
+DEBUG - 2013-06-14 15:45:11 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 15:45:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 15:45:11 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 15:45:11 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 15:45:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 15:45:11 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 15:45:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 15:45:11 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 15:45:11 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 15:45:11 --> XSS Filtering completed
+DEBUG - 2013-06-14 15:45:11 --> Auth class initialized.
+DEBUG - 2013-06-14 15:45:11 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 15:45:11 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 15:45:11 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 15:45:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 15:45:11 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 15:45:11 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:12 --> Forensics Console library loaded
+DEBUG - 2013-06-14 15:45:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 15:45:12 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 15:45:12 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 15:45:12 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 15:45:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 15:45:12 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 15:45:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/models/adaptation_model.php
+DEBUG - 2013-06-14 15:45:12 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 15:45:12 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/structures/models/structures_model.php
+DEBUG - 2013-06-14 15:45:12 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/english/adaptation_lang.php
+DEBUG - 2013-06-14 15:45:12 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/english/adaptation_lang
+DEBUG - 2013-06-14 15:45:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/french/adaptation_lang.php
+DEBUG - 2013-06-14 15:45:12 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/french/adaptation_lang
+DEBUG - 2013-06-14 15:45:22 --> Config Class Initialized
+DEBUG - 2013-06-14 15:45:22 --> Hooks Class Initialized
+DEBUG - 2013-06-14 15:45:22 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 15:45:22 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 15:45:22 --> URI Class Initialized
+DEBUG - 2013-06-14 15:45:22 --> Router Class Initialized
+DEBUG - 2013-06-14 15:45:22 --> Output Class Initialized
+DEBUG - 2013-06-14 15:45:22 --> Security Class Initialized
+DEBUG - 2013-06-14 15:45:22 --> Input Class Initialized
+DEBUG - 2013-06-14 15:45:22 --> CRSF cookie Set
+DEBUG - 2013-06-14 15:45:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 15:45:22 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 15:45:22 --> Config Class Initialized
+DEBUG - 2013-06-14 15:45:22 --> Loader Class Initialized
+DEBUG - 2013-06-14 15:45:22 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 15:45:22 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 15:45:22 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 15:45:22 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 15:45:22 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 15:45:22 --> Template library loaded
+DEBUG - 2013-06-14 15:45:22 --> Assets library loaded.
+DEBUG - 2013-06-14 15:45:23 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 15:45:23 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 15:45:23 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 15:45:23 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:23 --> Controller Class Initialized
+DEBUG - 2013-06-14 15:45:23 --> Session Class Initialized
+DEBUG - 2013-06-14 15:45:23 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 15:45:23 --> Session routines successfully run
+DEBUG - 2013-06-14 15:45:23 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 15:45:23 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 15:45:23 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 15:45:23 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 15:45:23 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 15:45:23 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 15:45:23 --> XSS Filtering completed
+DEBUG - 2013-06-14 15:45:23 --> Auth class initialized.
+DEBUG - 2013-06-14 15:45:23 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 15:45:23 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 15:45:23 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 15:45:23 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 15:45:23 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:23 --> Forensics Console library loaded
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 15:45:23 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 15:45:23 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 15:45:23 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 15:45:23 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/models/adaptation_model.php
+DEBUG - 2013-06-14 15:45:23 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 15:45:23 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/structures/models/structures_model.php
+DEBUG - 2013-06-14 15:45:23 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/english/adaptation_lang.php
+DEBUG - 2013-06-14 15:45:23 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/english/adaptation_lang
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/french/adaptation_lang.php
+DEBUG - 2013-06-14 15:45:23 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/french/adaptation_lang
+DEBUG - 2013-06-14 15:45:23 --> User Agent Class Initialized
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/views/loireatlantique/index.php
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 15:45:23 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 15:45:23 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 15:45:23 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 15:45:23 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 15:45:23 --> Final output sent to browser
+DEBUG - 2013-06-14 15:45:23 --> Total execution time: 0.9151
+DEBUG - 2013-06-14 15:45:25 --> Config Class Initialized
+DEBUG - 2013-06-14 15:45:25 --> Hooks Class Initialized
+DEBUG - 2013-06-14 15:45:25 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 15:45:25 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 15:45:25 --> URI Class Initialized
+DEBUG - 2013-06-14 15:45:25 --> Router Class Initialized
+DEBUG - 2013-06-14 15:45:25 --> Output Class Initialized
+DEBUG - 2013-06-14 15:45:25 --> Security Class Initialized
+DEBUG - 2013-06-14 15:45:25 --> Input Class Initialized
+DEBUG - 2013-06-14 15:45:25 --> CRSF cookie Set
+DEBUG - 2013-06-14 15:45:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 15:45:25 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 15:45:25 --> Config Class Initialized
+DEBUG - 2013-06-14 15:45:25 --> Loader Class Initialized
+DEBUG - 2013-06-14 15:45:26 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 15:45:26 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 15:45:26 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 15:45:26 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 15:45:26 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 15:45:26 --> Template library loaded
+DEBUG - 2013-06-14 15:45:26 --> Assets library loaded.
+DEBUG - 2013-06-14 15:45:26 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 15:45:26 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 15:45:26 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 15:45:26 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:26 --> Controller Class Initialized
+DEBUG - 2013-06-14 15:45:26 --> Session Class Initialized
+DEBUG - 2013-06-14 15:45:26 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 15:45:26 --> Session routines successfully run
+DEBUG - 2013-06-14 15:45:26 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 15:45:26 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 15:45:26 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 15:45:26 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 15:45:26 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 15:45:26 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 15:45:26 --> XSS Filtering completed
+DEBUG - 2013-06-14 15:45:26 --> Auth class initialized.
+DEBUG - 2013-06-14 15:45:26 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 15:45:26 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 15:45:26 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 15:45:26 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 15:45:26 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:26 --> Forensics Console library loaded
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 15:45:26 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 15:45:26 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 15:45:26 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 15:45:26 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/models/adaptation_model.php
+DEBUG - 2013-06-14 15:45:26 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 15:45:26 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/structures/models/structures_model.php
+DEBUG - 2013-06-14 15:45:26 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/english/adaptation_lang.php
+DEBUG - 2013-06-14 15:45:26 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/english/adaptation_lang
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/french/adaptation_lang.php
+DEBUG - 2013-06-14 15:45:26 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/french/adaptation_lang
+DEBUG - 2013-06-14 15:45:26 --> User Agent Class Initialized
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/views/loireatlantique/edit.php
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 15:45:26 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 15:45:26 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 15:45:26 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 15:45:26 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 15:45:26 --> Final output sent to browser
+DEBUG - 2013-06-14 15:45:26 --> Total execution time: 0.9301
+DEBUG - 2013-06-14 15:45:28 --> Config Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> Hooks Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 15:45:28 --> URI Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> Router Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> Output Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> Security Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> Input Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> CRSF cookie Set
+DEBUG - 2013-06-14 15:45:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 15:45:28 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> Config Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> Loader Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 15:45:28 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 15:45:28 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 15:45:28 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 15:45:28 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> Template library loaded
+DEBUG - 2013-06-14 15:45:28 --> Assets library loaded.
+DEBUG - 2013-06-14 15:45:28 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 15:45:28 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 15:45:28 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 15:45:28 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 15:45:28 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> Controller Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> Session Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 15:45:28 --> Session routines successfully run
+DEBUG - 2013-06-14 15:45:28 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 15:45:28 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 15:45:28 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 15:45:28 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:28 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 15:45:28 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 15:45:28 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 15:45:28 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 15:45:28 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 15:45:28 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 15:45:28 --> XSS Filtering completed
+DEBUG - 2013-06-14 15:45:28 --> Auth class initialized.
+DEBUG - 2013-06-14 15:45:28 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 15:45:28 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 15:45:28 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 15:45:29 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 15:45:29 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:29 --> Forensics Console library loaded
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 15:45:29 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 15:45:29 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 15:45:29 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 15:45:29 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/models/adaptation_model.php
+DEBUG - 2013-06-14 15:45:29 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 15:45:29 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/structures/models/structures_model.php
+DEBUG - 2013-06-14 15:45:29 --> Model Class Initialized
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/english/adaptation_lang.php
+DEBUG - 2013-06-14 15:45:29 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/english/adaptation_lang
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/french/adaptation_lang.php
+DEBUG - 2013-06-14 15:45:29 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/french/adaptation_lang
+DEBUG - 2013-06-14 15:45:29 --> User Agent Class Initialized
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/views/loireatlantique/index.php
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 15:45:29 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 15:45:29 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 15:45:29 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 15:45:29 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 15:45:29 --> Final output sent to browser
+DEBUG - 2013-06-14 15:45:29 --> Total execution time: 0.9191
+DEBUG - 2013-06-14 15:46:42 --> Config Class Initialized
+DEBUG - 2013-06-14 15:46:42 --> Hooks Class Initialized
+DEBUG - 2013-06-14 15:46:42 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 15:46:42 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 15:46:42 --> URI Class Initialized
+DEBUG - 2013-06-14 15:46:42 --> Router Class Initialized
+DEBUG - 2013-06-14 15:46:42 --> Output Class Initialized
+DEBUG - 2013-06-14 15:46:42 --> Security Class Initialized
+DEBUG - 2013-06-14 15:46:42 --> Input Class Initialized
+DEBUG - 2013-06-14 15:46:42 --> CRSF cookie Set
+DEBUG - 2013-06-14 15:46:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 15:46:42 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 15:46:42 --> Config Class Initialized
+DEBUG - 2013-06-14 15:46:42 --> Loader Class Initialized
+DEBUG - 2013-06-14 15:46:42 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 15:46:42 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 15:46:42 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 15:46:42 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 15:46:42 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 15:46:42 --> Template library loaded
+DEBUG - 2013-06-14 15:46:42 --> Assets library loaded.
+DEBUG - 2013-06-14 15:46:42 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 15:46:42 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 15:46:42 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 15:46:42 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:42 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 15:46:42 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:43 --> Controller Class Initialized
+DEBUG - 2013-06-14 15:46:43 --> Session Class Initialized
+DEBUG - 2013-06-14 15:46:43 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 15:46:43 --> Session routines successfully run
+DEBUG - 2013-06-14 15:46:43 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 15:46:43 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 15:46:43 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 15:46:43 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 15:46:43 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 15:46:43 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 15:46:43 --> XSS Filtering completed
+DEBUG - 2013-06-14 15:46:43 --> Auth class initialized.
+DEBUG - 2013-06-14 15:46:43 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 15:46:43 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 15:46:43 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 15:46:43 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 15:46:43 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:43 --> Forensics Console library loaded
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 15:46:43 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 15:46:43 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 15:46:43 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 15:46:43 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/structures/models/structures_model.php
+DEBUG - 2013-06-14 15:46:43 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/types/models/types_model.php
+DEBUG - 2013-06-14 15:46:43 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/models/communes_model.php
+DEBUG - 2013-06-14 15:46:43 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/models/departements_model.php
+DEBUG - 2013-06-14 15:46:43 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/models/epci_model.php
+DEBUG - 2013-06-14 15:46:43 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/models/pays_model.php
+DEBUG - 2013-06-14 15:46:43 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/models/pnr_model.php
+DEBUG - 2013-06-14 15:46:43 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/structures/language/english/structures_lang.php
+DEBUG - 2013-06-14 15:46:43 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/structures/language/english/structures_lang
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/structures/language/french/structures_lang.php
+DEBUG - 2013-06-14 15:46:43 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/structures/language/french/structures_lang
+DEBUG - 2013-06-14 15:46:43 --> User Agent Class Initialized
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/structures/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/structures/views/loireatlantique/index.php
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 15:46:43 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 15:46:43 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 15:46:44 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 15:46:44 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 15:46:44 --> Final output sent to browser
+DEBUG - 2013-06-14 15:46:44 --> Total execution time: 1.2461
+DEBUG - 2013-06-14 15:46:46 --> Config Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> Hooks Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 15:46:46 --> URI Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> Router Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> Output Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> Security Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> Input Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> CRSF cookie Set
+DEBUG - 2013-06-14 15:46:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 15:46:46 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> Config Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> Loader Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 15:46:46 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 15:46:46 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 15:46:46 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 15:46:46 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> Template library loaded
+DEBUG - 2013-06-14 15:46:46 --> Assets library loaded.
+DEBUG - 2013-06-14 15:46:46 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 15:46:46 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 15:46:46 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 15:46:46 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> Controller Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> Session Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 15:46:46 --> Session routines successfully run
+DEBUG - 2013-06-14 15:46:46 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 15:46:46 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 15:46:46 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 15:46:46 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 15:46:46 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 15:46:46 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 15:46:46 --> XSS Filtering completed
+DEBUG - 2013-06-14 15:46:46 --> Auth class initialized.
+DEBUG - 2013-06-14 15:46:46 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 15:46:46 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 15:46:46 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 15:46:46 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 15:46:46 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> Forensics Console library loaded
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 15:46:46 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 15:46:46 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 15:46:46 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 15:46:46 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/structures/models/structures_model.php
+DEBUG - 2013-06-14 15:46:46 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/phases/models/phases_model.php
+DEBUG - 2013-06-14 15:46:46 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/types/models/types_model.php
+DEBUG - 2013-06-14 15:46:46 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/models/communes_model.php
+DEBUG - 2013-06-14 15:46:46 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/models/departements_model.php
+DEBUG - 2013-06-14 15:46:46 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/models/epci_model.php
+DEBUG - 2013-06-14 15:46:46 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/models/pays_model.php
+DEBUG - 2013-06-14 15:46:46 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/models/pnr_model.php
+DEBUG - 2013-06-14 15:46:46 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/language/english/pcet_lang.php
+DEBUG - 2013-06-14 15:46:46 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/language/english/pcet_lang
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/language/french/pcet_lang.php
+DEBUG - 2013-06-14 15:46:46 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/language/french/pcet_lang
+DEBUG - 2013-06-14 15:46:46 --> User Agent Class Initialized
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 15:46:46 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 15:46:47 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 15:46:47 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 15:46:47 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 15:46:47 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/views/loireatlantique/index.php
+DEBUG - 2013-06-14 15:46:47 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 15:46:47 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 15:46:47 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 15:46:47 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 15:46:47 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 15:46:47 --> Final output sent to browser
+DEBUG - 2013-06-14 15:46:47 --> Total execution time: 0.9511
+DEBUG - 2013-06-14 15:46:49 --> Config Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> Hooks Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 15:46:49 --> URI Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> Router Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> Output Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> Security Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> Input Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> CRSF cookie Set
+DEBUG - 2013-06-14 15:46:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 15:46:49 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> Config Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> Loader Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 15:46:49 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 15:46:49 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 15:46:49 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 15:46:49 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> Template library loaded
+DEBUG - 2013-06-14 15:46:49 --> Assets library loaded.
+DEBUG - 2013-06-14 15:46:49 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 15:46:49 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 15:46:49 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 15:46:49 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> Controller Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> Session Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 15:46:49 --> Session routines successfully run
+DEBUG - 2013-06-14 15:46:49 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 15:46:49 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 15:46:49 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 15:46:49 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 15:46:49 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 15:46:49 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 15:46:49 --> XSS Filtering completed
+DEBUG - 2013-06-14 15:46:49 --> Auth class initialized.
+DEBUG - 2013-06-14 15:46:49 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 15:46:49 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 15:46:49 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 15:46:49 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 15:46:49 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> Forensics Console library loaded
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 15:46:49 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 15:46:49 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 15:46:49 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/models/engagement_model.php
+DEBUG - 2013-06-14 15:46:49 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 15:46:49 --> Model Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/language/english/engagement_lang.php
+DEBUG - 2013-06-14 15:46:49 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/language/english/engagement_lang
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/language/french/engagement_lang.php
+DEBUG - 2013-06-14 15:46:49 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/language/french/engagement_lang
+DEBUG - 2013-06-14 15:46:49 --> User Agent Class Initialized
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/views/loireatlantique/index.php
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 15:46:49 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 15:46:49 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 15:46:49 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 15:46:49 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 15:46:49 --> Final output sent to browser
+DEBUG - 2013-06-14 15:46:49 --> Total execution time: 0.8000
+DEBUG - 2013-06-14 15:58:27 --> Config Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> Hooks Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 15:58:27 --> URI Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> Router Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> Output Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> Security Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> Input Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> CRSF cookie Set
+DEBUG - 2013-06-14 15:58:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 15:58:27 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> Config Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> Loader Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 15:58:27 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 15:58:27 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 15:58:27 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 15:58:27 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> Template library loaded
+DEBUG - 2013-06-14 15:58:27 --> Assets library loaded.
+DEBUG - 2013-06-14 15:58:27 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 15:58:27 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 15:58:27 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 15:58:27 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> Controller Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> Session Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 15:58:27 --> Session routines successfully run
+DEBUG - 2013-06-14 15:58:27 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 15:58:27 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 15:58:27 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 15:58:27 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 15:58:27 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 15:58:27 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 15:58:27 --> XSS Filtering completed
+DEBUG - 2013-06-14 15:58:27 --> Auth class initialized.
+DEBUG - 2013-06-14 15:58:27 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 15:58:27 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 15:58:27 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 15:58:27 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 15:58:27 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> Forensics Console library loaded
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 15:58:27 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 15:58:27 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 15:58:27 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 15:58:27 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 15:58:27 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 15:58:27 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 15:58:27 --> User Agent Class Initialized
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 15:58:27 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 15:58:27 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 15:58:27 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 15:58:27 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 15:58:27 --> Final output sent to browser
+DEBUG - 2013-06-14 15:58:27 --> Total execution time: 0.8080
+DEBUG - 2013-06-14 15:58:36 --> Config Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> Hooks Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 15:58:36 --> URI Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> Router Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> Output Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> Security Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> Input Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> CRSF cookie Set
+DEBUG - 2013-06-14 15:58:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 15:58:36 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> Config Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> Loader Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 15:58:36 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 15:58:36 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 15:58:36 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 15:58:36 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> Template library loaded
+DEBUG - 2013-06-14 15:58:36 --> Assets library loaded.
+DEBUG - 2013-06-14 15:58:36 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 15:58:36 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 15:58:36 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 15:58:36 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> Controller Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> Session Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 15:58:36 --> Session routines successfully run
+DEBUG - 2013-06-14 15:58:36 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 15:58:36 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 15:58:36 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 15:58:36 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 15:58:36 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 15:58:36 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 15:58:36 --> XSS Filtering completed
+DEBUG - 2013-06-14 15:58:36 --> Auth class initialized.
+DEBUG - 2013-06-14 15:58:36 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 15:58:36 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 15:58:36 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 15:58:36 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 15:58:36 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> Forensics Console library loaded
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 15:58:36 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 15:58:36 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 15:58:36 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 15:58:36 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 15:58:36 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 15:58:36 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 15:58:36 --> User Agent Class Initialized
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 15:58:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/create.php
+DEBUG - 2013-06-14 15:58:37 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 15:58:37 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 15:58:37 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 15:58:37 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 15:58:37 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 15:58:37 --> Final output sent to browser
+DEBUG - 2013-06-14 15:58:37 --> Total execution time: 0.8841
+DEBUG - 2013-06-14 15:58:39 --> Config Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> Hooks Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 15:58:39 --> URI Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> Router Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> Output Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> Security Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> Input Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> CRSF cookie Set
+DEBUG - 2013-06-14 15:58:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 15:58:39 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> Config Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> Loader Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 15:58:39 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 15:58:39 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 15:58:39 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 15:58:39 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> Template library loaded
+DEBUG - 2013-06-14 15:58:39 --> Assets library loaded.
+DEBUG - 2013-06-14 15:58:39 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 15:58:39 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 15:58:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 15:58:39 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 15:58:39 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> Controller Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> Session Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 15:58:39 --> Session routines successfully run
+DEBUG - 2013-06-14 15:58:39 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 15:58:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 15:58:39 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 15:58:39 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 15:58:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 15:58:39 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 15:58:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 15:58:39 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 15:58:39 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 15:58:39 --> XSS Filtering completed
+DEBUG - 2013-06-14 15:58:39 --> Auth class initialized.
+DEBUG - 2013-06-14 15:58:39 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 15:58:39 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 15:58:39 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 15:58:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 15:58:39 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 15:58:39 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> Forensics Console library loaded
+DEBUG - 2013-06-14 15:58:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 15:58:39 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 15:58:39 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 15:58:39 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 15:58:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 15:58:39 --> Model Class Initialized
+DEBUG - 2013-06-14 15:58:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 15:58:39 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 15:58:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 15:58:39 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 15:58:40 --> User Agent Class Initialized
+DEBUG - 2013-06-14 15:58:40 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 15:58:40 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 15:58:40 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 15:58:40 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 15:58:40 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 15:58:40 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 15:58:40 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 15:58:40 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 15:58:40 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 15:58:40 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 15:58:40 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 15:58:40 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 15:58:40 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 15:58:40 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 15:58:40 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 15:58:40 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 15:58:40 --> Final output sent to browser
+DEBUG - 2013-06-14 15:58:40 --> Total execution time: 0.7620
+DEBUG - 2013-06-14 16:00:30 --> Config Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:00:30 --> URI Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> Router Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> Output Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> Security Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> Input Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:00:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:00:30 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> Config Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:00:30 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:00:30 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:00:30 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:00:30 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> Template library loaded
+DEBUG - 2013-06-14 16:00:30 --> Assets library loaded.
+DEBUG - 2013-06-14 16:00:30 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:00:30 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:00:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:00:30 --> Model Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:00:30 --> Model Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> Session Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:00:30 --> Session routines successfully run
+DEBUG - 2013-06-14 16:00:30 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:00:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:00:30 --> Model Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:00:30 --> Model Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:00:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:00:30 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:00:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:00:30 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:00:30 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:00:30 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:00:30 --> Auth class initialized.
+DEBUG - 2013-06-14 16:00:30 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:00:30 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:00:30 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:00:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:00:30 --> Model Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:00:30 --> Model Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:00:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:00:30 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:00:30 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:00:30 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:00:30 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:00:30 --> Model Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:00:30 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:00:30 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:00:30 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:00:30 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:00:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:00:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:00:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:00:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:00:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:00:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:00:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:00:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:00:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:00:31 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:00:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 16:00:31 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:00:31 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:00:31 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:00:31 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:00:31 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:00:31 --> Final output sent to browser
+DEBUG - 2013-06-14 16:00:31 --> Total execution time: 0.8020
+DEBUG - 2013-06-14 16:00:33 --> Config Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:00:33 --> URI Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> Router Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> Output Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> Security Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> Input Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:00:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:00:33 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> Config Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:00:33 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:00:33 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:00:33 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:00:33 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> Template library loaded
+DEBUG - 2013-06-14 16:00:33 --> Assets library loaded.
+DEBUG - 2013-06-14 16:00:33 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:00:33 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:00:33 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:00:33 --> Model Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:00:33 --> Model Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> Session Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:00:33 --> Session routines successfully run
+DEBUG - 2013-06-14 16:00:33 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:00:33 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:00:33 --> Model Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:00:33 --> Model Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:00:33 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:00:33 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:00:33 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:00:33 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:00:33 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:00:33 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:00:33 --> Auth class initialized.
+DEBUG - 2013-06-14 16:00:33 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:00:33 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:00:33 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:00:33 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:00:33 --> Model Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:00:33 --> Model Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:00:33 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:00:33 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:00:33 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:00:33 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:00:33 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:00:33 --> Model Class Initialized
+DEBUG - 2013-06-14 16:00:33 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:00:33 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:00:33 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:00:33 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+ERROR - 2013-06-14 16:00:33 --> Severity: Notice  --> Undefined property: CI::$pcet_model C:\xampp\htdocs\si_pcet\application\third_party\MX\Controller.php 58
+DEBUG - 2013-06-14 16:01:03 --> Config Class Initialized
+DEBUG - 2013-06-14 16:01:03 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:01:03 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:01:03 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:01:03 --> URI Class Initialized
+DEBUG - 2013-06-14 16:01:03 --> Router Class Initialized
+DEBUG - 2013-06-14 16:01:03 --> Output Class Initialized
+DEBUG - 2013-06-14 16:01:03 --> Security Class Initialized
+DEBUG - 2013-06-14 16:01:03 --> Input Class Initialized
+DEBUG - 2013-06-14 16:01:03 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:01:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:01:03 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:01:03 --> Config Class Initialized
+DEBUG - 2013-06-14 16:01:03 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:01:03 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:01:03 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:01:03 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:01:03 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:01:03 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:01:03 --> Template library loaded
+DEBUG - 2013-06-14 16:01:03 --> Assets library loaded.
+DEBUG - 2013-06-14 16:01:03 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:01:03 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:01:04 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:01:04 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:04 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:01:04 --> Session Class Initialized
+DEBUG - 2013-06-14 16:01:04 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:01:04 --> Session routines successfully run
+DEBUG - 2013-06-14 16:01:04 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:01:04 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:01:04 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:01:04 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:01:04 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:01:04 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:01:04 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:01:04 --> Auth class initialized.
+DEBUG - 2013-06-14 16:01:04 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:01:04 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:01:04 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:01:04 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:01:04 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:04 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:01:04 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:01:04 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:01:04 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:01:04 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:01:04 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:01:04 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:01:04 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:01:04 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:01:04 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:01:04 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:01:04 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:01:04 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:01:04 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:01:04 --> Final output sent to browser
+DEBUG - 2013-06-14 16:01:04 --> Total execution time: 0.8350
+DEBUG - 2013-06-14 16:01:11 --> Config Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:01:11 --> URI Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> Router Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> Output Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> Security Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> Input Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:01:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:01:11 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> Config Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:01:11 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:01:11 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:01:11 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:01:11 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> Template library loaded
+DEBUG - 2013-06-14 16:01:11 --> Assets library loaded.
+DEBUG - 2013-06-14 16:01:11 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:01:11 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:01:11 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:01:11 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> Session Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:01:11 --> Session routines successfully run
+DEBUG - 2013-06-14 16:01:11 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:01:11 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:01:11 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:01:11 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:01:11 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:01:11 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:01:11 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:01:11 --> Auth class initialized.
+DEBUG - 2013-06-14 16:01:11 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:01:11 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:01:11 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:01:11 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:01:11 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:01:11 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:01:11 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:01:11 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:01:11 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:01:11 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:01:11 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:01:11 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:01:11 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:01:11 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:01:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:01:12 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:01:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/create.php
+DEBUG - 2013-06-14 16:01:12 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:01:12 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:01:12 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:01:12 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:01:12 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:01:12 --> Final output sent to browser
+DEBUG - 2013-06-14 16:01:12 --> Total execution time: 0.8670
+DEBUG - 2013-06-14 16:01:58 --> Config Class Initialized
+DEBUG - 2013-06-14 16:01:58 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:01:58 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:01:58 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:01:58 --> URI Class Initialized
+DEBUG - 2013-06-14 16:01:58 --> Router Class Initialized
+DEBUG - 2013-06-14 16:01:58 --> Output Class Initialized
+DEBUG - 2013-06-14 16:01:58 --> Security Class Initialized
+DEBUG - 2013-06-14 16:01:58 --> Input Class Initialized
+DEBUG - 2013-06-14 16:01:58 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:01:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:01:58 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:01:58 --> Config Class Initialized
+DEBUG - 2013-06-14 16:01:58 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:01:58 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:01:59 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:01:59 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:01:59 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:01:59 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:01:59 --> Template library loaded
+DEBUG - 2013-06-14 16:01:59 --> Assets library loaded.
+DEBUG - 2013-06-14 16:01:59 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:01:59 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:01:59 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:01:59 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:59 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:01:59 --> Session Class Initialized
+DEBUG - 2013-06-14 16:01:59 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:01:59 --> Session routines successfully run
+DEBUG - 2013-06-14 16:01:59 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:01:59 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:01:59 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:01:59 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:01:59 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:01:59 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:01:59 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:01:59 --> Auth class initialized.
+DEBUG - 2013-06-14 16:01:59 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:01:59 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:01:59 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:01:59 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:01:59 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:59 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:01:59 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:01:59 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:01:59 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:01:59 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:01:59 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:01:59 --> Model Class Initialized
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:01:59 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:01:59 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:01:59 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/edit.php
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:01:59 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:01:59 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:01:59 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:01:59 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:01:59 --> Final output sent to browser
+DEBUG - 2013-06-14 16:01:59 --> Total execution time: 0.7350
+DEBUG - 2013-06-14 16:02:03 --> Config Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:02:03 --> URI Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> Router Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> Output Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> Security Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> Input Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:02:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:02:03 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> Config Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:02:03 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:02:03 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:02:03 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:02:03 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> Template library loaded
+DEBUG - 2013-06-14 16:02:03 --> Assets library loaded.
+DEBUG - 2013-06-14 16:02:03 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:02:03 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:02:03 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:02:03 --> Model Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:02:03 --> Model Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> Session Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:02:03 --> Session routines successfully run
+DEBUG - 2013-06-14 16:02:03 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:02:03 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:02:03 --> Model Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:02:03 --> Model Class Initialized
+DEBUG - 2013-06-14 16:02:03 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:02:03 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:02:03 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:02:04 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:02:04 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:02:04 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:02:04 --> Auth class initialized.
+DEBUG - 2013-06-14 16:02:04 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:02:04 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:02:04 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:02:04 --> Model Class Initialized
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:02:04 --> Model Class Initialized
+DEBUG - 2013-06-14 16:02:04 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:02:04 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:02:04 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:02:04 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:02:04 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:02:04 --> Model Class Initialized
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:02:04 --> Model Class Initialized
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:02:04 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:02:04 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:02:04 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:02:04 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:02:04 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:02:04 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:02:04 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:02:04 --> Final output sent to browser
+DEBUG - 2013-06-14 16:02:04 --> Total execution time: 0.7680
+DEBUG - 2013-06-14 16:04:39 --> Config Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:04:39 --> URI Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> Router Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> Output Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> Security Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> Input Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:04:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:04:39 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> Config Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:04:39 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:04:39 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:04:39 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:04:39 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> Template library loaded
+DEBUG - 2013-06-14 16:04:39 --> Assets library loaded.
+DEBUG - 2013-06-14 16:04:39 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:04:39 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:04:39 --> Model Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:04:39 --> Model Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> Session Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:04:39 --> Session routines successfully run
+DEBUG - 2013-06-14 16:04:39 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:04:39 --> Model Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:04:39 --> Model Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:04:39 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:04:39 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:04:39 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:04:39 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:04:39 --> Auth class initialized.
+DEBUG - 2013-06-14 16:04:39 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:04:39 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:04:39 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:04:39 --> Model Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:04:39 --> Model Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:04:39 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:04:39 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:04:39 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:04:39 --> Model Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:04:39 --> Model Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:04:39 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:04:39 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:04:39 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:04:39 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:04:39 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:04:39 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:04:39 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:04:39 --> Final output sent to browser
+DEBUG - 2013-06-14 16:04:39 --> Total execution time: 0.7500
+DEBUG - 2013-06-14 16:04:42 --> Config Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:04:42 --> URI Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> Router Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> Output Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> Security Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> Input Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:04:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:04:42 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> Config Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:04:42 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:04:42 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:04:42 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:04:42 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> Template library loaded
+DEBUG - 2013-06-14 16:04:42 --> Assets library loaded.
+DEBUG - 2013-06-14 16:04:42 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:04:42 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:04:42 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:04:42 --> Model Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:04:42 --> Model Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> Session Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:04:42 --> Session routines successfully run
+DEBUG - 2013-06-14 16:04:42 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:04:42 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:04:42 --> Model Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:04:42 --> Model Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:04:42 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:04:42 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:04:42 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:04:42 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:04:42 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:04:42 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:04:42 --> Auth class initialized.
+DEBUG - 2013-06-14 16:04:42 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:04:42 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:04:42 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:04:42 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:04:42 --> Model Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:04:42 --> Model Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:04:42 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:04:42 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:04:42 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:04:42 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:04:42 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:04:42 --> Model Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:04:42 --> Model Class Initialized
+DEBUG - 2013-06-14 16:04:42 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:04:42 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:04:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:04:43 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:04:43 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:04:43 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:04:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:04:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:04:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:04:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:04:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:04:43 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:04:43 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:04:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:04:43 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:04:43 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/create.php
+DEBUG - 2013-06-14 16:04:43 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:04:43 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:04:43 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:04:43 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:04:43 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:04:43 --> Final output sent to browser
+DEBUG - 2013-06-14 16:04:43 --> Total execution time: 0.7560
+DEBUG - 2013-06-14 16:07:00 --> Config Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:07:00 --> URI Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> Router Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> Output Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> Security Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> Input Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:07:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:07:00 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> Config Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:07:00 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:07:00 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:07:00 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:07:00 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> Template library loaded
+DEBUG - 2013-06-14 16:07:00 --> Assets library loaded.
+DEBUG - 2013-06-14 16:07:00 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:07:00 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:07:00 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:07:00 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:07:00 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> Session Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:07:00 --> Session routines successfully run
+DEBUG - 2013-06-14 16:07:00 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:07:00 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:07:00 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:07:00 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:07:00 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:07:00 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:07:00 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:07:00 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:07:00 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:07:00 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:07:00 --> Auth class initialized.
+DEBUG - 2013-06-14 16:07:00 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:07:00 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:07:00 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:07:00 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:07:00 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:07:00 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:07:00 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:07:00 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:07:00 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:07:00 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:07:00 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:07:00 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:07:00 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:00 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:07:01 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:07:01 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:07:01 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:07:01 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:07:01 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:07:01 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:07:01 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:07:01 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:07:01 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:07:01 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:07:01 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:07:01 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:07:01 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:07:01 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:07:01 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 16:07:01 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:07:01 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:07:01 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:07:01 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:07:01 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:07:01 --> Final output sent to browser
+DEBUG - 2013-06-14 16:07:01 --> Total execution time: 0.7810
+DEBUG - 2013-06-14 16:07:02 --> Config Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:07:02 --> URI Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> Router Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> Output Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> Security Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> Input Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:07:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:07:02 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> Config Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:07:02 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:07:02 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:07:02 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:07:02 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> Template library loaded
+DEBUG - 2013-06-14 16:07:02 --> Assets library loaded.
+DEBUG - 2013-06-14 16:07:02 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:07:02 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:07:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:07:02 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:07:02 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> Session Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:07:02 --> Session routines successfully run
+DEBUG - 2013-06-14 16:07:02 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:07:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:07:02 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:07:02 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:07:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:07:02 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:07:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:07:02 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:07:02 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:07:02 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:07:02 --> Auth class initialized.
+DEBUG - 2013-06-14 16:07:02 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:07:02 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:07:02 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:07:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:07:02 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:07:03 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:03 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:07:03 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:07:03 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:07:03 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:07:03 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:07:03 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:07:03 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:07:03 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:07:03 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:07:03 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/edit.php
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:07:03 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:07:03 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:07:03 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:07:03 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:07:03 --> Final output sent to browser
+DEBUG - 2013-06-14 16:07:03 --> Total execution time: 0.8540
+DEBUG - 2013-06-14 16:07:22 --> Config Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:07:22 --> URI Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> Router Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> Output Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> Security Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> Input Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:07:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:07:22 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> Config Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:07:22 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:07:22 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:07:22 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:07:22 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> Template library loaded
+DEBUG - 2013-06-14 16:07:22 --> Assets library loaded.
+DEBUG - 2013-06-14 16:07:22 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:07:22 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:07:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:07:22 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:07:22 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> Session Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:07:22 --> Session routines successfully run
+DEBUG - 2013-06-14 16:07:22 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:07:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:07:22 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:07:22 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:07:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:07:22 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:07:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:07:22 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:07:22 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:07:22 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:07:22 --> Auth class initialized.
+DEBUG - 2013-06-14 16:07:22 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:07:22 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:07:22 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:07:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:07:22 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:07:22 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:07:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:07:22 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:07:22 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:07:22 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:07:22 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:07:22 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:07:22 --> Model Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:07:22 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:07:22 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:07:22 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:07:22 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:07:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:07:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:07:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:07:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:07:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:07:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:07:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:07:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:07:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:07:23 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:07:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/edit.php
+DEBUG - 2013-06-14 16:07:23 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:07:23 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:07:23 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:07:23 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:07:23 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:07:23 --> Final output sent to browser
+DEBUG - 2013-06-14 16:07:23 --> Total execution time: 0.9151
+DEBUG - 2013-06-14 16:08:38 --> Config Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:08:38 --> URI Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> Router Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> Output Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> Security Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> Input Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:08:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:08:38 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> Config Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:08:38 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:08:38 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:08:38 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:08:38 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> Template library loaded
+DEBUG - 2013-06-14 16:08:38 --> Assets library loaded.
+DEBUG - 2013-06-14 16:08:38 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:08:38 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:08:38 --> Model Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:08:38 --> Model Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> Session Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:08:38 --> Session routines successfully run
+DEBUG - 2013-06-14 16:08:38 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:08:38 --> Model Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:08:38 --> Model Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:08:38 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:08:38 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:08:38 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:08:38 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:08:38 --> Auth class initialized.
+DEBUG - 2013-06-14 16:08:38 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:08:38 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:08:38 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:08:38 --> Model Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:08:38 --> Model Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:08:38 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:08:38 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:08:38 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:08:38 --> Model Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:08:38 --> Model Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:08:38 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:08:38 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:08:38 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:08:38 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:08:38 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:08:38 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:08:38 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:08:38 --> Final output sent to browser
+DEBUG - 2013-06-14 16:08:38 --> Total execution time: 0.7530
+DEBUG - 2013-06-14 16:09:34 --> Config Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:09:34 --> URI Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> Router Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> Output Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> Security Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> Input Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:09:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:09:34 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> Config Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:09:34 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:09:34 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:09:34 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:09:34 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> Template library loaded
+DEBUG - 2013-06-14 16:09:34 --> Assets library loaded.
+DEBUG - 2013-06-14 16:09:34 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:09:34 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:09:34 --> Model Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:09:34 --> Model Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> Session Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:09:34 --> Session routines successfully run
+DEBUG - 2013-06-14 16:09:34 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:09:34 --> Model Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:09:34 --> Model Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:09:34 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:09:34 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:09:34 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:09:34 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:09:34 --> Auth class initialized.
+DEBUG - 2013-06-14 16:09:34 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:09:34 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:09:34 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:09:34 --> Model Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:09:34 --> Model Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:09:34 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:09:34 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:09:34 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:09:34 --> Model Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:09:34 --> Model Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:09:34 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:09:34 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+ERROR - 2013-06-14 16:09:34 --> Could not find the language line "manage_avis"
+DEBUG - 2013-06-14 16:09:34 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:09:34 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:09:34 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:09:34 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:09:34 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:09:34 --> Final output sent to browser
+DEBUG - 2013-06-14 16:09:34 --> Total execution time: 0.7820
+DEBUG - 2013-06-14 16:09:51 --> Config Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:09:51 --> URI Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> Router Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> Output Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> Security Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> Input Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:09:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:09:51 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> Config Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:09:51 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:09:51 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:09:51 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:09:51 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> Template library loaded
+DEBUG - 2013-06-14 16:09:51 --> Assets library loaded.
+DEBUG - 2013-06-14 16:09:51 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:09:51 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:09:51 --> Model Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:09:51 --> Model Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> Session Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:09:51 --> Session routines successfully run
+DEBUG - 2013-06-14 16:09:51 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:09:51 --> Model Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:09:51 --> Model Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:09:51 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:09:51 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:09:51 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:09:51 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:09:51 --> Auth class initialized.
+DEBUG - 2013-06-14 16:09:51 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:09:51 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:09:51 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:09:51 --> Model Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:09:51 --> Model Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:09:51 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:09:51 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:09:51 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:09:51 --> Model Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:09:51 --> Model Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:09:51 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:09:51 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:09:51 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:09:51 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:09:51 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:09:51 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:09:51 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:09:51 --> Final output sent to browser
+DEBUG - 2013-06-14 16:09:51 --> Total execution time: 0.7600
+DEBUG - 2013-06-14 16:10:02 --> Config Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:10:02 --> URI Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> Router Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> Output Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> Security Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> Input Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:10:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:10:02 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> Config Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:10:02 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:10:02 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:10:02 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:10:02 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> Template library loaded
+DEBUG - 2013-06-14 16:10:02 --> Assets library loaded.
+DEBUG - 2013-06-14 16:10:02 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:10:02 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:10:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:10:02 --> Model Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:10:02 --> Model Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> Session Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:10:02 --> Session routines successfully run
+DEBUG - 2013-06-14 16:10:02 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:10:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:10:02 --> Model Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:10:02 --> Model Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:10:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:10:02 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:10:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:10:02 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:10:02 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:10:02 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:10:02 --> Auth class initialized.
+DEBUG - 2013-06-14 16:10:02 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:10:02 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:10:02 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:10:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:10:02 --> Model Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:10:02 --> Model Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:10:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:10:02 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:10:02 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:10:02 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:10:02 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:10:02 --> Model Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:10:02 --> Model Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:10:02 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:10:02 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:10:02 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:10:02 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:10:02 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:10:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:10:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:10:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:10:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:10:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:10:03 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:10:03 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:10:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:10:03 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:10:03 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/create.php
+DEBUG - 2013-06-14 16:10:03 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:10:03 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:10:03 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:10:03 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:10:03 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:10:03 --> Final output sent to browser
+DEBUG - 2013-06-14 16:10:03 --> Total execution time: 0.7390
+DEBUG - 2013-06-14 16:12:14 --> Config Class Initialized
+DEBUG - 2013-06-14 16:12:14 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:12:14 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:12:14 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:12:14 --> URI Class Initialized
+DEBUG - 2013-06-14 16:12:14 --> Router Class Initialized
+DEBUG - 2013-06-14 16:12:14 --> Output Class Initialized
+DEBUG - 2013-06-14 16:12:14 --> Security Class Initialized
+DEBUG - 2013-06-14 16:12:14 --> Input Class Initialized
+DEBUG - 2013-06-14 16:12:14 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:12:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:12:14 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:12:14 --> Config Class Initialized
+DEBUG - 2013-06-14 16:12:14 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:12:14 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:12:14 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:12:14 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:12:14 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:12:14 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:12:14 --> Template library loaded
+DEBUG - 2013-06-14 16:12:14 --> Assets library loaded.
+DEBUG - 2013-06-14 16:12:15 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:12:15 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:12:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:12:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:12:15 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:12:15 --> Session Class Initialized
+DEBUG - 2013-06-14 16:12:15 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:12:15 --> Session routines successfully run
+DEBUG - 2013-06-14 16:12:15 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:12:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:12:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:12:15 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:12:15 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:12:15 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:12:15 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:12:15 --> Auth class initialized.
+DEBUG - 2013-06-14 16:12:15 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:12:15 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:12:15 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:12:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:12:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:12:15 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:12:15 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:12:15 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:12:15 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:12:15 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:12:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:12:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:12:15 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:12:15 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:12:15 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/create.php
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:12:15 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:12:15 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:12:15 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:12:15 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:12:15 --> Final output sent to browser
+DEBUG - 2013-06-14 16:12:15 --> Total execution time: 0.7720
+DEBUG - 2013-06-14 16:12:29 --> Config Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:12:29 --> URI Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> Router Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> Output Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> Security Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> Input Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:12:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:12:29 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> Config Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:12:29 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:12:29 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:12:29 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:12:29 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> Template library loaded
+DEBUG - 2013-06-14 16:12:29 --> Assets library loaded.
+DEBUG - 2013-06-14 16:12:29 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:12:29 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:12:29 --> Model Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:12:29 --> Model Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> Session Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:12:29 --> Session routines successfully run
+DEBUG - 2013-06-14 16:12:29 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:12:29 --> Model Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:12:29 --> Model Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:12:29 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:12:29 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:12:29 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:12:29 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:12:29 --> Auth class initialized.
+DEBUG - 2013-06-14 16:12:29 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:12:29 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:12:29 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:12:29 --> Model Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:12:29 --> Model Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:12:29 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:12:29 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:12:29 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:12:29 --> Model Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:12:29 --> Model Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:12:29 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:12:29 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:12:29 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:12:29 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:12:30 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:12:30 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:12:30 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:12:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:12:30 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:12:30 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:12:30 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:12:30 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/create.php
+DEBUG - 2013-06-14 16:12:30 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:12:30 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:12:30 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:12:30 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:12:30 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:12:30 --> Final output sent to browser
+DEBUG - 2013-06-14 16:12:30 --> Total execution time: 0.8000
+DEBUG - 2013-06-14 16:13:18 --> Config Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:13:18 --> URI Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> Router Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> Output Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> Security Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> Input Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:13:18 --> CSRF token verified
+DEBUG - 2013-06-14 16:13:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:13:18 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> Config Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:13:18 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:13:18 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:13:18 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:13:18 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> Template library loaded
+DEBUG - 2013-06-14 16:13:18 --> Assets library loaded.
+DEBUG - 2013-06-14 16:13:18 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:13:18 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:13:18 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:13:18 --> Model Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:13:18 --> Model Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> Session Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:13:18 --> Session routines successfully run
+DEBUG - 2013-06-14 16:13:18 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:13:18 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:13:18 --> Model Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:13:18 --> Model Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:13:18 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:13:18 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:13:18 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:13:18 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:13:18 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:13:18 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:13:18 --> Auth class initialized.
+DEBUG - 2013-06-14 16:13:18 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:13:18 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:13:18 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:13:18 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:13:18 --> Model Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:13:18 --> Model Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:13:18 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:13:18 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:13:18 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:13:18 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:13:18 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:13:18 --> Model Class Initialized
+DEBUG - 2013-06-14 16:13:18 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:13:19 --> Model Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:13:19 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:13:19 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:13:19 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/form_validation_lang.php
+DEBUG - 2013-06-14 16:13:19 --> Unable to load the requested language file 'form_validation' for current language 'french'.
+DEBUG - 2013-06-14 16:13:19 --> Config Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:13:19 --> URI Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> Router Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> Output Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> Security Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> Input Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:13:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:13:19 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> Config Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:13:19 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:13:19 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:13:19 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:13:19 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> Template library loaded
+DEBUG - 2013-06-14 16:13:19 --> Assets library loaded.
+DEBUG - 2013-06-14 16:13:19 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:13:19 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:13:19 --> Model Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:13:19 --> Model Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> Session Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:13:19 --> Session routines successfully run
+DEBUG - 2013-06-14 16:13:19 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:13:19 --> Model Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:13:19 --> Model Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:13:19 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:13:19 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:13:19 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:13:19 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:13:19 --> Auth class initialized.
+DEBUG - 2013-06-14 16:13:19 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:13:19 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:13:19 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:13:19 --> Model Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:13:19 --> Model Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:13:19 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:13:19 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:13:19 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:13:19 --> Model Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:13:19 --> Model Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:13:19 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:13:19 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:13:19 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:13:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:13:20 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:13:20 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:13:20 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:13:20 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:13:20 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:13:20 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 16:13:20 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:13:20 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:13:20 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:13:20 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:13:20 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:13:20 --> Final output sent to browser
+DEBUG - 2013-06-14 16:13:20 --> Total execution time: 0.8660
+DEBUG - 2013-06-14 16:14:35 --> Config Class Initialized
+DEBUG - 2013-06-14 16:14:35 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:14:35 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:14:35 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:14:35 --> URI Class Initialized
+DEBUG - 2013-06-14 16:14:35 --> Router Class Initialized
+DEBUG - 2013-06-14 16:14:35 --> Output Class Initialized
+DEBUG - 2013-06-14 16:14:35 --> Security Class Initialized
+DEBUG - 2013-06-14 16:14:35 --> Input Class Initialized
+DEBUG - 2013-06-14 16:14:35 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:14:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:14:35 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:14:35 --> Config Class Initialized
+DEBUG - 2013-06-14 16:14:35 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:14:35 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:14:35 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:14:35 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:14:35 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:14:35 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:14:35 --> Template library loaded
+DEBUG - 2013-06-14 16:14:35 --> Assets library loaded.
+DEBUG - 2013-06-14 16:14:35 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:14:35 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:14:35 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:14:35 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:35 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:14:36 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:36 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:14:36 --> Session Class Initialized
+DEBUG - 2013-06-14 16:14:36 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:14:36 --> Session routines successfully run
+DEBUG - 2013-06-14 16:14:36 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:14:36 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:14:36 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:14:36 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:14:36 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:14:36 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:14:36 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:14:36 --> Auth class initialized.
+DEBUG - 2013-06-14 16:14:36 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:14:36 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:14:36 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:14:36 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:14:36 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:36 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:14:36 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:14:36 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:14:36 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:14:36 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:14:36 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:14:36 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:14:36 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:14:36 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:14:36 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:14:36 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:14:36 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:14:36 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:14:36 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:14:36 --> Final output sent to browser
+DEBUG - 2013-06-14 16:14:36 --> Total execution time: 0.7680
+DEBUG - 2013-06-14 16:14:38 --> Config Class Initialized
+DEBUG - 2013-06-14 16:14:38 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:14:38 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:14:38 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:14:38 --> URI Class Initialized
+DEBUG - 2013-06-14 16:14:38 --> Router Class Initialized
+DEBUG - 2013-06-14 16:14:38 --> Output Class Initialized
+DEBUG - 2013-06-14 16:14:38 --> Security Class Initialized
+DEBUG - 2013-06-14 16:14:38 --> Input Class Initialized
+DEBUG - 2013-06-14 16:14:38 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:14:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:14:38 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:14:38 --> Config Class Initialized
+DEBUG - 2013-06-14 16:14:38 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:14:38 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:14:38 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:14:38 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:14:38 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:14:38 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:14:38 --> Template library loaded
+DEBUG - 2013-06-14 16:14:38 --> Assets library loaded.
+DEBUG - 2013-06-14 16:14:38 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:14:38 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:14:38 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:14:39 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:14:39 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:39 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:14:39 --> Session Class Initialized
+DEBUG - 2013-06-14 16:14:39 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:14:39 --> Session routines successfully run
+DEBUG - 2013-06-14 16:14:39 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:14:39 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:14:39 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:14:39 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:14:39 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:14:39 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:14:39 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:14:39 --> Auth class initialized.
+DEBUG - 2013-06-14 16:14:39 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:14:39 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:14:39 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:14:39 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:14:39 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:39 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:14:39 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:14:39 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:14:39 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:14:39 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:14:39 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:14:39 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:14:39 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:14:39 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:14:39 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/edit.php
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:14:39 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:14:39 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:14:39 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:14:39 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:14:39 --> Final output sent to browser
+DEBUG - 2013-06-14 16:14:39 --> Total execution time: 0.8550
+DEBUG - 2013-06-14 16:14:47 --> Config Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:14:47 --> URI Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> Router Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> Output Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> Security Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> Input Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:14:47 --> CSRF token verified
+DEBUG - 2013-06-14 16:14:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:14:47 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> Config Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:14:47 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:14:47 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:14:47 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:14:47 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> Template library loaded
+DEBUG - 2013-06-14 16:14:47 --> Assets library loaded.
+DEBUG - 2013-06-14 16:14:47 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:14:47 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:14:47 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:14:47 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:14:47 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> Session Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:14:47 --> Session routines successfully run
+DEBUG - 2013-06-14 16:14:47 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:14:47 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:14:47 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:14:47 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:14:47 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:14:47 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:14:47 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:14:47 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:14:47 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:14:47 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:14:47 --> Auth class initialized.
+DEBUG - 2013-06-14 16:14:47 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:14:47 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:14:47 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:14:47 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:14:47 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:47 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:14:48 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:48 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:14:48 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:14:48 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:14:48 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:14:48 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:14:48 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:14:48 --> Model Class Initialized
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:14:48 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:14:48 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:14:48 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/form_validation_lang.php
+DEBUG - 2013-06-14 16:14:48 --> Unable to load the requested language file 'form_validation' for current language 'french'.
+DEBUG - 2013-06-14 16:14:48 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/edit.php
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:14:48 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:14:48 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:14:48 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:14:48 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:14:48 --> Final output sent to browser
+DEBUG - 2013-06-14 16:14:48 --> Total execution time: 0.8010
+DEBUG - 2013-06-14 16:15:12 --> Config Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:15:12 --> URI Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Router Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Output Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Security Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Input Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:15:12 --> CSRF token verified
+DEBUG - 2013-06-14 16:15:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:15:12 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Config Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:15:12 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:15:12 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:15:12 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:15:12 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Template library loaded
+DEBUG - 2013-06-14 16:15:12 --> Assets library loaded.
+DEBUG - 2013-06-14 16:15:12 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:15:12 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:15:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:15:12 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:15:12 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Session Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:15:12 --> Session routines successfully run
+DEBUG - 2013-06-14 16:15:12 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:15:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:15:12 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:15:12 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:15:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:15:12 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:15:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:15:12 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:15:12 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:15:12 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:15:12 --> Auth class initialized.
+DEBUG - 2013-06-14 16:15:12 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:15:12 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:15:12 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:15:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:15:12 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:15:12 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:15:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:15:12 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:15:12 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:15:12 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:15:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:15:12 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:15:12 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:15:12 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:15:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:15:12 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:15:12 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/form_validation_lang.php
+DEBUG - 2013-06-14 16:15:12 --> Unable to load the requested language file 'form_validation' for current language 'french'.
+DEBUG - 2013-06-14 16:15:12 --> Config Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:15:12 --> URI Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Router Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Output Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Security Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Input Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:15:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:15:12 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Config Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:15:12 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:15:12 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:15:12 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:15:12 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> Template library loaded
+DEBUG - 2013-06-14 16:15:12 --> Assets library loaded.
+DEBUG - 2013-06-14 16:15:12 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:15:12 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:15:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:15:12 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:15:12 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:13 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:15:13 --> Session Class Initialized
+DEBUG - 2013-06-14 16:15:13 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:15:13 --> Session routines successfully run
+DEBUG - 2013-06-14 16:15:13 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:15:13 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:15:13 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:15:13 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:15:13 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:15:13 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:15:13 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:15:13 --> Auth class initialized.
+DEBUG - 2013-06-14 16:15:13 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:15:13 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:15:13 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:15:13 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:15:13 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:13 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:15:13 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:15:13 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:15:13 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:15:13 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:15:13 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:15:13 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:15:13 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:15:13 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:15:13 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:15:13 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:15:13 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:15:13 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:15:13 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:15:13 --> Final output sent to browser
+DEBUG - 2013-06-14 16:15:13 --> Total execution time: 0.7460
+DEBUG - 2013-06-14 16:15:25 --> Config Class Initialized
+DEBUG - 2013-06-14 16:15:25 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:15:25 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:15:25 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:15:25 --> URI Class Initialized
+DEBUG - 2013-06-14 16:15:25 --> Router Class Initialized
+DEBUG - 2013-06-14 16:15:25 --> Output Class Initialized
+DEBUG - 2013-06-14 16:15:25 --> Security Class Initialized
+DEBUG - 2013-06-14 16:15:25 --> Input Class Initialized
+DEBUG - 2013-06-14 16:15:25 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:15:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:15:25 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:15:25 --> Config Class Initialized
+DEBUG - 2013-06-14 16:15:25 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:15:25 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:15:25 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:15:25 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:15:25 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:15:25 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:15:25 --> Template library loaded
+DEBUG - 2013-06-14 16:15:25 --> Assets library loaded.
+DEBUG - 2013-06-14 16:15:25 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:15:25 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:15:25 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:15:25 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:25 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:15:25 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:25 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:15:25 --> Session Class Initialized
+DEBUG - 2013-06-14 16:15:25 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:15:25 --> Session routines successfully run
+DEBUG - 2013-06-14 16:15:25 --> Content MX_Controller Initialized
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:15:26 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:15:26 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:15:26 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:15:26 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:15:26 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:15:26 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:15:26 --> Auth class initialized.
+DEBUG - 2013-06-14 16:15:26 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:15:26 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:15:26 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:15:26 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:15:26 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:26 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:15:26 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:15:26 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:15:26 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:15:26 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:15:26 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:15:26 --> File loaded: ../application/views/admin/content/index.php
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:15:26 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:15:26 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:15:26 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:15:26 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:15:26 --> Final output sent to browser
+DEBUG - 2013-06-14 16:15:26 --> Total execution time: 0.8040
+DEBUG - 2013-06-14 16:15:31 --> Config Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:15:31 --> URI Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> Router Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> Output Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> Security Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> Input Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:15:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:15:31 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> Config Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:15:31 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:15:31 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:15:31 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:15:31 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> Template library loaded
+DEBUG - 2013-06-14 16:15:31 --> Assets library loaded.
+DEBUG - 2013-06-14 16:15:31 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:15:31 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:15:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:15:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:15:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> Session Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:15:31 --> Session routines successfully run
+DEBUG - 2013-06-14 16:15:31 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:15:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:15:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:15:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:15:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:15:31 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:15:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:15:31 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:15:31 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:15:31 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:15:32 --> Auth class initialized.
+DEBUG - 2013-06-14 16:15:32 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:15:32 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:15:32 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:15:32 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:15:32 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:32 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:15:32 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:15:32 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:15:32 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:15:32 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/models/engagement_model.php
+DEBUG - 2013-06-14 16:15:32 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:15:32 --> Model Class Initialized
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/language/english/engagement_lang.php
+DEBUG - 2013-06-14 16:15:32 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/language/english/engagement_lang
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/language/french/engagement_lang.php
+DEBUG - 2013-06-14 16:15:32 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/language/french/engagement_lang
+DEBUG - 2013-06-14 16:15:32 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/views/loireatlantique/index.php
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:15:32 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:15:32 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:15:32 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:15:32 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:15:32 --> Final output sent to browser
+DEBUG - 2013-06-14 16:15:32 --> Total execution time: 0.7380
+DEBUG - 2013-06-14 16:16:51 --> Config Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:16:51 --> URI Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> Router Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> No URI present. Default controller set.
+DEBUG - 2013-06-14 16:16:51 --> Output Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> Security Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> Input Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:16:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:16:51 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> Config Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:16:51 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:16:51 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:16:51 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:16:51 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> Template library loaded
+DEBUG - 2013-06-14 16:16:51 --> Assets library loaded.
+DEBUG - 2013-06-14 16:16:51 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:16:51 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:16:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:16:51 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:16:51 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> Session Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:16:51 --> Session routines successfully run
+DEBUG - 2013-06-14 16:16:51 --> Home MX_Controller Initialized
+DEBUG - 2013-06-14 16:16:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:16:51 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:16:51 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:16:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:16:51 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:16:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:16:51 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:16:51 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:16:51 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:16:51 --> Auth class initialized.
+DEBUG - 2013-06-14 16:16:51 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:16:51 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:16:51 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:16:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:16:51 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:16:51 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:16:51 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:16:51 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:16:51 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/default/parts/head.php
+DEBUG - 2013-06-14 16:16:51 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/default/parts/topbar.php
+DEBUG - 2013-06-14 16:16:51 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/default/parts/_header.php
+DEBUG - 2013-06-14 16:16:51 --> File loaded: ../application/views/home/index.php
+DEBUG - 2013-06-14 16:16:51 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/default/parts/modal_login.php
+DEBUG - 2013-06-14 16:16:51 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/default/parts/_footer.php
+DEBUG - 2013-06-14 16:16:51 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/default/index.php
+DEBUG - 2013-06-14 16:16:51 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:16:51 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:16:51 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:16:51 --> Final output sent to browser
+DEBUG - 2013-06-14 16:16:51 --> Total execution time: 0.6020
+DEBUG - 2013-06-14 16:16:53 --> Config Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:16:53 --> URI Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Router Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Output Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Security Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Input Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:16:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:16:53 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Config Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:16:53 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:16:53 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:16:53 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:16:53 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Template library loaded
+DEBUG - 2013-06-14 16:16:53 --> Assets library loaded.
+DEBUG - 2013-06-14 16:16:53 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:16:53 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:16:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:16:53 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:16:53 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Session Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:16:53 --> Session routines successfully run
+DEBUG - 2013-06-14 16:16:53 --> Home MX_Controller Initialized
+DEBUG - 2013-06-14 16:16:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:16:53 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:16:53 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:16:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:16:53 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:16:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:16:53 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:16:53 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:16:53 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:16:53 --> Auth class initialized.
+DEBUG - 2013-06-14 16:16:53 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:16:53 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:16:53 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:16:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:16:53 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:16:53 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:16:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:16:53 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:16:53 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:16:53 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:16:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_model.php
+DEBUG - 2013-06-14 16:16:53 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Config Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:16:53 --> URI Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Router Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Output Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Security Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> Input Class Initialized
+DEBUG - 2013-06-14 16:16:53 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:16:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:16:54 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:16:54 --> Config Class Initialized
+DEBUG - 2013-06-14 16:16:54 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:16:54 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:16:54 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:16:54 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:16:54 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:16:54 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:16:54 --> Template library loaded
+DEBUG - 2013-06-14 16:16:54 --> Assets library loaded.
+DEBUG - 2013-06-14 16:16:54 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:16:54 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:16:54 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:16:54 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:54 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:16:54 --> Session Class Initialized
+DEBUG - 2013-06-14 16:16:54 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:16:54 --> Session routines successfully run
+DEBUG - 2013-06-14 16:16:54 --> Content MX_Controller Initialized
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:16:54 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:16:54 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:16:54 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:16:54 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:16:54 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:16:54 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:16:54 --> Auth class initialized.
+DEBUG - 2013-06-14 16:16:54 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:16:54 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:16:54 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:16:54 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:16:54 --> Model Class Initialized
+DEBUG - 2013-06-14 16:16:54 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:16:54 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:16:54 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:16:54 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:16:54 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:16:54 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:16:54 --> File loaded: ../application/views/admin/content/index.php
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:16:54 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:16:54 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:16:54 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:16:54 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:16:54 --> Final output sent to browser
+DEBUG - 2013-06-14 16:16:54 --> Total execution time: 0.6790
+DEBUG - 2013-06-14 16:17:04 --> Config Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:17:04 --> URI Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> Router Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> Output Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> Security Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> Input Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:17:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:17:04 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> Config Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:17:04 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:17:04 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:17:04 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:17:04 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> Template library loaded
+DEBUG - 2013-06-14 16:17:04 --> Assets library loaded.
+DEBUG - 2013-06-14 16:17:04 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:17:04 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:17:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:17:04 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:17:04 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> Session Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:17:04 --> Session routines successfully run
+DEBUG - 2013-06-14 16:17:04 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:17:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:17:04 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:17:04 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:04 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:17:05 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:17:05 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:17:05 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:17:05 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:17:05 --> Auth class initialized.
+DEBUG - 2013-06-14 16:17:05 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:17:05 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:17:05 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:17:05 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:17:05 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:05 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:17:05 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:17:05 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:17:05 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:17:05 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:17:05 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/structures/models/structures_model.php
+DEBUG - 2013-06-14 16:17:05 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/phases/models/phases_model.php
+DEBUG - 2013-06-14 16:17:05 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/types/models/types_model.php
+DEBUG - 2013-06-14 16:17:05 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/models/communes_model.php
+DEBUG - 2013-06-14 16:17:05 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/models/departements_model.php
+DEBUG - 2013-06-14 16:17:05 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/models/epci_model.php
+DEBUG - 2013-06-14 16:17:05 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/models/pays_model.php
+DEBUG - 2013-06-14 16:17:05 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/models/pnr_model.php
+DEBUG - 2013-06-14 16:17:05 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/language/english/pcet_lang.php
+DEBUG - 2013-06-14 16:17:05 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/language/english/pcet_lang
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/language/french/pcet_lang.php
+DEBUG - 2013-06-14 16:17:05 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/language/french/pcet_lang
+DEBUG - 2013-06-14 16:17:05 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/views/loireatlantique/index.php
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:17:05 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:17:05 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:17:05 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:17:05 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:17:05 --> Final output sent to browser
+DEBUG - 2013-06-14 16:17:05 --> Total execution time: 0.9831
+DEBUG - 2013-06-14 16:17:19 --> Config Class Initialized
+DEBUG - 2013-06-14 16:17:19 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:17:20 --> URI Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> Router Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> Output Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> Security Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> Input Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:17:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:17:20 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> Config Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:17:20 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:17:20 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:17:20 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:17:20 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> Template library loaded
+DEBUG - 2013-06-14 16:17:20 --> Assets library loaded.
+DEBUG - 2013-06-14 16:17:20 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:17:20 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:17:20 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:17:20 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> Session Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:17:20 --> Session routines successfully run
+DEBUG - 2013-06-14 16:17:20 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:17:20 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:17:20 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:17:20 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:17:20 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:17:20 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:17:20 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:17:20 --> Auth class initialized.
+DEBUG - 2013-06-14 16:17:20 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:17:20 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:17:20 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:17:20 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:17:20 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:17:20 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:17:20 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:17:20 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/models/engagement_model.php
+DEBUG - 2013-06-14 16:17:20 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:17:20 --> Model Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/language/english/engagement_lang.php
+DEBUG - 2013-06-14 16:17:20 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/language/english/engagement_lang
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/language/french/engagement_lang.php
+DEBUG - 2013-06-14 16:17:20 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/language/french/engagement_lang
+DEBUG - 2013-06-14 16:17:20 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/views/loireatlantique/index.php
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:17:20 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:17:20 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:17:20 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:17:20 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:17:20 --> Final output sent to browser
+DEBUG - 2013-06-14 16:17:20 --> Total execution time: 0.7470
+DEBUG - 2013-06-14 16:28:06 --> Config Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:28:06 --> URI Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> Router Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> Output Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> Security Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> Input Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:28:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:28:06 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> Config Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:28:06 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:28:06 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:28:06 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:28:06 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> Template library loaded
+DEBUG - 2013-06-14 16:28:06 --> Assets library loaded.
+DEBUG - 2013-06-14 16:28:06 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:28:06 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:28:06 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:28:06 --> Model Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:28:06 --> Model Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> Session Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:28:06 --> Session routines successfully run
+DEBUG - 2013-06-14 16:28:06 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:28:06 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:28:06 --> Model Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:28:06 --> Model Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:28:06 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:28:06 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:28:06 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:28:06 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:28:06 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:28:06 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:28:06 --> Auth class initialized.
+DEBUG - 2013-06-14 16:28:06 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:28:06 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:28:06 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:28:06 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:28:06 --> Model Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:28:06 --> Model Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:28:06 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:28:06 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:28:06 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:28:06 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:28:06 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:28:06 --> Model Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:28:06 --> Model Class Initialized
+DEBUG - 2013-06-14 16:28:06 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:28:06 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:28:06 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:28:07 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:28:07 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:28:07 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:28:07 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:28:07 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:28:07 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:28:07 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:28:07 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:28:07 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:28:07 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:28:07 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:28:07 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:28:07 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 16:28:07 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:28:07 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:28:07 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:28:07 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:28:07 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:28:07 --> Final output sent to browser
+DEBUG - 2013-06-14 16:28:07 --> Total execution time: 0.7520
+DEBUG - 2013-06-14 16:28:15 --> Config Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:28:15 --> URI Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> Router Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> Output Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> Security Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> Input Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:28:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:28:15 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> Config Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:28:15 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:28:15 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:28:15 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:28:15 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> Template library loaded
+DEBUG - 2013-06-14 16:28:15 --> Assets library loaded.
+DEBUG - 2013-06-14 16:28:15 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:28:15 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:28:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:28:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> Session Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:28:15 --> Session routines successfully run
+DEBUG - 2013-06-14 16:28:15 --> Content MX_Controller Initialized
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:28:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:28:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:28:15 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:28:15 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:28:15 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:28:15 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:28:15 --> Auth class initialized.
+DEBUG - 2013-06-14 16:28:15 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:28:15 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:28:15 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:28:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:28:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:28:15 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:28:15 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:28:15 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:28:15 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:28:15 --> File loaded: ../application/views/admin/content/index.php
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:28:15 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:28:15 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:28:15 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:28:15 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:28:15 --> Final output sent to browser
+DEBUG - 2013-06-14 16:28:15 --> Total execution time: 0.6880
+DEBUG - 2013-06-14 16:29:08 --> Config Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:29:08 --> URI Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> Router Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> Output Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> Security Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> Input Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:29:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:29:08 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> Config Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:29:08 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:29:08 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:29:08 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:29:08 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> Template library loaded
+DEBUG - 2013-06-14 16:29:08 --> Assets library loaded.
+DEBUG - 2013-06-14 16:29:08 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:29:08 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:29:08 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:29:08 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:29:08 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> Session Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:29:08 --> Session routines successfully run
+DEBUG - 2013-06-14 16:29:08 --> vendee MX_Controller Initialized
+DEBUG - 2013-06-14 16:29:08 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:29:08 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:29:08 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:08 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:29:08 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:29:08 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:29:08 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:29:08 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:29:08 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:29:09 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:29:09 --> Auth class initialized.
+DEBUG - 2013-06-14 16:29:09 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:29:09 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:29:09 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:29:09 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:29:09 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:09 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:29:09 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:29:09 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:29:09 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:29:09 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:29:09 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:29:09 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:29:09 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:29:09 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/vendee/_sub_nav.php
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/vendee/index.php
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:29:09 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:29:09 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:29:09 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:29:09 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:29:09 --> Final output sent to browser
+DEBUG - 2013-06-14 16:29:09 --> Total execution time: 0.7380
+DEBUG - 2013-06-14 16:29:12 --> Config Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:29:12 --> URI Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> Router Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> Output Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> Security Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> Input Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:29:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:29:12 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> Config Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:29:12 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:29:12 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:29:12 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:29:12 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> Template library loaded
+DEBUG - 2013-06-14 16:29:12 --> Assets library loaded.
+DEBUG - 2013-06-14 16:29:12 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:29:12 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:29:12 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:29:12 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> Session Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:29:12 --> Session routines successfully run
+DEBUG - 2013-06-14 16:29:12 --> vendee MX_Controller Initialized
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:29:12 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:29:12 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:29:12 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:29:12 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:29:12 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:29:12 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:29:12 --> Auth class initialized.
+DEBUG - 2013-06-14 16:29:12 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:29:12 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:29:12 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:29:12 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:29:12 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:29:12 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:29:12 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:29:12 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/models/adaptation_model.php
+DEBUG - 2013-06-14 16:29:12 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/english/adaptation_lang.php
+DEBUG - 2013-06-14 16:29:12 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/english/adaptation_lang
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/french/adaptation_lang.php
+DEBUG - 2013-06-14 16:29:12 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/french/adaptation_lang
+DEBUG - 2013-06-14 16:29:12 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/views/vendee/_sub_nav.php
+DEBUG - 2013-06-14 16:29:12 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+ERROR - 2013-06-14 16:29:13 --> Severity: Notice  --> Undefined property: stdClass::$ID_ADAPT C:\xampp\htdocs\si_pcet\application\modules\adaptation\views\vendee\index.php 38
+ERROR - 2013-06-14 16:29:13 --> Severity: Notice  --> Undefined property: stdClass::$ID_ADAPT C:\xampp\htdocs\si_pcet\application\modules\adaptation\views\vendee\index.php 38
+ERROR - 2013-06-14 16:29:13 --> Severity: Notice  --> Undefined property: stdClass::$ID_ADAPT C:\xampp\htdocs\si_pcet\application\modules\adaptation\views\vendee\index.php 38
+ERROR - 2013-06-14 16:29:13 --> Severity: Notice  --> Undefined property: stdClass::$ID_ADAPT C:\xampp\htdocs\si_pcet\application\modules\adaptation\views\vendee\index.php 38
+DEBUG - 2013-06-14 16:29:13 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/views/vendee/index.php
+DEBUG - 2013-06-14 16:29:13 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:29:13 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:29:13 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:29:13 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:29:13 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:29:13 --> Final output sent to browser
+DEBUG - 2013-06-14 16:29:13 --> Total execution time: 0.8861
+DEBUG - 2013-06-14 16:29:15 --> Config Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:29:15 --> URI Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> Router Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> Output Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> Security Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> Input Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:29:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:29:15 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> Config Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:29:15 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:29:15 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:29:15 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:29:15 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> Template library loaded
+DEBUG - 2013-06-14 16:29:15 --> Assets library loaded.
+DEBUG - 2013-06-14 16:29:15 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:29:15 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:29:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:29:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:29:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> Session Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:29:15 --> Session routines successfully run
+DEBUG - 2013-06-14 16:29:15 --> maineetloire MX_Controller Initialized
+DEBUG - 2013-06-14 16:29:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:29:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:29:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:29:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:29:15 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:29:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:29:15 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:29:15 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:29:15 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:29:15 --> Auth class initialized.
+DEBUG - 2013-06-14 16:29:15 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:29:15 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:29:15 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:29:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:29:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:29:15 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:29:15 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:29:15 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:29:15 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:29:16 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:29:16 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:29:16 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:29:16 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/models/adaptation_model.php
+DEBUG - 2013-06-14 16:29:16 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:16 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/english/adaptation_lang.php
+DEBUG - 2013-06-14 16:29:16 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/english/adaptation_lang
+DEBUG - 2013-06-14 16:29:16 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/french/adaptation_lang.php
+DEBUG - 2013-06-14 16:29:16 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/language/french/adaptation_lang
+DEBUG - 2013-06-14 16:29:16 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:29:16 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:29:16 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:29:16 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:29:16 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:29:16 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:29:16 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:29:16 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:29:16 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:29:16 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/views/maineetloire/_sub_nav.php
+DEBUG - 2013-06-14 16:29:16 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:29:16 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/adaptation/views/maineetloire/index.php
+DEBUG - 2013-06-14 16:29:16 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:29:16 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:29:16 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:29:16 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:29:16 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:29:16 --> Final output sent to browser
+DEBUG - 2013-06-14 16:29:16 --> Total execution time: 0.7880
+DEBUG - 2013-06-14 16:29:18 --> Config Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:29:19 --> URI Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> Router Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> Output Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> Security Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> Input Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:29:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:29:19 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> Config Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:29:19 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:29:19 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:29:19 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:29:19 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> Template library loaded
+DEBUG - 2013-06-14 16:29:19 --> Assets library loaded.
+DEBUG - 2013-06-14 16:29:19 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:29:19 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:29:19 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:29:19 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> Session Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:29:19 --> Session routines successfully run
+DEBUG - 2013-06-14 16:29:19 --> maineetloire MX_Controller Initialized
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:29:19 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:29:19 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:29:19 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:29:19 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:29:19 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:29:19 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:29:19 --> Auth class initialized.
+DEBUG - 2013-06-14 16:29:19 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:29:19 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:29:19 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:29:19 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:29:19 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:29:19 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:29:19 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:29:19 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:29:19 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:29:19 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:29:19 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:29:19 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/maineetloire/_sub_nav.php
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/maineetloire/index.php
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:29:19 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:29:19 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:29:19 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:29:19 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:29:19 --> Final output sent to browser
+DEBUG - 2013-06-14 16:29:19 --> Total execution time: 0.7390
+DEBUG - 2013-06-14 16:29:22 --> Config Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:29:22 --> URI Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> Router Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> Output Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> Security Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> Input Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:29:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:29:22 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> Config Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:29:22 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:29:22 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:29:22 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:29:22 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> Template library loaded
+DEBUG - 2013-06-14 16:29:22 --> Assets library loaded.
+DEBUG - 2013-06-14 16:29:22 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:29:22 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:29:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:29:22 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:29:22 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> Session Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:29:22 --> Session routines successfully run
+DEBUG - 2013-06-14 16:29:22 --> maineetloire MX_Controller Initialized
+DEBUG - 2013-06-14 16:29:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:29:22 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:29:22 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:29:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:29:22 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:29:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:29:22 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:29:22 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:29:22 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:29:22 --> Auth class initialized.
+DEBUG - 2013-06-14 16:29:22 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:29:22 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:29:22 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:29:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:29:22 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:29:22 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:22 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:29:22 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:29:22 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:29:23 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:29:23 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:29:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:29:23 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:29:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/models/engagement_model.php
+DEBUG - 2013-06-14 16:29:23 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/language/english/engagement_lang.php
+DEBUG - 2013-06-14 16:29:23 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/language/english/engagement_lang
+DEBUG - 2013-06-14 16:29:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/language/french/engagement_lang.php
+DEBUG - 2013-06-14 16:29:23 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/language/french/engagement_lang
+DEBUG - 2013-06-14 16:29:23 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:29:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:29:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:29:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:29:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:29:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:29:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:29:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:29:23 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:29:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/views/maineetloire/_sub_nav.php
+DEBUG - 2013-06-14 16:29:23 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:29:23 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/engagement/views/maineetloire/index.php
+DEBUG - 2013-06-14 16:29:23 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:29:23 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:29:23 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:29:23 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:29:23 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:29:23 --> Final output sent to browser
+DEBUG - 2013-06-14 16:29:23 --> Total execution time: 0.8490
+DEBUG - 2013-06-14 16:29:27 --> Config Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:29:27 --> URI Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> Router Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> Output Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> Security Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> Input Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:29:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:29:27 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> Config Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:29:27 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:29:27 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:29:27 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:29:27 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> Template library loaded
+DEBUG - 2013-06-14 16:29:27 --> Assets library loaded.
+DEBUG - 2013-06-14 16:29:27 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:29:27 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:29:27 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:29:27 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> Session Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:29:27 --> Session routines successfully run
+DEBUG - 2013-06-14 16:29:27 --> maineetloire MX_Controller Initialized
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:29:27 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:29:27 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:29:27 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:29:27 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:29:27 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:29:27 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:29:27 --> Auth class initialized.
+DEBUG - 2013-06-14 16:29:27 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:29:27 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:29:27 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:29:27 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:29:27 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:29:27 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:29:27 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:29:27 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:29:27 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/structures/models/structures_model.php
+DEBUG - 2013-06-14 16:29:27 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/phases/models/phases_model.php
+DEBUG - 2013-06-14 16:29:27 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/types/models/types_model.php
+DEBUG - 2013-06-14 16:29:27 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/models/communes_model.php
+DEBUG - 2013-06-14 16:29:27 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/models/departements_model.php
+DEBUG - 2013-06-14 16:29:27 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/models/epci_model.php
+DEBUG - 2013-06-14 16:29:27 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/models/pays_model.php
+DEBUG - 2013-06-14 16:29:27 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/models/pnr_model.php
+DEBUG - 2013-06-14 16:29:27 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/language/english/pcet_lang.php
+DEBUG - 2013-06-14 16:29:27 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/language/english/pcet_lang
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/language/french/pcet_lang.php
+DEBUG - 2013-06-14 16:29:27 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/language/french/pcet_lang
+DEBUG - 2013-06-14 16:29:27 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:29:27 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:29:28 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:29:28 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:29:28 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:29:28 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:29:28 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:29:28 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:29:28 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:29:28 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/views/maineetloire/_sub_nav.php
+DEBUG - 2013-06-14 16:29:28 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:29:28 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/views/maineetloire/index.php
+DEBUG - 2013-06-14 16:29:28 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:29:28 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:29:28 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:29:28 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:29:28 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:29:28 --> Final output sent to browser
+DEBUG - 2013-06-14 16:29:28 --> Total execution time: 0.9711
+DEBUG - 2013-06-14 16:29:30 --> Config Class Initialized
+DEBUG - 2013-06-14 16:29:30 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:29:30 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:29:30 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:29:30 --> URI Class Initialized
+DEBUG - 2013-06-14 16:29:30 --> Router Class Initialized
+DEBUG - 2013-06-14 16:29:30 --> Output Class Initialized
+DEBUG - 2013-06-14 16:29:30 --> Security Class Initialized
+DEBUG - 2013-06-14 16:29:30 --> Input Class Initialized
+DEBUG - 2013-06-14 16:29:30 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:29:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:29:31 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> Config Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:29:31 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:29:31 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:29:31 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:29:31 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> Template library loaded
+DEBUG - 2013-06-14 16:29:31 --> Assets library loaded.
+DEBUG - 2013-06-14 16:29:31 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:29:31 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:29:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:29:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> Session Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:29:31 --> Session routines successfully run
+DEBUG - 2013-06-14 16:29:31 --> mayenne MX_Controller Initialized
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:29:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:29:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:29:31 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:29:31 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:29:31 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:29:31 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:29:31 --> Auth class initialized.
+DEBUG - 2013-06-14 16:29:31 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:29:31 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:29:31 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:29:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:29:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:29:31 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:29:31 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:29:31 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:29:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/structures/models/structures_model.php
+DEBUG - 2013-06-14 16:29:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/phases/models/phases_model.php
+DEBUG - 2013-06-14 16:29:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/types/models/types_model.php
+DEBUG - 2013-06-14 16:29:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/models/communes_model.php
+DEBUG - 2013-06-14 16:29:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/models/departements_model.php
+DEBUG - 2013-06-14 16:29:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/models/epci_model.php
+DEBUG - 2013-06-14 16:29:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/models/pays_model.php
+DEBUG - 2013-06-14 16:29:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/models/pnr_model.php
+DEBUG - 2013-06-14 16:29:31 --> Model Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/language/english/pcet_lang.php
+DEBUG - 2013-06-14 16:29:31 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/language/english/pcet_lang
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/language/french/pcet_lang.php
+DEBUG - 2013-06-14 16:29:31 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/language/french/pcet_lang
+DEBUG - 2013-06-14 16:29:31 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/views/mayenne/_sub_nav.php
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/views/mayenne/index.php
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:29:31 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:29:31 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:29:31 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:29:31 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:29:31 --> Final output sent to browser
+DEBUG - 2013-06-14 16:29:31 --> Total execution time: 1.0281
+DEBUG - 2013-06-14 16:35:52 --> Config Class Initialized
+DEBUG - 2013-06-14 16:35:52 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:35:52 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:35:52 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:35:52 --> URI Class Initialized
+DEBUG - 2013-06-14 16:35:52 --> Router Class Initialized
+DEBUG - 2013-06-14 16:35:52 --> Output Class Initialized
+DEBUG - 2013-06-14 16:35:52 --> Security Class Initialized
+DEBUG - 2013-06-14 16:35:52 --> Input Class Initialized
+DEBUG - 2013-06-14 16:35:53 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:35:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:35:53 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:35:53 --> Config Class Initialized
+DEBUG - 2013-06-14 16:35:53 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:35:53 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:35:53 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:35:53 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:35:53 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:35:53 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:35:53 --> Template library loaded
+DEBUG - 2013-06-14 16:35:53 --> Assets library loaded.
+DEBUG - 2013-06-14 16:35:53 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:35:53 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:35:53 --> Model Class Initialized
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:35:53 --> Model Class Initialized
+DEBUG - 2013-06-14 16:35:53 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:35:53 --> Session Class Initialized
+DEBUG - 2013-06-14 16:35:53 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:35:53 --> Session routines successfully run
+DEBUG - 2013-06-14 16:35:53 --> Content MX_Controller Initialized
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:35:53 --> Model Class Initialized
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:35:53 --> Model Class Initialized
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:35:53 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:35:53 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:35:53 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:35:53 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:35:53 --> Auth class initialized.
+DEBUG - 2013-06-14 16:35:53 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:35:53 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:35:53 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:35:53 --> Model Class Initialized
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:35:53 --> Model Class Initialized
+DEBUG - 2013-06-14 16:35:53 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:35:53 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:35:53 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:35:53 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:35:53 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:35:53 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:35:53 --> File loaded: ../application/views/admin/content/index.php
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:35:53 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:35:53 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:35:53 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:35:53 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:35:53 --> Final output sent to browser
+DEBUG - 2013-06-14 16:35:53 --> Total execution time: 0.7890
+DEBUG - 2013-06-14 16:35:56 --> Config Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> Hooks Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 16:35:56 --> URI Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> Router Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> Output Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> Security Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> Input Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> CRSF cookie Set
+DEBUG - 2013-06-14 16:35:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 16:35:56 --> Bonfire MY_Lang: Language Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> Config Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> Loader Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> Config file loaded: ../application/config/application.php
+DEBUG - 2013-06-14 16:35:56 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 16:35:56 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 16:35:56 --> Helper loaded: application_helper
+DEBUG - 2013-06-14 16:35:56 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> Template library loaded
+DEBUG - 2013-06-14 16:35:56 --> Assets library loaded.
+DEBUG - 2013-06-14 16:35:56 --> Helper loaded: config_file_helper
+DEBUG - 2013-06-14 16:35:56 --> Helper loaded: directory_helper
+DEBUG - 2013-06-14 16:35:56 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/libraries/Settings_lib.php
+DEBUG - 2013-06-14 16:35:56 --> Model Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/settings/models/settings_model.php
+DEBUG - 2013-06-14 16:35:56 --> Model Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> Controller Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> Session Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 16:35:56 --> Session routines successfully run
+DEBUG - 2013-06-14 16:35:56 --> loireatlantique MX_Controller Initialized
+DEBUG - 2013-06-14 16:35:56 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/activities/models/activity_model.php
+DEBUG - 2013-06-14 16:35:56 --> Model Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/models/user_model.php
+DEBUG - 2013-06-14 16:35:56 --> Model Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/libraries/Auth.php
+DEBUG - 2013-06-14 16:35:56 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang.php
+DEBUG - 2013-06-14 16:35:56 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/english/users_lang
+DEBUG - 2013-06-14 16:35:56 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang.php
+DEBUG - 2013-06-14 16:35:56 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/users/language/french/users_lang
+DEBUG - 2013-06-14 16:35:56 --> Helper loaded: cookie_helper
+DEBUG - 2013-06-14 16:35:56 --> XSS Filtering completed
+DEBUG - 2013-06-14 16:35:56 --> Auth class initialized.
+DEBUG - 2013-06-14 16:35:56 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 16:35:56 --> Bonfire MY_Lang: Language file loaded: ../application/language/english/application_lang.php
+DEBUG - 2013-06-14 16:35:56 --> Bonfire MY_Lang: Language file loaded: ../application/language/french/application_lang.php
+DEBUG - 2013-06-14 16:35:56 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/permissions/models/permission_model.php
+DEBUG - 2013-06-14 16:35:56 --> Model Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/roles/models/role_permission_model.php
+DEBUG - 2013-06-14 16:35:56 --> Model Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> Forensics Console library loaded
+DEBUG - 2013-06-14 16:35:56 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/migrations/libraries/Migrations.php
+DEBUG - 2013-06-14 16:35:56 --> Database Forge Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 16:35:56 --> Form Validation Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/libraries/Contexts.php
+DEBUG - 2013-06-14 16:35:56 --> UI/Contexts library loaded
+DEBUG - 2013-06-14 16:35:56 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/models/avis_model.php
+DEBUG - 2013-06-14 16:35:56 --> Model Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pcet/models/pcet_model.php
+DEBUG - 2013-06-14 16:35:56 --> Model Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang.php
+DEBUG - 2013-06-14 16:35:56 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/english/avis_lang
+DEBUG - 2013-06-14 16:35:56 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang.php
+DEBUG - 2013-06-14 16:35:56 --> Bonfire MY_Lang: Language file loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/language/french/avis_lang
+DEBUG - 2013-06-14 16:35:56 --> User Agent Class Initialized
+DEBUG - 2013-06-14 16:35:56 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/ui/views/shortcut_keys.php
+DEBUG - 2013-06-14 16:35:57 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/communes/views/content/menu.php
+DEBUG - 2013-06-14 16:35:57 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/departements/views/content/menu.php
+DEBUG - 2013-06-14 16:35:57 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/epci/views/content/menu.php
+DEBUG - 2013-06-14 16:35:57 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pnr/views/content/menu.php
+DEBUG - 2013-06-14 16:35:57 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/pays/views/content/menu.php
+DEBUG - 2013-06-14 16:35:57 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/emailer/views/settings/menu.php
+DEBUG - 2013-06-14 16:35:57 --> File loaded: C:\xampp\htdocs\si_pcet\bonfire\modules/database/views/developer/menu.php
+DEBUG - 2013-06-14 16:35:57 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/_sub_nav.php
+DEBUG - 2013-06-14 16:35:57 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_header.php
+DEBUG - 2013-06-14 16:35:57 --> File loaded: C:\xampp\htdocs\si_pcet\application/modules/avis/views/loireatlantique/index.php
+DEBUG - 2013-06-14 16:35:57 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/partials/_footer.php
+DEBUG - 2013-06-14 16:35:57 --> File loaded: C:\xampp\htdocs\si_pcet\public\themes/admin/index.php
+DEBUG - 2013-06-14 16:35:57 --> Bonfire MY_Lang: Language file loaded: C:/xampp/htdocs/si_pcet/bonfire/codeigniter/language/english/profiler_lang.php
+DEBUG - 2013-06-14 16:35:57 --> Unable to load the requested language file 'profiler' for current language 'french'.
+DEBUG - 2013-06-14 16:35:57 --> File loaded: ../application/views/profiler_template.php
+DEBUG - 2013-06-14 16:35:57 --> Final output sent to browser
+DEBUG - 2013-06-14 16:35:57 --> Total execution time: 0.7250
