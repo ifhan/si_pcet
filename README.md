@@ -10,6 +10,7 @@ des Pays de la Loire. Elle propose :
 Cette application est développée en utilisant :
 * le framework CodeIgniter (http://ellislab.com/codeigniter),
 * la surcouche Bonfire (http://cibonfire.com/),
-* le framework CSS et javascript Bootstrap (http://twitter.github.io/bootstrap/).
+* le framework CSS et javascript Bootstrap (http://twitter.github.io/bootstrap/), fourni avec Bonfire,
+* un jeu d'icônes produit par GLYPHICONS (http://glyphicons.com/), livré avec Bootstrap.
 
 La version 1.0 est actuellement en cours de développement.
