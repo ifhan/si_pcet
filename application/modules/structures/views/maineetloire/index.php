@@ -8,8 +8,8 @@
 					<th class="column-check"><input class="check-all" type="checkbox" /></th>
 					<?php endif;?>			
 					<th>Type de collectivit&eacute;</th>
-					<th>Nom de la collectivit&eacute;</th>
-					<th>Identifiant de la collectivit&eacute;</th>
+					<th>Nom</th>
+					<th>Actions</th>
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
@@ -29,21 +29,21 @@
 			<?php foreach ($records as $record) : ?>
 				<tr>
 					<?php if ($this->auth->has_permission('Structures.Maineetloire.Delete')) : ?>
-					<td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
+						<td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
 					<?php endif;?>
-				<td><?php e($record->NOM_TYPE) ?></td>
-				<td><?php e($record->Nom_Commune) ?><?php e($record->Nom_Departement) ?><?php e($record->NOM_EPCI) ?><?php e($record->nom_pays) ?><?php e($record->nom_pnr) ?></td>
-				
-				<?php if ($this->auth->has_permission('Structures.Maineetloire.Edit')) : ?>
-				<td><?php echo anchor(SITE_AREA .'/maineetloire/structures/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_STR) ?></td>
-				<?php else: ?>
-				<td><?php e($record->ID_STR) ?></td>
-				<?php endif; ?>
+					<td><?php e($record->NOM_TYPE) ?></td>
+					<td><?php e($record->Nom_Commune) ?><?php e($record->Nom_Departement) ?><?php e($record->NOM_EPCI) ?><?php e($record->nom_pays) ?><?php e($record->nom_pnr) ?></td>
+					<td>
+                                            <?php if ($this->auth->has_permission('Structures.Maineetloire.Edit')) : ?>
+                                                <?php echo anchor(SITE_AREA .'/maineetloire/structures/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
+                                            <?php endif; ?>
+                                            <?php echo anchor(SITE_AREA .'/maineetloire/contacts/show/'. $record->ID_STR, '<i class="icon-envelope">&nbsp;</i>Voir les contacts') ?>
+                                        </td>
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>
 				<tr>
-					<td colspan="5"><?php echo lang('bf_no_record_found'); ?></td>
+					<td colspan="5"><?php echo lang('bf_no_record_found'); ?></a></td>
 				</tr>
 			<?php endif; ?>
 			</tbody>

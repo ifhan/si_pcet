@@ -11,6 +11,7 @@ class sarthe extends Admin_Controller {
 
 		$this->auth->restrict('Contacts.Sarthe.View');
 		$this->load->model('contacts_model', null, true);
+                $this->load->model('structures/structures_model', null, true);
 		$this->lang->load('contacts');
 		
 		Template::set_block('sub_nav', 'sarthe/_sub_nav');
@@ -52,10 +53,10 @@ class sarthe extends Admin_Controller {
 			}
 		}
 
-		$records = $this->contacts_model->find_all();
+		$records = $this->contacts_model->get_contacts_by_departement('72');
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'Manage Contacts');
+		Template::set('toolbar_title', lang('contacts_manage'));
 		Template::render();
 	}
 
@@ -71,6 +72,7 @@ class sarthe extends Admin_Controller {
 	public function create()
 	{
 		$this->auth->restrict('Contacts.Sarthe.Create');
+                $structures = $this->structures_model->list_structures_by_departement('72');
 
 		if (isset($_POST['save']))
 		{
@@ -89,7 +91,8 @@ class sarthe extends Admin_Controller {
 		}
 		Assets::add_module_js('contacts', 'contacts.js');
 
-		Template::set('toolbar_title', lang('contacts_create') . ' Contacts');
+		Template::set('structures', $structures);
+		Template::set('toolbar_title', lang('contacts'));
 		Template::render();
 	}
 
@@ -105,6 +108,7 @@ class sarthe extends Admin_Controller {
 	public function edit()
 	{
 		$id = $this->uri->segment(5);
+                $structures = $this->structures_model->list_structures_by_departement('72');
 
 		if (empty($id))
 		{
@@ -148,12 +152,31 @@ class sarthe extends Admin_Controller {
 		Template::set('contacts', $this->contacts_model->find($id));
 		Assets::add_module_js('contacts', 'contacts.js');
 
-		Template::set('toolbar_title', lang('contacts_edit') . ' Contacts');
+		Template::set('structures', $structures);
+		Template::set('toolbar_title', lang('contacts'));
 		Template::render();
 	}
 
 	//--------------------------------------------------------------------
+/*
+		Method: show()
 
+		Shows Contacts data.
+	*/
+	public function show($ID_STR) {
+            $ID_STR = $this->uri->segment(5);
+            $structure = $this->structures_model->get_structure_by_id_str($ID_STR);
+            $records = $this->contacts_model->get_contacts_by_structure($ID_STR);
+            
+            Assets::add_module_js('contacts', 'contacts.js');
+
+            Template::set('structure', $structure);
+            Template::set('records', $records);
+            Template::set('toolbar_title', lang('contacts_manage'));
+            Template::render();            
+            
+            
+        } 
 
 	//--------------------------------------------------------------------
 	// !PRIVATE METHODS
