@@ -167,6 +167,17 @@ class loireatlantique extends Admin_Controller {
 		Shows Contacts data.
 	*/
 	public function show($ID_STR) {
+            $ID_STR = $this->uri->segment(5);
+            $structure = $this->structures_model->get_structure_by_id_str($ID_STR);
+            $records = $this->contacts_model->get_contacts_by_structure($ID_STR);
+            
+            Assets::add_module_js('contacts', 'contacts.js');
+
+            Template::set('structure', $structure);
+            Template::set('records', $records);
+            Template::set('toolbar_title', lang('contacts_manage'));
+            Template::render();            
+            
             
         }        
 
