@@ -13,10 +13,10 @@ $config['module_config'] = array(
 	'version'		=> '0.0.1',
 	'author'		=> 'Ronan Vignard',
         'menu_topic'	=> array(
-            'loireatlantique'		=>'3. Avancement de la procédure',
-            'maineetloire'		=>'3. Avancement de la procédure',
-            'mayenne'		=>'3. Avancement de la procédure',
-            'sarthe'		=>'3. Avancement de la procédure',
-            'vendee'		=>'3. Avancement de la procédure'
+            'loireatlantique'		=>'3. Avancement',
+            'maineetloire'		=>'3. Avancement',
+            'mayenne'		=>'3. Avancement',
+            'sarthe'		=>'3. Avancement',
+            'vendee'		=>'3. Avancement'
 	)
 );
