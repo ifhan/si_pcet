@@ -9,11 +9,9 @@
 					<?php endif;?>
 					
 					<th>PCET</th>
-					<th>Domaines de l action</th>
-					<th>Competence de la collectivite</th>
-					<th>Nom de l action</th>
-					<th>Objectifs</th>
-					<th>Indicateurs de suivi</th>
+					<th>Domaines d'action</th>
+					<th>Compétence de la collectivité</th>
+					<th>Actions</th>
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
@@ -21,9 +19,9 @@
 				<?php if ($this->auth->has_permission('Actions.Mayenne.Delete')) : ?>
 				<tr>
 					<td colspan="7">
-						<?php echo lang('bf_with_selected') ?>
 						<input type="submit" name="delete" id="delete-me" class="btn btn-danger" value="<?php echo lang('bf_action_delete') ?>" onclick="return confirm('<?php e(js_escape(lang('actions_delete_confirm'))); ?>')">
-					</td>
+                                                <?php echo lang('bf_with_selected') ?>
+                                        </td>
 				</tr>
 				<?php endif;?>
 			</tfoot>
@@ -36,22 +34,28 @@
 					<td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
 					<?php endif;?>
 					
-				<?php if ($this->auth->has_permission('Actions.Mayenne.Edit')) : ?>
-				<td><?php echo anchor(SITE_AREA .'/mayenne/actions/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_PCET) ?></td>
-				<?php else: ?>
-				<td><?php e($record->ID_PCET) ?></td>
-				<?php endif; ?>
-			
-				<td><?php e($record->DOMAINES_ACTION_id) ?></td>
-				<td><?php e($record->COMPETENCE) ?></td>
-				<td><?php e($record->NOM_ACTION) ?></td>
-				<td><?php e($record->OBJECTIFS) ?></td>
-				<td><?php e($record->INDICATEUR_SUIVI) ?></td>
+                                    <td><?php e($record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
+                                    <td><?php e($record->NOM_DOMAINE_ACTION) ?></td>
+                                    <td><?php if($record->COMPETENCE == '1'): ?>
+                                        <?php echo "Oui"; ?>
+                                        <?php else: ?>
+                                        <?php echo "Non"; ?>
+                                        <?php endif; ?>
+                                    </td>
+
+                                    <td width="20%">
+                                        <?php if ($this->auth->has_permission('Actions.Mayenne.Edit')) : ?>
+                                            <?php echo anchor(SITE_AREA .'/mayenne/actions/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
+                                        <?php endif; ?> 
+                                        <?php echo anchor(SITE_AREA .'/mayenne/actions/show/'. $record->id, '<i class="icon-info-sign">&nbsp;</i>Voir l\'action') ?><br />
+                                        <?php echo anchor(SITE_AREA .'/mayenne/actions/show/'. $record->ID_PCET, '<i class="icon-info-sign">&nbsp;</i>Voir le tableau de bord du PCET') ?>
+                                    </td>
+				</tr>
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>
 				<tr>
-					<td colspan="7">No records found that match your selection.</td>
+					<td colspan="7"><?php echo lang('bf_no_record_found'); ?></td>
 				</tr>
 			<?php endif; ?>
 			</tbody>

@@ -11,9 +11,7 @@
 					<th>PCET</th>
 					<th>Domaines d'action</th>
 					<th>Compétence de la collectivité</th>
-					<th>Nom de l'action</th>
-					<th>Objectifs</th>
-					<th>Indicateurs de suivi</th>
+					<th>Actions</th>
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
@@ -21,9 +19,9 @@
 				<?php if ($this->auth->has_permission('Actions.Loireatlantique.Delete')) : ?>
 				<tr>
 					<td colspan="7">
-						<?php echo lang('bf_with_selected') ?>
 						<input type="submit" name="delete" id="delete-me" class="btn btn-danger" value="<?php echo lang('bf_action_delete') ?>" onclick="return confirm('<?php e(js_escape(lang('actions_delete_confirm'))); ?>')">
-					</td>
+                                                <?php echo lang('bf_with_selected') ?>
+                                        </td>
 				</tr>
 				<?php endif;?>
 			</tfoot>
@@ -32,26 +30,26 @@
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
 			<?php foreach ($records as $record) : ?>
 				<tr>
-					<?php if ($this->auth->has_permission('Actions.Loireatlantique.Delete')) : ?>
-					<td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
-					<?php endif;?>
-					
-				<?php if ($this->auth->has_permission('Actions.Loireatlantique.Edit')) : ?>
-				<td><?php echo anchor(SITE_AREA .'/loireatlantique/actions/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
-				<?php else: ?>
-				<td><?php e($record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
-				<?php endif; ?>
-			
-				<td><?php e($record->NOM_DOMAINE_ACTION) ?></td>
-				<td><?php if($record->COMPETENCE == '1'): ?>
-                                    <?php echo "Oui"; ?>
-                                    <?php else: ?>
-                                    <?php echo "Non"; ?>
-                                    <?php endif; ?>
-                                </td>
-				<td><?php e($record->NOM_ACTION) ?></td>
-				<td><?php e($record->OBJECTIFS) ?></td>
-				<td><?php e($record->INDICATEUR_SUIVI) ?></td>
+                                    <?php if ($this->auth->has_permission('Actions.Loireatlantique.Delete')) : ?>
+                                    <td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
+                                    <?php endif;?>
+
+                                    <td><?php e($record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
+                                    <td><?php e($record->NOM_DOMAINE_ACTION) ?></td>
+                                    <td><?php if($record->COMPETENCE == '1'): ?>
+                                        <?php echo "Oui"; ?>
+                                        <?php else: ?>
+                                        <?php echo "Non"; ?>
+                                        <?php endif; ?>
+                                    </td>
+
+                                    <td width="20%">
+                                        <?php if ($this->auth->has_permission('Actions.Loireatlantique.Edit')) : ?>
+                                            <?php echo anchor(SITE_AREA .'/loireatlantique/actions/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
+                                        <?php endif; ?> 
+                                        <?php echo anchor(SITE_AREA .'/loireatlantique/actions/show/'. $record->id, '<i class="icon-info-sign">&nbsp;</i>Voir l\'action') ?><br />
+                                        <?php echo anchor(SITE_AREA .'/loireatlantique/actions/show/'. $record->ID_PCET, '<i class="icon-info-sign">&nbsp;</i>Voir le tableau de bord du PCET') ?>
+                                    </td>
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>
