@@ -55,7 +55,7 @@ class content extends Admin_Controller {
 		$records = $this->domaine_model->find_all();
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'Paramétrer les domaine de l\'action');
+		Template::set('toolbar_title', lang('domaine_manage'));
 		Template::render();
 	}
 
@@ -89,7 +89,7 @@ class content extends Admin_Controller {
 		}
 		Assets::add_module_js('domaine', 'domaine.js');
 
-		Template::set('toolbar_title', 'Créer un domaine de l\'action');
+		Template::set('toolbar_title', lang('domaine'));
 		Template::render();
 	}
 
@@ -122,6 +122,7 @@ class content extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('domaine_act_edit_record').': ' . $id . ' : ' . $this->input->ip_address(), 'domaine');
 
 				Template::set_message(lang('domaine_edit_success'), 'success');
+                                redirect(SITE_AREA .'/content/domaine');
 			}
 			else
 			{
@@ -148,7 +149,7 @@ class content extends Admin_Controller {
 		Template::set('domaine', $this->domaine_model->find($id));
 		Assets::add_module_js('domaine', 'domaine.js');
 
-		Template::set('toolbar_title', 'Modifier Domaine');
+		Template::set('toolbar_title', lang('domaine_manage'));
 		Template::render();
 	}
 

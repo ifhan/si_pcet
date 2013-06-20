@@ -25,7 +25,7 @@ $id = isset($domaine['id']) ? $domaine['id'] : '';
 		<fieldset>
 
 			<div class="control-group <?php echo form_error('NOM_DOMAINE_ACTION') ? 'error' : ''; ?>">
-				<?php echo form_label('Nom du domaine de l\'action', 'domaine_NOM_DOMAINE_ACTION', array('class' => 'control-label') ); ?>
+				<?php echo form_label('Nom du domaine d\'action', 'domaine_NOM_DOMAINE_ACTION', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<input id='domaine_NOM_DOMAINE_ACTION' type='text' name='domaine_NOM_DOMAINE_ACTION' maxlength="70" value="<?php echo set_value('domaine_NOM_DOMAINE_ACTION', isset($domaine['NOM_DOMAINE_ACTION']) ? $domaine['NOM_DOMAINE_ACTION'] : ''); ?>" />
 					<span class='help-inline'><?php echo form_error('NOM_DOMAINE_ACTION'); ?></span>
@@ -34,7 +34,7 @@ $id = isset($domaine['id']) ? $domaine['id'] : '';
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('domaine_action_create'); ?>"  />
-				or <?php echo anchor(SITE_AREA .'/content/domaine', lang('domaine_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/content/domaine', lang('domaine_cancel'), 'class="btn btn-warning"'); ?>
 				
 			</div>
 		</fieldset>
