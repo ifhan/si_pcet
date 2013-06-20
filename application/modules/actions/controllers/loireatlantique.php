@@ -95,7 +95,7 @@ class loireatlantique extends Admin_Controller {
 
                 Template::set('pcets', $pcets);
                 Template::set('domaine', $domaine);
-		Template::set('toolbar_title', lang('actions_create'));
+		Template::set('toolbar_title', lang('actions'));
 		Template::render();
 	}
 
@@ -159,7 +159,7 @@ class loireatlantique extends Admin_Controller {
 
                 Template::set('pcets', $pcets);
                 Template::set('domaine', $domaine);
-		Template::set('toolbar_title', lang('actions_edit_text'));
+		Template::set('toolbar_title', lang('actions'));
 		Template::render();
 	}
 

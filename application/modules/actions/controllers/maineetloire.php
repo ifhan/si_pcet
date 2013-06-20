@@ -57,7 +57,7 @@ class maineetloire extends Admin_Controller {
 		$records = $this->actions_model->get_actions_by_departement('49');
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'Manage Actions');
+		Template::set('toolbar_title', lang('actions_manage'));
 		Template::render();
 	}
 
@@ -95,7 +95,7 @@ class maineetloire extends Admin_Controller {
 
                 Template::set('pcets', $pcets);
                 Template::set('domaine', $domaine);
-		Template::set('toolbar_title', lang('actions_create') . ' Actions');
+		Template::set('toolbar_title', lang('actions'));
 		Template::render();
 	}
 
@@ -159,7 +159,7 @@ class maineetloire extends Admin_Controller {
 
                 Template::set('pcets', $pcets);
                 Template::set('domaine', $domaine);                
-		Template::set('toolbar_title', lang('actions_edit') . ' Actions');
+		Template::set('toolbar_title', lang('actions'));
 		Template::render();
 	}
 
