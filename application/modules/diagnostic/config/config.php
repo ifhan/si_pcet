@@ -9,7 +9,7 @@ $config['module_config'] = array(
             'vendee'	=> 'diagnostic/vendee/menu'
 	),    
 	'description'	=> 'Suivi du Volet Diagnostic des PCET',
-	'name'		=> '5. Volet Diagnostic',
+	'name'		=> '4. Volet Diagnostic',
 	'version'		=> '0.0.1',
 	'author'		=> 'Anthony Tolone',
         'menu_topic'	=> array(

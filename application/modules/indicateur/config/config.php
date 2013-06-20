@@ -9,7 +9,7 @@ $config['module_config'] = array(
             'vendee'	=> 'indicateur/vendee/menu'
 	),
         'description'	=> 'Suivi du Volet Indicateurs & Actions des PCET',
-	'name'		=> '6. Volet Indicateurs & Actions',
+	'name'		=> '5. Volet Indicateurs & Actions',
 	'version'		=> '0.0.1',
 	'author'		=> 'Anthony Tolone',
         'menu_topic'	=> array(
