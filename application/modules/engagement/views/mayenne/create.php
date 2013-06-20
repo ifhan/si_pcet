@@ -31,7 +31,15 @@ $id = isset($engagement['id']) ? $engagement['id'] : '';
                                 <span>ou</span> <a href="<?php echo site_url(SITE_AREA .'/mayenne/pcet/create') ?>" class="btn" type="button">Ajouter un PCET</a>
                                 <span class='help-inline'>s'il n'y a pas de PCET disponible dans la liste.</span>
                             </div>
-                        </div>                    
+                        </div>
+                    
+                	<div class="control-group <?php echo form_error('COMMENT_DDT') ? 'error' : ''; ?>">
+				<?php echo form_label('Implication de la DDT', 'engagement_COMMENT_DDT', array('class' => 'control-label') ); ?>
+				<div class='controls'>
+					<?php echo form_textarea( array( 'name' => 'engagement_COMMENT_DDT', 'id' => 'engagement_COMMENT_DDT', 'rows' => '5', 'cols' => '80', 'value' => set_value('engagement_COMMENT_DDT', isset($engagement['COMMENT_DDT']) ? $engagement['COMMENT_DDT'] : '') ) ); ?>
+					<span class='help-inline'><?php echo form_error('COMMENT_DDT'); ?></span>
+				</div>
+			</div>                        
                     
 			<div class="control-group <?php echo form_error('DATE_DELIB') ? 'error' : ''; ?>">
 				<?php echo form_label('Date de délibération', 'engagement_DATE_DELIB', array('class' => 'control-label') ); ?>

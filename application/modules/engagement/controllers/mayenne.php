@@ -186,6 +186,7 @@ class mayenne extends Admin_Controller {
 
 		
 		$this->form_validation->set_rules('engagement_ID_PCET','Identifiant du PCET','max_length[10]');
+                $this->form_validation->set_rules('engagement_COMMENT_DDT','Implication de la DDT','');                
 		$this->form_validation->set_rules('engagement_DATE_DELIB','Date de deliberation','max_length[10]');
 		$this->form_validation->set_rules('engagement_NOTIF_DELIB_ETAT','Date du courrier de la structure notifiant sa deliberation a l Etat','max_length[10]');
 		$this->form_validation->set_rules('engagement_NOTIF_DELIB_CR','Date du courrier de la structure notifiant sa deliberation au Conseil regional','max_length[10]');
@@ -203,6 +204,7 @@ class mayenne extends Admin_Controller {
 		
 		$data = array();
 		$data['ID_PCET']        = $this->input->post('engagement_ID_PCET');
+                $data['COMMENT_DDT']        = $this->input->post('engagement_COMMENT_DDT');                
 		$data['DATE_DELIB']        = $this->input->post('engagement_DATE_DELIB') ? $this->input->post('engagement_DATE_DELIB') : '0000-00-00';
 		$data['NOTIF_DELIB_ETAT']        = $this->input->post('engagement_NOTIF_DELIB_ETAT') ? $this->input->post('engagement_NOTIF_DELIB_ETAT') : '0000-00-00';
 		$data['NOTIF_DELIB_CR']        = $this->input->post('engagement_NOTIF_DELIB_CR') ? $this->input->post('engagement_NOTIF_DELIB_CR') : '0000-00-00';

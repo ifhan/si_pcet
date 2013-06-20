@@ -26,13 +26,21 @@ $id = isset($engagement['id']) ? $engagement['id'] : '';
 
 			<?php echo form_dropdown('engagement_ID_PCET',$pcets,set_value('engagement_ID_PCET', isset($engagement['ID_PCET']) ? $engagement['ID_PCET'] : ''),'Sélectionner un PCET');?>
 
+			<div class="control-group <?php echo form_error('COMMENT_DDT') ? 'error' : ''; ?>">
+				<?php echo form_label('Implication de la DDT', 'engagement_COMMENT_DDT', array('class' => 'control-label') ); ?>
+				<div class='controls'>
+					<?php echo form_textarea( array( 'name' => 'engagement_COMMENT_DDT', 'id' => 'engagement_COMMENT_DDT', 'rows' => '5', 'cols' => '80', 'value' => set_value('engagement_COMMENT_DDT', isset($engagement['COMMENT_DDT']) ? $engagement['COMMENT_DDT'] : '') ) ); ?>
+					<span class='help-inline'><?php echo form_error('COMMENT_DDT'); ?></span>
+				</div>
+			</div>                       
+                    
 			<div class="control-group <?php echo form_error('DATE_DELIB') ? 'error' : ''; ?>">
 				<?php echo form_label('Date de délibération', 'engagement_DATE_DELIB', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<input id='engagement_DATE_DELIB' type='text' name='engagement_DATE_DELIB' maxlength="10" value="<?php echo set_value('engagement_DATE_DELIB', isset($engagement['DATE_DELIB']) ? $engagement['DATE_DELIB'] : ''); ?>" />
 					<span class='help-inline'><?php echo form_error('DATE_DELIB'); ?></span>
 				</div>
-			</div>
+			</div>                 
 
 			<div class="control-group <?php echo form_error('NOTIF_DELIB_ETAT') ? 'error' : ''; ?>">
 				<?php echo form_label('Date du courrier de la collectivité notifiant sa délibération a l\'État', 'engagement_NOTIF_DELIB_ETAT', array('class' => 'control-label') ); ?>
