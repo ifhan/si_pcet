@@ -11,6 +11,8 @@ class maineetloire extends Admin_Controller {
 
 		$this->auth->restrict('Actions.Maineetloire.View');
 		$this->load->model('actions_model', null, true);
+                $this->load->model('pcet/pcet_model', null, true);
+                $this->load->model('domaine/domaine_model', null, true);                
 		$this->lang->load('actions');
 		
 		Template::set_block('sub_nav', 'maineetloire/_sub_nav');
@@ -52,7 +54,7 @@ class maineetloire extends Admin_Controller {
 			}
 		}
 
-		$records = $this->actions_model->find_all();
+		$records = $this->actions_model->get_actions_by_departement('49');
 
 		Template::set('records', $records);
 		Template::set('toolbar_title', 'Manage Actions');
@@ -71,6 +73,8 @@ class maineetloire extends Admin_Controller {
 	public function create()
 	{
 		$this->auth->restrict('Actions.Maineetloire.Create');
+                $domaine = $this->domaine_model->get_domaine();
+                $pcets = $this->pcet_model->list_pcet_by_departement('49');                
 
 		if (isset($_POST['save']))
 		{
@@ -89,6 +93,8 @@ class maineetloire extends Admin_Controller {
 		}
 		Assets::add_module_js('actions', 'actions.js');
 
+                Template::set('pcets', $pcets);
+                Template::set('domaine', $domaine);
 		Template::set('toolbar_title', lang('actions_create') . ' Actions');
 		Template::render();
 	}
@@ -105,6 +111,8 @@ class maineetloire extends Admin_Controller {
 	public function edit()
 	{
 		$id = $this->uri->segment(5);
+                $domaine = $this->domaine_model->get_domaine();
+                $pcets = $this->pcet_model->list_pcet_by_departement('49');                
 
 		if (empty($id))
 		{
@@ -122,6 +130,7 @@ class maineetloire extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('actions_act_edit_record').': ' . $id . ' : ' . $this->input->ip_address(), 'actions');
 
 				Template::set_message(lang('actions_edit_success'), 'success');
+                                redirect(SITE_AREA .'/maineetloire/actions');
 			}
 			else
 			{
@@ -148,6 +157,8 @@ class maineetloire extends Admin_Controller {
 		Template::set('actions', $this->actions_model->find($id));
 		Assets::add_module_js('actions', 'actions.js');
 
+                Template::set('pcets', $pcets);
+                Template::set('domaine', $domaine);                
 		Template::set('toolbar_title', lang('actions_edit') . ' Actions');
 		Template::render();
 	}

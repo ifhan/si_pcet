@@ -130,6 +130,7 @@ class loireatlantique extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('actions_act_edit_record').': ' . $id . ' : ' . $this->input->ip_address(), 'actions');
 
 				Template::set_message(lang('actions_edit_success'), 'success');
+                                redirect(SITE_AREA .'/loireatlantique/actions');
 			}
 			else
 			{
