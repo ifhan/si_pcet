@@ -216,3 +216,4 @@ pip-log.txt
 /application/config/database.php
 !/application/config/database.php.bak
 /application/logs/
+!/public/themes/default/parts/
