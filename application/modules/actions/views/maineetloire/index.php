@@ -1,5 +1,5 @@
 <div class="admin-box">
-	<h3>Actions</h3>
+	<h3><?php echo lang('actions_title'); ?>Maine-et-Loire</h3>
 	<?php echo form_open($this->uri->uri_string()); ?>
 		<table class="table table-striped">
 			<thead>
