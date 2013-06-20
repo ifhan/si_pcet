@@ -9,7 +9,7 @@
 					<?php endif;?>
 					
 					<th>PCET</th>
-					<th>Domaines de l'action</th>
+					<th>Domaines d'action</th>
 					<th>Compétence de la collectivité</th>
 					<th>Nom de l'action</th>
 					<th>Objectifs</th>
@@ -56,7 +56,7 @@
 			<?php endforeach; ?>
 			<?php else: ?>
 				<tr>
-					<td colspan="7">No records found that match your selection.</td>
+					<td colspan="7"><?php echo lang('bf_no_record_found'); ?></td>
 				</tr>
 			<?php endif; ?>
 			</tbody>
