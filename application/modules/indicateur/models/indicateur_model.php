@@ -45,4 +45,17 @@ class Indicateur_model extends BF_Model {
             return $records;
                         
         }
+
+        /*
+		Method: get_indicateur_by_id_pcet()
+
+		Sélectionne les informations sur les indicateurs et actions
+        *       d'un PCET par l'identifiant du PCET.
+	*/             
+        function get_indicateur_by_id_pcet($ID_PCET) {
+            $indicateur = $this->indicateur_model
+                    ->join('pcet','pcet.ID_PCET = pcet_actions_indicateurs.ID_PCET','left')
+                    ->find_by('pcet.ID_PCET',$ID_PCET);
+            return $indicateur;            
+        }
 }

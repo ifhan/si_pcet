@@ -53,7 +53,6 @@ class Avis_model extends BF_Model {
         function get_avis_by_id_pcet($ID_PCET) {
             $avis = $this->avis_model
                     ->join('pcet','pcet.ID_PCET = pcet_avis.ID_PCET','left')
-                    ->select()
                     ->find_by('pcet.ID_PCET',$ID_PCET);
             return $avis;
         }

@@ -45,4 +45,17 @@ class Diagnostic_model extends BF_Model {
             return $records;
                         
         }
+
+        /*
+		Method: get_diagnostic_by_id_pcet()
+
+		Sélectionne les informations sur les diagnostics
+        *       d'un PCET par l'identifiant du PCET.
+	*/             
+        function get_diagnostic_by_id_pcet($ID_PCET) {
+            $diagnostic = $this->diagnostic_model
+                    ->join('pcet','pcet.ID_PCET = pcet_diagnostic.ID_PCET','left')
+                    ->find_by('pcet.ID_PCET',$ID_PCET);
+            return $diagnostic;            
+        }
 }
