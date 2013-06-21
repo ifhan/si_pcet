@@ -8,15 +8,15 @@ $config['module_config'] = array(
             'sarthe'	=> 'gouvernance/sarthe/menu',
             'vendee'	=> 'gouvernance/vendee/menu'
 	),    
-	'description'	=> 'Suivi du Volet Gouvernance des PCET',
-	'name'		=> '8. Volet Gouvernance',
+	'description'	=> 'Suivi de la gouvernance des PCET',
+	'name'		=> '8. Gouvernance',
 	'version'		=> '0.0.1',
 	'author'		=> 'Anthony Tolone',
         'menu_topic'	=> array(
-            'loireatlantique'		=>'4. Études & Analyses',
-            'maineetloire'		=>'4. Études & Analyses',
-            'mayenne'		=>'4. Études & Analyses',
-            'sarthe'		=>'4. Études & Analyses',
-            'vendee'		=>'4. Études & Analyses'
+            'loireatlantique'		=>'1. Acteurs',
+            'maineetloire'		=>'1. Acteurs',
+            'mayenne'		=>'1. Acteurs',
+            'sarthe'		=>'1. Acteurs',
+            'vendee'		=>'1. Acteurs'
 	)    
 );

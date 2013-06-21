@@ -9,7 +9,7 @@ $config['module_config'] = array(
             'vendee'	=> 'contacts/vendee/menu'
 	),
 	'description'	=> 'Contacts de la collectivité',
-	'name'		=> 'Contacts',
+	'name'		=> '2. Contacts',
 	'version'		=> '0.0.1',
 	'author'		=> 'Ronan Vignard',
     	'menu_topic'	=> array(
