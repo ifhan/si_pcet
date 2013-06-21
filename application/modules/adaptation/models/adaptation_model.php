@@ -8,7 +8,14 @@ class Adaptation_model extends BF_Model {
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
 	protected $set_modified = false;
-        
+
+        /*
+		Method: get_adaptation_by_departement()
+
+		Sélectionne les informations sur l'adaptation
+        *       des PCET d'un département par l'identifiant
+        *       du département.
+	*/         
         function get_adaptation_by_departement($departement) {
             
             $records = $this->adaptation_model
@@ -34,7 +41,13 @@ class Adaptation_model extends BF_Model {
             return $records;
                         
         }
-        
+
+        /*
+		Method: get_adaptation_by_id()
+
+		Sélectionne les informations sur l'adaptation
+        *       d'un PCET par l'identifiant du PCET.
+	*/          
         function get_adaptation_by_id($ID_PCET) {
             
             $adaptation = $this->adaptation_model

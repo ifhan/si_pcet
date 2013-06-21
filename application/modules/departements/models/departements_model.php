@@ -2,13 +2,18 @@
 
 class Departements_model extends BF_Model {
 
-	protected $table		= "bdc_departement_52";
-	protected $key			= "id";
+	protected $table	= "bdc_departement_52";
+	protected $key		= "id";
 	protected $soft_deletes	= false;
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
 	protected $set_modified = false;
-	
+
+        /*
+		Method: get_departement_by_insee_departement()
+
+		Sélectionne un département par son code INSEE.
+	*/           
 	function get_departement_by_insee_departement($INSEE_Departement) {
 		$this->db->select('INSEE_Departement, Nom_Departement')
 			->where('INSEE_Departement',$INSEE_Departement)

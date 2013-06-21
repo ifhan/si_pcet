@@ -8,7 +8,13 @@ class Phases_model extends BF_Model {
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
 	protected $set_modified = false;
-	
+
+        /*
+		Method: get_phases()
+
+		Sélectionne l'ensemble des phases de l'état d'avancement
+        *       d'un PCET pour affichage dans une liste.
+	*/        
 	function get_phases() {
 		$query = $this->db->get('pcet_phase');
 		 
@@ -23,8 +29,13 @@ class Phases_model extends BF_Model {
 			return FALSE;
 		}
 	}
-        
-        function get_phase_by_id($ID_PCET) {
+
+        /*
+		Method: get_phase_by_id_pcet()
+
+		Sélectionne la phase d'un PCET par l'identifiant du PCET.
+	*/        
+        function get_phase_by_id_pcet($ID_PCET) {
             
             $phase = $this->phases_model
                     ->join('pcet','pcet_phase.id = pcet.ID_PHASE','left')

@@ -8,7 +8,13 @@ class Contacts_model extends BF_Model {
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
 	protected $set_modified = false;
-        
+
+        /*
+		Method: get_contacts_by_departement()
+
+		Sélectionne l'ensemble des contacts des collectivités
+        *       d'un département par l'identifiant d'un département.
+	*/         
         function get_contacts_by_departement($departement) {
             $records = $this->contacts_model
                 ->select('pcet_contact.id as id, pcet_contact.CIVILITE as CIVILITE, 
@@ -33,7 +39,13 @@ class Contacts_model extends BF_Model {
 			
             return $records;
         }
-        
+
+        /*
+		Method: get_contacts_by_structure()
+
+		Sélectionne l'ensemble des contacts
+        *       d'une collectivité par l'identifiant de la collectivité.
+	*/         
         function get_contacts_by_structure($ID_STR) {
             $records = $this->contacts_model
                     ->find_all_by('ID_STR', $ID_STR);

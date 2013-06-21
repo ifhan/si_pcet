@@ -8,7 +8,13 @@ class Scope_model extends BF_Model {
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
 	protected $set_modified = false;
-        
+
+        /*
+		Method: list_scopes()
+
+		Sélectionne l'ensemble des scopes pour l'affichage
+        *       dans une liste.
+	*/         
         function list_scopes() {
             $query = $this->db->get('pcet_ges_bilan');
 		 

@@ -2,13 +2,20 @@
 
 class Diagnostic_model extends BF_Model {
 
-	protected $table		= "pcet_diagnostic";
-	protected $key			= "id";
+	protected $table	= "pcet_diagnostic";
+	protected $key		= "id";
 	protected $soft_deletes	= false;
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
 	protected $set_modified = false;
-        
+
+        /*
+		Method: get_diagnostic_by_departement()
+
+		Sélectionne les informations sur les diagnostics
+        *       des PCET d'un département par l'identifiant
+        *       du département.
+	*/          
         function get_diagnostic_by_departement($departement) {
             
             $records = $this->diagnostic_model

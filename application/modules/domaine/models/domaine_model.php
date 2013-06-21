@@ -2,13 +2,18 @@
 
 class Domaine_model extends BF_Model {
 
-	protected $table		= "pcet_domaines_action";
-	protected $key			= "id";
+	protected $table	= "pcet_domaines_action";
+	protected $key		= "id";
 	protected $soft_deletes	= false;
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
 	protected $set_modified = false;
-        
+
+        /*
+		Method: get_domaine()
+
+		Sélectionne l'ensemble des domaines d'actions.
+	*/         
         function get_domaine() {
 		$query = $this->db->get('pcet_domaines_action');
 		 
@@ -23,7 +28,13 @@ class Domaine_model extends BF_Model {
 			return FALSE;
 		}
 	}
-        
+
+        /*
+		Method: get_domaine_by_id()
+
+		Sélectionne un domaine d'action pour un PCET par 
+        *       l'identifiant du PCET.
+	*/         
         function get_domaine_by_id($ID_PCET) {
             
             $domaine = $this->domaine_model

@@ -75,7 +75,7 @@ class Structures_model extends BF_Model {
 
 		Sélectionne une collectivité par l'identifiant du PCET.
 	*/
-        function get_structure_by_id($ID_PCET) {
+        function get_structure_by_id_pcet($ID_PCET) {
             
             $structure = $this->structures_model
                     ->join('pcet','pcet_structure.ID_STR = pcet.ID_STR','left')

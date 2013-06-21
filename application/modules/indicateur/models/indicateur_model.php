@@ -2,13 +2,20 @@
 
 class Indicateur_model extends BF_Model {
 
-	protected $table		= "pcet_actions_indicateurs";
-	protected $key			= "id";
+	protected $table	= "pcet_actions_indicateurs";
+	protected $key		= "id";
 	protected $soft_deletes	= false;
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
 	protected $set_modified = false;
-        
+    
+        /*
+		Method: get_indicateur_by_departement()
+
+		Sélectionne les informations sur les indicateurs & actions 
+        *       des PCET d'un département par l'identifiant
+        *       du département.
+	*/          
         function get_indicateur_by_departement($departement) {
             
             $records = $this->indicateur_model

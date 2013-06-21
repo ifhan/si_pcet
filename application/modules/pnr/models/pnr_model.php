@@ -2,13 +2,19 @@
 
 class Pnr_model extends BF_Model {
 
-	protected $table		= "r_pnr_r52";
-	protected $key			= "id";
+	protected $table	= "r_pnr_r52";
+	protected $key		= "id";
 	protected $soft_deletes	= false;
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
 	protected $set_modified = false;
-	
+
+        /*
+		Method: get_pnr_by_departement()
+
+		Sélectionne les PNR d'un département par l'identifiant
+        *       d'un département.
+	*/            
 	function get_pnr_by_departement($departement) {
 	
 		$this->db->select('id_regional, nom')

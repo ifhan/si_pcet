@@ -8,7 +8,14 @@ class Avis_model extends BF_Model {
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
 	protected $set_modified = false;
-        
+
+        /*
+		Method: get_avis_by_departement()
+
+		Sélectionne les avis
+        *       des PCET d'un département par l'identifiant
+        *       du département.
+	*/         
         function get_avis_by_departement($departement) {
             
             $records = $this->avis_model
@@ -35,6 +42,20 @@ class Avis_model extends BF_Model {
             
             return $records;
                         
+        }
+
+        /*
+		Method: get_avis_by_id_pcet()
+
+		Sélectionne les avis
+        *       d'un PCET par l'identifiant du PCET.
+	*/        
+        function get_avis_by_id_pcet($ID_PCET) {
+            $avis = $this->avis_model
+                    ->join('pcet','pcet.ID_PCET = pcet_avis.ID_PCET','left')
+                    ->select()
+                    ->find_by('pcet.ID_PCET',$ID_PCET);
+            return $avis;
         }
         
 }

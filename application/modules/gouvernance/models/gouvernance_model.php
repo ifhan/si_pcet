@@ -2,13 +2,21 @@
 
 class Gouvernance_model extends BF_Model {
 
-	protected $table		= "pcet_gouvernance";
-	protected $key			= "id";
+	protected $table	= "pcet_gouvernance";
+	protected $key		= "id";
 	protected $soft_deletes	= false;
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
 	protected $set_modified = false;
+
         
+        /*
+		Method: get_gouvernance_by_departement()
+
+		Sélectionne les informations sur la gouvernance 
+        *       des PCET d'un département par l'identifiant
+        *       du département.
+	*/          
         function get_gouvernance_by_departement($departement) {
             
             $records = $this->gouvernance_model

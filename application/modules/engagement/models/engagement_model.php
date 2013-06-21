@@ -9,6 +9,13 @@ class Engagement_model extends BF_Model {
 	protected $set_created	= false;
 	protected $set_modified = false;
         
+        /*
+		Method: get_engagement_by_departement()
+
+		Sélectionne les informations sur l'engagement de la démarche
+        *       pour les PCET d'un département par l'identifiant
+        *       du département.
+	*/         
         function get_engagement_by_departement($departement) {
             
             $records = $this->engagement_model

@@ -8,7 +8,13 @@ class Pcet_model extends BF_Model {
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
 	protected $set_modified = false;
-	
+
+        /*
+		Method: get_pcet_by_departement()
+
+		Sélectionne l'ensemble des PCET d'un département 
+        *       par l'identifiant du département.
+	*/         
 	function get_pcet_by_departement($departement) {
             $records = $this->pcet_model
                 ->select('pcet.id as id, pcet.ID_PCET as ID_PCET, 
@@ -36,7 +42,12 @@ class Pcet_model extends BF_Model {
 			
             return $records;
 	}
-        
+
+        /*
+		Method: get_pcet()
+
+		Sélectionne l'ensemble des PCET.
+	*/         
         function get_pcet() {
             $records = $this->pcet_model
                 ->select('pcet.id as id, pcet.ID_PCET as ID_PCET, 
@@ -64,7 +75,13 @@ class Pcet_model extends BF_Model {
 			
             return $records;
 	}
-        
+
+        /*
+		Method: list_pcet_by_departement()
+
+		Sélectionne l'ensemble des PCET d'un département 
+        *       par l'identifiant du département pour l'affichage.
+	*/         
         function list_pcet_by_departement($departement) {
             $pcets = $this->db
                 ->join('pcet_structure','pcet_structure.ID_STR = pcet.ID_STR','left')

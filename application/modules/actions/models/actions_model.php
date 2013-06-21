@@ -2,13 +2,20 @@
 
 class Actions_model extends BF_Model {
 
-	protected $table		= "pcet_actions";
-	protected $key			= "id";
+	protected $table	= "pcet_actions";
+	protected $key		= "id";
 	protected $soft_deletes	= false;
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
 	protected $set_modified = false;
-        
+
+        /*
+		Method: get_actions_by_departement()
+
+		Sélectionne les actions
+        *       des PCET d'un département par l'identifiant
+        *       du département.
+	*/        
         function get_actions_by_departement($departement) {
             
             $records = $this->actions_model

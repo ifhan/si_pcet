@@ -2,13 +2,19 @@
 
 class Communes_model extends BF_Model {
 
-	protected $table		= "bdc_commune_52";
-	protected $key			= "id";
+	protected $table	= "bdc_commune_52";
+	protected $key		= "id";
 	protected $soft_deletes	= false;
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
 	protected $set_modified = false;
-	
+
+        /*
+		Method: get_communes_by_departement()
+
+		Sélectionne l'ensemble des communes
+        *       d'un département par l'identifiant d'un département.
+	*/           
 	function get_communes_by_departement($departement) {
 		$this->db->select('INSEE_Commune, Nom_Commune')->where('INSEE_Departement',$departement)->order_by('INSEE_Commune', 'asc');
 		$query = $this->db->get('bdc_commune_52');
