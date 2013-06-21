@@ -1,5 +1,5 @@
 <div>
-	<h1 class="page-header">PCET en Pays de la Loire</h1>
+	<h1 class="page-header"><?php echo lang('pcet') ?> en Pays de la Loire</h1>
 </div>
 
 <br />
@@ -14,24 +14,19 @@
                             <th>Collectivit&eacute;</th>
                             <th>Statut</th>
                             <th>État d'avancement</th>
-                            <th>Site web</th>
+                            <th>Actions</th>
 			</tr>
 		</thead>
 		<tbody>
 		
-		<?php foreach ($records as $record) : ?>
-			
+		<?php foreach ($records as $record) : ?>		
 			<tr>
-                            <td><?php echo anchor('/pcet/show/'. $record->ID_PCET, '<i class="icon-search">&nbsp;</i>' .  $record->ID_PCET) ?>
+                            <td><?php e($record->ID_PCET) ?>
                             <td><?php e($record->NOM_TYPE) ?></td>
                             <td><?php e($record->Nom_Commune) ?><?php e($record->Nom_Departement) ?><?php e($record->NOM_EPCI) ?><?php e($record->nom_pays) ?><?php e($record->nom_pnr) ?></td>
                             <td><?php e($record->STATUT_PCET) ?></td>
                             <td><?php e($record->NOM_PHASE) ?></td>
-                            <td width="10%">
-                                <?php if(!empty($record->INTERNET_PCET)): ?>
-                                    <?php echo anchor($record->INTERNET_PCET, '<i class="icon-globe">&nbsp;</i>Consulter', 'target="_blank"'); ?>
-				<?php endif; ?>
-                            </td>
+                            <td width="15%"><?php echo anchor('/pcet/show/'. $record->ID_PCET, '<i class="icon-search">&nbsp;</i>Consulter') ?>
 			</tr>
 		<?php endforeach; ?>
 		</tbody>
