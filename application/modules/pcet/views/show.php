@@ -67,6 +67,7 @@
             </div>
         </div>
     </div>
+    <?php if($avis): ?>
     <div class="accordion-group">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
@@ -79,49 +80,51 @@
                     <tbody>
                         <tr>
                             <th>Date de la sollicitation de l'avis de l'État</th>
-                            <td></td>
+                            <td><?php e(date("d/m/Y", strtotime(($avis->DEM_ETAT_AVIS)))) ?></td>
                         </tr>
                         <tr>        
                             <th>Date du rendu de l'avis de l'État</th>   
-                            <td></td>
+                            <td><?php e(date("d/m/Y", strtotime(($avis->REP_ETAT_AVIS)))) ?></td>
                         </tr>
                         <tr>
                             <th>Date de la sollicitation de l'avis du Conseil régional</th>
-                            <td></td>
+                            <td><?php e(date("d/m/Y", strtotime(($avis->DEM_REG_AVIS)))) ?></td>
                         </tr>
                         <tr>
                             <th>Date du rendu de l'avis du Conseil régional</th>
-                            <td></td>
+                            <td><?php e(date("d/m/Y", strtotime(($avis->REP_REG_AVIS)))) ?></td>
                         </tr>
                         <tr>
                             <th>Date de la sollicitation de l'avis de l'ADEME</th>
-                            <td></td>
+                            <td><?php e(date("d/m/Y", strtotime(($avis->DEM_ADEME_AVIS)))) ?></td>
                         </tr>
                         <tr>
                             <th>Date du rendu de l'avis de l'ADEME</th>
-                            <td></td>
+                            <td><?php e(date("d/m/Y", strtotime(($avis->REP_ADEME_AVIS)))) ?></td>
                         </tr>
                         <tr>
                             <th>Points positifs</th>
-                            <td></td>
+                            <td><?php e($avis->PP_AVIS) ?></td>
                         </tr>
                         <tr>
                             <th>Points négatifs</th>
-                            <td></td>
+                            <td><?php e($avis->PP_AVIS) ?></td>
                         </tr>    
                         <tr>
                             <th>Date d'adoption du PCET</th>
-                            <td></td>
+                            <td><?php e(date("d/m/Y", strtotime(($avis->DATE_ADOPT_AVIS)))) ?></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
+    <?php endif; ?>
+    <?php if($diagnostic): ?>
     <div class="accordion-group">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
-                <h3>Diagnostic</h3>
+                <h3>Volet "Diagnostic"</h3>
             </a>
         </div>
         <div id="collapseFour" class="accordion-body collapse">
@@ -129,41 +132,42 @@
                 <table class="table table-striped table-bordered">
                     <tr>
                         <th>Diagnostic "Gaz à effet de serre"</th>
-                        <td></td>
+                        <td><?php e($diagnostic->GES_DIAG) ?></td>
                     </tr>
                     <tr>
-                        <th>Consommation du territoire (<abbr title="kilotonne d'équivalent pétrole" class="initialism">ktep</abbr>)</th>
-                        <td></td>
+                        <th>Consommation du territoire (<abbr title="kilotonne d'équivalent pétrole">ktep</abbr>)</th>
+                        <td><?php e($diagnostic->CONSO_KTEP_T) ?></td>
                     </tr>
                     <tr>
-                        <th>Émissions du territoire (teq-CO2)</th>
-                        <td></td>
+                        <th>Émissions du territoire (<abbr title="tonne équivalent CO2">teq-CO2</abbr>)</th>
+                        <td><?php e($diagnostic->EMIS_CO2_T) ?></td>
                     </tr>
                     <tr>
-                        <th>Consommation "Patrimoine et compétence" (<abbr title="kilotonne d'équivalent pétrole" class="initialism">ktep</abbr>)</th>
-                        <td></td>
+                        <th>Consommation "Patrimoine et compétence" (<abbr title="kilotonne d'équivalent pétrole">ktep</abbr>)</th>
+                        <td><?php e($diagnostic->CONSO_KTEP_PC) ?></td>
                     </tr>
                     <tr>
-                        <th>Émissions "Patrimoine et compétence" (teq-CO2)</th>
-                        <td></td>
+                        <th>Émissions "Patrimoine et compétence" (<abbr title="tonne équivalent CO2">teq-CO2</abbr>)</th>
+                        <td><?php e($diagnostic->EMIS_CO2_PC) ?></td>
                     </tr>   
                     <tr>
                         <th>Bilan <abbr title="Gaz à effets de serre" class="initialism">GES</abbr> Territorial</th>
-                        <td></td>
+                        <td><?php e($diagnostic->ID_GES_BILAN_T) ?></td>
                     </tr>  
                     <tr>
                         <th>Bilan <abbr title="Gaz à effets de serre" class="initialism">GES</abbr> "Patrimoine et Compétence"</th>
-                        <td></td>
+                        <td><?php e($diagnostic->ID_GES_BILAN_T) ?></td>
                     </tr>                    
                 </table>
             </div>
         </div>
     </div>
-    <?php if(isset($adaptation->VULNERABLE_ADAPT)): ?>
+    <?php endif; ?>
+    <?php if($adaptation): ?>
     <div class="accordion-group">    
         <div class="accordion-heading"> 
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">        
-                <h3>Volet Adaptation</h3>     
+                <h3>Volet "Adaptation"</h3>     
             </a>   
         </div>   
         <div id="collapseFive" class="accordion-body collapse">    
@@ -192,10 +196,11 @@
         </div>
     </div>
     <?php endif; ?>
+    <?php if($indicateur): ?>
     <div class="accordion-group">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix">
-                <h3>Actions et Indicateurs</h3>
+                <h3>Volet "Indicateurs & Actions"</h3>
             </a>
         </div>
         <div id="collapseSix" class="accordion-body collapse">
@@ -203,29 +208,33 @@
                 <table class="table table-striped table-bordered">
                     <tr>
                         <th>Tableau des actions et des indicateurs</th>
-                        <td></td>
+                        <td>
+                            <?php if($indicateur->TABLEAU_DE_BORD == '1'): ?>
+                                    <?php echo "Oui"; ?>
+                            <?php else: ?>
+                                    <?php echo "Non"; ?>
+                            <?php endif; ?> 
+                        </td>
                     </tr>
                     <tr>
                         <th>Nombres d'indicateurs</th>
-                        <td></td>
+                        <td><?php e($indicateur->NB_TOTAL_INDICATEURS) ?></td>
                     </tr>
                     <tr>
                         <th>Nombres d'indicateurs quantitatifs</th>
-                        <td></td>
+                        <td><?php e($indicateur->NB_INDICATEURS_QT) ?></td>
                     </tr>
                     <tr>
                         <th>Nombres d'indicateurs qualitatifs</th>
-                        <td></td>
+                        <td><?php e($indicateur->NB_INDICATEURS_QL) ?></td>
                     </tr>
                     <tr>
                         <th>Nombres d'actions</th>
-                        <td></td>
+                        <td><?php e($indicateur->NB_TOTAL_ACTIONS) ?></td>
                     </tr>                    
                 </table>
             </div>
         </div>
     </div>
+    <?php endif; ?>
 </div>
-
-<?php /*e(date("d/m/Y", strtotime(($pcet->date_creation))))*/ ?>
-<?php /*echo auto_typography($pcet->effets_protection)*/ ?>
