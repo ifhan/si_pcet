@@ -23,8 +23,17 @@ $id = isset($indicateur['id']) ? $indicateur['id'] : '';
 	<h3><?php echo lang('indicateur_create'); ?></h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
-
-			<?php echo form_dropdown('indicateur_ID_PCET',$pcets,set_value('indicateur_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
+                    
+                    <?php if(isset($pcets)): ?>
+                        <?php echo form_dropdown('indicateur_ID_PCET',$pcets,set_value('indicateur_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
+                    <?php else: ?>
+                        <div class="control-group">
+                            <div class='controls'>
+                                <a href="<?php echo site_url(SITE_AREA .'/loire-atlantique/pcet/create') ?>" class="btn" type="button">Ajouter un PCET</a>
+                                <span class='help-inline'>si aucun PCET n'a pas été saisi pour ce département.</span>
+                            </div>
+                        </div>                    
+                    <?php endif; ?>
 
 			<div class="control-group <?php echo form_error('TABLEAU_DE_BORD') ? 'error' : ''; ?>">
 				<?php echo form_label('Tableau de bord', 'indicateur_TABLEAU_DE_BORD', array('class' => 'control-label') ); ?>
@@ -70,7 +79,7 @@ $id = isset($indicateur['id']) ? $indicateur['id'] : '';
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('indicateur_action_create'); ?>"  />
-				or <?php echo anchor(SITE_AREA .'/loireatlantique/indicateur', lang('indicateur_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/loireatlantique/indicateur', lang('indicateur_cancel'), 'class="btn btn-warning"'); ?>
 				
 			</div>
 		</fieldset>
