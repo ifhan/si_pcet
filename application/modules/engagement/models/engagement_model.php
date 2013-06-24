@@ -43,4 +43,17 @@ class Engagement_model extends BF_Model {
             return $records;
                         
         }
+        
+       /*
+		Method: get_engagement_by_id_pcet()
+
+		Sélectionne les informations sur l'engagement de la démarche
+        *       d'un PCET par l'identifiant du PCET.
+	*/        
+        function get_engagement_by_id_pcet($ID_PCET) {
+            $engagement = $this->engagement_model
+                    ->join('pcet','pcet.ID_PCET = pcet_engagement.ID_PCET','left')
+                    ->find_by('pcet.ID_PCET',$ID_PCET);
+            return $engagement;
+        }
 }
