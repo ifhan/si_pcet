@@ -20,25 +20,13 @@ $id = isset($actions['id']) ? $actions['id'] : '';
 
 ?>
 <div class="admin-box">
-	<h3>Actions</h3>
+	<h3><?php echo lang('actions_edit'); ?></h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
-			<div class="control-group <?php echo form_error('ID_PCET') ? 'error' : ''; ?>">
-				<?php echo form_label('PCET', 'actions_ID_PCET', array('class' => 'control-label') ); ?>
-				<div class='controls'>
-					<input id='actions_ID_PCET' type='text' name='actions_ID_PCET' maxlength="10" value="<?php echo set_value('actions_ID_PCET', isset($actions['ID_PCET']) ? $actions['ID_PCET'] : ''); ?>" />
-					<span class='help-inline'><?php echo form_error('ID_PCET'); ?></span>
-				</div>
-			</div>
+			<?php echo form_dropdown('actions_ID_PCET',$pcets,set_value('actions_ID_PCET', isset($actions['ID_PCET']) ? $actions['ID_PCET'] : ''),'Sélectionner un PCET');?>
 
-			<div class="control-group <?php echo form_error('DOMAINES_ACTION_id') ? 'error' : ''; ?>">
-				<?php echo form_label('Domaines de l action', 'actions_DOMAINES_ACTION_id', array('class' => 'control-label') ); ?>
-				<div class='controls'>
-					<input id='actions_DOMAINES_ACTION_id' type='text' name='actions_DOMAINES_ACTION_id' maxlength="10" value="<?php echo set_value('actions_DOMAINES_ACTION_id', isset($actions['DOMAINES_ACTION_id']) ? $actions['DOMAINES_ACTION_id'] : ''); ?>" />
-					<span class='help-inline'><?php echo form_error('DOMAINES_ACTION_id'); ?></span>
-				</div>
-			</div>
+			<?php echo form_dropdown('actions_DOMAINES_ACTION_id',$domaine, set_value('actions_DOMAINES_ACTION_id', isset($actions['DOMAINES_ACTION_id']) ? $actions['DOMAINES_ACTION_id'] : ''), 'Domaine d\'action'); ?>
 
 			<div class="control-group <?php echo form_error('COMPETENCE') ? 'error' : ''; ?>">
 				<?php echo form_label('Competence de la collectivite', 'actions_COMPETENCE', array('class' => 'control-label') ); ?>
@@ -76,10 +64,10 @@ $id = isset($actions['id']) ? $actions['id'] : '';
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('actions_action_edit'); ?>"  />
-				or <?php echo anchor(SITE_AREA .'/maineetloire/actions', lang('actions_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/maineetloire/actions', lang('actions_cancel'), 'class="btn btn-warning"'); ?>
 				
 			<?php if ($this->auth->has_permission('Actions.Maineetloire.Delete')) : ?>
-				or
+				ou
 				<button type="submit" name="delete" class="btn btn-danger" id="delete-me" onclick="return confirm('<?php e(js_escape(lang('actions_delete_confirm'))); ?>'); ">
 					<span class="icon-trash icon-white"></span>&nbsp;<?php echo lang('actions_delete_record'); ?>
 				</button>

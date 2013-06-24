@@ -20,28 +20,16 @@ $id = isset($actions['id']) ? $actions['id'] : '';
 
 ?>
 <div class="admin-box">
-	<h3>Actions</h3>
+	<h3><?php echo lang('actions_create_new'); ?></h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
-			<div class="control-group <?php echo form_error('ID_PCET') ? 'error' : ''; ?>">
-				<?php echo form_label('PCET', 'actions_ID_PCET', array('class' => 'control-label') ); ?>
-				<div class='controls'>
-					<input id='actions_ID_PCET' type='text' name='actions_ID_PCET' maxlength="10" value="<?php echo set_value('actions_ID_PCET', isset($actions['ID_PCET']) ? $actions['ID_PCET'] : ''); ?>" />
-					<span class='help-inline'><?php echo form_error('ID_PCET'); ?></span>
-				</div>
-			</div>
+			<?php echo form_dropdown('actions_ID_PCET',$pcets,set_value('actions_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
 
-			<div class="control-group <?php echo form_error('DOMAINES_ACTION_id') ? 'error' : ''; ?>">
-				<?php echo form_label('Domaines de l action', 'actions_DOMAINES_ACTION_id', array('class' => 'control-label') ); ?>
-				<div class='controls'>
-					<input id='actions_DOMAINES_ACTION_id' type='text' name='actions_DOMAINES_ACTION_id' maxlength="10" value="<?php echo set_value('actions_DOMAINES_ACTION_id', isset($actions['DOMAINES_ACTION_id']) ? $actions['DOMAINES_ACTION_id'] : ''); ?>" />
-					<span class='help-inline'><?php echo form_error('DOMAINES_ACTION_id'); ?></span>
-				</div>
-			</div>
+                        <?php echo form_dropdown('actions_DOMAINES_ACTION_id',$domaine, set_value('actions_DOMAINES_ACTION_id', isset($actions['DOMAINES_ACTION_id']) ? $actions['DOMAINES_ACTION_id'] : ''), 'Domaine d\'action'); ?>
 
 			<div class="control-group <?php echo form_error('COMPETENCE') ? 'error' : ''; ?>">
-				<?php echo form_label('Competence de la collectivite', 'actions_COMPETENCE', array('class' => 'control-label') ); ?>
+				<?php echo form_label('Compétence de la collectivité', 'actions_COMPETENCE', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<label class='checkbox' for='actions_COMPETENCE'>
 						<input type='checkbox' id='actions_COMPETENCE' name='actions_COMPETENCE' value='1' <?php echo (isset($actions['COMPETENCE']) && $actions['COMPETENCE'] == 1) ? 'checked="checked"' : set_checkbox('actions_COMPETENCE', 1); ?>>
@@ -51,7 +39,7 @@ $id = isset($actions['id']) ? $actions['id'] : '';
 			</div>
 
 			<div class="control-group <?php echo form_error('NOM_ACTION') ? 'error' : ''; ?>">
-				<?php echo form_label('Nom de l action', 'actions_NOM_ACTION', array('class' => 'control-label') ); ?>
+				<?php echo form_label('Nom de l\'action', 'actions_NOM_ACTION', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<?php echo form_textarea( array( 'name' => 'actions_NOM_ACTION', 'id' => 'actions_NOM_ACTION', 'rows' => '5', 'cols' => '80', 'value' => set_value('actions_NOM_ACTION', isset($actions['NOM_ACTION']) ? $actions['NOM_ACTION'] : '') ) ); ?>
 					<span class='help-inline'><?php echo form_error('NOM_ACTION'); ?></span>
@@ -76,7 +64,7 @@ $id = isset($actions['id']) ? $actions['id'] : '';
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('actions_action_create'); ?>"  />
-				or <?php echo anchor(SITE_AREA .'/maineetloire/actions', lang('actions_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/maineetloire/actions', lang('actions_cancel'), 'class="btn btn-warning"'); ?>
 				
 			</div>
 		</fieldset>
