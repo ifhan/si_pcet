@@ -1,5 +1,5 @@
 <div class="admin-box">
-	<h3><?php echo lang('diagnostic_title'); ?>Loire-Atlantique</h3>
+	<h3><?php echo lang('diagnostic_title'); ?>Sarthe</h3>
 	<?php echo form_open($this->uri->uri_string()); ?>
 		<table class="table table-striped">
 			<thead>
@@ -75,7 +75,7 @@
 			<?php endforeach; ?>
 			<?php else: ?>
 				<tr>
-					<td colspan="9">No records found that match your selection.</td>
+					<td colspan="9"><?php echo lang('bf_no_record_found'); ?></td>
 				</tr>
 			<?php endif; ?>
 			</tbody>
