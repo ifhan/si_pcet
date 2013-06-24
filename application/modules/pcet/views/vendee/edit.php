@@ -37,7 +37,8 @@ $id = isset($pcet['id']) ? $pcet['id'] : '';
 			<?php // Change the values in this array to populate your dropdown as required
 				$options = array(
 					'Obligatoire' => 'Obligatoire',
-					'Volontaire' => 'Volontaire',
+                                    	'Volontaire' => 'Volontaire',
+                                        'Volontaire suivant la démarche obligatoire' => 'Volontaire suivant la démarche obligatoire',
 				);
 
 				echo form_dropdown('pcet_STATUT_PCET', $options, set_value('pcet_STATUT_PCET', isset($pcet['STATUT_PCET']) ? $pcet['STATUT_PCET'] : ''), 'Statut');
