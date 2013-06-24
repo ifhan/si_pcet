@@ -1,3 +1,3 @@
 <ul>
-    <li><a href="<?php echo site_url(SITE_AREA .'/vendee/indicateur') ?>">Volet Indicateurs & Actions</a></li>
+    <li><a href="<?php echo site_url(SITE_AREA .'/vendee/indicateur') ?>">Plans d'actions</a></li>
 </ul>

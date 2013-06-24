@@ -8,8 +8,8 @@ $config['module_config'] = array(
             'sarthe'	=> 'indicateur/sarthe/menu',
             'vendee'	=> 'indicateur/vendee/menu'
 	),
-        'description'	=> 'Suivi du Volet Indicateurs & Actions des PCET',
-	'name'		=> '5. Volet Indicateurs & Actions',
+        'description'	=> 'Suivi des plans d\'actions des PCET',
+	'name'		=> '5. Plans d\'actions',
 	'version'		=> '0.0.1',
 	'author'		=> 'Anthony Tolone',
         'menu_topic'	=> array(
