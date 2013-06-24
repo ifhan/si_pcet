@@ -155,7 +155,6 @@ class vendee extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('pcet_act_delete_record').': ' . $id . ' : ' . $this->input->ip_address(), 'pcet');
 
 				Template::set_message(lang('pcet_delete_success'), 'success');
-
 				redirect(SITE_AREA .'/vendee/pcet');
 			} else
 			{

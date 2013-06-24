@@ -139,6 +139,7 @@ class sarthe extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('pcet_act_edit_record').': ' . $id . ' : ' . $this->input->ip_address(), 'pcet');
 
 				Template::set_message(lang('pcet_edit_success'), 'success');
+                                redirect(SITE_AREA .'/sarthe/pcet');
 			}
 			else
 			{
