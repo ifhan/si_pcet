@@ -26,7 +26,7 @@ $id = isset($actions['id']) ? $actions['id'] : '';
 
 			<?php echo form_dropdown('actions_ID_PCET',$pcets,set_value('actions_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
 
-                        <?php echo form_dropdown('actions_DOMAINES_ACTION_id',$domaine, set_value('actions_DOMAINES_ACTION_id', isset($actions['DOMAINES_ACTION_id']) ? $actions['DOMAINES_ACTION_id'] : ''), 'Domaine de l\'action'); ?>
+                        <?php echo form_dropdown('actions_DOMAINES_ACTION_id',$domaine, set_value('actions_DOMAINES_ACTION_id', isset($actions['DOMAINES_ACTION_id']) ? $actions['DOMAINES_ACTION_id'] : ''), 'Domaine d\'action'); ?>
 
 			<div class="control-group <?php echo form_error('COMPETENCE') ? 'error' : ''; ?>">
 				<?php echo form_label('Compétence de la collectivité', 'actions_COMPETENCE', array('class' => 'control-label') ); ?>
