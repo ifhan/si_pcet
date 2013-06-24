@@ -1,5 +1,5 @@
 <div class="admin-box">
-	<h3><?php echo lang('indicateur_title'); ?>Loire-Atlantique</h3>
+	<h3><?php echo lang('indicateur_title'); ?>Vendée</h3>
 	<?php echo form_open($this->uri->uri_string()); ?>
 		<table class="table table-striped">
 			<thead>
@@ -21,9 +21,9 @@
 				<?php if ($this->auth->has_permission('Indicateur.Vendee.Delete')) : ?>
 				<tr>
 					<td colspan="7">
-						<?php echo lang('bf_with_selected') ?>
 						<input type="submit" name="delete" id="delete-me" class="btn btn-danger" value="<?php echo lang('bf_action_delete') ?>" onclick="return confirm('<?php e(js_escape(lang('indicateur_delete_confirm'))); ?>')">
-					</td>
+                                                <?php echo lang('bf_with_selected') ?>
+                                        </td>
 				</tr>
 				<?php endif;?>
 			</tfoot>
