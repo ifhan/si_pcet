@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-$lang['gouvernance']                            = 'Volet "Gouvernance"';
-$lang['gouvernance_title']			= 'Volet "Gouvernance" des PCET de ';
+$lang['gouvernance']                            = 'Gouvernance';
+$lang['gouvernance_title']			= 'Suivi de la gouvernance des PCET de ';
 $lang['gouvernance_manage']			= 'Suivre la gouvernance';
 $lang['gouvernance_edit']			= 'Modifier';
 $lang['gouvernance_true']			= 'Vrai';
