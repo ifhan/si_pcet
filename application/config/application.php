@@ -171,7 +171,7 @@ EOD;
 | The symbol displayed between elements of the breadcrumb.
 |
 */
-$config['template.breadcrumb_symbol']	= ' : ';
+$config['template.breadcrumb_symbol']	= ' > ';
 
 
 //--------------------------------------------------------------------
