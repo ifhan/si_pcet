@@ -28,7 +28,7 @@ $id = isset($pcet['id']) ? $pcet['id'] : '';
 			<div class="control-group <?php echo form_error('ID_PCET') ? 'error' : ''; ?>">
 				<?php echo form_label('Identifiant du PCET', 'pcet_ID_PCET', array('class' => 'control-label') ); ?>
 				<div class='controls'>
-					<input id='pcet_ID_PCET' type='text' name='pcet_ID_PCET' maxlength="10" value="<?php echo set_value('pcet_ID_PCET', isset($pcet['ID_PCET']) ? $pcet['ID_PCET'] : ''); ?>" />
+					<input id='pcet_ID_PCET' type='text' name='pcet_ID_PCET' maxlength="10" value="<?php echo set_value('pcet_ID_PCET', isset($pcet['ID_PCET']) ? $pcet['ID_PCET'] : 'PCET44-'); ?>" />
 					<span class='help-inline'><?php echo form_error('ID_PCET'); ?></span>
 					<span class="help-inline">Saisir un identifiant unique de type PCETxx-00 (ou xx est le code du d&eacute;partement et 00 un num&eacute;ro d'ordre). Exemple : PCET44-01</span>
 					<!-- Button to trigger modal -->
