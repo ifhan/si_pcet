@@ -1,9 +1,10 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-$lang['aide_manage']			= 'Param&eacute;trer les aide de l\'&eacute;tat d\'avancement d\'un PCET';
+$lang['aide_manage']			= 'Paramétrer l\'aide aux utilisateurs de l\'application';
 $lang['aide_edit']				= '&Eacute;diter';
 $lang['aide_true']				= 'Vrai';
 $lang['aide_false']				= 'Faux';
 $lang['aide_create']			= 'Cr&eacute;er';
+$lang['aide_title']				= 'Aide';
 $lang['aide_list']				= 'Liste';
 $lang['aide_new']				= 'Nouvelle';
 $lang['aide_edit_text']			= 'Edit this to suit your needs';
@@ -25,8 +26,8 @@ $lang['aide_delete_confirm']			= 'Are you sure you want to delete this aide?';
 $lang['aide_edit_heading']			= '&Eacute;diter les aide';
 
 // Create/Edit Buttons
-$lang['aide_action_edit']				= 'Sauvegarder les aide';
-$lang['aide_action_create']				= 'Créer une phase';
+$lang['aide_action_edit']			= 'Enregistrer';
+$lang['aide_action_create']			= 'Enregistrer';
 
 // Activities
 $lang['aide_act_create_record']			= 'Created record with ID';

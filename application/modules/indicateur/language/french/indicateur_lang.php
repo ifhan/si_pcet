@@ -2,10 +2,10 @@
 $lang['indicateur']                             = 'Plans d\'actions';
 $lang['indicateur_title']			= 'Suivi des plans d\'actions des PCET de ';
 $lang['indicateur_manage']			= 'Gérer les plans d\'actions';
-$lang['indicateur_edit']			= 'Modifier';
+$lang['indicateur_edit']			= 'Modifier le suivi';
 $lang['indicateur_true']			= 'Vrai';
 $lang['indicateur_false']			= 'Faux';
-$lang['indicateur_create']			= 'Créer';
+$lang['indicateur_create']			= 'Ajouter un suivi';
 $lang['indicateur_list']			= 'Liste';
 $lang['indicateur_new']				= 'Nouveau';
 $lang['indicateur_edit_text']			= 'Edit this to suit your needs';
