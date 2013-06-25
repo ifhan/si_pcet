@@ -7,6 +7,7 @@ class Aide extends Front_Controller {
         parent::__construct();
  
         $this->load->model('aide_model');
+        $this->lang->load('aide');
     }
  
     //--------------------------------------------------------------------

@@ -1,12 +1,13 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 class Content extends Admin_Controller {
- 
-		public function __construct() 
+    
+    public function __construct() 
     {
         parent::__construct();
  
         $this->load->model('aide_model');
+        $this->lang->load('aide');
  
         Template::set('toolbar_title', 'G&eacute;rer la fiche d\'aide');
         Template::set_block('sub_nav', 'content/sub_nav');
@@ -14,18 +15,18 @@ class Content extends Admin_Controller {
  
     //--------------------------------------------------------------------
  
-		public function index() 
+    public function index() 
     {
 	
 	$posts = $this->aide_model->where('deleted', 0)->find_all();
  
-		Template::set('posts', $posts);
+        Template::set('posts', $posts);
         Template::render();
     }
  
     //--------------------------------------------------------------------
 
-		public function create() 
+    public function create() 
 	{
 		if ($this->input->post('submit'))
 		{
@@ -41,9 +42,11 @@ class Content extends Admin_Controller {
 		
 		Template::render();
 	}
+        
+        
 	//--------------------------------------------------------------------
 
-		private function save_post($type='insert', $id=null) 
+        private function save_post($type='insert', $id=null) 
 	{
 		$this->form_validation->set_rules('title', 'Title', 'required|trim|strip_tags|xss_clean');
 		$this->form_validation->set_rules('slug', 'Slug', 'trim|strip_tags|xss_clean');
@@ -73,10 +76,11 @@ class Content extends Admin_Controller {
 	 
 		return $return;
 	}
-	 
+
+        
 	//--------------------------------------------------------------------
  
-		public function edit_post($id=null) 
+        public function edit_post($id=null) 
 	{
 		if ($this->input->post('submit'))
 		{
