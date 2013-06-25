@@ -23,21 +23,30 @@ $id = isset($gouvernance['id']) ? $gouvernance['id'] : '';
 	<h3><?php echo lang('gouvernance_create'); ?></h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
-
-			<?php echo form_dropdown('gouvernance_ID_PCET',$pcets,set_value('gouvernance_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
+                    <?php if(isset($pcets)): ?>
+                        <?php echo form_dropdown('indicateur_ID_PCET',$pcets,set_value('indicateur_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
+                    <?php else: ?>
+                        <div class="control-group">
+                            <div class='controls'>
+                                <a href="<?php echo site_url(SITE_AREA .'/mayenne/pcet/create') ?>" class="btn" type="button">Ajouter un PCET</a>
+                                <span class='help-inline'>si aucun PCET n'a pas été saisi pour ce département.</span>
+                            </div>
+                        </div>                    
+                    <?php endif; ?>
 
 			<div class="control-group <?php echo form_error('PRESENCE_GOUV') ? 'error' : ''; ?>">
-				<?php echo form_label('Presence de gouvernance', 'gouvernance_PRESENCE_GOUV', array('class' => 'control-label') ); ?>
+				<?php echo form_label('Mise en place d\'une gouvernance ?', 'gouvernance_PRESENCE_GOUV', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<label class='checkbox' for='gouvernance_PRESENCE_GOUV'>
 						<input type='checkbox' id='gouvernance_PRESENCE_GOUV' name='gouvernance_PRESENCE_GOUV' value='1' <?php echo (isset($gouvernance['PRESENCE_GOUV']) && $gouvernance['PRESENCE_GOUV'] == 1) ? 'checked="checked"' : set_checkbox('gouvernance_PRESENCE_GOUV', 1); ?>>
-						<span class='help-inline'><?php echo form_error('PRESENCE_GOUV'); ?></span>
+						<span class='help-inline'>Cocher la case si une gouvernance a été mise en place.</span>
+                                                <span class='help-inline'><?php echo form_error('PRESENCE_GOUV'); ?></span>
 					</label>
 				</div>
 			</div>
 
 			<div class="control-group <?php echo form_error('ACTEURS_GOUV') ? 'error' : ''; ?>">
-				<?php echo form_label('Les acteurs associes', 'gouvernance_ACTEURS_GOUV', array('class' => 'control-label') ); ?>
+				<?php echo form_label('Acteurs associés', 'gouvernance_ACTEURS_GOUV', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<?php echo form_textarea( array( 'name' => 'gouvernance_ACTEURS_GOUV', 'id' => 'gouvernance_ACTEURS_GOUV', 'rows' => '5', 'cols' => '80', 'value' => set_value('gouvernance_ACTEURS_GOUV', isset($gouvernance['ACTEURS_GOUV']) ? $gouvernance['ACTEURS_GOUV'] : '') ) ); ?>
 					<span class='help-inline'><?php echo form_error('ACTEURS_GOUV'); ?></span>
@@ -46,7 +55,7 @@ $id = isset($gouvernance['id']) ? $gouvernance['id'] : '';
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('gouvernance_action_create'); ?>"  />
-				or <?php echo anchor(SITE_AREA .'/mayenne/gouvernance', lang('gouvernance_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/mayenne/gouvernance', lang('gouvernance_cancel'), 'class="btn btn-warning"'); ?>
 				
 			</div>
 		</fieldset>
