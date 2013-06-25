@@ -80,7 +80,7 @@ $id = isset($indicateur['id']) ? $indicateur['id'] : '';
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('indicateur_action_create'); ?>"  />
-				or <?php echo anchor(SITE_AREA .'/mayenne/indicateur', lang('indicateur_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/mayenne/indicateur', lang('indicateur_cancel'), 'class="btn btn-warning"'); ?>
 				
 			</div>
 		</fieldset>

@@ -70,10 +70,10 @@ $id = isset($indicateur['id']) ? $indicateur['id'] : '';
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('indicateur_action_edit'); ?>"  />
-				or <?php echo anchor(SITE_AREA .'/vendee/indicateur', lang('indicateur_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/vendee/indicateur', lang('indicateur_cancel'), 'class="btn btn-warning"'); ?>
 				
 			<?php if ($this->auth->has_permission('Indicateur.Vendee.Delete')) : ?>
-				or
+				ou
 				<button type="submit" name="delete" class="btn btn-danger" id="delete-me" onclick="return confirm('<?php e(js_escape(lang('indicateur_delete_confirm'))); ?>'); ">
 					<span class="icon-trash icon-white"></span>&nbsp;<?php echo lang('indicateur_delete_record'); ?>
 				</button>
