@@ -91,7 +91,7 @@ class vendee extends Admin_Controller {
 		}
 		Assets::add_module_js('gouvernance', 'gouvernance.js');
                 Template::set('pcets', $pcets);
-		Template::set('toolbar_title', lang('gouvernance_create') . ' Gouvernance');
+		Template::set('toolbar_title', lang('gouvernance'));
 		Template::render();
 	}
 
@@ -152,7 +152,7 @@ class vendee extends Admin_Controller {
 		Template::set('gouvernance', $this->gouvernance_model->find($id));
 		Assets::add_module_js('gouvernance', 'gouvernance.js');
                 Template::set('pcets', $pcets);
-		Template::set('toolbar_title', lang('gouvernance_edit') . ' Gouvernance');
+		Template::set('toolbar_title', lang('gouvernance'));
 		Template::render();
 	}
 
