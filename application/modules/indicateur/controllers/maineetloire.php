@@ -57,7 +57,7 @@ class maineetloire extends Admin_Controller {
                 $records = $this->indicateur_model->get_indicateur_by_departement('49');
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', lang('indicateur_manage'));
+		Template::set('toolbar_title', lang('indicateur'));
 		Template::render();
 	}
 
@@ -92,7 +92,7 @@ class maineetloire extends Admin_Controller {
 		}
 		Assets::add_module_js('indicateur', 'indicateur.js');
                 Template::set('pcets', $pcets);
-		Template::set('toolbar_title', lang('indicateur_create') . ' Indicateur');
+		Template::set('toolbar_title', lang('indicateur'));
 		Template::render();
 	}
 

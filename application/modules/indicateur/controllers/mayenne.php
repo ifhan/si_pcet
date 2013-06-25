@@ -92,7 +92,7 @@ class mayenne extends Admin_Controller {
 		}
 		Assets::add_module_js('indicateur', 'indicateur.js');
                 Template::set('pcets', $pcets);
-		Template::set('toolbar_title', lang('indicateur_create') . ' Indicateur');
+		Template::set('toolbar_title', lang('indicateur'));
 		Template::render();
 	}
 
@@ -154,7 +154,7 @@ class mayenne extends Admin_Controller {
 		Assets::add_module_js('indicateur', 'indicateur.js');
                 Template::set('pcets', $pcets);
 
-		Template::set('toolbar_title', lang('indicateur_edit') . ' Indicateur');
+		Template::set('toolbar_title', lang('indicateur'));
 		Template::render();
 	}
 
