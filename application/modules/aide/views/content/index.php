@@ -1,6 +1,6 @@
 
 <div class="admin-box">
-    <h3>Aide</h3>
+    <h3><?php echo lang('aide_title') ?></h3>
  
     <?php echo form_open(); ?>
  
@@ -15,8 +15,8 @@
         <tfoot>
             <tr>
                 <td colspan="3">
-                    With selected: 
-                    <input type="submit" name="submit" class="btn" value="Delete"> 
+                    <input type="submit" name="delete" id="delete-me" class="btn btn-danger" value="<?php echo lang('bf_action_delete') ?>" onclick="return confirm('<?php e(js_escape(lang('aide_delete_confirm'))); ?>')">
+                    <?php echo lang('bf_with_selected') ?>
                 </td>
             </tr>
         </tfoot>
@@ -38,10 +38,7 @@
         <?php else: ?>
             <tr>
                 <td colspan="3">
-                    <br/>
-                    <div class="alert alert-warning">
-                        Aucune fiche d'aide trouv&eaigu;
-                    </div>
+                    <?php echo lang('bf_no_record_found'); ?>
                 </td>
             </tr>
         <?php endif; ?>
