@@ -1,24 +1,28 @@
-<script type="text/javascript">
-		var xinha_plugins = [ 'Linker' ],
-			xinha_editors = [ 'body' ];
+<?php
+$validation_errors = validation_errors();
 
-		function xinha_init() {
-			if ( ! Xinha.loadPlugins(xinha_plugins, xinha_init)) {
-				return;
-			}
+if ($validation_errors) :
+?>
+<div class="alert alert-block alert-error fade in">
+    <a class="close" data-dismiss="alert">&times;</a>
+    <h4 class="alert-heading">Please fix the following errors:</h4>
+    <?php echo $validation_errors; ?>
+</div>
+<?php
+endif;
 
-			var xinha_config = new Xinha.Config();
+if (isset($post))
+{
+    $post = (array) $post;
+}
+$id = isset($post['post_id']) ? $post['post_id'] : '';
 
-			xinha_editors = Xinha.makeEditors(xinha_editors, xinha_config, xinha_plugins);
-			Xinha.startEditors(xinha_editors);
-		}
-		xinha_init();
-	</script>
-
+?>
 <div class="admin-box" >
     <h3>Nouvelle fiche</h3>
  
     <?php echo form_open(current_url(), 'class="form-horizontal"'); ?>
+    <fieldset>
  
     <div class="control-group <?php if (form_error('title')) echo 'error'; ?>">
         <label for="title">Titre</label>
@@ -36,7 +40,7 @@
                 <input type="text" name="slug" class="input-xlarge" value="<?php echo isset($post) ? $post->slug : set_value('slug'); ?>" />
             </div>
             <?php if (form_error('slug')) echo '<span class="help-inline">'. form_error('slug') .'</span>'; ?>
-            <p class="help-block">Fiche consultable &agrave; cet URL unique</p>
+            <p class="help-inline">Crée un lien permanent pour cette fiche d'aide.</p>
         </div>
     </div>
  
@@ -48,8 +52,12 @@
             <textarea name="body" class="input-xxlarge" rows="15"><?php echo isset($post) ? $post->body : set_value('body') ?></textarea>
         </div>
     </div>
-	
+        
+    <div class="form-actions">
+        <input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('aide_action_create'); ?>"  />                               
+        ou <?php echo anchor(SITE_AREA .'/content/aide', lang('aide_cancel'), 'class="btn btn-warning"'); ?>
+    </div>
 
-
+    </fieldset>
     <?php echo form_close(); ?>
 </div>
