@@ -18,7 +18,13 @@ class mayenne extends Admin_Controller {
 		$this->load->model('departements/departements_model', null, true);
 		$this->load->model('epci/epci_model', null, true);
 		$this->load->model('pays/pays_model', null, true);
-		$this->load->model('pnr/pnr_model', null, true);		
+		$this->load->model('pnr/pnr_model', null, true);
+                $this->load->model('engagement/engagement_model', null, true);
+                $this->load->model('avis/avis_model', null, true);
+                $this->load->model('diagnostic/diagnostic_model', null, true);
+                $this->load->model('indicateur/indicateur_model', null, true);
+                $this->load->model('adaptation/adaptation_model', null, true);
+                $this->load->helper('typography');                 
 		$this->lang->load('pcet');
 		
 		Template::set_block('sub_nav', 'mayenne/_sub_nav');
@@ -170,6 +176,35 @@ class mayenne extends Admin_Controller {
 		Template::set('toolbar_title', lang('pcet'));
 		Template::render();
 	}
+        
+        /*
+		Method: show()
+
+		Displays a record of form data from several tables.
+	*/
+	public function show($ID_PCET)
+	{
+
+            $structure = $this->structures_model->get_structure_by_id_pcet($ID_PCET);
+            $phase = $this->phases_model->get_phase_by_id_pcet($ID_PCET);
+            $pcet = $this->pcet_model->find_by('ID_PCET',$ID_PCET);
+            $engagement = $this->engagement_model->get_engagement_by_id_pcet($ID_PCET);
+            $avis = $this->avis_model->get_avis_by_id_pcet($ID_PCET);
+            $diagnostic = $this->diagnostic_model->get_diagnostic_by_id_pcet($ID_PCET);
+            $indicateur = $this->indicateur_model->get_indicateur_by_id_pcet($ID_PCET);
+            $adaptation = $this->adaptation_model->find_by('ID_PCET',$ID_PCET);
+		
+            Template::set('pcet', $pcet);
+            Template::set('structure', $structure);        
+            Template::set('phase', $phase);
+            Template::set('engagement', $engagement);
+            Template::set('avis', $avis);
+            Template::set('diagnostic', $diagnostic);
+            Template::set('indicateur', $indicateur);  
+            Template::set('adaptation', $adaptation);
+            Template::set('toolbar_title', lang('pcet'));
+            Template::render();
+	}        
 
 	//--------------------------------------------------------------------
 
