@@ -1,7 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-$lang['indicateur']                             = 'Volet "Indicateurs & Actions"';
-$lang['indicateur_title']			= 'Volet "Indicateurs & Actions" des PCET de ';
-$lang['indicateur_manage']			= 'Suivre les indicateurs & actions';
+$lang['indicateur']                             = 'Plans d\'actions';
+$lang['indicateur_title']			= 'Suivi des plans d\'actions des PCET de ';
+$lang['indicateur_manage']			= 'Gérer les plans d\'actions';
 $lang['indicateur_edit']			= 'Modifier';
 $lang['indicateur_true']			= 'Vrai';
 $lang['indicateur_false']			= 'Faux';
