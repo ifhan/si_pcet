@@ -24,23 +24,24 @@ $id = isset($indicateur['id']) ? $indicateur['id'] : '';
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
-                    <?php if(isset($pcets)): ?>
-                        <?php echo form_dropdown('indicateur_ID_PCET',$pcets,set_value('indicateur_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
-                    <?php else: ?>
-                        <div class="control-group">
-                            <div class='controls'>
-                                <a href="<?php echo site_url(SITE_AREA .'/maineetloire/pcet/create') ?>" class="btn" type="button">Ajouter un PCET</a>
-                                <span class='help-inline'>si aucun PCET n'a pas été saisi pour ce département.</span>
-                            </div>
-                        </div>                    
-                    <?php endif; ?>
+                        <?php if(isset($pcets)): ?>
+                            <?php echo form_dropdown('indicateur_ID_PCET',$pcets,set_value('indicateur_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
+                        <?php else: ?>
+                            <div class="control-group">
+                                <div class='controls'>
+                                    <a href="<?php echo site_url(SITE_AREA .'/maineetloire/pcet/create') ?>" class="btn" type="button">Ajouter un PCET</a>
+                                    <span class='help-inline'>si aucun PCET n'a pas été saisi pour ce département.</span>
+                                </div>
+                            </div>                    
+                        <?php endif; ?>
 
 			<div class="control-group <?php echo form_error('TABLEAU_DE_BORD') ? 'error' : ''; ?>">
 				<?php echo form_label('Tableau de bord', 'indicateur_TABLEAU_DE_BORD', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<label class='checkbox' for='indicateur_TABLEAU_DE_BORD'>
 						<input type='checkbox' id='indicateur_TABLEAU_DE_BORD' name='indicateur_TABLEAU_DE_BORD' value='1' <?php echo (isset($indicateur['TABLEAU_DE_BORD']) && $indicateur['TABLEAU_DE_BORD'] == 1) ? 'checked="checked"' : set_checkbox('indicateur_TABLEAU_DE_BORD', 1); ?>>
-						<span class='help-inline'><?php echo form_error('TABLEAU_DE_BORD'); ?></span>
+						<span class='help-inline'>Cocher la case si un tableau de bord existe.</span>
+                                                <span class='help-inline'><?php echo form_error('TABLEAU_DE_BORD'); ?></span>
 					</label>
 				</div>
 			</div>
