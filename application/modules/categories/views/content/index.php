@@ -1,5 +1,5 @@
 <div class="admin-box">
-	<h3>Categories</h3>
+	<h3><?php echo lang('categories_title') ?></h3>
 	<?php echo form_open($this->uri->uri_string()); ?>
 		<table class="table table-striped">
 			<thead>
@@ -15,10 +15,10 @@
 			<tfoot>
 				<?php if ($this->auth->has_permission('Categories.Content.Delete')) : ?>
 				<tr>
-					<td colspan="2">
-						<?php echo lang('bf_with_selected') ?>
+					<td colspan="2">					
 						<input type="submit" name="delete" id="delete-me" class="btn btn-danger" value="<?php echo lang('bf_action_delete') ?>" onclick="return confirm('<?php e(js_escape(lang('categories_delete_confirm'))); ?>')">
-					</td>
+                                                <?php echo lang('bf_with_selected') ?>
+                                        </td>
 				</tr>
 				<?php endif;?>
 			</tfoot>
@@ -41,7 +41,7 @@
 			<?php endforeach; ?>
 			<?php else: ?>
 				<tr>
-					<td colspan="2">No records found that match your selection.</td>
+					<td colspan="2"><?php echo lang('bf_no_record_found'); ?></td>
 				</tr>
 			<?php endif; ?>
 			</tbody>

@@ -20,24 +20,24 @@ $id = isset($categories['id']) ? $categories['id'] : '';
 
 ?>
 <div class="admin-box">
-	<h3>Categories</h3>
+	<h3><?php echo lang('categories_edit') ?></h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
 			<div class="control-group <?php echo form_error('NOM_CATEGORIE') ? 'error' : ''; ?>">
 				<?php echo form_label('Nom', 'categories_NOM_CATEGORIE', array('class' => 'control-label') ); ?>
 				<div class='controls'>
-					<input id='categories_NOM_CATEGORIE' type='text' name='categories_NOM_CATEGORIE' maxlength="255" value="<?php echo set_value('categories_NOM_CATEGORIE', isset($categories['NOM_CATEGORIE']) ? $categories['NOM_CATEGORIE'] : ''); ?>" />
+					<input id='categories_NOM_CATEGORIE' type='text' name='categories_NOM_CATEGORIE' maxlength="255" class="input-xxlarge" value="<?php echo set_value('categories_NOM_CATEGORIE', isset($categories['NOM_CATEGORIE']) ? $categories['NOM_CATEGORIE'] : ''); ?>" />
 					<span class='help-inline'><?php echo form_error('NOM_CATEGORIE'); ?></span>
 				</div>
 			</div>
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('categories_action_edit'); ?>"  />
-				or <?php echo anchor(SITE_AREA .'/content/categories', lang('categories_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/content/categories', lang('categories_cancel'), 'class="btn btn-warning"'); ?>
 				
 			<?php if ($this->auth->has_permission('Categories.Content.Delete')) : ?>
-				or
+				ou
 				<button type="submit" name="delete" class="btn btn-danger" id="delete-me" onclick="return confirm('<?php e(js_escape(lang('categories_delete_confirm'))); ?>'); ">
 					<span class="icon-trash icon-white"></span>&nbsp;<?php echo lang('categories_delete_record'); ?>
 				</button>
