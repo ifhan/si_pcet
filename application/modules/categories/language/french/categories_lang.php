@@ -1,9 +1,11 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+$lang['categories']                     	= 'Catégories de l\'aide';
 $lang['categories_manage']			= 'Paramétrer les catégories de l\'aide';
-$lang['categories_edit']			= 'Éditer';
+$lang['categories_edit']			= 'Modifier une catégorie';
 $lang['categories_true']			= 'Vrai';
 $lang['categories_false']			= 'Faux';
-$lang['categories_create']			= 'Créer';
+$lang['categories_title']			= 'Liste des catégories de l\'aide';
+$lang['categories_create']			= 'Ajouter une catégorie';
 $lang['categories_list']			= 'Liste';
 $lang['categories_new']				= 'Nouvelle';
 $lang['categories_edit_text']			= 'Edit this to suit your needs';
@@ -19,8 +21,8 @@ $lang['categories_delete_success']		= 'record(s) successfully deleted.';
 $lang['categories_delete_failure']		= 'We could not delete the record: ';
 $lang['categories_delete_error']		= 'You have not selected any records to delete.';
 $lang['categories_actions']			= 'Actions';
-$lang['categories_cancel']			= 'Cancel';
-$lang['categories_delete_record']		= 'Delete this Categories';
+$lang['categories_cancel']			= 'Annuler';
+$lang['categories_delete_record']		= 'Supprimer';
 $lang['categories_delete_confirm']		= 'Are you sure you want to delete this categories?';
 $lang['categories_edit_heading']		= 'Edit Categories';
 
