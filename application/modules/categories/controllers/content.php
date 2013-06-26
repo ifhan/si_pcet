@@ -55,7 +55,7 @@ class content extends Admin_Controller {
 		$records = $this->categories_model->find_all();
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'Manage Categories');
+		Template::set('toolbar_title', lang('categories_manage'));
 		Template::render();
 	}
 
@@ -89,7 +89,7 @@ class content extends Admin_Controller {
 		}
 		Assets::add_module_js('categories', 'categories.js');
 
-		Template::set('toolbar_title', lang('categories_create') . ' Categories');
+		Template::set('toolbar_title', lang('categories'));
 		Template::render();
 	}
 
@@ -122,6 +122,7 @@ class content extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('categories_act_edit_record').': ' . $id . ' : ' . $this->input->ip_address(), 'categories');
 
 				Template::set_message(lang('categories_edit_success'), 'success');
+                                redirect(SITE_AREA .'/content/categories');
 			}
 			else
 			{
@@ -148,7 +149,7 @@ class content extends Admin_Controller {
 		Template::set('categories', $this->categories_model->find($id));
 		Assets::add_module_js('categories', 'categories.js');
 
-		Template::set('toolbar_title', lang('categories_edit') . ' Categories');
+		Template::set('toolbar_title', lang('categories'));
 		Template::render();
 	}
 
