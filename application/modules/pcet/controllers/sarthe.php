@@ -203,6 +203,7 @@ class sarthe extends Admin_Controller {
             Template::set('indicateur', $indicateur);  
             Template::set('adaptation', $adaptation);
             Template::set('toolbar_title', lang('pcet'));
+            Template::set_view('admin/show');            
             Template::render();
 	}        
 
