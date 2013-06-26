@@ -1,4 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+$lang['aide']                           = 'Aide';
 $lang['aide_manage']			= 'Paramétrer l\'aide aux utilisateurs de l\'application';
 $lang['aide_edit']			= 'Modifier une fiche d\'aide';
 $lang['aide_true']			= 'Vrai';
@@ -22,7 +23,7 @@ $lang['aide_delete_failure']		= 'We could not delete the record: ';
 $lang['aide_delete_error']		= 'You have not selected any records to delete.';
 $lang['aide_actions']			= 'Actions';
 $lang['aide_cancel']			= 'Annuler';
-$lang['aide_delete_record']		= 'Supprimer cette fiche d\'aide';
+$lang['aide_delete_record']		= 'Supprimer';
 $lang['aide_delete_confirm']		= 'Are you sure you want to delete this aide?';
 $lang['aide_edit_heading']		= 'Éditer les fiches d\'aide';
 
