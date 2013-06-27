@@ -8,12 +8,10 @@
 					<th class="column-check"><input class="check-all" type="checkbox" /></th>
 					<?php endif;?>
 					
-					<th>Titre</th>
-					<th>Texte</th>
-					<th>Créée le</th>
-					<th>Modifiée le</th>
-					<th>Archivée</th>
 					<th>Catégorie</th>
+                                        <th>Titre</th>
+					<th>Actions</th>
+					
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
@@ -32,21 +30,20 @@
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
 			<?php foreach ($records as $record) : ?>
 				<tr>
-					<?php if ($this->auth->has_permission('Aide.Content.Delete')) : ?>
-					<td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
-					<?php endif;?>
-					
-                                    <?php if ($this->auth->has_permission('Aide.Content.Edit')) : ?>
-                                    <td><?php echo anchor(SITE_AREA .'/content/aide/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->title) ?></td>
-                                    <?php else: ?>
-                                    <td><?php e($record->title) ?></td>
-                                    <?php endif; ?>
+                                    <?php if ($this->auth->has_permission('Aide.Content.Delete')) : ?>
+                                    <td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
+                                    <?php endif;?>
 
-                                    <td><?php e($record->body) ?></td>
-                                    <td><?php e($record->created_on) ?></td>
-                                    <td><?php e($record->modified_on) ?></td>
-                                    <td><?php echo $record->deleted > 0 ? lang('aide_true') : lang('aide_false')?></td>
-                                    <td><?php e($record->category_id) ?></td>			
+                                    <td><?php e($record->NOM_CATEGORIE) ?></td>
+                                    <td><?php e($record->title) ?></td>
+                                    
+                                    <td>
+                                        <?php if ($this->auth->has_permission('Aide.Content.Edit')) : ?>
+                                            <?php echo anchor(SITE_AREA .'/content/aide/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
+                                        <?php endif; ?>
+                                        <?php echo anchor(SITE_AREA .'/content/aide/show/'. $record->id, '<i class="icon-search">&nbsp;</i>Voir la fiche') ?>
+                                    </td>
+                                    		
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>
