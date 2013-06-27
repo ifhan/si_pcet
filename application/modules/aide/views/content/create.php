@@ -26,6 +26,14 @@ $id = isset($aide['id']) ? $aide['id'] : '';
                     
                         <?php echo form_dropdown('aide_category_id',$categories, set_value('aide_category_id', isset($aide['category_id']) ? $aide['category_id'] : ''), "S&eacute;lectionner une catégorie"); ?> 
 
+                        <div class="control-group <?php echo form_error('number') ? 'error' : ''; ?>">
+				<?php echo form_label('Numéro de la fiche', 'aide_number', array('class' => 'control-label') ); ?>
+				<div class='controls'>
+					<input id='aide_number' type='text' name='aide_number' maxlength="4" value="<?php echo set_value('aide_number', isset($aide['number']) ? $aide['number'] : ''); ?>" />
+					<span class='help-inline'><?php echo form_error('number'); ?></span>
+				</div>
+			</div>                    
+                    
 			<div class="control-group <?php echo form_error('title') ? 'error' : ''; ?>">
 				<?php echo form_label('Titre', 'aide_title', array('class' => 'control-label') ); ?>
 				<div class='controls'>
