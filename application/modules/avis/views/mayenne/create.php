@@ -24,15 +24,16 @@ $id = isset($avis['id']) ? $avis['id'] : '';
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
-			<?php echo form_dropdown('avis_ID_PCET',$pcets,set_value('avis_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
-
-                        <div class="control-group">
-                            <div class='controls'>
-                                <span>ou</span> <a href="<?php echo site_url(SITE_AREA .'/mayenne/pcet/create') ?>" class="btn" type="button">Ajouter un PCET</a>
-                                <span class='help-inline'>s'il n'y a pas de PCET disponible dans la liste.</span>
-                            </div>
-                        </div>
-                                        
+                        <?php if(isset($pcets)): ?>
+                            <?php echo form_dropdown('avis_ID_PCET',$pcets,set_value('avis_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
+                        <?php else: ?>
+                            <div class="control-group">
+                                <div class='controls'>
+                                    <a href="<?php echo site_url(SITE_AREA .'/mayenne/pcet/create') ?>" class="btn" type="button">Ajouter un PCET</a>
+                                    <span class='help-inline'>si aucun PCET n'a pas été saisi pour ce département.</span>
+                                </div>
+                            </div>                    
+                        <?php endif; ?>        
                     
 			<div class="control-group <?php echo form_error('DEM_ETAT_AVIS') ? 'error' : ''; ?>">
 				<?php echo form_label('Date de la sollicitation de l\'avis de l\'État', 'avis_DEM_ETAT_AVIS', array('class' => 'control-label') ); ?>

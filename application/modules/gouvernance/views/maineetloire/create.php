@@ -25,7 +25,7 @@ $id = isset($gouvernance['id']) ? $gouvernance['id'] : '';
 		<fieldset>
                 
                         <?php if(isset($pcets)): ?>
-                            <?php echo form_dropdown('indicateur_ID_PCET',$pcets,set_value('indicateur_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
+                            <?php echo form_dropdown('gouvernance_ID_PCET',$pcets,set_value('gouvernance_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
                         <?php else: ?>
                             <div class="control-group">
                                 <div class='controls'>

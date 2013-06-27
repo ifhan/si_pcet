@@ -29,7 +29,7 @@ $id = isset($indicateur['id']) ? $indicateur['id'] : '';
                         <?php else: ?>
                             <div class="control-group">
                                 <div class='controls'>
-                                    <a href="<?php echo site_url(SITE_AREA .'/loire-atlantique/pcet/create') ?>" class="btn" type="button">Ajouter un PCET</a>
+                                    <a href="<?php echo site_url(SITE_AREA .'/loireatlantique/pcet/create') ?>" class="btn" type="button">Ajouter un PCET</a>
                                     <span class='help-inline'>si aucun PCET n'a pas été saisi pour ce département.</span>
                                 </div>
                             </div>                    
