@@ -23,6 +23,14 @@ $id = isset($categories['id']) ? $categories['id'] : '';
 	<h3><?php echo lang('categories_create') ?></h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
+                    
+                        <div class="control-group <?php echo form_error('number') ? 'error' : ''; ?>">
+				<?php echo form_label('Numéro de la catégorie', 'categories_number', array('class' => 'control-label') ); ?>
+				<div class='controls'>
+					<input id='categories_number' type='text' name='categories_number' maxlength="4" value="<?php echo set_value('categories_number', isset($categories['number']) ? $categories['number'] : ''); ?>" />
+					<span class='help-inline'><?php echo form_error('number'); ?></span>
+				</div>
+			</div>
 
 			<div class="control-group <?php echo form_error('NOM_CATEGORIE') ? 'error' : ''; ?>">
 				<?php echo form_label('Nom', 'categories_NOM_CATEGORIE', array('class' => 'control-label') ); ?>

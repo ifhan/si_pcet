@@ -180,7 +180,8 @@ class content extends Admin_Controller {
 		}
 
 		
-		$this->form_validation->set_rules('categories_NOM_CATEGORIE','Nom','max_length[255]');
+		$this->form_validation->set_rules('categories_number','Numéro','max_length[4]');
+                $this->form_validation->set_rules('categories_NOM_CATEGORIE','Nom','max_length[255]');
 
 		if ($this->form_validation->run() === FALSE)
 		{
@@ -190,6 +191,7 @@ class content extends Admin_Controller {
 		// make sure we only pass in the fields we want
 		
 		$data = array();
+                $data['number']        = $this->input->post('categories_number');
 		$data['NOM_CATEGORIE']        = $this->input->post('categories_NOM_CATEGORIE');
 
 		if ($type == 'insert')
