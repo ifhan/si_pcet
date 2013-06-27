@@ -11,6 +11,7 @@ class content extends Admin_Controller {
 
 		$this->auth->restrict('Aide.Content.View');
 		$this->load->model('aide_model', null, true);
+                $this->load->model('categories/categories_model', null, true);
 		$this->lang->load('aide');
 		
 			Assets::add_css('flick/jquery-ui-1.8.13.custom.css');
@@ -56,7 +57,7 @@ class content extends Admin_Controller {
 			}
 		}
 
-		$records = $this->aide_model->find_all();
+		$records = $this->aide_model->get_aides();
 
 		Template::set('records', $records);
 		Template::set('toolbar_title', lang('aide_manage'));
@@ -75,6 +76,7 @@ class content extends Admin_Controller {
 	public function create()
 	{
 		$this->auth->restrict('Aide.Content.Create');
+                $categories = $this->categories_model->list_categories();
 
 		if (isset($_POST['save']))
 		{
@@ -93,6 +95,7 @@ class content extends Admin_Controller {
 		}
 		Assets::add_module_js('aide', 'aide.js');
 
+                Template::set('categories', $categories);
 		Template::set('toolbar_title', lang('aide'));
 		Template::render();
 	}
@@ -109,6 +112,7 @@ class content extends Admin_Controller {
 	public function edit()
 	{
 		$id = $this->uri->segment(5);
+                $categories = $this->categories_model->list_categories();
 
 		if (empty($id))
 		{
@@ -152,7 +156,7 @@ class content extends Admin_Controller {
 		}
 		Template::set('aide', $this->aide_model->find($id));
 		Assets::add_module_js('aide', 'aide.js');
-
+                Template::set('categories', $categories);
 		Template::set('toolbar_title', lang('aide'));
 		Template::render();
 	}
