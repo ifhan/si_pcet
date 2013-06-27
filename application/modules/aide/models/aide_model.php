@@ -10,4 +10,13 @@ class Aide_model extends BF_Model {
 	protected $set_modified = true;
 	protected $created_field = "created_on";
 	protected $modified_field = "modified_on";
+        
+        public function get_aides() {
+            $records = $this->aide_model
+                    ->join('pcet_categories_aide','pcet_aide.category_id = pcet_categories_aide.id','left')
+                    ->select('pcet_aide.id as id, pcet_aide.title as title, pcet_categories_aide.NOM_CATEGORIE as NOM_CATEGORIE')
+                    ->order_by('title','asc')
+                    ->find_all();
+            return $records;
+        }
 }
