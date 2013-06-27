@@ -12,6 +12,7 @@ class content extends Admin_Controller {
 		$this->auth->restrict('Aide.Content.View');
 		$this->load->model('aide_model', null, true);
                 $this->load->model('categories/categories_model', null, true);
+                $this->load->helper('typography');
 		$this->lang->load('aide');
 		
 			Assets::add_css('flick/jquery-ui-1.8.13.custom.css');
@@ -160,6 +161,17 @@ class content extends Admin_Controller {
 		Template::set('toolbar_title', lang('aide'));
 		Template::render();
 	}
+        
+        
+        public function show($number)
+        {
+            $aide = $this->aide_model->find_by('number',$number);
+            
+            Template::set('aide', $aide);
+            Template::set('toolbar_title', lang('aide'));         
+            Template::render();         
+            
+        }
 
 	//--------------------------------------------------------------------
 
@@ -188,7 +200,8 @@ class content extends Admin_Controller {
 		}
 
 		
-		$this->form_validation->set_rules('aide_title','Titre','max_length[255]');
+		$this->form_validation->set_rules('aide_number','Numéro','max_length[4]');
+                $this->form_validation->set_rules('aide_title','Titre','max_length[255]');
 		$this->form_validation->set_rules('aide_slug','URL','max_length[255]');
 		$this->form_validation->set_rules('aide_body','Texte','');
 		$this->form_validation->set_rules('aide_created_on','Creee le','max_length[255]');
@@ -204,7 +217,8 @@ class content extends Admin_Controller {
 		// make sure we only pass in the fields we want
 		
 		$data = array();
-		$data['title']        = $this->input->post('aide_title');
+		$data['number']        = $this->input->post('aide_number');
+                $data['title']        = $this->input->post('aide_title');
 		$data['slug']        = $this->input->post('aide_slug');
 		$data['body']        = $this->input->post('aide_body');
 		$data['created_on']        = $this->input->post('aide_created_on') ? $this->input->post('aide_created_on') : '0000-00-00 00:00:00';
