@@ -33,15 +33,15 @@
                                     <?php if ($this->auth->has_permission('Aide.Content.Delete')) : ?>
                                     <td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
                                     <?php endif;?>
-
-                                    <td><?php e($record->NOM_CATEGORIE) ?></td>
-                                    <td><?php e($record->title) ?></td>
+                              
+                                    <td><?php e($record->categories_number.'. '.$record->NOM_CATEGORIE) ?></td>
+                                    <td><?php e($record->number.'. '.$record->title) ?></td>
                                     
                                     <td>
                                         <?php if ($this->auth->has_permission('Aide.Content.Edit')) : ?>
                                             <?php echo anchor(SITE_AREA .'/content/aide/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
                                         <?php endif; ?>
-                                        <?php echo anchor(SITE_AREA .'/content/aide/show/'. $record->id, '<i class="icon-search">&nbsp;</i>Voir la fiche') ?>
+                                        <?php echo anchor(SITE_AREA .'/content/aide/show/'. $record->number, '<i class="icon-search">&nbsp;</i>Voir la fiche') ?>
                                     </td>
                                     		
 				</tr>
