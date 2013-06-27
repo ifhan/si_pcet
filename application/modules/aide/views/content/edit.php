@@ -23,6 +23,8 @@ $id = isset($aide['id']) ? $aide['id'] : '';
 	<h3><?php echo lang('aide_edit') ?></h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
+                    
+                        <?php echo form_dropdown('aide_category_id',$categories, set_value('aide_category_id', isset($aide['category_id']) ? $aide['category_id'] : ''), "Catégorie"); ?> 
 
 			<div class="control-group <?php echo form_error('title') ? 'error' : ''; ?>">
 				<?php echo form_label('Titre', 'aide_title', array('class' => 'control-label') ); ?>
@@ -48,14 +50,6 @@ $id = isset($aide['id']) ? $aide['id'] : '';
 				<div class='controls'>
 					<?php echo form_textarea( array( 'name' => 'aide_body', 'id' => 'aide_body', 'rows' => '20', 'cols' => '200', 'class' => 'input-xxlarge', 'value' => set_value('aide_body', isset($aide['body']) ? $aide['body'] : '') ) ); ?>
 					<span class='help-inline'><?php echo form_error('body'); ?></span>
-				</div>
-			</div>
-
-			<div class="control-group <?php echo form_error('category_id') ? 'error' : ''; ?>">
-				<?php echo form_label('Catégorie', 'aide_category_id', array('class' => 'control-label') ); ?>
-				<div class='controls'>
-					<input id='aide_category_id' type='text' name='aide_category_id' maxlength="11" value="<?php echo set_value('aide_category_id', isset($aide['category_id']) ? $aide['category_id'] : ''); ?>" />
-					<span class='help-inline'><?php echo form_error('category_id'); ?></span>
 				</div>
 			</div>
 
