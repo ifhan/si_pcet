@@ -34,6 +34,7 @@ $lang['bf_offline']				= 'Hors ligne';
 $lang['bf_top_number']			= 'El&eacute;ments <em>par</em> page:';
 $lang['bf_top_number_help']		= 'Lors de l\'affichage des rapports, combien d\'&eacute;l&eacute;ments doivent &ecirc;tre affich&eacute;s à la fois ?';
 $lang['bf_home']				= 'Accueil';
+$lang['bf_help']				= 'Aide';
 $lang['bf_site_information']	= 'Information du site';
 $lang['bf_timezone']			= 'Zone horaire';
 $lang['bf_language']			= 'Langue';
