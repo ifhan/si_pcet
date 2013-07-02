@@ -9,11 +9,10 @@
 					<?php endif;?>
 					
 					<th>Titre</th>
-					<th>Texte</th>
-					<th>URL</th>
-					<th>Deleted</th>
-					<th>Created</th>
-					<th>Modified</th>
+					<th>Créée le</th>
+					<th>Modifiée le</th>
+                                        <th>Archivée ?</th>
+                                        <th>Actions</th>
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
@@ -21,9 +20,9 @@
 				<?php if ($this->auth->has_permission('Pages.Settings.Delete')) : ?>
 				<tr>
 					<td colspan="7">
-						<?php echo lang('bf_with_selected') ?>
 						<input type="submit" name="delete" id="delete-me" class="btn btn-danger" value="<?php echo lang('bf_action_delete') ?>" onclick="return confirm('<?php e(js_escape(lang('pages_delete_confirm'))); ?>')">
-					</td>
+                                                <?php echo lang('bf_with_selected') ?>
+                                        </td>
 				</tr>
 				<?php endif;?>
 			</tfoot>
@@ -32,21 +31,24 @@
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
 			<?php foreach ($records as $record) : ?>
 				<tr>
-					<?php if ($this->auth->has_permission('Pages.Settings.Delete')) : ?>
-					<td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
-					<?php endif;?>
-					
-				<?php if ($this->auth->has_permission('Pages.Settings.Edit')) : ?>
-				<td><?php echo anchor(SITE_AREA .'/settings/pages/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->title) ?></td>
-				<?php else: ?>
-				<td><?php e($record->title) ?></td>
-				<?php endif; ?>
+                                    
+                                    <?php if ($this->auth->has_permission('Pages.Settings.Delete')) : ?>
+                                    <td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
+                                    <?php endif;?>
 			
-				<td><?php e($record->text) ?></td>
-				<td><?php e($record->slug) ?></td>
-				<td><?php echo $record->deleted > 0 ? lang('pages_true') : lang('pages_false')?></td>
-				<td><?php e($record->created_on) ?></td>
-				<td><?php e($record->modified_on) ?></td>
+                                    <td><?php e($record->title) ?></td>
+                                    <td><?php e($record->created_on) ?></td>
+                                    <td><?php e($record->modified_on) ?></td>
+                                    <td><?php echo $record->deleted > 0 ? lang('pages_true') : lang('pages_false')?></td>
+                                    
+                                    <td>
+                                        <?php if ($this->auth->has_permission('Pages.Settings.Edit')) : ?>
+                                            <?php echo anchor(SITE_AREA .'/settings/pages/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />    
+                                        <?php endif; ?>
+                                        <?php echo anchor(SITE_AREA .'/settings/pages/show/'. $record->id, '<i class="icon-globe">&nbsp;</i>Voir la page') ?><br />
+                                        <?php echo anchor(SITE_AREA .'/'. $record->slug, '<i class="icon-globe">&nbsp;</i>Slug') ?>
+                                    </td>
+                                    
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>
