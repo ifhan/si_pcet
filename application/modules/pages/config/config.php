@@ -2,5 +2,5 @@
 	'description'	=> 'Informations du site',
 	'name'		=> 'Pages',
 	'version'		=> '0.0.1',
-	'author'		=> 'admin'
+	'author'		=> 'Ronan Vignard'
 );
