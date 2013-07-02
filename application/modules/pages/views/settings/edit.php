@@ -20,7 +20,7 @@ $id = isset($pages['id']) ? $pages['id'] : '';
 
 ?>
 <div class="admin-box">
-	<h3>Pages</h3>
+	<h3><?php echo lang('pages_edit')?></h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
@@ -31,29 +31,32 @@ $id = isset($pages['id']) ? $pages['id'] : '';
 					<span class='help-inline'><?php echo form_error('pages_title'); ?></span>
 				</div>
 			</div>
+                    
+                    	<div class="control-group <?php echo form_error('pages_slug') ? 'error' : ''; ?>">
+				<?php echo form_label('URL', 'pages_slug', array('class' => 'control-label') ); ?>
+				<div class='controls'>
+                                    <div class="input-prepend">
+                                      <span class="add-on"><?php echo site_url() .'pages/' ?></span>
+					<input id='pages_slug' type='text' name='pages_slug' maxlength="255" class="input-xxlarge" value="<?php echo set_value('pages_slug', isset($pages['pages_slug']) ? $pages['pages_slug'] : ''); ?>" />
+					<span class='help-inline'><?php echo form_error('pages_slug'); ?></span>
+                                    </div>
+				</div>
+			</div>                    
 
 			<div class="control-group <?php echo form_error('pages_text') ? 'error' : ''; ?>">
 				<?php echo form_label('Texte', 'pages_text', array('class' => 'control-label') ); ?>
 				<div class='controls'>
-					<?php echo form_textarea( array( 'name' => 'pages_text', 'id' => 'pages_text', 'rows' => '5', 'cols' => '80', 'value' => set_value('pages_text', isset($pages['pages_text']) ? $pages['pages_text'] : '') ) ); ?>
+					<?php echo form_textarea( array( 'name' => 'pages_text', 'id' => 'pages_text', 'rows' => '20', 'cols' => '200', 'class' => 'input-xxlarge', 'value' => set_value('pages_text', isset($pages['pages_text']) ? $pages['pages_text'] : '') ) ); ?>
 					<span class='help-inline'><?php echo form_error('pages_text'); ?></span>
-				</div>
-			</div>
-
-			<div class="control-group <?php echo form_error('pages_slug') ? 'error' : ''; ?>">
-				<?php echo form_label('URL', 'pages_slug', array('class' => 'control-label') ); ?>
-				<div class='controls'>
-					<input id='pages_slug' type='text' name='pages_slug' maxlength="255" value="<?php echo set_value('pages_slug', isset($pages['pages_slug']) ? $pages['pages_slug'] : ''); ?>" />
-					<span class='help-inline'><?php echo form_error('pages_slug'); ?></span>
 				</div>
 			</div>
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('pages_action_edit'); ?>"  />
-				or <?php echo anchor(SITE_AREA .'/settings/pages', lang('pages_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/settings/pages', lang('pages_cancel'), 'class="btn btn-warning"'); ?>
 				
 			<?php if ($this->auth->has_permission('Pages.Settings.Delete')) : ?>
-				or
+				ou
 				<button type="submit" name="delete" class="btn btn-danger" id="delete-me" onclick="return confirm('<?php e(js_escape(lang('pages_delete_confirm'))); ?>'); ">
 					<span class="icon-trash icon-white"></span>&nbsp;<?php echo lang('pages_delete_record'); ?>
 				</button>
