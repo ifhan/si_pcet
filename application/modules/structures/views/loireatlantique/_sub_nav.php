@@ -11,6 +11,6 @@
 	</li>
 	<?php endif; ?>
         <li <?php echo $this->uri->segment(3) == '' ? 'class="active"' : '' ?>>
-		<a href="<?php echo site_url(SITE_AREA .'/content/aide/show/2.1') ?>" id="help" target="_blank"><?php echo lang('bf_help'); ?></a>
+		<a href="<?php echo site_url(SITE_AREA .'/content/categories/show/2') ?>" id="help" target="_blank"><?php echo lang('bf_help'); ?></a>
 	</li>
 </ul>
