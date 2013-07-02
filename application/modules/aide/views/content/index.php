@@ -9,7 +9,7 @@
 					<?php endif;?>
 					
 					<th>Catégorie</th>
-                                        <th>Titre</th>
+                                        <th>Titre de la fiche</th>
 					<th>Actions</th>
 					
 				</tr>
