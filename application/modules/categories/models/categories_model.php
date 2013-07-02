@@ -35,5 +35,5 @@ class Categories_model extends BF_Model {
 		return FALSE;
            }
 
-    }
+        }
 }

@@ -11,6 +11,8 @@ class content extends Admin_Controller {
 
 		$this->auth->restrict('Categories.Content.View');
 		$this->load->model('categories_model', null, true);
+                $this->load->model('aide/aide_model', null, true);
+                $this->load->helper('typography');
 		$this->lang->load('categories');
 		
 		Template::set_block('sub_nav', 'content/_sub_nav');
@@ -152,6 +154,18 @@ class content extends Admin_Controller {
 		Template::set('toolbar_title', lang('categories'));
 		Template::render();
 	}
+        
+        public function show($number)
+        {
+            
+            $aides = $this->aide_model->get_aides_by_categorie_number($number);
+            
+            Template::set('categories', $this->categories_model->find_by('number',$number));
+            Template::set('aides', $aides);
+            Template::set_view('show');
+            Template::set('toolbar_title', lang('categories'));
+            Template::render();
+        }
 
 	//--------------------------------------------------------------------
 

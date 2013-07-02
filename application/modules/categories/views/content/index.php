@@ -40,7 +40,7 @@
                                             <?php if ($this->auth->has_permission('Categories.Content.Edit')) : ?>
                                               <?php echo anchor(SITE_AREA .'/content/categories/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
                                             <?php endif; ?>
-                                            <?php echo anchor(SITE_AREA .'/content/categories/show/'. $record->number, '<i class="icon-search">&nbsp;</i>Voir les fiches correspondantes') ?>
+                                            <?php echo anchor(SITE_AREA .'/content/categories/show/'. $record->number, '<i class="icon-search">&nbsp;</i>Voir le contenu de la rubrique') ?>
                                         </td>
 			
 				</tr>

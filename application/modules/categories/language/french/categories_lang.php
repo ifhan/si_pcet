@@ -1,11 +1,11 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-$lang['categories']                     	= 'Catégories de l\'aide';
-$lang['categories_manage']			= 'Paramétrer les catégories de l\'aide';
-$lang['categories_edit']			= 'Modifier une catégorie';
+$lang['categories']                     	= 'Rubriques de l\'aide';
+$lang['categories_manage']			= 'Paramétrer les rubriques de l\'aide';
+$lang['categories_edit']			= 'Modifier une rubrique';
 $lang['categories_true']			= 'Vrai';
 $lang['categories_false']			= 'Faux';
-$lang['categories_title']			= 'Liste des catégories de l\'aide';
-$lang['categories_create']			= 'Ajouter une catégorie';
+$lang['categories_title']			= 'Liste des rubriques de l\'aide';
+$lang['categories_create']			= 'Ajouter une rubrique';
 $lang['categories_list']			= 'Liste';
 $lang['categories_new']				= 'Nouvelle';
 $lang['categories_edit_text']			= 'Edit this to suit your needs';

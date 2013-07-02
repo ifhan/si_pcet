@@ -11,6 +11,7 @@ class settings extends Admin_Controller {
 
 		$this->auth->restrict('Pages.Settings.View');
 		$this->load->model('pages_model', null, true);
+                $this->load->helper('typography');
 		$this->lang->load('pages');
 		
 			Assets::add_js(Template::theme_url('js/editors/tiny_mce/tiny_mce.js'));
@@ -57,7 +58,7 @@ class settings extends Admin_Controller {
 		$records = $this->pages_model->find_all();
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'Manage Pages');
+		Template::set('toolbar_title', lang('pages_manage'));
 		Template::render();
 	}
 
@@ -91,7 +92,7 @@ class settings extends Admin_Controller {
 		}
 		Assets::add_module_js('pages', 'pages.js');
 
-		Template::set('toolbar_title', lang('pages_create') . ' Pages');
+		Template::set('toolbar_title', lang('pages'));
 		Template::render();
 	}
 
@@ -124,6 +125,7 @@ class settings extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('pages_act_edit_record').': ' . $id . ' : ' . $this->input->ip_address(), 'pages');
 
 				Template::set_message(lang('pages_edit_success'), 'success');
+                                redirect(SITE_AREA .'/settings/pages');
 			}
 			else
 			{
@@ -149,11 +151,29 @@ class settings extends Admin_Controller {
 		}
 		Template::set('pages', $this->pages_model->find($id));
 		Assets::add_module_js('pages', 'pages.js');
-
-		Template::set('toolbar_title', lang('pages_edit') . ' Pages');
+		Template::set('toolbar_title', lang('pages'));
 		Template::render();
 	}
 
+        public function show($id) {
+            $page = $this->pages_model->find($id);
+            
+            Template::set('page', $page);
+            Template::set_view('show');
+            Template::set('toolbar_title', lang('pages'));
+            Template::render();             
+        }
+        
+        public function view($slug)
+        {
+            $page = $this->db->get_where('pages', array('slug' => $slug), 1);
+
+            Template::set('page', $page);
+            Template::set_view('show');
+            Template::set('toolbar_title', lang('pages'));
+            Template::render(); 
+        }
+        
 	//--------------------------------------------------------------------
 
 
@@ -184,6 +204,9 @@ class settings extends Admin_Controller {
 		$this->form_validation->set_rules('pages_title','Titre','required|max_length[255]');
 		$this->form_validation->set_rules('pages_text','Texte','');
 		$this->form_validation->set_rules('pages_slug','URL','max_length[255]');
+                $this->form_validation->set_rules('pages_created_on','Creee le','max_length[255]');
+		$this->form_validation->set_rules('pages_modified_on','Modifiee le','max_length[255]');
+		$this->form_validation->set_rules('pages_deleted','Archivee ?','max_length[1]');
 
 		if ($this->form_validation->run() === FALSE)
 		{
@@ -196,6 +219,9 @@ class settings extends Admin_Controller {
 		$data['title']        = $this->input->post('pages_title');
 		$data['text']        = $this->input->post('pages_text');
 		$data['slug']        = $this->input->post('pages_slug');
+                $data['created_on']        = $this->input->post('pages_created_on') ? $this->input->post('pages_created_on') : '0000-00-00 00:00:00';
+		$data['modified_on']        = $this->input->post('pages_modified_on') ? $this->input->post('pages_modified_on') : '0000-00-00 00:00:00';
+		$data['deleted']        = $this->input->post('pages_deleted');
 
 		if ($type == 'insert')
 		{

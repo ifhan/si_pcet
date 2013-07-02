@@ -168,7 +168,7 @@ class content extends Admin_Controller {
             $aide = $this->aide_model->find_by('number',$number);
             
             Template::set('aide', $aide);
-            Template::set('toolbar_title', lang('aide'));         
+            Template::set('toolbar_title', lang('aide_sheet'));         
             Template::render();         
             
         }

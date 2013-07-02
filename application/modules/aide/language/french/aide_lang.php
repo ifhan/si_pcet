@@ -1,5 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 $lang['aide']                           = 'Aide';
+$lang['aide_sheet']                     = 'Fiche d\'aide';
 $lang['aide_manage']			= 'Paramétrer l\'aide aux utilisateurs de l\'application';
 $lang['aide_edit']			= 'Modifier une fiche d\'aide';
 $lang['aide_true']			= 'Vrai';
