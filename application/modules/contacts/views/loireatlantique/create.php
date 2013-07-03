@@ -58,6 +58,14 @@ $id = isset($contacts['id']) ? $contacts['id'] : '';
 					<span class='help-inline'><?php echo form_error('MAIL'); ?></span>
 				</div>
 			</div>
+                    
+                    	<div class="control-group <?php echo form_error('POSTE') ? 'error' : ''; ?>">
+				<?php echo form_label('Poste', 'contacts_POSTE', array('class' => 'control-label') ); ?>
+				<div class='controls'>
+					<input id='contacts_POSTE' class="input-xlarge" type='text' name='contacts_POSTE' maxlength="255" value="<?php echo set_value('contacts_POSTE', isset($contacts['POSTE']) ? $contacts['POSTE'] : ''); ?>" />
+					<span class='help-inline'><?php echo form_error('POSTE'); ?></span>
+				</div>
+			</div> 
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('contacts_action_create'); ?>"  />

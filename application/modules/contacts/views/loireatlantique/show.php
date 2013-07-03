@@ -9,6 +9,7 @@
                 <th>Nom</th>
                 <th>Prénom</th>
                 <th>Courriel</th>
+                <th>Poste</th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -20,9 +21,10 @@
                 <td><?php e($record->NOM_CONTACT) ?></td>
                 <td><?php e($record->PRENOM) ?></td>
                 <td><?php echo mailto($record->MAIL, '<i class="icon-envelope">&nbsp;</i> ' .  $record->MAIL, 'target="_blank"'); ?></td>
+                <td><?php e($record->POSTE) ?></td>
                 <td>
                     <?php if ($this->auth->has_permission('Structures.Loireatlantique.Edit')) : ?>
-                        <?php echo anchor(SITE_AREA .'/loireatlantique/structures/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
+                        <?php echo anchor(SITE_AREA .'/loireatlantique/contacts/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
                     <?php endif; ?>                    
                     <?php echo anchor(SITE_AREA .'/loireatlantique/structures/', '<i class="icon-step-backward">&nbsp;</i>Retourner au module "Collectivités"'); ?>
                 </td>
@@ -30,7 +32,7 @@
             <?php endforeach; ?>
             <?php else: ?>
             <tr>
-                <td colspan="4"><?php echo lang('bf_no_record_found'); ?></td>
+                <td colspan="5"><?php echo lang('bf_no_record_found'); ?></td>
                 <td><?php echo anchor(SITE_AREA .'/loireatlantique/structures/', '<i class="icon-step-backward">&nbsp;</i>Retourner au module "Collectivités"'); ?></td>
             </tr>
             <?php endif; ?>

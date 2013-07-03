@@ -206,6 +206,7 @@ class loireatlantique extends Admin_Controller {
 
 		
 		$this->form_validation->set_rules('contacts_CIVILITE','Civilite','');
+                $this->form_validation->set_rules('contacts_POSTE','Poste','max_length[255]');
 		$this->form_validation->set_rules('contacts_PRENOM','Prenom','max_length[30]|ucfirst');
 		$this->form_validation->set_rules('contacts_NOM_CONTACT','Nom','max_length[30]|strtoupper');
 		$this->form_validation->set_rules('contacts_MAIL','Courriel','max_length[100]|valid_email');
@@ -220,7 +221,8 @@ class loireatlantique extends Admin_Controller {
 		
 		$data = array();
 		$data['CIVILITE']        = $this->input->post('contacts_CIVILITE');
-		$data['PRENOM']        = $this->input->post('contacts_PRENOM');
+		$data['POSTE']        = $this->input->post('contacts_POSTE');
+                $data['PRENOM']        = $this->input->post('contacts_PRENOM');
 		$data['NOM_CONTACT']        = $this->input->post('contacts_NOM_CONTACT');
 		$data['MAIL']        = $this->input->post('contacts_MAIL');
 		$data['ID_STR']        = $this->input->post('contacts_ID_STR');
