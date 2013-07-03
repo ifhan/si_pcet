@@ -1,5 +1,5 @@
 <div class="admin-box">
-	<h3>Liste des types de collectivit&eacute;s</h3>
+	<h3><?php echo lang('types_title') ?></h3>
 	<?php echo form_open($this->uri->uri_string()); ?>
 		<table class="table table-striped">
 			<thead>
@@ -9,6 +9,7 @@
 					<?php endif;?>
 					
 					<th>Libell&eacute;</th>
+                                        <th>Actions</th>
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
@@ -30,12 +31,18 @@
 					<?php if ($this->auth->has_permission('Types.Content.Delete')) : ?>
 					<td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
 					<?php endif;?>
+                                        
+                                        <td><?php e($record->NOM_TYPE) ?></td>
+                                        
+                                        <td>
 					
-				<?php if ($this->auth->has_permission('Types.Content.Edit')) : ?>
-				<td><?php echo anchor(SITE_AREA .'/content/types/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->NOM_TYPE) ?></td>
-				<?php else: ?>
-				<td><?php e($record->NOM_TYPE) ?></td>
-				<?php endif; ?>
+                                        <?php if ($this->auth->has_permission('Types.Content.Edit')) : ?>
+                                            <?php echo anchor(SITE_AREA .'/content/types/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
+                                        <?php endif; ?>
+                                            
+                                            <?php echo anchor(SITE_AREA .'/content/types/show/'. $record->id, '<i class="icon-globe">&nbsp;</i>Voir les collectivités') ?>
+                                            
+                                        </td>
 			
 				</tr>
 			<?php endforeach; ?>
