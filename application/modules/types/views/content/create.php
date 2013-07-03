@@ -20,12 +20,12 @@ $id = isset($types['id']) ? $types['id'] : '';
 
 ?>
 <div class="admin-box">
-	<h3>Types</h3>
+	<h3><?php echo lang('types_create') ?></h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
 			<div class="control-group <?php echo form_error('NOM_TYPE') ? 'error' : ''; ?>">
-				<?php echo form_label('Nom du type de structure', 'types_NOM_TYPE', array('class' => 'control-label') ); ?>
+				<?php echo form_label('Nom du type de collectivité', 'types_NOM_TYPE', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<input id='types_NOM_TYPE' type='text' name='types_NOM_TYPE' maxlength="50" value="<?php echo set_value('types_NOM_TYPE', isset($types['NOM_TYPE']) ? $types['NOM_TYPE'] : ''); ?>" />
 					<span class='help-inline'><?php echo form_error('NOM_TYPE'); ?></span>
@@ -34,7 +34,7 @@ $id = isset($types['id']) ? $types['id'] : '';
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('types_action_create'); ?>"  />
-				or <?php echo anchor(SITE_AREA .'/content/types', lang('types_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/content/types', lang('types_cancel'), 'class="btn btn-warning"'); ?>
 				
 			</div>
 		</fieldset>
