@@ -10,4 +10,7 @@
 		<a href="<?php echo site_url(SITE_AREA .'/loireatlantique/gouvernance/create') ?>" id="create_new"><?php echo lang('gouvernance_new'); ?></a>
 	</li>
 	<?php endif; ?>
+        <li>
+            <a href="<?php echo site_url(SITE_AREA .'/content/categories/show/2') ?>" id="help" target="_blank"><?php echo lang('bf_help'); ?></a>
+	</li>        
 </ul>
