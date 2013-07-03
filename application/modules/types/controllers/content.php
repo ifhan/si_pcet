@@ -55,7 +55,7 @@ class content extends Admin_Controller {
 		$records = $this->types_model->order_by('NOM_TYPE', 'asc')->find_all();
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'G&eacute;rer les types de collectivit&eacute;s');
+		Template::set('toolbar_title', lang('types_manage'));
 		Template::render();
 	}
 
@@ -89,7 +89,7 @@ class content extends Admin_Controller {
 		}
 		Assets::add_module_js('types', 'types.js');
 
-		Template::set('toolbar_title', lang('types_create') . ' Types');
+		Template::set('toolbar_title', lang('types'));
 		Template::render();
 	}
 
@@ -122,6 +122,7 @@ class content extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('types_act_edit_record').': ' . $id . ' : ' . $this->input->ip_address(), 'types');
 
 				Template::set_message(lang('types_edit_success'), 'success');
+                                redirect(SITE_AREA .'/content/types');
 			}
 			else
 			{
@@ -148,7 +149,7 @@ class content extends Admin_Controller {
 		Template::set('types', $this->types_model->find($id));
 		Assets::add_module_js('types', 'types.js');
 
-		Template::set('toolbar_title', lang('types_edit') . ' Types');
+		Template::set('toolbar_title', lang('types'));
 		Template::render();
 	}
 
