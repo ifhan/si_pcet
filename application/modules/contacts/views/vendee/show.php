@@ -20,6 +20,7 @@
                 <td><?php e($record->NOM_CONTACT) ?></td>
                 <td><?php e($record->PRENOM) ?></td>
                 <td><?php echo mailto($record->MAIL, '<i class="icon-envelope">&nbsp;</i> ' .  $record->MAIL, 'target="_blank"'); ?></td>
+                <td><?php e($record->POSTE) ?></td>
                 <td><?php echo anchor(SITE_AREA .'/vendee/structures/', '<i class="icon-step-backward">&nbsp;</i>Retourner au module "Collectivités"'); ?></td>
             </tr>
             <?php endforeach; ?>
