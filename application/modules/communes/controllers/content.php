@@ -59,7 +59,7 @@ class content extends Admin_Controller {
 		$records = $this->communes_model->find_all();
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'Manage Communes');
+		Template::set('toolbar_title', lang('communes_manage'));
 		Template::render();
 	}
 
@@ -93,7 +93,7 @@ class content extends Admin_Controller {
 		}
 		Assets::add_module_js('communes', 'communes.js');
 
-		Template::set('toolbar_title', lang('communes_create') . ' Communes');
+		Template::set('toolbar_title', lang('communes'));
 		Template::render();
 	}
 
@@ -152,7 +152,7 @@ class content extends Admin_Controller {
 		Template::set('communes', $this->communes_model->find($id));
 		Assets::add_module_js('communes', 'communes.js');
 
-		Template::set('toolbar_title', lang('communes_edit') . ' Communes');
+		Template::set('toolbar_title', lang('communes'));
 		Template::render();
 	}
 

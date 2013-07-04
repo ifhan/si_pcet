@@ -56,10 +56,10 @@ class content extends Admin_Controller {
 			}
 		}
 
-		$records = $this->departements_model->find_all();
+		$records = $this->departements_model->order_by('Id_BDCarto','asc')->find_all();
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'Manage Departements');
+		Template::set('toolbar_title', lang('departements_manage'));
 		Template::render();
 	}
 
@@ -93,7 +93,7 @@ class content extends Admin_Controller {
 		}
 		Assets::add_module_js('departements', 'departements.js');
 
-		Template::set('toolbar_title', lang('departements_create') . ' Departements');
+		Template::set('toolbar_title', lang('departements'));
 		Template::render();
 	}
 
@@ -152,7 +152,7 @@ class content extends Admin_Controller {
 		Template::set('departements', $this->departements_model->find($id));
 		Assets::add_module_js('departements', 'departements.js');
 
-		Template::set('toolbar_title', lang('departements_edit') . ' Departements');
+		Template::set('toolbar_title', lang('departements'));
 		Template::render();
 	}
 
