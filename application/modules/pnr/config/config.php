@@ -5,7 +5,7 @@ $config['module_config'] = array(
 		'content'	=> 'pnr/content/menu'
 	),
 	'description'	=> 'Liste des Parcs Naturels Régionaux en Pays de la Loire',
-	'name'		=> 'PNR',
+	'name'		=> '5. PNR',
 	'version'		=> '0.0.1',
 	'author'		=> 'Ronan Vignard',
 	'menu_topic'	=> array(

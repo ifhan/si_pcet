@@ -5,7 +5,7 @@ $config['module_config'] = array(
 		'content'	=> 'pays/content/menu'
 	),
 	'description'	=> 'Liste des pays en Pays de la Loire',
-	'name'		=> 'Pays',
+	'name'		=> '4. Pays',
 	'version'		=> '0.0.1',
 	'author'		=> 'Ronan Vignard',
 	'menu_topic'	=> array(

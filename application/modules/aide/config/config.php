@@ -5,7 +5,7 @@ $config['module_config'] = array(
             'content'	=> 'aide/content/menu',
 	),    
 	'description'	=> 'Aide de l\'application',
-	'name'		=> 'Aide',
+	'name'		=> '0. Aide',
 	'version'		=> '0.0.1',
 	'author'		=> 'Ronan Vignard',
         'menu_topic'	=> array(
