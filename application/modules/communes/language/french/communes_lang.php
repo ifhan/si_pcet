@@ -1,9 +1,10 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+$lang['communes']                               = 'Communes';
 $lang['communes_manage']			= 'Gérer les communes';
-$lang['communes_edit']				= 'Edit';
+$lang['communes_edit']				= 'Modifier une commune';
 $lang['communes_true']				= 'Vrai';
 $lang['communes_false']				= 'Faux';
-$lang['communes_create']			= 'Create';
+$lang['communes_create']			= 'Ajouter une commune';
 $lang['communes_list']				= 'Liste';
 $lang['communes_new']				= 'Nouvelle';
 $lang['communes_edit_text']			= 'Edit this to suit your needs';
