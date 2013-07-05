@@ -23,6 +23,8 @@ $id = isset($autres['id']) ? $autres['id'] : '';
 	<h3><?php echo lang('autres_create') ?></h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
+                        
+                        <?php echo form_dropdown('autres_DEPARTEMENT_id',$departements, set_value('autres_DEPARTEMENT_id', isset($autres['DEPARTEMENT_id']) ? $autres['DEPARTEMENT_id'] : ''),'Départements'); ?>
 
 			<div class="control-group <?php echo form_error('ID_STR') ? 'error' : ''; ?>">
 				<?php echo form_label('Identifiant', 'autres_ID_STR', array('class' => 'control-label') ); ?>
