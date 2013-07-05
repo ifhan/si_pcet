@@ -11,6 +11,7 @@ class content extends Admin_Controller {
 
 		$this->auth->restrict('Autres.Content.View');
 		$this->load->model('autres_model', null, true);
+                $this->load->model('departements/departements_model', null, true);
 		$this->lang->load('autres');
 		
 		Template::set_block('sub_nav', 'content/_sub_nav');
@@ -71,6 +72,7 @@ class content extends Admin_Controller {
 	public function create()
 	{
 		$this->auth->restrict('Autres.Content.Create');
+                $departements = $this->departements_model->get_departements();
 
 		if (isset($_POST['save']))
 		{
@@ -88,7 +90,7 @@ class content extends Admin_Controller {
 			}
 		}
 		Assets::add_module_js('autres', 'autres.js');
-
+                Template::set('departements', $departements);
 		Template::set('toolbar_title', lang('autres'));
 		Template::render();
 	}
@@ -105,6 +107,7 @@ class content extends Admin_Controller {
 	public function edit()
 	{
 		$id = $this->uri->segment(5);
+                $departements = $this->departements_model->get_departements();
 
 		if (empty($id))
 		{
@@ -122,6 +125,7 @@ class content extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('autres_act_edit_record').': ' . $id . ' : ' . $this->input->ip_address(), 'autres');
 
 				Template::set_message(lang('autres_edit_success'), 'success');
+                                redirect(SITE_AREA .'/content/autres');
 			}
 			else
 			{
@@ -147,7 +151,7 @@ class content extends Admin_Controller {
 		}
 		Template::set('autres', $this->autres_model->find($id));
 		Assets::add_module_js('autres', 'autres.js');
-
+                Template::set('departements', $departements);
 		Template::set('toolbar_title', lang('autres'));
 		Template::render();
 	}
@@ -182,6 +186,7 @@ class content extends Admin_Controller {
 		$this->form_validation->set_rules('autres_ID_STR','Identifiant','max_length[10]');
 		$this->form_validation->set_rules('autres_NOM','Nom','max_length[255]');
 		$this->form_validation->set_rules('autres_COMMENT','Commentaire','');
+                $this->form_validation->set_rules('autres_DEPARTEMENT_id','Département','max_length[2]');
 
 		if ($this->form_validation->run() === FALSE)
 		{
@@ -194,6 +199,7 @@ class content extends Admin_Controller {
 		$data['ID_STR']        = $this->input->post('autres_ID_STR');
 		$data['NOM']        = $this->input->post('autres_NOM');
 		$data['COMMENT']        = $this->input->post('autres_COMMENT');
+                $data['DEPARTEMENT_id']        = $this->input->post('autres_DEPARTEMENT_id');
 
 		if ($type == 'insert')
 		{
