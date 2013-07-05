@@ -55,7 +55,7 @@ class content extends Admin_Controller {
 		$records = $this->autres_model->find_all();
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'Manage Autres');
+		Template::set('toolbar_title', lang('autres_manage'));
 		Template::render();
 	}
 
@@ -89,7 +89,7 @@ class content extends Admin_Controller {
 		}
 		Assets::add_module_js('autres', 'autres.js');
 
-		Template::set('toolbar_title', lang('autres_create') . ' Autres');
+		Template::set('toolbar_title', lang('autres'));
 		Template::render();
 	}
 
@@ -148,7 +148,7 @@ class content extends Admin_Controller {
 		Template::set('autres', $this->autres_model->find($id));
 		Assets::add_module_js('autres', 'autres.js');
 
-		Template::set('toolbar_title', lang('autres_edit') . ' Autres');
+		Template::set('toolbar_title', lang('autres'));
 		Template::render();
 	}
 
