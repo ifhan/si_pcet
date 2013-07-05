@@ -20,7 +20,7 @@ $id = isset($autres['id']) ? $autres['id'] : '';
 
 ?>
 <div class="admin-box">
-	<h3>Autres</h3>
+	<h3><?php echo lang('autres_edit') ?></h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
@@ -50,10 +50,10 @@ $id = isset($autres['id']) ? $autres['id'] : '';
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('autres_action_edit'); ?>"  />
-				or <?php echo anchor(SITE_AREA .'/content/autres', lang('autres_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/content/autres', lang('autres_cancel'), 'class="btn btn-warning"'); ?>
 				
 			<?php if ($this->auth->has_permission('Autres.Content.Delete')) : ?>
-				or
+				ou
 				<button type="submit" name="delete" class="btn btn-danger" id="delete-me" onclick="return confirm('<?php e(js_escape(lang('autres_delete_confirm'))); ?>'); ">
 					<span class="icon-trash icon-white"></span>&nbsp;<?php echo lang('autres_delete_record'); ?>
 				</button>

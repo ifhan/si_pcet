@@ -20,7 +20,7 @@ $id = isset($autres['id']) ? $autres['id'] : '';
 
 ?>
 <div class="admin-box">
-	<h3>Autres</h3>
+	<h3><?php echo lang('autres_create') ?></h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
 
@@ -50,7 +50,7 @@ $id = isset($autres['id']) ? $autres['id'] : '';
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('autres_action_create'); ?>"  />
-				or <?php echo anchor(SITE_AREA .'/content/autres', lang('autres_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/content/autres', lang('autres_cancel'), 'class="btn btn-warning"'); ?>
 				
 			</div>
 		</fieldset>
