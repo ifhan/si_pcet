@@ -3,6 +3,7 @@ $lang['actions']			= 'Actions';
 $lang['actions_title']			= 'Actions des tableaux de bord des PCET en ';
 $lang['actions_manage']			= 'Gérer les actions des tableaux de bord';
 $lang['actions_edit']			= 'Modifier une action';
+$lang['actions_show']			= 'Voir une action';
 $lang['actions_true']			= 'Vrai';
 $lang['actions_false']			= 'Faux';
 $lang['actions_create']			= 'Créer une action';
