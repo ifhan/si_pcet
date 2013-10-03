@@ -162,6 +162,27 @@ class sarthe extends Admin_Controller {
 		Template::set('toolbar_title', lang('actions'));
 		Template::render();
 	}
+        
+        /*
+		Method: show()
+
+		Displays a record of Actions data
+	*/
+	public function show()
+	{
+            $id = $this->uri->segment(5);
+            $structure = $this->pcet_model->get_structure_by_id_action($id);
+            $domaine = $this->domaine_model->get_domaine_by_id_action($id);
+            $action = $this->actions_model->find($id);
+            
+            Template::set('structure', $structure);
+            Template::set('domaine', $domaine);
+            Template::set('action', $action);
+            Template::set('toolbar_title', lang('actions_show'));
+            Template::set_view('admin/show');
+            Template::render();
+            
+        }        
 
 	//--------------------------------------------------------------------
 
