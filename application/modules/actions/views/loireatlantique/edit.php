@@ -29,7 +29,7 @@ $id = isset($actions['id']) ? $actions['id'] : '';
 			<?php echo form_dropdown('actions_DOMAINES_ACTION_id',$domaine, set_value('actions_DOMAINES_ACTION_id', isset($actions['DOMAINES_ACTION_id']) ? $actions['DOMAINES_ACTION_id'] : ''), 'Domaine d\'action'); ?>
 
 			<div class="control-group <?php echo form_error('COMPETENCE') ? 'error' : ''; ?>">
-				<?php echo form_label('Competence de la collectivite', 'actions_COMPETENCE', array('class' => 'control-label') ); ?>
+				<?php echo form_label('Compétence de la collectivité', 'actions_COMPETENCE', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<label class='checkbox' for='actions_COMPETENCE'>
 						<input type='checkbox' id='actions_COMPETENCE' name='actions_COMPETENCE' value='1' <?php echo (isset($actions['COMPETENCE']) && $actions['COMPETENCE'] == 1) ? 'checked="checked"' : set_checkbox('actions_COMPETENCE', 1); ?>>
@@ -39,7 +39,7 @@ $id = isset($actions['id']) ? $actions['id'] : '';
 			</div>
 
 			<div class="control-group <?php echo form_error('NOM_ACTION') ? 'error' : ''; ?>">
-				<?php echo form_label('Nom de l action', 'actions_NOM_ACTION', array('class' => 'control-label') ); ?>
+				<?php echo form_label('Nom de l \'action', 'actions_NOM_ACTION', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<?php echo form_textarea( array( 'name' => 'actions_NOM_ACTION', 'id' => 'actions_NOM_ACTION', 'rows' => '5', 'cols' => '80', 'value' => set_value('actions_NOM_ACTION', isset($actions['NOM_ACTION']) ? $actions['NOM_ACTION'] : '') ) ); ?>
 					<span class='help-inline'><?php echo form_error('NOM_ACTION'); ?></span>
