@@ -36,4 +36,16 @@ class Categories_model extends BF_Model {
            }
 
         }
+        
+        public function get_categories() {
+            
+            $categories = array();
+            
+            $categories = $this->categories_model->order_by('number', 'asc')
+                    ->find_all();
+            
+            return $categories;
+            
+        }
+        
 }
