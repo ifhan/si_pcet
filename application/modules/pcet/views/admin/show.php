@@ -341,4 +341,26 @@
         </div>
     </div>
     <?php endif; ?>
+    <?php if($contacts): ?>
+    <div class="accordion-group">
+        <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven">
+                <h4>Contacts</h4>
+            </a>
+        </div>
+        <div id="collapseSeven" class="accordion-body collapse in">
+            <div class="accordion-inner">
+                <ul>
+                    <?php foreach ($contacts as $contact): ?>
+                    <li>
+                        <?php e($contact->CIVILITE.' '.$contact->NOM_CONTACT.' '.$contact->PRENOM) ?>
+                        <?php if($contact->POSTE): ?><br /><i class="icon-briefcase">&nbsp;</i><?php e($contact->POSTE) ?><?php endif; ?>
+                        <br /><?php echo mailto($contact->MAIL, '<i class="icon-envelope">&nbsp;</i> ' .  $contact->MAIL, 'target="_blank"'); ?>
+                    </li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <?php endif; ?>
 </div>
