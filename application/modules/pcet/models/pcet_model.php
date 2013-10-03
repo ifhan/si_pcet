@@ -83,7 +83,7 @@ class Pcet_model extends BF_Model {
         *       par l'identifiant du département pour l'affichage.
 	*/         
         function list_pcet_by_departement($departement) {
-            $pcets = $this->db
+            $query = $this->db
                 ->join('pcet_structure','pcet_structure.ID_STR = pcet.ID_STR','left')
 		->join('pcet_type_str','pcet_type_str.id = pcet_structure.TYPE_STRUCTURE_id','left')
                 ->join('bdc_commune_52','bdc_commune_52.INSEE_Commune = pcet_structure.ID_STR','left')
@@ -99,10 +99,10 @@ class Pcet_model extends BF_Model {
                 ->select('r_pays_contour_r52.nom as nom_pays')
                 ->select('r_pnr_r52.nom as nom_pnr')
                 ->order_by('pcet.ID_PCET', 'asc')
-                ->where('pcet_structure.DEPARTEMENT_id',$departement);
-            $pcets = $this->db->get('pcet');
+                ->where('pcet_structure.DEPARTEMENT_id',$departement)
+                ->get('pcet');
 
-        foreach ($pcets->result() as $pcet)
+        foreach ($query->result() as $pcet)
         {
            
             $pcets_list[$pcet->ID_PCET] = $pcet->ID_PCET.' - '.$pcet->NOM_TYPE.' - '.$pcet->Nom_Commune.$pcet->Nom_Departement.$pcet->NOM_EPCI.$pcet->nom_pays.$pcet->nom_pnr;

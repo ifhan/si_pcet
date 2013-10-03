@@ -41,7 +41,7 @@ class Structures_model extends BF_Model {
         *       déroulante).
 	*/
 	function list_structures_by_departement($departement) {
-            $structures = $this->db
+            $query = $this->db
                  ->select('pcet_structure.id as id, pcet_structure.ID_STR as ID_STR,
                     pcet_structure.TYPE_STRUCTURE_id as TYPE_STRUCTURE_id,
                     pcet_structure.DEPARTEMENT_id as DEPARTEMENT_id')
@@ -58,10 +58,10 @@ class Structures_model extends BF_Model {
                  ->select('n_epci_zsup_r52.NOM_EPCI as NOM_EPCI')
                  ->select('r_pays_contour_r52.nom as nom_pays')
                  ->select('r_pnr_r52.nom as nom_pnr')
-                 ->order_by('pcet_structure.ID_STR', 'asc');
-            $structures = $this->db->get('pcet_structure');
+                 ->order_by('pcet_structure.ID_STR', 'asc')
+                 ->get('pcet_structure');
 
-            foreach ($structures->result() as $structure)
+            foreach ($query->result() as $structure)
             {
 
                 $structures_list[$structure->ID_STR] = $structure->NOM_TYPE.' - '.$structure->Nom_Commune.$structure->Nom_Departement.$structure->NOM_EPCI.$structure->nom_pays.$structure->nom_pnr;
@@ -118,7 +118,4 @@ class Structures_model extends BF_Model {
                     ->find_by('ID_STR',$ID_STR);
             return $structure;
         }
-    
-    
-	
 }
