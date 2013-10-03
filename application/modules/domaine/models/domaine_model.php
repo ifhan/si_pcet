@@ -44,4 +44,19 @@ class Domaine_model extends BF_Model {
             return $domaine;
             
         }
+        
+        /*
+		Method: get_domaine_by_id_action()
+
+		Sélectionne le domaine d'action d'une action par son identifiant.
+	*/  
+        function get_domaine_by_id_action($id_action) {
+            
+            $domaine = $this->domaine_model
+                    ->join('pcet_actions','pcet_domaines_action.id = pcet_actions.DOMAINES_ACTION_id','left')
+                    ->select('pcet_actions.DOMAINES_ACTION_id as DOMAINES_ACTION_id, pcet_domaines_action.NOM_DOMAINE_ACTION as NOM_DOMAINE_ACTION')
+                    ->find_by('pcet_actions.id',$id_action);
+            return $domaine;
+            
+        }
 }
