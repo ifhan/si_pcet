@@ -47,9 +47,27 @@ class Contacts_model extends BF_Model {
         *       d'une collectivité par l'identifiant de la collectivité.
 	*/         
         function get_contacts_by_structure($ID_STR) {
-            $records = $this->contacts_model
-                    ->find_all_by('ID_STR', $ID_STR);
+            $records = $this->contacts_model->find_all_by('ID_STR', $ID_STR);
             
             return $records;
+        }
+        
+        /*
+		Method: get_contacts_by_pcet()
+
+		Sélectionne l'ensemble des contacts
+        *       d'une collectivité par l'identifiant de la collectivité.
+	*/         
+        function get_contacts_by_pcet($ID_PCET) {
+            $contacts = $this->contacts_model
+                ->join('pcet_structure','pcet_structure.ID_STR = pcet_contact.ID_STR','left')
+                ->join('pcet','pcet.ID_STR = pcet_structure.ID_STR','left')
+                ->select('pcet_contact.id as id, pcet_contact.CIVILITE as CIVILITE, 
+                    pcet_contact.NOM_CONTACT as NOM_CONTACT, pcet_contact.PRENOM as PRENOM,
+                    pcet_contact.POSTE as POSTE, pcet_contact.MAIL as MAIL, pcet.ID_PCET as ID_PCET')
+                ->find_all_by('pcet.ID_PCET', $ID_PCET);
+            
+            return $contacts;
+            
         }
 }
