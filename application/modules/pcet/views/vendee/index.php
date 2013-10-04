@@ -41,11 +41,11 @@
 					<td><?php e($record->Nom_Commune) ?><?php e($record->Nom_Departement) ?><?php e($record->NOM_EPCI) ?><?php e($record->nom_pays) ?><?php e($record->nom_pnr) ?></td>
 					<td><?php e($record->STATUT_PCET) ?></td>
 					<td><?php e($record->NOM_PHASE) ?></td>
-                                        <td width="10%">                                   
+                                        <td width="10%">
+                                            <?php echo anchor(SITE_AREA .'/vendee/pcet/show/'. $record->ID_PCET, '<i class="icon-info-sign">&nbsp;</i>Voir la fiche') ?><br />
                                             <?php if ($this->auth->has_permission('PCET.Vendee.Edit')) : ?>					
                                                 <?php echo anchor(SITE_AREA .'/vendee/pcet/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
                                             <?php endif; ?>
-                                            <?php echo anchor(SITE_AREA .'/vendee/pcet/show/'. $record->ID_PCET, '<i class="icon-info-sign">&nbsp;</i>Voir la fiche') ?>
                                         </td>
 
 				</tr>
