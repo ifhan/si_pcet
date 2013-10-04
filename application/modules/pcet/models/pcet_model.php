@@ -188,6 +188,32 @@ class Pcet_model extends BF_Model {
                     ->select('r_pnr_r52.nom as nom_pnr')
                     ->find_by('pcet_avis.id',$id_avis);
             return $structure;
-        }          
+        }     
+
+       /*
+		Method: get_structure_by_id_adaptation()
+
+		Sélectionne une collectivité par l'identifiant de l'action du PCET.
+	*/
+        function get_structure_by_id_adaptation($id_adaptation) {
+            
+            $structure = $this->pcet_model
+                    ->join('pcet_adaptation','pcet_adaptation.ID_PCET = pcet.ID_PCET','left')
+                    ->join('pcet_structure','pcet_structure.ID_STR = pcet.ID_STR','left')
+                    ->join('pcet_type_str','pcet_type_str.id = pcet_structure.TYPE_STRUCTURE_id','left')
+                    ->select('pcet_adaptation.ID_PCET as ID_PCET, pcet_structure.ID_STR as ID_STR, pcet_type_str.NOM_TYPE as NOM_TYPE')
+                    ->join('bdc_commune_52','bdc_commune_52.INSEE_Commune = pcet_structure.ID_STR','left')
+                    ->join('bdc_departement_52','bdc_departement_52.INSEE_Departement = pcet_structure.ID_STR','left')
+                    ->join('n_epci_zsup_r52','n_epci_zsup_r52.SIREN_EPCI = pcet_structure.ID_STR','left')
+                    ->join('r_pays_contour_r52','r_pays_contour_r52.id_pays = pcet_structure.ID_STR','left')
+                    ->join('r_pnr_r52','r_pnr_r52.id_regional = pcet_structure.ID_STR','left')
+                    ->select('bdc_commune_52.Nom_Commune as Nom_Commune')
+                    ->select('bdc_departement_52.Nom_Departement as Nom_Departement')
+                    ->select('n_epci_zsup_r52.NOM_EPCI as NOM_EPCI')
+                    ->select('r_pays_contour_r52.nom as nom_pays')
+                    ->select('r_pnr_r52.nom as nom_pnr')
+                    ->find_by('pcet_adaptation.id',$id_adaptation);
+            return $structure;
+        }  
     
 }
