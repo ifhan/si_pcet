@@ -12,10 +12,11 @@ class maineetloire extends Admin_Controller {
 		$this->auth->restrict('Engagement.Maineetloire.View');
 		$this->load->model('engagement_model', null, true);
                 $this->load->model('pcet/pcet_model', null, true);
+                $this->load->helper('typography');                
 		$this->lang->load('engagement');
 		
-			Assets::add_css('flick/jquery-ui-1.8.13.custom.css');
-			Assets::add_js('jquery-ui-1.8.13.min.js');
+		Assets::add_css('flick/jquery-ui-1.8.13.custom.css');
+		Assets::add_js('jquery-ui-1.8.13.min.js');
 		Template::set_block('sub_nav', 'maineetloire/_sub_nav');
 	}
 
@@ -157,6 +158,26 @@ class maineetloire extends Admin_Controller {
 		Template::set('toolbar_title', lang('engagement_edit') . ' Engagement');
 		Template::render();
 	}
+        
+        /*
+		Method: show()
+
+		Displays a record of Engagement data
+	*/
+	public function show()
+	{
+            $id = $this->uri->segment(5);
+            $engagement = $this->engagement_model->find($id);
+            $structure = $this->pcet_model->get_structure_by_id_engagement($id);
+            
+            Template::set('engagement', $engagement);
+            Template::set('structure', $structure);
+            Template::set('toolbar_title', lang('engagement_show'));
+            Template::set_view('admin/show');
+            Template::render();
+            
+        }        
+        
 
 	//--------------------------------------------------------------------
 
