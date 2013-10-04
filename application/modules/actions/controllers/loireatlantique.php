@@ -14,6 +14,7 @@ class loireatlantique extends Admin_Controller {
                 $this->load->model('pcet/pcet_model', null, true);
                 $this->load->model('structures/structures_model', null, true);
                 $this->load->model('domaine/domaine_model', null, true);
+                $this->load->helper('typography');
 		$this->lang->load('actions');
 		
 		Template::set_block('sub_nav', 'loireatlantique/_sub_nav');

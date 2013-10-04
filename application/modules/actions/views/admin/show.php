@@ -20,15 +20,15 @@
         </tr>
         <tr>
             <th>Nom de l'action</th>
-            <td><?php e($action->NOM_ACTION)?></td>
+            <td><?php echo auto_typography($action->NOM_ACTION)?></td>
         </tr>
         <tr>
             <th>Objectifs</th>
-            <td><?php e($action->OBJECTIFS) ?>
+            <td><?php echo auto_typography($action->OBJECTIFS) ?>
         </tr>
         <tr>
             <th>Indicateurs de suivi</th>
-            <td><?php e($action->INDICATEUR_SUIVI)?></td>
+            <td><?php echo auto_typography($action->INDICATEUR_SUIVI)?></td>
         </tr>
     </tbody>
 </table>
