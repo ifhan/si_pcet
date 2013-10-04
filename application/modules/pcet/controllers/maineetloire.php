@@ -24,6 +24,7 @@ class maineetloire extends Admin_Controller {
                 $this->load->model('diagnostic/diagnostic_model', null, true);
                 $this->load->model('indicateur/indicateur_model', null, true);
                 $this->load->model('adaptation/adaptation_model', null, true);
+                $this->load->model('contacts/contacts_model', null, true);
                 $this->load->helper('typography');                 
 		$this->lang->load('pcet');
 		
@@ -193,6 +194,7 @@ class maineetloire extends Admin_Controller {
             $diagnostic = $this->diagnostic_model->get_diagnostic_by_id_pcet($ID_PCET);
             $indicateur = $this->indicateur_model->get_indicateur_by_id_pcet($ID_PCET);
             $adaptation = $this->adaptation_model->find_by('ID_PCET',$ID_PCET);
+            $contacts = $this->contacts_model->get_contacts_by_pcet($ID_PCET);
 		
             Template::set('pcet', $pcet);
             Template::set('structure', $structure);        
@@ -202,6 +204,7 @@ class maineetloire extends Admin_Controller {
             Template::set('diagnostic', $diagnostic);
             Template::set('indicateur', $indicateur);  
             Template::set('adaptation', $adaptation);
+            Template::set('contacts', $contacts);
             Template::set('toolbar_title', lang('pcet'));
             Template::set_view('admin/show');            
             Template::render();
