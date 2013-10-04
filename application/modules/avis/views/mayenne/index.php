@@ -9,15 +9,12 @@
 					<?php endif;?>
 					
 					<th>PCET</th>
-					<th>Date de la sollicitation de l'avis de l'État</th>				
 					<th>Date du rendu de l'avis de l'État</th>
-					<th>Date de la sollicitation de l'avis du Conseil régional</th>
 					<th>Date du rendu de l'avis du Conseil régional</th>
-					<th>Date de la sollicitation de l'avis de l'USH</th>
 					<th>Date du rendu de l'avis de l'USH</th>
-					<th>Date de la sollicitation de l'avis de l'ADEME</th>
 					<th>Date du rendu de l'avis de l'ADEME</th>
 					<th>Date d'adoption du PCET</th>
+                                        <th>Actions</th>
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
@@ -40,25 +37,12 @@
 					<td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
 					<?php endif;?>
 					
-				<?php if ($this->auth->has_permission('Avis.Mayenne.Edit')) : ?>
-				<td><?php echo anchor(SITE_AREA .'/mayenne/avis/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
-				<?php else: ?>
+				
 				<td><?php e($record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
-				<?php endif; ?>
-			
-				<td>
-                                    <?php if($record->DEM_ETAT_AVIS !== '0000-00-00'): ?>
-                                        <?php e(date("d/m/Y", strtotime(($record->DEM_ETAT_AVIS)))) ?>
-                                    <?php endif; ?>
-                                </td>
+				
 				<td>
                                     <?php if($record->REP_ETAT_AVIS !== '0000-00-00'): ?>
                                         <?php e(date("d/m/Y", strtotime(($record->REP_ETAT_AVIS)))) ?>
-                                    <?php endif; ?>
-                                </td>
-				<td>
-                                    <?php if($record->DEM_REG_AVIS !== '0000-00-00'): ?>
-                                        <?php e(date("d/m/Y", strtotime(($record->DEM_REG_AVIS)))) ?>
                                     <?php endif; ?>
                                 </td>
 				<td>
@@ -67,19 +51,9 @@
                                     <?php endif; ?>
                                 </td>
 				<td>
-                                    <?php if($record->DEM_USH_AVIS !== '0000-00-00'): ?>
-                                        <?php e(date("d/m/Y", strtotime(($record->DEM_USH_AVIS)))) ?>
-                                    <?php endif; ?>
-                                </td>
-				<td>
                                     <?php if($record->REP_USH_AVIS !== '0000-00-00'): ?>
                                         <?php e(date("d/m/Y", strtotime(($record->REP_USH_AVIS)))) ?>
                                     <?php endif; ?>
-                                </td>
-				<td>
-                                    <?php if($record->DEM_ADEME_AVIS !== '0000-00-00'): ?>
-                                        <?php e(date("d/m/Y", strtotime(($record->DEM_ADEME_AVIS)))) ?>
-                                    <?php endif; ?>      
                                 </td>
 				<td>
                                     <?php if($record->REP_ADEME_AVIS !== '0000-00-00'): ?>
@@ -91,6 +65,13 @@
                                         <?php e(date("d/m/Y", strtotime(($record->DATE_ADOPT_AVIS)))) ?>
                                     <?php endif; ?>
                                 </td>
+                                    <td width="20%">
+                                        <?php echo anchor(SITE_AREA .'/mayenne/avis/show/'. $record->id, '<i class="icon-info-sign">&nbsp;</i>Voir le suivi des avis') ?><br />
+                                        <?php if ($this->auth->has_permission('Avis.Mayenne.Edit')) : ?>
+                                            <?php echo anchor(SITE_AREA .'/mayenne/avis/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
+                                        <?php endif; ?>     
+                                    </td>
+                                
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>
