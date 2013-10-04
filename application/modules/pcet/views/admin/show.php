@@ -204,11 +204,11 @@
                         </tr>
                         <tr>
                             <td><strong>Points positifs</strong></td>
-                            <td><?php e($avis->PP_AVIS) ?></td>
+                            <td><?php echo auto_typography($avis->PP_AVIS) ?></td>
                         </tr>
                         <tr>
                             <td><strong>Points négatifs</strong></td>
-                            <td><?php e($avis->PP_AVIS) ?></td>
+                            <td><?php echo auto_typography($avis->PP_AVIS) ?></td>
                         </tr>    
                         <tr>
                             <td><strong>Date d'adoption du PCET</strong></td>
