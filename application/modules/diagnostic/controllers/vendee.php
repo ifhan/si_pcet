@@ -54,7 +54,7 @@ class vendee extends Admin_Controller {
 			}
 		}
 
-		$records = $this->diagnostic_model->get_diagnostic_by_departement('44');
+		$records = $this->diagnostic_model->get_diagnostic_by_departement('85');
                 
 		Template::set('records', $records);
 		Template::set('toolbar_title', lang('diagnostic_manage'));
