@@ -6,6 +6,7 @@ $lang['engagement_edit']			= 'Modifier le suivi de l\'engagement de la démarche
 $lang['engagement_true']			= 'Vrai';
 $lang['engagement_false']			= 'Faux';
 $lang['engagement_create']			= 'Suivre l\'engagement de la démarche';
+$lang['engagement_show']			= 'Voir l\'engagement de la démarche';
 $lang['engagement_list']			= 'Liste';
 $lang['engagement_new']				= 'Nouveau';
 $lang['engagement_edit_text']			= 'Edit this to suit your needs';
