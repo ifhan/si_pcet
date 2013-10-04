@@ -14,8 +14,7 @@
 					<th>Émissions du territoire (<abbr title="tonne équivalent CO2">teq-CO2</abbr>)</th>
 					<th>Consommation "Patrimoine et Compétence" (<abbr title="kilotonne équivalent pétrole">ktep</abbr>)</th>
 					<th>Émissions "Patrimoine et Compétence" (<abbr title="tonne équivalent CO2">teq-CO2</abbr>)</th>
-					<th>Scope du bilan <abbr title="Gaz à effet de serre" class="initialism">GES</abbr> territorial</th>
-					<th>Scope du bilan <abbr title="Gaz à effet de serre" class="initialism">GES</abbr> "Patrimoine et Compétence"</th>
+                                        <th>Actions</th>
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
@@ -34,43 +33,22 @@
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
 			<?php foreach ($records as $record) : ?>
 				<tr>
-					<?php if ($this->auth->has_permission('Diagnostic.Maineetloire.Delete')) : ?>
-					<td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
-					<?php endif;?>
-					
-				<?php if ($this->auth->has_permission('Diagnostic.Maineetloire.Edit')) : ?>
-				<td><?php echo anchor(SITE_AREA .'/maineetloire/diagnostic/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
-				<?php else: ?>
-				<td><?php e($record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
-				<?php endif; ?>
-			
-				<td><?php e($record->GES_DIAG) ?></td>
-				<td><?php e($record->CONSO_KTEP_T) ?></td>
-				<td><?php e($record->EMIS_CO2_T) ?></td>
-				<td><?php e($record->CONSO_KTEP_PC) ?></td>
-				<td><?php e($record->EMIS_CO2_PC) ?></td>
-				<td>
-                                    <?php if($record->ID_GES_BILAN_T == '1'):?>
-                                    Scope 1
-                                    <?php endif ?>
-                                    <?php if($record->ID_GES_BILAN_T == '2'):?>
-                                    Scope 1 + Scope 2
-                                    <?php endif ?>
-                                    <?php if($record->ID_GES_BILAN_T == '3'):?>
-                                    Scope 1 + Scope 2 + Scope 3
-                                    <?php endif ?>
-                                </td>
-                                <td>
-                                    <?php if($record->ID_GES_BILAN_PC == '1'):?>
-                                    Scope 1
-                                    <?php endif ?>
-                                    <?php if($record->ID_GES_BILAN_PC == '2'):?>
-                                    Scope 1 + Scope 2
-                                    <?php endif ?>
-                                    <?php if($record->ID_GES_BILAN_PC == '3'):?>
-                                    Scope 1 + Scope 2 + Scope 3
-                                    <?php endif ?>
-                                </td>
+                                    <?php if ($this->auth->has_permission('Diagnostic.Maineetloire.Delete')) : ?>
+                                    <td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
+                                    <?php endif;?>
+                                    
+                                    <td><?php e($record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
+
+                                    <td><?php e($record->GES_DIAG) ?></td>
+                                    <td><?php e($record->CONSO_KTEP_T) ?></td>
+                                    <td><?php e($record->EMIS_CO2_T) ?></td>
+                                    <td><?php e($record->CONSO_KTEP_PC) ?></td>
+                                    <td><?php e($record->EMIS_CO2_PC) ?></td>
+                                    <td width="20%">
+                                        <?php if ($this->auth->has_permission('Diagnostic.Maineetloire.Edit')) : ?>
+                                            <?php echo anchor(SITE_AREA .'/maineetloire/diagnostic/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
+                                        <?php endif; ?>     
+                                    </td>
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>
