@@ -309,11 +309,11 @@
                     </tr>
                     <tr> 
                         <td><strong>Méthode employée</strong></td>    
-                        <td><?php e($adaptation->METHODE_ADAPT) ?></td>
+                        <td><?php echo auto_typography($adaptation->METHODE_ADAPT) ?></td>
                     </tr>                    
                     <tr>  
                         <td><strong>Aléas identifiés</strong></td>   
-                        <td><?php e($adaptation->ALEA_ADAPT) ?></td> 
+                        <td><?php echo auto_typography($adaptation->ALEA_ADAPT) ?></td> 
                     </tr>
                 </table> 
             </div>
