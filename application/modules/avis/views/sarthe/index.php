@@ -33,38 +33,37 @@
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
 			<?php foreach ($records as $record) : ?>
 				<tr>
-					<?php if ($this->auth->has_permission('Avis.Sarthe.Delete')) : ?>
-					<td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
-					<?php endif;?>
+                                    <?php if ($this->auth->has_permission('Avis.Sarthe.Delete')) : ?>
+                                    <td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
+                                    <?php endif;?>
 					
-				
-				<td><?php e($record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
-				
-				<td>
-                                    <?php if($record->REP_ETAT_AVIS !== '0000-00-00'): ?>
-                                        <?php e(date("d/m/Y", strtotime(($record->REP_ETAT_AVIS)))) ?>
-                                    <?php endif; ?>
-                                </td>
-				<td>
-                                    <?php if($record->REP_REG_AVIS !== '0000-00-00'): ?>
-                                        <?php e(date("d/m/Y", strtotime(($record->REP_REG_AVIS)))) ?>
-                                    <?php endif; ?>
-                                </td>
-				<td>
-                                    <?php if($record->REP_USH_AVIS !== '0000-00-00'): ?>
-                                        <?php e(date("d/m/Y", strtotime(($record->REP_USH_AVIS)))) ?>
-                                    <?php endif; ?>
-                                </td>
-				<td>
-                                    <?php if($record->REP_ADEME_AVIS !== '0000-00-00'): ?>
-                                        <?php e(date("d/m/Y", strtotime(($record->REP_ADEME_AVIS)))) ?>
-                                    <?php endif; ?>
-                                </td>
-				<td>
-                                    <?php if($record->DATE_ADOPT_AVIS !== '0000-00-00'): ?>
-                                        <?php e(date("d/m/Y", strtotime(($record->DATE_ADOPT_AVIS)))) ?>
-                                    <?php endif; ?>
-                                </td>
+                                    <td><?php e($record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
+
+                                    <td>
+                                        <?php if($record->REP_ETAT_AVIS !== '0000-00-00'): ?>
+                                            <?php e(date("d/m/Y", strtotime(($record->REP_ETAT_AVIS)))) ?>
+                                        <?php endif; ?>
+                                    </td>
+                                    <td>
+                                        <?php if($record->REP_REG_AVIS !== '0000-00-00'): ?>
+                                            <?php e(date("d/m/Y", strtotime(($record->REP_REG_AVIS)))) ?>
+                                        <?php endif; ?>
+                                    </td>
+                                    <td>
+                                        <?php if($record->REP_USH_AVIS !== '0000-00-00'): ?>
+                                            <?php e(date("d/m/Y", strtotime(($record->REP_USH_AVIS)))) ?>
+                                        <?php endif; ?>
+                                    </td>
+                                    <td>
+                                        <?php if($record->REP_ADEME_AVIS !== '0000-00-00'): ?>
+                                            <?php e(date("d/m/Y", strtotime(($record->REP_ADEME_AVIS)))) ?>
+                                        <?php endif; ?>
+                                    </td>
+                                    <td>
+                                        <?php if($record->DATE_ADOPT_AVIS !== '0000-00-00'): ?>
+                                            <?php e(date("d/m/Y", strtotime(($record->DATE_ADOPT_AVIS)))) ?>
+                                        <?php endif; ?>
+                                    </td>
                                     <td width="20%">
                                         <?php echo anchor(SITE_AREA .'/sarthe/avis/show/'. $record->id, '<i class="icon-info-sign">&nbsp;</i>Voir le suivi des avis') ?><br />
                                         <?php if ($this->auth->has_permission('Avis.Sarthe.Edit')) : ?>
