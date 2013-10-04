@@ -3,6 +3,7 @@ $lang['avis']                           = 'Avis';
 $lang['avis_title']			= 'Avis sur les PCET de ';
 $lang['avis_manage']			= 'Suivre les avis';
 $lang['avis_edit']			= 'Éditer';
+$lang['avis_show']			= 'Voir le suivi des avis';
 $lang['avis_true']			= 'Vrai';
 $lang['avis_false']			= 'Faux';
 $lang['avis_create']			= 'Créer';
