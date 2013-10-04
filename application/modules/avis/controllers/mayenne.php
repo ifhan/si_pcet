@@ -12,10 +12,11 @@ class mayenne extends Admin_Controller {
 		$this->auth->restrict('Avis.Mayenne.View');
 		$this->load->model('avis_model', null, true);
                 $this->load->model('pcet/pcet_model', null, true);
+                $this->load->helper('typography');
 		$this->lang->load('avis');
 		
-			Assets::add_css('flick/jquery-ui-1.8.13.custom.css');
-			Assets::add_js('jquery-ui-1.8.13.min.js');
+		Assets::add_css('flick/jquery-ui-1.8.13.custom.css');
+		Assets::add_js('jquery-ui-1.8.13.min.js');
 		Template::set_block('sub_nav', 'mayenne/_sub_nav');
 	}
 
@@ -157,6 +158,25 @@ class mayenne extends Admin_Controller {
 		Template::set('toolbar_title', lang('avis_edit') . ' Avis');
 		Template::render();
 	}
+        
+        /*
+		Method: show()
+
+		Displays a record of Avis data
+	*/
+	public function show()
+	{
+            $id = $this->uri->segment(5);
+            $avis = $this->avis_model->find($id);
+            $structure = $this->pcet_model->get_structure_by_id_avis($id);
+            
+            Template::set('avis', $avis);
+            Template::set('structure', $structure);
+            Template::set('toolbar_title', lang('avis_show'));
+            Template::set_view('admin/show');
+            Template::render();
+            
+        }           
 
 	//--------------------------------------------------------------------
 
