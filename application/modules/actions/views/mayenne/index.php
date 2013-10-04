@@ -1,5 +1,5 @@
 <div class="admin-box">
-	<h3><?php echo lang('actions_title'); ?>Sarthe</h3>
+	<h3><?php echo lang('actions_title'); ?>Mayenne</h3>
 	<?php echo form_open($this->uri->uri_string()); ?>
 		<table class="table table-striped">
 			<thead>
@@ -44,11 +44,11 @@
                                     </td>
 
                                     <td width="20%">
+                                        <?php echo anchor(SITE_AREA .'/maineetloire/actions/dashboard/'. $record->ID_PCET, '<i class="icon-info-sign">&nbsp;</i>Voir le tableau de bord du PCET') ?>
+                                        <?php echo anchor(SITE_AREA .'/maineetloire/actions/show/'. $record->id, '<i class="icon-info-sign">&nbsp;</i>Voir l\'action') ?><br />                               
                                         <?php if ($this->auth->has_permission('Actions.Mayenne.Edit')) : ?>
-                                            <?php echo anchor(SITE_AREA .'/mayenne/actions/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
-                                        <?php endif; ?> 
-                                        <?php echo anchor(SITE_AREA .'/mayenne/actions/show/'. $record->id, '<i class="icon-info-sign">&nbsp;</i>Voir l\'action') ?><br />
-                                        <?php echo anchor(SITE_AREA .'/mayenne/actions/show/'. $record->ID_PCET, '<i class="icon-info-sign">&nbsp;</i>Voir le tableau de bord du PCET') ?>
+                                            <?php echo anchor(SITE_AREA .'/maineetloire/actions/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier l\'action') ?><br />
+                                        <?php endif; ?>                                     
                                     </td>
 				</tr>
 				</tr>

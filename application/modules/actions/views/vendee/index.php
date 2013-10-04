@@ -44,11 +44,11 @@
                                     </td>
 
                                     <td width="20%">
+                                        <?php echo anchor(SITE_AREA .'/vendee/actions/dashboard/'. $record->ID_PCET, '<i class="icon-info-sign">&nbsp;</i>Voir le tableau de bord du PCET') ?>
+                                        <?php echo anchor(SITE_AREA .'/vendee/actions/show/'. $record->id, '<i class="icon-info-sign">&nbsp;</i>Voir l\'action') ?><br />                               
                                         <?php if ($this->auth->has_permission('Actions.Vendee.Edit')) : ?>
-                                            <?php echo anchor(SITE_AREA .'/vendee/actions/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
-                                        <?php endif; ?> 
-                                        <?php echo anchor(SITE_AREA .'/vendee/actions/show/'. $record->id, '<i class="icon-info-sign">&nbsp;</i>Voir l\'action') ?><br />
-                                        <?php echo anchor(SITE_AREA .'/vendee/actions/show/'. $record->ID_PCET, '<i class="icon-info-sign">&nbsp;</i>Voir le tableau de bord du PCET') ?>
+                                            <?php echo anchor(SITE_AREA .'/vendee/actions/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier l\'action') ?><br />
+                                        <?php endif; ?>                                     
                                     </td>
 				</tr>
 				</tr>

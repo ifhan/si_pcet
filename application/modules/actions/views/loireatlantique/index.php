@@ -44,11 +44,11 @@
                                     </td>
 
                                     <td width="20%">
-                                        <?php if ($this->auth->has_permission('Actions.Loireatlantique.Edit')) : ?>
-                                            <?php echo anchor(SITE_AREA .'/loireatlantique/actions/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
-                                        <?php endif; ?> 
+                                        <?php echo anchor(SITE_AREA .'/loireatlantique/actions/dashboard/'. $record->ID_PCET, '<i class="icon-info-sign">&nbsp;</i>Voir le tableau de bord du PCET') ?>
                                         <?php echo anchor(SITE_AREA .'/loireatlantique/actions/show/'. $record->id, '<i class="icon-info-sign">&nbsp;</i>Voir l\'action') ?><br />
-                                        <?php echo anchor(SITE_AREA .'/loireatlantique/actions/show/'. $record->ID_PCET, '<i class="icon-info-sign">&nbsp;</i>Voir le tableau de bord du PCET') ?>
+                                        <?php if ($this->auth->has_permission('Actions.Loireatlantique.Edit')) : ?>
+                                            <?php echo anchor(SITE_AREA .'/loireatlantique/actions/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier l\'action') ?><br />
+                                        <?php endif; ?> 
                                     </td>
 				</tr>
 			<?php endforeach; ?>
