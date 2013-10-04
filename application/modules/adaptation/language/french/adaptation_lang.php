@@ -4,6 +4,7 @@ $lang['adaptation_title']                       = 'Volet "Adaptation" des PCET d
 $lang['adaptation_manage']			= 'Suivre le Volet "Adaptation"';
 $lang['adaptation_add']				= 'Ajouter une étude de vulnérabilité';
 $lang['adaptation_edit']			= 'Éditer une étude de vulnérabilité';
+$lang['adaptation_show']			= 'Voir l\'étude de vulnérabilité';
 $lang['adaptation_true']			= 'Vrai';
 $lang['adaptation_false']			= 'Faux';
 $lang['adaptation_create']			= 'Créer';
