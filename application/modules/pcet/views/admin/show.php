@@ -253,15 +253,35 @@
                     <tr>
                         <td><strong>Émissions "Patrimoine et compétence" (<abbr title="tonne équivalent CO2">teq-CO2</abbr>)</strong></td>
                         <td><?php e($diagnostic->EMIS_CO2_PC) ?></td>
-                    </tr>   
+                    </tr>
                     <tr>
                         <td><strong>Bilan <abbr title="Gaz à effets de serre" class="initialism">GES</abbr> Territorial</strong></td>
-                        <td><?php e($diagnostic->ID_GES_BILAN_T) ?></td>
-                    </tr>  
+                        <td>
+                            <?php if($diagnostic->ID_GES_BILAN_T == '1'):?>
+                            Scope 1
+                            <?php endif ?>
+                            <?php if($diagnostic->ID_GES_BILAN_T == '2'):?>
+                            Scope 1 + Scope 2
+                            <?php endif ?>
+                            <?php if($diagnostic->ID_GES_BILAN_T == '3'):?>
+                            Scope 1 + Scope 2 + Scope 3
+                            <?php endif ?>
+                        </td>
+                    </tr>
                     <tr>
                         <td><strong>Bilan <abbr title="Gaz à effets de serre" class="initialism">GES</abbr> "Patrimoine et Compétence"</strong></td>
-                        <td><?php e($diagnostic->ID_GES_BILAN_T) ?></td>
-                    </tr>                    
+                        <td>
+                            <?php if($diagnostic->ID_GES_BILAN_PC == '1'):?>
+                            Scope 1
+                            <?php endif ?>
+                            <?php if($diagnostic->ID_GES_BILAN_PC == '2'):?>
+                            Scope 1 + Scope 2
+                            <?php endif ?>
+                            <?php if($diagnostic->ID_GES_BILAN_PC == '3'):?>
+                            Scope 1 + Scope 2 + Scope 3
+                            <?php endif ?>
+                        </td>
+                    </tr>             
                 </table>
             </div>
         </div>
