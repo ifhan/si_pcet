@@ -13,6 +13,7 @@ class mayenne extends Admin_Controller {
 		$this->load->model('adaptation_model', null, true);
                 $this->load->model('pcet/pcet_model', null, true);
 		$this->load->model('structures/structures_model', null, true);
+                $this->load->helper('typography');
 		$this->lang->load('adaptation');
 		
 		Template::set_block('sub_nav', 'mayenne/_sub_nav');
@@ -159,6 +160,26 @@ class mayenne extends Admin_Controller {
 		Template::render();
 	}
 
+        /*
+		Method: show()
+
+		Displays a record of Adaptation data
+	*/
+	public function show()
+	{
+            $id = $this->uri->segment(5);
+            $adaptation = $this->adaptation_model->find($id);
+            $structure = $this->pcet_model->get_structure_by_id_adaptation($id);
+            
+            Template::set('adaptation', $adaptation);
+            Template::set('structure', $structure);
+            Template::set('toolbar_title', lang('adaptation_show'));
+            Template::set_view('admin/show');
+            Template::render();
+            
+        }            
+        
+        
 	//--------------------------------------------------------------------
 
 
