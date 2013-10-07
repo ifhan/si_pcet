@@ -11,6 +11,7 @@ class informations extends Front_Controller {
 
 		$this->load->library('form_validation');
 		$this->load->model('informations_model', null, true);
+                $this->load->helper('typography');
 		$this->lang->load('informations');
 		
 	}
@@ -36,6 +37,13 @@ class informations extends Front_Controller {
 	//--------------------------------------------------------------------
 
 
-
+       public function show($id) {
+            $information = $this->informations_model->find($id);
+            
+            Template::set('information', $information);
+            Template::set_view('show');
+            Template::set('toolbar_title', lang('informations'));
+            Template::render();             
+        }
 
 }
