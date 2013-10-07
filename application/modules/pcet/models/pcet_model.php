@@ -107,8 +107,13 @@ class Pcet_model extends BF_Model {
            
             $pcets_list[$pcet->ID_PCET] = $pcet->ID_PCET.' - '.$pcet->NOM_TYPE.' - '.$pcet->Nom_Commune.$pcet->Nom_Departement.$pcet->NOM_EPCI.$pcet->nom_pays.$pcet->nom_pnr;
         }
-        $pcets = $pcets_list;
-        return $pcets;
+        
+        if(isset($pcets_list)) {
+            $pcets = $pcets_list;
+            return $pcets;
+        }
+        
+
     }
     
        /*
