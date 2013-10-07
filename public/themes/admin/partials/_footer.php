@@ -1,9 +1,9 @@
 	<footer class="container-fluid footer">
                 <p class="pull-left">
                     ©DREAL Pays de la Loire, 2013 | 
-                    <a href="<?php echo site_url(SITE_AREA .'/pages/about') ?>">À propos</a> | 
-                    <a href="<?php echo site_url(SITE_AREA .'/pages/mentions_legales') ?>">Mentions légales</a> | 
-                    <a href="<?php echo site_url(SITE_AREA .'/pages/contact') ?>"><i class="icon-envelope">&nbsp;</i>Contact</a>
+                    <a href="<?php echo site_url(SITE_AREA .'/settings/informations/show/2') ?>">À propos</a> | 
+                    <a href="<?php echo site_url(SITE_AREA .'/settings/informations/show/3') ?>">Mentions légales</a> | 
+                    <a href="<?php echo site_url('/contact') ?>"><i class="icon-envelope">&nbsp;</i>Contact</a>
                 </p>
 		<p class="pull-right">
 			Chargé en {elapsed_time} secondes, en utilisant {memory_usage}.
