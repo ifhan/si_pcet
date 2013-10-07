@@ -2,8 +2,8 @@
 
 class Informations_model extends BF_Model {
 
-	protected $table		= "informations";
-	protected $key			= "id";
+	protected $table	= "pcet_informations";
+	protected $key		= "id";
 	protected $soft_deletes	= false;
 	protected $date_format	= "datetime";
 	protected $set_created	= false;
