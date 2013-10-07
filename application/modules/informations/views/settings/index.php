@@ -10,17 +10,17 @@
 					
 					<th>Titre</th>
 					<th>Slug</th>
-					<th>Text</th>
+                                        <th>Actions</th>
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
 			<tfoot>
 				<?php if ($this->auth->has_permission('Informations.Settings.Delete')) : ?>
 				<tr>
-					<td colspan="4">
-						<?php echo lang('bf_with_selected') ?>
+					<td colspan="5">	
 						<input type="submit" name="delete" id="delete-me" class="btn btn-danger" value="<?php echo lang('bf_action_delete') ?>" onclick="return confirm('<?php e(js_escape(lang('informations_delete_confirm'))); ?>')">
-					</td>
+                                                <?php echo lang('bf_with_selected') ?>
+                                        </td>
 				</tr>
 				<?php endif;?>
 			</tfoot>
@@ -29,23 +29,23 @@
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
 			<?php foreach ($records as $record) : ?>
 				<tr>
-					<?php if ($this->auth->has_permission('Informations.Settings.Delete')) : ?>
-					<td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
-					<?php endif;?>
+                                    <?php if ($this->auth->has_permission('Informations.Settings.Delete')) : ?>
+                                    <td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
+                                    <?php endif;?>
 					
-				<?php if ($this->auth->has_permission('Informations.Settings.Edit')) : ?>
-				<td><?php echo anchor(SITE_AREA .'/settings/informations/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->informations_title) ?></td>
-				<?php else: ?>
-				<td><?php e($record->informations_title) ?></td>
-				<?php endif; ?>
-			
-				<td><?php e($record->informations_slug) ?></td>
-				<td><?php e($record->informations_text) ?></td>
+                                    <td><?php e($record->informations_title) ?></td>
+                                    <td><?php e($record->informations_slug) ?></td>
+                                    <td>
+                                    <?php echo anchor(SITE_AREA .'/settings/informations/show/'. $record->id, '<i class="icon-globe">&nbsp;</i>Voir la page') ?><br />
+                                    <?php if ($this->auth->has_permission('Informations.Settings.Edit')) : ?>
+                                        <?php echo anchor(SITE_AREA .'/settings/informations/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />    
+                                    <?php endif; ?><?php echo anchor(SITE_AREA .'/'. $record->informations_slug, '<i class="icon-globe">&nbsp;</i>Slug') ?>
+                                </td>
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>
 				<tr>
-					<td colspan="4">No records found that match your selection.</td>
+					<td colspan="5"><?php echo lang('bf_no_record_found'); ?></td>
 				</tr>
 			<?php endif; ?>
 			</tbody>
