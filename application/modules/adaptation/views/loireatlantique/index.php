@@ -10,13 +10,14 @@
 					
 					<th>PCET</th>
 					<th>Étude de vulnerabilité</th>
+                                        <th>Actions</th>
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
 			<tfoot>
 				<?php if ($this->auth->has_permission('Adaptation.Loireatlantique.Delete')) : ?>
 				<tr>
-					<td colspan="5">
+					<td colspan="6">
 						<input type="submit" name="delete" id="delete-me" class="btn btn-danger" value="<?php echo lang('bf_action_delete') ?>" onclick="return confirm('<?php e(js_escape(lang('adaptation_delete_confirm'))); ?>')">
                                                 <?php echo lang('bf_with_selected') ?>
                                         </td>
@@ -32,24 +33,26 @@
 					<td><input type="checkbox" name="checked[]" value="<?php echo $record->id ?>" /></td>
 					<?php endif;?>
 					
-				<?php if ($this->auth->has_permission('Adaptation.Loireatlantique.Edit')) : ?>
-				<td><?php echo anchor(SITE_AREA .'/loireatlantique/adaptation/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>' .  $record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
-				<?php else: ?>
-				<td><?php e($record->ID_PCET) ?></td>
-				<?php endif; ?>
-                                
-				<td>
-                                    <?php if($record->VULNERABLE_ADAPT == '1'): ?>
-                                    <?php echo "Oui"; ?>
-                                    <?php else: ?>
-                                    <?php echo "Non"; ?>
-                                    <?php endif; ?>
-                                </td>
+                                    <td><?php e($record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
+
+                                    <td>
+                                        <?php if($record->VULNERABLE_ADAPT == '1'): ?>
+                                        <?php echo "Oui"; ?>
+                                        <?php else: ?>
+                                        <?php echo "Non"; ?>
+                                        <?php endif; ?>
+                                    </td>
+                                    <td width="20%">
+                                        <?php echo anchor(SITE_AREA .'/loireatlantique/adaptation/show/'. $record->id, '<i class="icon-info-sign">&nbsp;</i>Voir le volet "Adaptation"') ?><br />
+                                        <?php if ($this->auth->has_permission('Adaptation.Loireatlantique.Edit')) : ?>
+                                            <?php echo anchor(SITE_AREA .'/loireatlantique/adaptation/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
+                                        <?php endif; ?>     
+                                    </td>
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>
 				<tr>
-					<td colspan="5"><?php echo lang('bf_no_record_found'); ?></td>
+					<td colspan="6"><?php echo lang('bf_no_record_found'); ?></td>
 				</tr>
 			<?php endif; ?>
 			</tbody>
