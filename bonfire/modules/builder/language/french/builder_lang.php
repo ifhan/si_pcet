@@ -38,7 +38,7 @@ $lang['mb_table_description']	= 'Description';
 
 // OUTPUT page
 $lang['mb_out_success']	= 'La création du module a été un succès ! Vous trouvez ci-dessous la liste des fichiers des contrôleurs, modèles et vues qui ont été créeés au cours de ce processus. Les fichiers des modèles et SQL seront inclus si vous avez sélectionné la fonction "Générer les migrations" et un fichier Javascript si il est nécéssaire lors de la création.';
-$lang['mb_out_success_note']	= 'NOTE: Merci d\'ajouter la validations d\'entrées des utilisateurs que vous désirez. Ce code doit petre utilisé comme un point de départ seuleuement.';
+$lang['mb_out_success_note']	= 'NOTE: Merci d\'ajouter la validations d\'entrées des utilisateurs que vous désirez. Ce code doit être utilisé comme un point de départ seuleuement.';
 $lang['mb_out_tables_success']	= 'Les tables de la base de données ont été installés automatiquement pour vous. Vous pouvez les vérifier ou les désinstaller si vous le souhaitez, à partir de la section %s.';
 $lang['mb_out_tables_error']	= 'Les tables de la base de données <strong>n\'ont pas été</strong> installé automatiquement pour vous. Vous avez encore besoin d\'aller à la section %s et migrer votre(vos) base(s) de données avant de pouvoir travailler avec.';
 $lang['mb_out_acl'] 			= 'Liste de Contrôle d\'Accès';
