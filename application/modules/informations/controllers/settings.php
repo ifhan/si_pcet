@@ -11,6 +11,7 @@ class settings extends Admin_Controller {
 
 		$this->auth->restrict('Informations.Settings.View');
 		$this->load->model('informations_model', null, true);
+                $this->load->helper('typography');
 		$this->lang->load('informations');
 		
 		Template::set_block('sub_nav', 'settings/_sub_nav');
@@ -55,7 +56,7 @@ class settings extends Admin_Controller {
 		$records = $this->informations_model->find_all();
 
 		Template::set('records', $records);
-		Template::set('toolbar_title', 'Manage Informations');
+		Template::set('toolbar_title', lang('informations_manage'));
 		Template::render();
 	}
 
@@ -89,7 +90,7 @@ class settings extends Admin_Controller {
 		}
 		Assets::add_module_js('informations', 'informations.js');
 
-		Template::set('toolbar_title', lang('informations_create') . ' Informations');
+		Template::set('toolbar_title', lang('informations'));
 		Template::render();
 	}
 
@@ -122,10 +123,12 @@ class settings extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('informations_act_edit_record').': ' . $id . ' : ' . $this->input->ip_address(), 'informations');
 
 				Template::set_message(lang('informations_edit_success'), 'success');
+                                redirect(SITE_AREA .'/settings/informations');
 			}
 			else
 			{
 				Template::set_message(lang('informations_edit_failure') . $this->informations_model->error, 'error');
+                                redirect(SITE_AREA .'/settings/informations');
 			}
 		}
 		else if (isset($_POST['delete']))
@@ -148,9 +151,28 @@ class settings extends Admin_Controller {
 		Template::set('informations', $this->informations_model->find($id));
 		Assets::add_module_js('informations', 'informations.js');
 
-		Template::set('toolbar_title', lang('informations_edit') . ' Informations');
+		Template::set('toolbar_title', lang('informations'));
 		Template::render();
 	}
+        
+        public function show($id) {
+            $information = $this->informations_model->find($id);
+            
+            Template::set('information', $information);
+            Template::set_view('show');
+            Template::set('toolbar_title', lang('informations'));
+            Template::render();             
+        }
+        
+        public function view($slug)
+        {
+            $information = $this->db->get_where('informations', array('slug' => $slug), 1);
+
+            Template::set('information', $information);
+            Template::set_view('show');
+            Template::set('toolbar_title', lang('informations'));
+            Template::render(); 
+        }        
 
 	//--------------------------------------------------------------------
 
