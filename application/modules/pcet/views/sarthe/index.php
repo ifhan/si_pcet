@@ -43,6 +43,7 @@
 					<td><?php e($record->NOM_PHASE) ?></td>
                                         <td width="10%">
                                             <?php echo anchor(SITE_AREA .'/sarthe/pcet/show/'. $record->ID_PCET, '<i class="icon-info-sign">&nbsp;</i>Voir la fiche') ?><br />
+                                            <?php echo anchor(SITE_AREA .'/sarthe/actions/dashboard/'. $record->ID_PCET, '<i class="icon-info-sign">&nbsp;</i>Voir le tableau de bord') ?><br />
                                             <?php if ($this->auth->has_permission('PCET.Sarthe.Edit')) : ?>					
                                                 <?php echo anchor(SITE_AREA .'/sarthe/pcet/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
                                             <?php endif; ?>
