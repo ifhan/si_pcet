@@ -46,10 +46,10 @@ $id = isset($gouvernance['id']) ? $gouvernance['id'] : '';
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('gouvernance_action_edit'); ?>"  />
-				or <?php echo anchor(SITE_AREA .'/vendee/gouvernance', lang('gouvernance_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/vendee/gouvernance', lang('gouvernance_cancel'), 'class="btn btn-warning"'); ?>
 				
 			<?php if ($this->auth->has_permission('Gouvernance.Vendee.Delete')) : ?>
-				or
+				ou
 				<button type="submit" name="delete" class="btn btn-danger" id="delete-me" onclick="return confirm('<?php e(js_escape(lang('gouvernance_delete_confirm'))); ?>'); ">
 					<span class="icon-trash icon-white"></span>&nbsp;<?php echo lang('gouvernance_delete_record'); ?>
 				</button>
