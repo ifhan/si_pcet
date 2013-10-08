@@ -37,10 +37,10 @@
                                         <td><?php e($record->NOM_CATEGORIE) ?></td>
                                         
                                         <td>
+                                            <?php echo anchor(SITE_AREA .'/content/categories/show/'. $record->number, '<i class="icon-search">&nbsp;</i>Voir le contenu de la rubrique') ?><br />
                                             <?php if ($this->auth->has_permission('Categories.Content.Edit')) : ?>
-                                              <?php echo anchor(SITE_AREA .'/content/categories/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
+                                              <?php echo anchor(SITE_AREA .'/content/categories/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?>
                                             <?php endif; ?>
-                                            <?php echo anchor(SITE_AREA .'/content/categories/show/'. $record->number, '<i class="icon-search">&nbsp;</i>Voir le contenu de la rubrique') ?>
                                         </td>
 			
 				</tr>
