@@ -12,7 +12,9 @@ class mayenne extends Admin_Controller {
 		$this->auth->restrict('Actions.Mayenne.View');
 		$this->load->model('actions_model', null, true);
                 $this->load->model('pcet/pcet_model', null, true);
-                $this->load->model('domaine/domaine_model', null, true);                
+                $this->load->model('structures/structures_model', null, true);                
+                $this->load->model('domaine/domaine_model', null, true);
+                $this->load->helper('typography');
 		$this->lang->load('actions');
 		
 		Template::set_block('sub_nav', 'mayenne/_sub_nav');
@@ -183,6 +185,24 @@ class mayenne extends Admin_Controller {
             Template::render();
             
         }
+        
+       /*
+		Method: dashboard()
+
+		Displays a dashboard of Actions data
+	*/
+	public function dashboard($ID_PCET)
+	{
+            $structure = $this->structures_model->get_structure_by_id_pcet($ID_PCET);
+            $actions = $this->actions_model->get_actions_by_id_pcet($ID_PCET);
+            
+            Template::set('structure', $structure);
+            Template::set('actions', $actions);
+            Template::set('toolbar_title', lang('actions_dashboard'));
+            Template::set_view('admin/dashboard');
+            Template::render();
+            
+        }        
         
 	//--------------------------------------------------------------------
 
