@@ -20,6 +20,17 @@ class Aide_model extends BF_Model {
                     ->find_all();
             return $records;
         }
+        
+        public function get_aides_by_categorie($number) {
+            $aides = $this->aide_model
+                    ->join('pcet_categories_aide','pcet_categories_aide.id = pcet_aide.category_id','left')
+                    ->select('pcet_aide.number as aide_number, pcet_aide.title as title')
+                    ->where('pcet_aide.category_id',$number)
+                    ->order_by('pcet_aide.number','asc')
+                    ->find_all();
+            
+           return $aides;
+        }      
 
         public function get_aides_by_categorie_number($number) {
             $aides = $this->aide_model
@@ -29,6 +40,6 @@ class Aide_model extends BF_Model {
                     ->find_all_by('pcet_categories_aide.number',$number);
             
            return $aides;
-        }        
-        
+        } 
+                
 }
