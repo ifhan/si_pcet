@@ -56,6 +56,30 @@ class Content extends Admin_Controller
 		
 		$total_records = $this->contact_model->count_all();
 		Template::set('total_records', $total_records);
+                
+                // Deleting anything?
+		if (isset($_POST['delete']))
+		{
+			$checked = $this->input->post('checked');
+
+			if (is_array($checked) && count($checked))
+			{
+				$result = FALSE;
+				foreach ($checked as $pid)
+				{
+					$result = $this->contact_model->delete($pid);
+				}
+
+				if ($result)
+				{
+					Template::set_message(lang('contact_delete_success'), 'success');
+				}
+				else
+				{
+					Template::set_message(lang('contact_delete_failure') . $this->contact_model->error, 'error');
+				}
+			}
+		}
 
 		// Pagination
 		$this->load->library('pagination');
@@ -72,7 +96,7 @@ class Content extends Admin_Controller
 		$records = $this->contact_model->find_all();
 
 		Template::set("records", $records);
-		Template::set("toolbar_title", "Manage Contacts");
+		Template::set("toolbar_title", lang('contact_manage'));
 		Template::render();
 		
 	}//end index()
@@ -99,7 +123,7 @@ class Content extends Admin_Controller
 	
 		Template::set('toolbar_title', lang("contact_edit_heading"));
 		Template::set_view('content/view');
-		Template::set("toolbar_title", "View Contact");
+		Template::set("toolbar_title", lang('contact_view'));
 		
 		Template::render();
 		
