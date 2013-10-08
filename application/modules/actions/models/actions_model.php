@@ -44,4 +44,26 @@ class Actions_model extends BF_Model {
             return $records;
                         
         }
+        
+        /*
+		Method: get_actions_by_pcet()
+
+		Sélectionne les actions
+        *       d'un PCET par son identifiant.
+	*/        
+        function get_actions_by_pcet($ID_PCET) {
+            
+            $records = $this->actions_model
+                ->join('pcet','pcet.ID_PCET = pcet_actions.ID_PCET','left')
+                ->join('pcet_domaines_action','pcet_domaines_action.id = pcet_actions.DOMAINES_ACTION_id','left')
+                ->select('pcet_actions.id as id, pcet_actions.ID_PCET as ID_PCET, pcet_actions.DOMAINES_ACTION_id as DOMAINES_ACTION_id,
+                    pcet_actions.COMPETENCE as COMPETENCE, pcet_actions.NOM_ACTION as NOM_ACTION, 
+                    pcet_actions.OBJECTIFS as OBJECTIFS, pcet_actions.INDICATEUR_SUIVI as INDICATEUR_SUIVI,
+                    pcet_domaines_action.NOM_DOMAINE_ACTION as NOM_DOMAINE_ACTION')
+                ->find_all_by('pcet_actions.ID_PCET',$ID_PCET);
+            
+             return $records;
+           
+        }
+        
 }
