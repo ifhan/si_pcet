@@ -39,7 +39,6 @@ class Migration_Install_contact extends Migration
 		$this->dbforge->add_field('`contact_id` int(11) NOT NULL AUTO_INCREMENT');
 		$this->dbforge->add_field('`name` VARCHAR(150) NOT NULL');
 		$this->dbforge->add_field('`email_address` VARCHAR(150) NOT NULL');
-		$this->dbforge->add_field('`phone` VARCHAR(20) NOT NULL');
 		$this->dbforge->add_field('`subject` VARCHAR(50) NOT NULL');
 		$this->dbforge->add_field('`message` TEXT NOT NULL');
 		$this->dbforge->add_field('`created_on` DATETIME NOT NULL');

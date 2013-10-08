@@ -89,8 +89,7 @@ class Contact extends Front_controller
 	{	
 			
 		$this->form_validation->set_rules('name','Your Name','required|trim|xss_clean|max_length[150]');			
-		$this->form_validation->set_rules('email_address','Email Address','required|trim|xss_clean|valid_email|max_length[150]');			
-		$this->form_validation->set_rules('phone','Phone Number','trim|xss_clean|is_numeric|max_length[20]');			
+		$this->form_validation->set_rules('email_address','Email Address','required|trim|xss_clean|valid_email|max_length[255]');			
 		$this->form_validation->set_rules('subject','Subject','required|trim|xss_clean|max_length[150]');			
 		$this->form_validation->set_rules('message','Message','required|trim|xss_clean');
 		
@@ -135,10 +134,6 @@ class Contact extends Front_controller
 		$message = $this->input->post('message')."\n\n";
 		$message .= lang('contact_form_name').": ".$this->input->post('name')."\n";
 		$message .= lang('contact_form_email').": ".$this->input->post('email_address')."\n";
-		$phone_num = $this->input->post('phone');
-		if(!empty($phone)) {
-			$message .= lang('contact_form_phone').": ".$phone."\n";
-		}
 		$this->email->message($message);	
 
 		return $this->email->send();
