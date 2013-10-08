@@ -15,10 +15,10 @@ class content extends Admin_Controller {
                 $this->load->helper('typography');
 		$this->lang->load('aide');
 		
-		Assets::add_css('flick/jquery-ui-1.8.13.custom.css');
-		Assets::add_js('jquery-ui-1.8.13.min.js');
-		Assets::add_css('jquery-ui-timepicker.css');
-		Assets::add_js('jquery-ui-timepicker-addon.js');
+			Assets::add_css('flick/jquery-ui-1.8.13.custom.css');
+			Assets::add_js('jquery-ui-1.8.13.min.js');
+			Assets::add_css('jquery-ui-timepicker.css');
+			Assets::add_js('jquery-ui-timepicker-addon.js');
 		Template::set_block('sub_nav', 'content/_sub_nav');
 	}
 
@@ -64,25 +64,6 @@ class content extends Admin_Controller {
 		Template::set('toolbar_title', lang('aide_manage'));
 		Template::render();
 	}
-        
-        public function summary() {
-            
-            $aides_1 = $this->aide_model->get_aides_by_categorie_number("1");
-            $aides_2 = $this->aide_model->get_aides_by_categorie_number("2");
-            $aides_3 = $this->aide_model->get_aides_by_categorie_number("3");
-            $aides_4 = $this->aide_model->get_aides_by_categorie_number("4");
-            $aides_5 = $this->aide_model->get_aides_by_categorie_number("5");
-
-            Template::set('aides_1', $aides_1);
-            Template::set('aides_2', $aides_2);
-            Template::set('aides_3', $aides_3);
-            Template::set('aides_4', $aides_4);
-            Template::set('aides_5', $aides_5);
-            Template::set_view('summary');
-            Template::set('toolbar_title', lang('aide_summary'));
-            Template::render();
-            
-        }
 
 	//--------------------------------------------------------------------
 
