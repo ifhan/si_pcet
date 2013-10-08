@@ -194,10 +194,10 @@ class maineetloire extends Admin_Controller {
 	public function dashboard($ID_PCET)
 	{
             $structure = $this->structures_model->get_structure_by_id_pcet($ID_PCET);
-            $actions = $this->actions_model->get_actions_by_id_pcet($ID_PCET);
+            $records = $this->actions_model->get_actions_by_pcet($ID_PCET);
             
             Template::set('structure', $structure);
-            Template::set('actions', $actions);
+            Template::set('records', $records);
             Template::set('toolbar_title', lang('actions_dashboard'));
             Template::set_view('admin/dashboard');
             Template::render();
