@@ -9,7 +9,8 @@
 					<?php endif;?>
 					
 					<th>PCET</th>
-					<th>Domaines d'action</th>
+					<th>Domaine d'action</th>
+                                        <th>Nom de l'action</th>
 					<th>Compétence de la collectivité</th>
 					<th>Actions</th>
 				</tr>
@@ -36,10 +37,12 @@
 
                                     <td><?php e($record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
                                     <td><?php e($record->NOM_DOMAINE_ACTION) ?></td>
-                                    <td><?php if($record->COMPETENCE == '1'): ?>
-                                        <?php echo "Oui"; ?>
+                                    <td><?php echo auto_typography($record->NOM_ACTION) ?></td>
+                                    <td>
+                                        <?php if($record->COMPETENCE == '1'): ?>
+                                            <?php echo "Oui"; ?>
                                         <?php else: ?>
-                                        <?php echo "Non"; ?>
+                                            <?php echo "Non"; ?>
                                         <?php endif; ?>
                                     </td>
 
