@@ -38,10 +38,10 @@
                                     <td><?php e($record->number.'. '.$record->title) ?></td>
                                     
                                     <td>
+                                        <?php echo anchor(SITE_AREA .'/content/aide/show/'. $record->number, '<i class="icon-search">&nbsp;</i>Voir la fiche') ?><br />
                                         <?php if ($this->auth->has_permission('Aide.Content.Edit')) : ?>
-                                            <?php echo anchor(SITE_AREA .'/content/aide/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
+                                            <?php echo anchor(SITE_AREA .'/content/aide/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?>
                                         <?php endif; ?>
-                                        <?php echo anchor(SITE_AREA .'/content/aide/show/'. $record->number, '<i class="icon-search">&nbsp;</i>Voir la fiche') ?>
                                     </td>
                                     		
 				</tr>
