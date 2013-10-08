@@ -41,7 +41,7 @@ $id = isset($actions['id']) ? $actions['id'] : '';
 			<div class="control-group <?php echo form_error('NOM_ACTION') ? 'error' : ''; ?>">
 				<?php echo form_label('Nom de l action', 'actions_NOM_ACTION', array('class' => 'control-label') ); ?>
 				<div class='controls'>
-					<?php echo form_textarea( array( 'name' => 'actions_NOM_ACTION', 'id' => 'actions_NOM_ACTION', 'rows' => '5', 'cols' => '80', 'value' => set_value('actions_NOM_ACTION', isset($actions['NOM_ACTION']) ? $actions['NOM_ACTION'] : '') ) ); ?>
+					<?php echo form_textarea( array( 'name' => 'actions_NOM_ACTION', 'id' => 'actions_NOM_ACTION', 'class' => 'input-xxlarge', 'rows' => '20', 'cols' => '200', 'value' => set_value('actions_NOM_ACTION', isset($actions['NOM_ACTION']) ? $actions['NOM_ACTION'] : '') ) ); ?>
 					<span class='help-inline'><?php echo form_error('NOM_ACTION'); ?></span>
 				</div>
 			</div>
@@ -49,7 +49,7 @@ $id = isset($actions['id']) ? $actions['id'] : '';
 			<div class="control-group <?php echo form_error('OBJECTIFS') ? 'error' : ''; ?>">
 				<?php echo form_label('Objectifs', 'actions_OBJECTIFS', array('class' => 'control-label') ); ?>
 				<div class='controls'>
-					<?php echo form_textarea( array( 'name' => 'actions_OBJECTIFS', 'id' => 'actions_OBJECTIFS', 'rows' => '5', 'cols' => '80', 'value' => set_value('actions_OBJECTIFS', isset($actions['OBJECTIFS']) ? $actions['OBJECTIFS'] : '') ) ); ?>
+					<?php echo form_textarea( array( 'name' => 'actions_OBJECTIFS', 'id' => 'actions_OBJECTIFS', 'class' => 'input-xxlarge', 'rows' => '20', 'cols' => '200', 'value' => set_value('actions_OBJECTIFS', isset($actions['OBJECTIFS']) ? $actions['OBJECTIFS'] : '') ) ); ?>
 					<span class='help-inline'><?php echo form_error('OBJECTIFS'); ?></span>
 				</div>
 			</div>
@@ -57,7 +57,7 @@ $id = isset($actions['id']) ? $actions['id'] : '';
 			<div class="control-group <?php echo form_error('INDICATEUR_SUIVI') ? 'error' : ''; ?>">
 				<?php echo form_label('Indicateurs de suivi', 'actions_INDICATEUR_SUIVI', array('class' => 'control-label') ); ?>
 				<div class='controls'>
-					<?php echo form_textarea( array( 'name' => 'actions_INDICATEUR_SUIVI', 'id' => 'actions_INDICATEUR_SUIVI', 'rows' => '5', 'cols' => '80', 'value' => set_value('actions_INDICATEUR_SUIVI', isset($actions['INDICATEUR_SUIVI']) ? $actions['INDICATEUR_SUIVI'] : '') ) ); ?>
+					<?php echo form_textarea( array( 'name' => 'actions_INDICATEUR_SUIVI', 'id' => 'actions_INDICATEUR_SUIVI', 'class' => 'input-xxlarge', 'rows' => '20', 'cols' => '200', 'value' => set_value('actions_INDICATEUR_SUIVI', isset($actions['INDICATEUR_SUIVI']) ? $actions['INDICATEUR_SUIVI'] : '') ) ); ?>
 					<span class='help-inline'><?php echo form_error('INDICATEUR_SUIVI'); ?></span>
 				</div>
 			</div>
