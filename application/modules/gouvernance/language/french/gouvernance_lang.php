@@ -11,11 +11,11 @@ $lang['gouvernance_new']			= 'Nouveau';
 $lang['gouvernance_edit_text']			= 'Edit this to suit your needs';
 $lang['gouvernance_no_records']			= 'There aren\'t any gouvernance in the system.';
 $lang['gouvernance_create_new']			= 'Create a new Gouvernance.';
-$lang['gouvernance_create_success']		= 'Gouvernance successfully created.';
+$lang['gouvernance_create_success']		= 'Suivi créé avec succès.';
 $lang['gouvernance_create_failure']		= 'There was a problem creating the gouvernance: ';
 $lang['gouvernance_create_new_button']		= 'Create New Gouvernance';
 $lang['gouvernance_invalid_id']			= 'Invalid Gouvernance ID.';
-$lang['gouvernance_edit_success']		= 'Gouvernance successfully saved.';
+$lang['gouvernance_edit_success']		= 'Suivi enregistré avec succès.';
 $lang['gouvernance_edit_failure']		= 'There was a problem saving the gouvernance: ';
 $lang['gouvernance_delete_success']		= 'enregistrement(s) supprimés avec succès.';
 $lang['gouvernance_delete_failure']		= 'We could not delete the record: ';
@@ -23,7 +23,7 @@ $lang['gouvernance_delete_error']		= 'You have not selected any records to delet
 $lang['gouvernance_actions']			= 'Actions';
 $lang['gouvernance_cancel']			= 'Annuler';
 $lang['gouvernance_delete_record']		= 'Supprimer';
-$lang['gouvernance_delete_confirm']		= 'Are you sure you want to delete this gouvernance?';
+$lang['gouvernance_delete_confirm']		= 'Etes vous certain de vouloir modifier ce suivi ?';
 $lang['gouvernance_edit_heading']		= 'Edit Gouvernance';
 
 // Create/Edit Buttons
