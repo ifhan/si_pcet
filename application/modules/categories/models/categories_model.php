@@ -47,5 +47,55 @@ class Categories_model extends BF_Model {
             return $categories;
             
         }
+               
+        public function get_categories_aides($id = NULL) {
+
+            //define optional id for single post
+            //if an id was supplied
+            if ( $id != NULL ) {
+                $this->db->where('id',$id);
+            }
+
+            // execute query
+            $query = $this->db->get('pcet_categories_aide');
+
+            //make sure results exist
+            if($query->num_rows() > 0) {
+                $categories = $query->result();
+            } else {
+                return FALSE;
+            }
+
+            //create array for appended (with comments) posts
+            $appended_categories_array = array();
+
+            //loop through each post
+            foreach ($categories as $categorie) {
+
+                //get comments associated with the post
+                $this->db->where('category_id', $categorie->id);
+                $aides = $this->db->get('pcet_aide')->result();
+
+                //if there are comments, add the comments to the post object
+                if($aides->num_rows() > 0) {
+                    $categorie->aides = $aides;
+                }
+                else {
+                    $categorie->aides = array();
+                }
+
+                //rebuild the returned posts with their comments
+                $appended_categories_array[] = $categories;
+
+            }
+
+            //if post id supplied, only return the single post object
+            if ($id != NULL) {
+                return $appended_categories_array[0];
+            }
+            else {
+                return $appended_categories_array;
+            }
+    }        
         
 }
