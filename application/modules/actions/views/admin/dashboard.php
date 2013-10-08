@@ -10,16 +10,23 @@
                 <th>Nom de l'action</th>
                 <th>Objectifs</th>
                 <th>Indicateurs de suivi</th>
-                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
             <?php if (isset($records) && is_array($records) && count($records)) : ?>
             <?php foreach ($records as $record) : ?>
             <tr>
-                <td><?php $record->NOM_DOMAINE_ACTION ?></td>
-                <td></td>
-                <td><?php $record->NOM_ACTION ?></td>
+                <td><?php e($record->NOM_DOMAINE_ACTION); ?></td>
+                <td>
+                    <?php if($record->COMPETENCE == '1'): ?>
+                        <?php echo "Oui"; ?>
+                    <?php else: ?>
+                        <?php echo "Non"; ?>
+                    <?php endif; ?>
+                </td>
+                <td><?php echo auto_typography($record->NOM_ACTION); ?></td>
+                <td><?php echo auto_typography($record->OBJECTIFS); ?></td>
+                <td><?php echo auto_typography($record->INDICATEUR_SUIVI); ?></td>
             </tr>
             <?php endforeach; ?>
             <?php else: ?>
