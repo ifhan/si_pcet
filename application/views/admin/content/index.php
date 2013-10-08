@@ -138,29 +138,6 @@
 			</li>
                         <?php endif; ?>
 		</ul>
-	</div>    
-	<div class="btn-group">
-		<button class="btn">Voir les PCET archiv&eacute;s</button>
-		<button class="btn dropdown-toggle" data-toggle="dropdown">
-			<span class="caret"></span>
-		</button>
-		<ul class="dropdown-menu">
-			<li <?php echo $this->uri->segment(4) == 'index' ? 'class="active"' : '' ?> >
-				<a href="<?php echo site_url(SITE_AREA .'/loireatlantique/pcet') ?>" id="create_new">en Loire-Atlantique</a>
-			</li>
-			<li <?php echo $this->uri->segment(4) == 'index' ? 'class="active"' : '' ?> >
-				<a href="<?php echo site_url(SITE_AREA .'/maineetloire/pcet') ?>" id="create_new">en Maine-et-Loire</a>
-			</li>
-			<li <?php echo $this->uri->segment(4) == 'index' ? 'class="active"' : '' ?> >
-				<a href="<?php echo site_url(SITE_AREA .'/mayenne/pcet') ?>" id="create_new">en Mayenne</a>
-			</li>
-			<li <?php echo $this->uri->segment(4) == 'index' ? 'class="active"' : '' ?> >
-				<a href="<?php echo site_url(SITE_AREA .'/sarthe/pcet') ?>" id="create_new">en Sarthe</a>
-			</li>
-			<li <?php echo $this->uri->segment(4) == 'index' ? 'class="active"' : '' ?> >
-				<a href="<?php echo site_url(SITE_AREA .'/vendee/pcet') ?>" id="create_new">en Vend&eacute;e</a>
-			</li>
-		</ul>
 	</div>
         <a class="btn" type="button" href="<?php echo site_url(SITE_AREA .'/content/aide/summary') ?>">Voir l'aide</a>
 </div>
