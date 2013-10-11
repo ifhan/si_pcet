@@ -23,15 +23,16 @@ $id = isset($avis['id']) ? $avis['id'] : '';
 	<h3>Suivre les avis</h3>
 	<?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
 		<fieldset>
-
-			<?php echo form_dropdown('avis_ID_PCET',$pcets,set_value('avis_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
-
-                        <div class="control-group">
-                            <div class='controls'>
-                                <span>ou</span> <a href="<?php echo site_url(SITE_AREA .'/loireatlantique/pcet/create') ?>" class="btn" type="button">Ajouter un PCET</a>
-                                <span class='help-inline'>s'il n'y a pas de PCET disponible dans la liste.</span>
+                        <?php if(isset($pcets)): ?>
+                            <?php echo form_dropdown('avis_ID_PCET',$pcets,set_value('avis_ID_PCET', isset($pcets['ID_PCET']) ? $pcets['ID_PCET'] : ''),'Sélectionner un PCET');?>
+                        <?php else: ?>
+                            <div class="control-group">
+                                <div class='controls'>
+                                    <span>ou</span> <a href="<?php echo site_url(SITE_AREA .'/loireatlantique/pcet/create') ?>" class="btn" type="button">Ajouter un PCET</a>
+                                    <span class='help-inline'>s'il n'y a pas de PCET disponible dans la liste.</span>
+                                </div>
                             </div>
-                        </div>
+                        <?php endif; ?>
                     
 			<div class="control-group <?php echo form_error('DEM_ETAT_AVIS') ? 'error' : ''; ?>">
 				<?php echo form_label('Date de la sollicitation de l\'avis de l\'État', 'avis_DEM_ETAT_AVIS', array('class' => 'control-label') ); ?>
@@ -44,7 +45,7 @@ $id = isset($avis['id']) ? $avis['id'] : '';
 			<div class="control-group <?php echo form_error('COM_ETAT_AVIS') ? 'error' : ''; ?>">
 				<?php echo form_label('Commentaire sur la sollicitation de l\'avis de l\'État', 'avis_COM_ETAT_AVIS', array('class' => 'control-label') ); ?>
 				<div class='controls'>
-					<?php echo form_textarea( array( 'name' => 'avis_COM_ETAT_AVIS', 'id' => 'avis_COM_ETAT_AVIS', 'rows' => '5', 'cols' => '80', 'value' => set_value('avis_COM_ETAT_AVIS', isset($avis['COM_ETAT_AVIS']) ? $avis['COM_ETAT_AVIS'] : '') ) ); ?>
+					<?php echo form_textarea( array( 'name' => 'avis_COM_ETAT_AVIS', 'id' => 'avis_COM_ETAT_AVIS', 'class' => 'input-xxlarge', 'rows' => '20', 'cols' => '80', 'value' => set_value('avis_COM_ETAT_AVIS', isset($avis['COM_ETAT_AVIS']) ? $avis['COM_ETAT_AVIS'] : '') ) ); ?>
 					<span class='help-inline'><?php echo form_error('COM_ETAT_AVIS'); ?></span>
 				</div>
 			</div>
@@ -108,7 +109,7 @@ $id = isset($avis['id']) ? $avis['id'] : '';
 			<div class="control-group <?php echo form_error('PP_AVIS') ? 'error' : ''; ?>">
 				<?php echo form_label('Points positifs', 'avis_PP_AVIS', array('class' => 'control-label') ); ?>
 				<div class='controls'>
-					<input id='avis_PP_AVIS' type='text' name='avis_PP_AVIS'  value="<?php echo set_value('avis_PP_AVIS', isset($avis['PP_AVIS']) ? $avis['PP_AVIS'] : ''); ?>" />
+					<input id='avis_PP_AVIS' type='text' name='avis_PP_AVIS' class='input-xxlarge'  value="<?php echo set_value('avis_PP_AVIS', isset($avis['PP_AVIS']) ? $avis['PP_AVIS'] : ''); ?>" />
 					<span class='help-inline'><?php echo form_error('PP_AVIS'); ?></span>
 				</div>
 			</div>
@@ -116,7 +117,7 @@ $id = isset($avis['id']) ? $avis['id'] : '';
 			<div class="control-group <?php echo form_error('PN_AVIS') ? 'error' : ''; ?>">
 				<?php echo form_label('Points négatifs', 'avis_PN_AVIS', array('class' => 'control-label') ); ?>
 				<div class='controls'>
-					<input id='avis_PN_AVIS' type='text' name='avis_PN_AVIS'  value="<?php echo set_value('avis_PN_AVIS', isset($avis['PN_AVIS']) ? $avis['PN_AVIS'] : ''); ?>" />
+					<input id='avis_PN_AVIS' type='text' name='avis_PN_AVIS' class='input-xxlarge' value="<?php echo set_value('avis_PN_AVIS', isset($avis['PN_AVIS']) ? $avis['PN_AVIS'] : ''); ?>" />
 					<span class='help-inline'><?php echo form_error('PN_AVIS'); ?></span>
 				</div>
 			</div>

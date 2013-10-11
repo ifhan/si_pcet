@@ -37,7 +37,7 @@ $id = isset($avis['id']) ? $avis['id'] : '';
 			<div class="control-group <?php echo form_error('COM_ETAT_AVIS') ? 'error' : ''; ?>">
 				<?php echo form_label('Commentaire sur la sollicitation l\'avis de l\'État', 'avis_COM_ETAT_AVIS', array('class' => 'control-label') ); ?>
 				<div class='controls'>
-					<?php echo form_textarea( array( 'name' => 'avis_COM_ETAT_AVIS', 'id' => 'avis_COM_ETAT_AVIS', 'rows' => '5', 'cols' => '80', 'value' => set_value('avis_COM_ETAT_AVIS', isset($avis['COM_ETAT_AVIS']) ? $avis['COM_ETAT_AVIS'] : '') ) ); ?>
+					<?php echo form_textarea( array( 'name' => 'avis_COM_ETAT_AVIS', 'id' => 'avis_COM_ETAT_AVIS', 'class' => 'input-xxlarge', 'rows' => '20', 'cols' => '80', 'value' => set_value('avis_COM_ETAT_AVIS', isset($avis['COM_ETAT_AVIS']) ? $avis['COM_ETAT_AVIS'] : '') ) ); ?>
 					<span class='help-inline'><?php echo form_error('COM_ETAT_AVIS'); ?></span>
 				</div>
 			</div>
@@ -101,7 +101,7 @@ $id = isset($avis['id']) ? $avis['id'] : '';
 			<div class="control-group <?php echo form_error('PP_AVIS') ? 'error' : ''; ?>">
 				<?php echo form_label('Points positifs', 'avis_PP_AVIS', array('class' => 'control-label') ); ?>
 				<div class='controls'>
-					<input id='avis_PP_AVIS' type='text' name='avis_PP_AVIS'  value="<?php echo set_value('avis_PP_AVIS', isset($avis['PP_AVIS']) ? $avis['PP_AVIS'] : ''); ?>" />
+					<input id='avis_PP_AVIS' type='text' name='avis_PP_AVIS' class='input-xxlarge' value="<?php echo set_value('avis_PP_AVIS', isset($avis['PP_AVIS']) ? $avis['PP_AVIS'] : ''); ?>" />
 					<span class='help-inline'><?php echo form_error('PP_AVIS'); ?></span>
 				</div>
 			</div>
@@ -109,7 +109,7 @@ $id = isset($avis['id']) ? $avis['id'] : '';
 			<div class="control-group <?php echo form_error('PN_AVIS') ? 'error' : ''; ?>">
 				<?php echo form_label('Points negatifs', 'avis_PN_AVIS', array('class' => 'control-label') ); ?>
 				<div class='controls'>
-					<input id='avis_PN_AVIS' type='text' name='avis_PN_AVIS'  value="<?php echo set_value('avis_PN_AVIS', isset($avis['PN_AVIS']) ? $avis['PN_AVIS'] : ''); ?>" />
+					<input id='avis_PN_AVIS' type='text' name='avis_PN_AVIS' class='input-xxlarge' value="<?php echo set_value('avis_PN_AVIS', isset($avis['PN_AVIS']) ? $avis['PN_AVIS'] : ''); ?>" />
 					<span class='help-inline'><?php echo form_error('PN_AVIS'); ?></span>
 				</div>
 			</div>
@@ -124,10 +124,10 @@ $id = isset($avis['id']) ? $avis['id'] : '';
 
 			<div class="form-actions">
 				<input type="submit" name="save" class="btn btn-primary" value="<?php echo lang('avis_action_edit'); ?>"  />
-				or <?php echo anchor(SITE_AREA .'/mayenne/avis', lang('avis_cancel'), 'class="btn btn-warning"'); ?>
+				ou <?php echo anchor(SITE_AREA .'/mayenne/avis', lang('avis_cancel'), 'class="btn btn-warning"'); ?>
 				
 			<?php if ($this->auth->has_permission('Avis.Mayenne.Delete')) : ?>
-				or
+				ou
 				<button type="submit" name="delete" class="btn btn-danger" id="delete-me" onclick="return confirm('<?php e(js_escape(lang('avis_delete_confirm'))); ?>'); ">
 					<span class="icon-trash icon-white"></span>&nbsp;<?php echo lang('avis_delete_record'); ?>
 				</button>
