@@ -41,7 +41,8 @@ $id = isset($diagnostic['id']) ? $diagnostic['id'] : '';
 				<?php echo form_label('Consommation du territoire', 'diagnostic_CONSO_KTEP_T', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<input id='diagnostic_CONSO_KTEP_T' type='text' name='diagnostic_CONSO_KTEP_T' maxlength="11" value="<?php echo set_value('diagnostic_CONSO_KTEP_T', isset($diagnostic['CONSO_KTEP_T']) ? $diagnostic['CONSO_KTEP_T'] : ''); ?>" />
-					<span class='help-inline'><?php echo form_error('CONSO_KTEP_T'); ?></span>
+					<span class='help-inline'>(en <abbr title="kilotonne équivalent pétrole">ktep</abbr>)</span>
+                                        <span class='help-inline'><?php echo form_error('CONSO_KTEP_T'); ?></span>
 				</div>
 			</div>
 
@@ -49,7 +50,8 @@ $id = isset($diagnostic['id']) ? $diagnostic['id'] : '';
 				<?php echo form_label('Émissions du territoire', 'diagnostic_EMIS_CO2_T', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<input id='diagnostic_EMIS_CO2_T' type='text' name='diagnostic_EMIS_CO2_T' maxlength="11" value="<?php echo set_value('diagnostic_EMIS_CO2_T', isset($diagnostic['EMIS_CO2_T']) ? $diagnostic['EMIS_CO2_T'] : ''); ?>" />
-					<span class='help-inline'><?php echo form_error('EMIS_CO2_T'); ?></span>
+					<span class='help-inline'>(en <abbr title="tonne équivalent CO2">teq-CO2</abbr>)</span>
+                                        <span class='help-inline'><?php echo form_error('EMIS_CO2_T'); ?></span>
 				</div>
 			</div>
 
@@ -57,7 +59,8 @@ $id = isset($diagnostic['id']) ? $diagnostic['id'] : '';
 				<?php echo form_label('Consommation "Patrimoine et Compétences"', 'diagnostic_CONSO_KTEP_PC', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<input id='diagnostic_CONSO_KTEP_PC' type='text' name='diagnostic_CONSO_KTEP_PC' maxlength="11" value="<?php echo set_value('diagnostic_CONSO_KTEP_PC', isset($diagnostic['CONSO_KTEP_PC']) ? $diagnostic['CONSO_KTEP_PC'] : ''); ?>" />
-					<span class='help-inline'><?php echo form_error('CONSO_KTEP_PC'); ?></span>
+					<span class='help-inline'>(en <abbr title="kilotonne équivalent pétrole">ktep</abbr>)</span>
+                                        <span class='help-inline'><?php echo form_error('CONSO_KTEP_PC'); ?></span>
 				</div>
 			</div>
 
@@ -65,7 +68,8 @@ $id = isset($diagnostic['id']) ? $diagnostic['id'] : '';
 				<?php echo form_label('Émissions "Patrimoine et Compétences"', 'diagnostic_EMIS_CO2_PC', array('class' => 'control-label') ); ?>
 				<div class='controls'>
 					<input id='diagnostic_EMIS_CO2_PC' type='text' name='diagnostic_EMIS_CO2_PC' maxlength="11" value="<?php echo set_value('diagnostic_EMIS_CO2_PC', isset($diagnostic['EMIS_CO2_PC']) ? $diagnostic['EMIS_CO2_PC'] : ''); ?>" />
-					<span class='help-inline'><?php echo form_error('EMIS_CO2_PC'); ?></span>
+					<span class='help-inline'>(en <abbr title="tonne équivalent CO2">teq-CO2</abbr>)</span>
+                                        <span class='help-inline'><?php echo form_error('EMIS_CO2_PC'); ?></span>
 				</div>
 			</div>
                     
