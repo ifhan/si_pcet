@@ -1,6 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 $lang['domaine']			= 'Domaines d\'action';
 $lang['domaine_manage']			= 'Paramétrer les domaines d\'action';
+$lang['domaine_show']			= 'Voir les actions du domaine';
 $lang['domaine_edit']			= 'Éditer';
 $lang['domaine_true']			= 'Vrai';
 $lang['domaine_false']			= 'Faux';
