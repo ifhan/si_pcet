@@ -47,7 +47,7 @@
                                     </td>
 
                                     <td width="20%">
-                                        <?php echo anchor(SITE_AREA .'/maineetloire/actions/dashboard/'. $record->ID_PCET, '<i class="icon-info-sign">&nbsp;</i>Voir le tableau de bord du PCET') ?>
+                                        <?php echo anchor(SITE_AREA .'/maineetloire/actions/dashboard/'. $record->ID_PCET, '<i class="icon-info-sign">&nbsp;</i>Voir le tableau de bord du PCET') ?><br />
                                         <?php echo anchor(SITE_AREA .'/maineetloire/actions/show/'. $record->id, '<i class="icon-info-sign">&nbsp;</i>Voir l\'action') ?><br />                               
                                         <?php if ($this->auth->has_permission('Actions.Maineetloire.Edit')) : ?>
                                             <?php echo anchor(SITE_AREA .'/maineetloire/actions/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier l\'action') ?><br />

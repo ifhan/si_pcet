@@ -47,7 +47,7 @@
                                     </td>
 
                                     <td width="20%">
-                                        <?php echo anchor(SITE_AREA .'/loireatlantique/actions/dashboard/'. $record->ID_PCET, '<i class="icon-info-sign">&nbsp;</i>Voir le tableau de bord du PCET') ?>
+                                        <?php echo anchor(SITE_AREA .'/loireatlantique/actions/dashboard/'. $record->ID_PCET, '<i class="icon-info-sign">&nbsp;</i>Voir le tableau de bord du PCET') ?><br />
                                         <?php echo anchor(SITE_AREA .'/loireatlantique/actions/show/'. $record->id, '<i class="icon-info-sign">&nbsp;</i>Voir l\'action') ?><br />
                                         <?php if ($this->auth->has_permission('Actions.Loireatlantique.Edit')) : ?>
                                             <?php echo anchor(SITE_AREA .'/loireatlantique/actions/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier l\'action') ?><br />
