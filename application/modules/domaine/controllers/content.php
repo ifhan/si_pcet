@@ -11,6 +11,8 @@ class content extends Admin_Controller {
 
 		$this->auth->restrict('Domaine.Content.View');
 		$this->load->model('domaine_model', null, true);
+                $this->load->model('actions/actions_model', null, true);
+                $this->load->helper('typography');
 		$this->lang->load('domaine');
 		
 		Template::set_block('sub_nav', 'content/_sub_nav');
@@ -152,6 +154,25 @@ class content extends Admin_Controller {
 		Template::set('toolbar_title', lang('domaine_manage'));
 		Template::render();
 	}
+        
+       /*
+		Method: show()
+
+		Displays a record of Actions data by domaine
+	*/
+	public function dashboard()
+	{
+            $id = $this->uri->segment(5);
+            $domaine = $this->domaine_model->find($id);
+            $records = $this->actions_model->get_actions_by_domaine($id);
+            
+            Template::set('domaine', $domaine);
+            Template::set('records', $records);
+            Template::set('toolbar_title', lang('domaine_show'));
+            Template::set_view('dashboard');
+            Template::render();
+            
+        }
 
 	//--------------------------------------------------------------------
 
