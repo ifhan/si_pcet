@@ -34,7 +34,7 @@
                                     
                                     <td><?php e($record->NOM_DOMAINE_ACTION) ?></td>
                                     <td>
-                                        <?php echo anchor(SITE_AREA .'/content/actions/show/'. $record->id, '<i class="icon-info-sign">&nbsp;</i>Voir les actions de ce domaine') ?><br />
+                                        <?php echo anchor(SITE_AREA .'/content/domaine/dashboard/'. $record->id, '<i class="icon-info-sign">&nbsp;</i>Voir les actions de ce domaine') ?><br />
                                         <?php if ($this->auth->has_permission('Domaine.Content.Edit')) : ?>
                                             <?php echo anchor(SITE_AREA .'/content/domaine/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?>
                                         <?php endif; ?>
