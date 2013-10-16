@@ -37,7 +37,7 @@
 					<?php endif;?>
 					
 
-                                <td><?php e($record->NOM_TYPE) ?> - <?php e($record->Nom_Commune) ?><?php e($record->Nom_Departement) ?><?php e($record->NOM_EPCI) ?><?php e($record->nom_pays) ?><?php e($record->nom_pnr) ?></td>
+                                <td><?php e($record->NOM_TYPE) ?>&nbsp; - <?php e($record->Nom_Commune) ?><?php e($record->Nom_Departement) ?><?php e($record->NOM_EPCI) ?><?php e($record->nom_pays) ?><?php e($record->nom_pnr) ?></td>
                                 <td><?php e($record->CIVILITE) ?></td>
                                 <td><?php e($record->NOM_CONTACT) ?></td>
 				<td><?php e($record->PRENOM) ?></td>
