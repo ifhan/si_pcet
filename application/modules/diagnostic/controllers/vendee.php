@@ -73,7 +73,7 @@ class vendee extends Admin_Controller {
 	public function create()
 	{
 		$this->auth->restrict('Diagnostic.Vendee.Create');
-                $pcets = $this->pcet_model->list_pcet_by_departement('44');
+                $pcets = $this->pcet_model->list_pcet_by_departement('85');
                 $scope = $this->scope_model->list_scopes();
 
 		if (isset($_POST['save']))
@@ -110,7 +110,7 @@ class vendee extends Admin_Controller {
 	public function edit()
 	{
 		$id = $this->uri->segment(5);
-                $pcets = $this->pcet_model->list_pcet_by_departement('44');
+                $pcets = $this->pcet_model->list_pcet_by_departement('85');
                 $scope = $this->scope_model->list_scopes();
 
 		if (empty($id))
