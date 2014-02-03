@@ -45,7 +45,7 @@ $id = isset($avis['id']) ? $avis['id'] : '';
 			<div class="control-group <?php echo form_error('COM_ETAT_AVIS') ? 'error' : ''; ?>">
 				<?php echo form_label('Commentaire sur la sollicitation de l\'avis de l\'État', 'avis_COM_ETAT_AVIS', array('class' => 'control-label') ); ?>
 				<div class='controls'>
-					<?php echo form_textarea( array( 'name' => 'avis_COM_ETAT_AVIS', 'id' => 'avis_COM_ETAT_AVIS', 'class' => 'input-xxlarge', 'rows' => '20', 'cols' => '80', 'value' => set_value('avis_COM_ETAT_AVIS', isset($avis['COM_ETAT_AVIS']) ? $avis['COM_ETAT_AVIS'] : '') ) ); ?>
+					<input id='avis_COM_ETAT_AVIS' type='text' name='avis_COM_ETAT_AVIS' class='input-xxlarge' value="<?php echo set_value('avis_COM_ETAT_AVIS', isset($avis['COM_ETAT_AVIS']) ? $avis['COM_ETAT_AVIS'] : ''); ?>" />
 					<span class='help-inline'><?php echo form_error('COM_ETAT_AVIS'); ?></span>
 				</div>
 			</div>
@@ -109,7 +109,7 @@ $id = isset($avis['id']) ? $avis['id'] : '';
 			<div class="control-group <?php echo form_error('PP_AVIS') ? 'error' : ''; ?>">
 				<?php echo form_label('Points positifs', 'avis_PP_AVIS', array('class' => 'control-label') ); ?>
 				<div class='controls'>
-					<input id='avis_PP_AVIS' type='text' name='avis_PP_AVIS' class='input-xxlarge'  value="<?php echo set_value('avis_PP_AVIS', isset($avis['PP_AVIS']) ? $avis['PP_AVIS'] : ''); ?>" />
+					<?php echo form_textarea( array( 'name' => 'avis_PP_AVIS', 'id' => 'avis_PP_AVIS', 'class' => 'input-xxlarge', 'rows' => '20', 'cols' => '80', 'value' => set_value('avis_PP_AVIS', isset($avis['PP_AVIS']) ? $avis['PP_AVIS'] : '') ) ); ?>
 					<span class='help-inline'><?php echo form_error('PP_AVIS'); ?></span>
 				</div>
 			</div>
