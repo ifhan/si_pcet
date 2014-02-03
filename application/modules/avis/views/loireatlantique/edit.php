@@ -107,9 +107,9 @@ $id = isset($avis['id']) ? $avis['id'] : '';
 			</div>
 
 			<div class="control-group <?php echo form_error('PN_AVIS') ? 'error' : ''; ?>">
-				<?php echo form_label('Points negatifs', 'avis_PN_AVIS', array('class' => 'control-label') ); ?>
+				<?php echo form_label('Points négatifs', 'avis_PN_AVIS', array('class' => 'control-label') ); ?>
 				<div class='controls'>
-					<input id='avis_PN_AVIS' type='text' name='avis_PN_AVIS' class='input-xxlarge' value="<?php echo set_value('avis_PN_AVIS', isset($avis['PN_AVIS']) ? $avis['PN_AVIS'] : ''); ?>" />
+					<?php echo form_textarea( array( 'name' => 'avis_PN_AVIS', 'id' => 'avis_PN_AVIS', 'class' => 'input-xxlarge', 'rows' => '20', 'cols' => '80', 'value' => set_value('avis_PN_AVIS', isset($avis['PN_AVIS']) ? $avis['PN_AVIS'] : '') ) ); ?>
 					<span class='help-inline'><?php echo form_error('PN_AVIS'); ?></span>
 				</div>
 			</div>
