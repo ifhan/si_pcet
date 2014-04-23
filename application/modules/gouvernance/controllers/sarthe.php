@@ -90,7 +90,6 @@ class sarthe extends Admin_Controller {
 		}
 		Assets::add_module_js('gouvernance', 'gouvernance.js');
                 Template::set('pcets', $pcets);
-                Template::block('list_pcet_72', 'partials/list_pcet_72');
 		Template::set('toolbar_title', lang('gouvernance'));
 		Template::render();
 	}
