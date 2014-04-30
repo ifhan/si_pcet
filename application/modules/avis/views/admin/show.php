@@ -58,7 +58,7 @@
         </tr>
         <tr>
             <th>Points négatifs</th>
-            <td><?php echo auto_typography($avis->PP_AVIS) ?></td>
+            <td><?php echo auto_typography($avis->PN_AVIS) ?></td>
         </tr> 
         <tr>
             <th>Date d'adoption du PCET</th>
