@@ -80,27 +80,51 @@
                     <tbody>
                         <tr>
                             <th>Date de la sollicitation de l'avis de l'État</th>
-                            <td><?php e(date("d/m/Y", strtotime(($avis->DEM_ETAT_AVIS)))) ?></td>
+                            <td>
+                            <?php if($avis->DEM_ETAT_AVIS !== "0000-00-00"): ?>    
+                                <?php e(date("d/m/Y", strtotime(($avis->DEM_ETAT_AVIS)))) ?>
+                            <?php endif; ?>
+                            </td>
                         </tr>
                         <tr>        
                             <th>Date du rendu de l'avis de l'État</th>   
-                            <td><?php e(date("d/m/Y", strtotime(($avis->REP_ETAT_AVIS)))) ?></td>
+                            <td>
+                            <?php if($avis->REP_ETAT_AVIS !== "0000-00-00"): ?>    
+                                <?php e(date("d/m/Y", strtotime(($avis->REP_ETAT_AVIS)))) ?>
+                            <?php endif; ?>
+                            </td>
                         </tr>
                         <tr>
                             <th>Date de la sollicitation de l'avis du Conseil régional</th>
-                            <td><?php e(date("d/m/Y", strtotime(($avis->DEM_REG_AVIS)))) ?></td>
+                            <td>
+                            <?php if($avis->DEM_REG_AVIS !== "0000-00-00"): ?>    
+                                <?php e(date("d/m/Y", strtotime(($avis->DEM_REG_AVIS)))) ?>
+                            <?php endif; ?>
+                            </td>
                         </tr>
                         <tr>
                             <th>Date du rendu de l'avis du Conseil régional</th>
-                            <td><?php e(date("d/m/Y", strtotime(($avis->REP_REG_AVIS)))) ?></td>
+                            <td>
+                            <?php if($avis->REP_REG_AVIS !== "0000-00-00"): ?>    
+                                <?php e(date("d/m/Y", strtotime(($avis->REP_REG_AVIS)))) ?>
+                            <?php endif; ?>
+                            </td>
                         </tr>
                         <tr>
                             <th>Date de la sollicitation de l'avis de l'ADEME</th>
-                            <td><?php e(date("d/m/Y", strtotime(($avis->DEM_ADEME_AVIS)))) ?></td>
+                            <td>
+                            <?php if($avis->DEM_ADEME_AVIS !== "0000-00-00"): ?>    
+                                <?php e(date("d/m/Y", strtotime(($avis->DEM_ADEME_AVIS)))) ?>
+                            <?php endif; ?>
+                            </td>
                         </tr>
                         <tr>
                             <th>Date du rendu de l'avis de l'ADEME</th>
-                            <td><?php e(date("d/m/Y", strtotime(($avis->REP_ADEME_AVIS)))) ?></td>
+                            <td>
+                            <?php if($avis->REP_ADEME_AVIS !== "0000-00-00"): ?>    
+                                <?php e(date("d/m/Y", strtotime(($avis->REP_ADEME_AVIS)))) ?>
+                            <?php endif; ?>
+                            </td>
                         </tr>
                         <tr>
                             <th>Points positifs</th>
@@ -112,7 +136,10 @@
                         </tr>    
                         <tr>
                             <th>Date d'adoption du PCET</th>
-                            <td><?php e(date("d/m/Y", strtotime(($avis->DATE_ADOPT_AVIS)))) ?></td>
+                            <td>
+                            <?php if(empty($avis->DATE_ADOPT_AVIS)): ?>
+                                <?php e(date("d/m/Y", strtotime(($avis->DATE_ADOPT_AVIS)))) ?></td>
+                            <?php endif; ?>
                         </tr>
                     </tbody>
                 </table>
