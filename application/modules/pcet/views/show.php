@@ -108,7 +108,7 @@
                         </tr>
                         <tr>
                             <th>Points négatifs</th>
-                            <td><?php e($avis->PP_AVIS) ?></td>
+                            <td><?php e($avis->PN_AVIS) ?></td>
                         </tr>    
                         <tr>
                             <th>Date d'adoption du PCET</th>
