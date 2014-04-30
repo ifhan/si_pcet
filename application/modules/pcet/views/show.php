@@ -163,19 +163,35 @@
                     </tr>
                     <tr>
                         <th>Consommation du territoire (<abbr title="kilotonne d'équivalent pétrole">ktep</abbr>)</th>
-                        <td><?php e($diagnostic->CONSO_KTEP_T) ?></td>
+                        <td>
+                            <?php if(!empty($diagnostic->CONSO_KTEP_T)): ?>
+                            <?php e($diagnostic->CONSO_KTEP_T) ?>
+                            <?php endif; ?>
+                        </td>
                     </tr>
                     <tr>
                         <th>Émissions du territoire (<abbr title="tonne équivalent CO2">teq-CO2</abbr>)</th>
-                        <td><?php e($diagnostic->EMIS_CO2_T) ?></td>
+                        <td>
+                            <?php if(!empty($diagnostic->EMIS_CO2_T)): ?>
+                            <?php e($diagnostic->EMIS_CO2_T) ?>
+                            <?php endif; ?>
+                        </td>
                     </tr>
                     <tr>
                         <th>Consommation "Patrimoine et compétence" (<abbr title="kilotonne d'équivalent pétrole">ktep</abbr>)</th>
-                        <td><?php e($diagnostic->CONSO_KTEP_PC) ?></td>
+                        <td>
+                            <?php if(!empty($diagnostic->CONSO_KTEP_PC)): ?>
+                            <?php e($diagnostic->CONSO_KTEP_PC) ?>
+                            <?php endif; ?>
+                        </td>
                     </tr>
                     <tr>
                         <th>Émissions "Patrimoine et compétence" (<abbr title="tonne équivalent CO2">teq-CO2</abbr>)</th>
-                        <td><?php e($diagnostic->EMIS_CO2_PC) ?></td>
+                        <td>
+                            <?php if(!empty($diagnostic->EMIS_CO2_PC)): ?>
+                            <?php e($diagnostic->EMIS_CO2_PC) ?>
+                            <?php endif; ?>
+                        </td>
                     </tr>   
                     <tr>
                         <th>Bilan <abbr title="Gaz à effets de serre" class="initialism">GES</abbr> Territorial</th>

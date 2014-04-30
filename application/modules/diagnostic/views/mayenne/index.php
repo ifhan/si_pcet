@@ -40,10 +40,26 @@
                                     <td><?php e($record->ID_PCET.' - '.$record->NOM_TYPE.' - '.$record->Nom_Commune.$record->Nom_Departement.$record->NOM_EPCI.$record->nom_pays.$record->nom_pnr) ?></td>
 
                                     <td><?php e($record->GES_DIAG) ?></td>
-                                    <td><?php e($record->CONSO_KTEP_T) ?></td>
-                                    <td><?php e($record->EMIS_CO2_T) ?></td>
-                                    <td><?php e($record->CONSO_KTEP_PC) ?></td>
-                                    <td><?php e($record->EMIS_CO2_PC) ?></td>
+                                    <td>
+                                        <?php if(!empty($record->CONSO_KTEP_T)): ?>
+                                        <?php e($record->CONSO_KTEP_T) ?>
+                                        <?php endif; ?>
+                                    </td>
+                                    <td>
+                                        <?php if(!empty($record->EMIS_CO2_T)): ?>
+                                        <?php e($record->EMIS_CO2_T) ?>
+                                        <?php endif; ?>
+                                    </td>
+                                    <td>
+                                        <?php if(!empty($record->CONSO_KTEP_PC)): ?>
+                                        <?php e($record->CONSO_KTEP_PC) ?>
+                                        <?php endif; ?>
+                                    </td>
+                                    <td>
+                                        <?php if(!empty($record->EMIS_CO2_PC)): ?>
+                                        <?php e($record->EMIS_CO2_PC) ?>
+                                        <?php endif; ?>
+                                    </td>
                                     <td width="20%">
                                         <?php if ($this->auth->has_permission('Diagnostic.Mayenne.Edit')) : ?>
                                             <?php echo anchor(SITE_AREA .'/mayenne/diagnostic/edit/'. $record->id, '<i class="icon-pencil">&nbsp;</i>Modifier') ?><br />
